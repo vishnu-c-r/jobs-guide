@@ -508,6 +508,149 @@ footer .stamp {
   margin-top: 8px;
 }
 
+/* ===== PATHS TAB ===== */
+.paths-prose { max-width: 1100px; padding: 24px 0 0; }
+.paths-eyebrow {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.25em;
+  color: var(--accent);
+  margin: 0 0 20px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+.paths-headline {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 12px;
+  color: var(--text);
+  line-height: 1.3;
+}
+.paths-intro {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0 0 28px;
+  line-height: 1.7;
+  max-width: 720px;
+}
+.paths-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+.path-card {
+  background: var(--surface);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.path-card.full-width { grid-column: 1 / -1; }
+.path-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.path-id {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+.path-tag {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: var(--amber);
+}
+.path-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+.path-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+.path-section { margin-bottom: 12px; }
+.path-label {
+  display: block;
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.path-section p {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin: 0;
+}
+.path-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.path-chips span {
+  font-size: 10px;
+  padding: 3px 8px;
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.path-warning {
+  font-size: 11px;
+  color: var(--amber);
+  background: rgba(251, 191, 36, 0.06);
+  border-left: 2px solid var(--amber);
+  padding: 8px 12px;
+  margin: 8px 0 12px;
+  line-height: 1.55;
+}
+.path-warning::before {
+  content: '⚠ ';
+  font-weight: 700;
+}
+.path-btn {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 10px 14px;
+  cursor: pointer;
+  margin-top: auto;
+  transition: all 120ms;
+  text-align: left;
+}
+.path-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+.paths-footer {
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-top: 16px;
+  font-weight: 500;
+}
+@media (max-width: 720px) {
+  .paths-grid { grid-template-columns: 1fr; }
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 720px) {
   header { padding: 20px 20px 16px; }
@@ -541,6 +684,7 @@ footer .stamp {
 
 <nav class="tabs" role="tablist">
   <button class="tab-btn active" data-tab="index" role="tab">[ INDEX ]</button>
+  <button class="tab-btn" data-tab="paths" role="tab">[ PATHS ]</button>
   <button class="tab-btn" data-tab="playbook" role="tab">[ PLAYBOOK ]</button>
   <button class="tab-btn" data-tab="stack" role="tab">[ STACK ]</button>
 </nav>
@@ -595,6 +739,73 @@ footer .stamp {
     </div>
 
     <div class="results-grid" id="results-grid"></div>
+  </section>
+
+  <!-- ============ PATHS TAB ============ -->
+  <section class="tab-panel" id="tab-paths">
+    <div class="paths-prose">
+      <p class="paths-eyebrow">// 03. PATHS · FOR THE PATH-CURIOUS</p>
+      <h2 class="paths-headline">Not sure what to do with your engineering degree?</h2>
+      <p class="paths-intro">Your engineering degree is a starting line, not a contract. These are five routes that use your background — without requiring you to give it up. Tap any path to filter the index to matching roles.</p>
+
+      <div class="paths-grid">
+
+        <article class="path-card">
+          <div class="path-head"><span class="path-id">#01</span><span class="path-tag">HIGH-LEVERAGE</span></div>
+          <h3>Product Management</h3>
+          <p class="path-desc">Decide what gets built and why. Sit between engineers, designers, and business.</p>
+          <div class="path-section"><span class="path-label">WHY YOUR DEGREE HELPS</span><p>Engineers who can talk to engineers but think like users are rare. APM programs at Indian SaaS companies actively want this profile.</p></div>
+          <div class="path-section"><span class="path-label">SKILLS TO ADD</span><div class="path-chips"><span>SQL</span><span>USER RESEARCH</span><span>FIGMA BASICS</span></div></div>
+          <div class="path-section"><span class="path-label">EXAMPLE COMPANIES</span><p>Razorpay · Cred · Meesho · Postman · Atlan · Zerodha</p></div>
+          <button class="path-btn" data-path='{"domain":"ai","city":"blr"}'>→ SHOW ME PM-FRIENDLY COMPANIES</button>
+        </article>
+
+        <article class="path-card">
+          <div class="path-head"><span class="path-id">#02</span></div>
+          <h3>UX / Product Design</h3>
+          <p class="path-desc">Shape how products feel and flow. Half craft, half problem-solving.</p>
+          <div class="path-section"><span class="path-label">WHY YOUR DEGREE HELPS</span><p>Engineers turned designers understand constraints — what's actually buildable, what scales. Industrial design also welcomes MECH/ECE crossovers.</p></div>
+          <div class="path-section"><span class="path-label">SKILLS TO ADD</span><div class="path-chips"><span>FIGMA</span><span>3-5 CASE STUDIES</span><span>REFACTORING UI</span></div></div>
+          <div class="path-section"><span class="path-label">EXAMPLE COMPANIES</span><p>Cred · Lollypop · Ather · Zerodha · boAt · Ultrahuman</p></div>
+          <button class="path-btn" data-path='{"domain":"design"}'>→ SHOW ME DESIGN ROLES</button>
+        </article>
+
+        <article class="path-card">
+          <div class="path-head"><span class="path-id">#03</span><span class="path-tag">FAST PIVOT</span></div>
+          <h3>Founder's Office</h3>
+          <p class="path-desc">Right hand to a founder. Touch every part of an early-stage startup.</p>
+          <div class="path-section"><span class="path-label">WHY YOUR DEGREE HELPS</span><p>Founders want generalists who can ship. Engineering grads default to "figure it out" mode — that's the entire job.</p></div>
+          <div class="path-warning">Stipends often modest, hours often long. Take this for the exposure and learning curve, not the income. The next role after will be substantial.</div>
+          <div class="path-section"><span class="path-label">SKILLS TO ADD</span><div class="path-chips"><span>SQL + EXCEL</span><span>CLEAR WRITING</span><span>NOTION / AIRTABLE</span></div></div>
+          <div class="path-section"><span class="path-label">WHERE TO LOOK</span><p>Wellfound + IIMJobs founder's office filters · Blume / Stellaris portfolio companies</p></div>
+          <button class="path-btn" data-path='{"search":"founder"}'>→ SHOW ME FOUNDER'S OFFICE ROLES</button>
+        </article>
+
+        <article class="path-card">
+          <div class="path-head"><span class="path-id">#04</span></div>
+          <h3>Strategy / Consulting</h3>
+          <p class="path-desc">Solve business problems for big companies. Best networks, best exit options.</p>
+          <div class="path-section"><span class="path-label">WHY YOUR DEGREE HELPS</span><p>Big firms over-recruit engineers for analyst roles. Structured thinking + numerical comfort = green light.</p></div>
+          <div class="path-warning">MBB (Bain, McKinsey, BCG) is genuinely competitive — typically top-college-only. ZS, Genpact, EXL are far more accessible and still excellent for a first job. Aim there first.</div>
+          <div class="path-section"><span class="path-label">SKILLS TO ADD</span><div class="path-chips"><span>CASE PREP</span><span>EXCEL MODELS</span><span>EXEC SUMMARIES</span></div></div>
+          <div class="path-section"><span class="path-label">EXAMPLE COMPANIES</span><p>ZS · Genpact · EXL · Deloitte USI · EY GDS · KPMG (Bain · McKinsey · BCG if profile fits)</p></div>
+          <button class="path-btn" data-path='{"domain":"non-tech","type":"company"}'>→ SHOW ME CONSULTING / STRATEGY ROLES</button>
+        </article>
+
+        <article class="path-card full-width">
+          <div class="path-head"><span class="path-id">#05</span></div>
+          <h3>Business Operations</h3>
+          <p class="path-desc">Run the engine room. Hiring ops, finance ops, sales ops, supply ops — the unsexy work that scales companies.</p>
+          <div class="path-section"><span class="path-label">WHY YOUR DEGREE HELPS</span><p>Engineers automate boring things. Ops at a growing startup is half "spot the inefficiency", half "build a system that fixes it" — that's just engineering applied to people-flow. The career trajectory is wide: BizOps → Chief of Staff → COO is a real path.</p></div>
+          <div class="path-section"><span class="path-label">SKILLS TO ADD</span><div class="path-chips"><span>SQL</span><span>PROJECT MANAGEMENT</span><span>ZAPIER / MAKE</span><span>CROSS-FUNCTIONAL COMMS</span></div></div>
+          <div class="path-section"><span class="path-label">EXAMPLE COMPANIES</span><p>Razorpay · Meesho · Swiggy · Zetwerk · Zerodha · most growth-stage startups have BizOps openings</p></div>
+          <button class="path-btn" data-path='{"domain":"non-tech"}'>→ SHOW ME OPS / NON-TECH ROLES</button>
+        </article>
+
+      </div>
+
+      <p class="paths-footer">— TAPPING ANY PATH FILTERS THE INDEX. REFINE FROM THERE. —</p>
+    </div>
   </section>
 
   <!-- ============ PLAYBOOK TAB ============ -->
@@ -663,7 +874,20 @@ footer .stamp {
       <p>If 3 months of serious applying produces zero interviews, the problem is likely your resume or portfolio, not the market. Get one experienced engineer to review both. Iterate. Try again.</p>
       <p>If 3 months of serious applying in Kochi produces nothing, consider remote roles for Bangalore startups, or relocate. Don't stay stuck out of comfort.</p>
 
-      <h2>// 10. UPDATE THIS GUIDE</h2>
+      <h2>// 10. RESOURCES FOR WOMEN IN ENGINEERING</h2>
+      <p>The first job is statistically harder to land for women in engineering, especially in hardware-leaning roles. These communities exist precisely for this — and they materially help.</p>
+      <ul>
+        <li><strong>HerKey</strong> (formerly JobsForHer) — India's largest women-focused careers platform. Strong fresher inventory. <a href="https://www.herkey.com/" target="_blank" rel="noopener">herkey.com</a></li>
+        <li><strong>AnitaB.org India</strong> — runs the Grace Hopper Celebration India (GHCI) annually. Free for students with scholarship. Massive recruiting fair. <a href="https://anitab.org/" target="_blank" rel="noopener">anitab.org</a></li>
+        <li><strong>Tech Ladies</strong> — global Slack community with active India presence. Job board, salary discussions, mentorship. Free. <a href="https://www.hiretechladies.com/" target="_blank" rel="noopener">hiretechladies.com</a></li>
+        <li><strong>PyLadies</strong> — global Python community for women. Find India chapters. <a href="https://pyladies.com/" target="_blank" rel="noopener">pyladies.com</a></li>
+        <li><strong>Lean In India</strong> — local Lean In Circles for peer career support. Free to join. <a href="https://leanin.org/" target="_blank" rel="noopener">leanin.org</a></li>
+        <li><strong>Sheroes</strong> — India-based women's career platform. <a href="https://sheroes.com/" target="_blank" rel="noopener">sheroes.com</a></li>
+        <li><strong>ADPList</strong> — free 1-on-1 mentorship from senior people in tech. Filter by women mentors if preferred. Genuinely useful. <a href="https://adplist.org/" target="_blank" rel="noopener">adplist.org</a></li>
+      </ul>
+      <p>These are real professional networks, not gendered side-channels. The companies hiring through them know the talent is identical to what they'd find anywhere else. Use them like any other career community.</p>
+
+      <h2>// 11. UPDATE THIS GUIDE</h2>
       <p>This list will go stale. Companies fold, pivot, or stop hiring. The <em>types</em> of companies and the <em>channels</em> (VC boards, Hasgeek, Workbench, cold email) are the durable parts.</p>
       <p>Found a stale link, a closed company, or one that should be added? Open an issue on the GitHub repo or message Vishnu.</p>
     </div>
@@ -1185,6 +1409,7 @@ $btnClear.addEventListener("click", () => {
 const tabBtns = document.querySelectorAll(".tab-btn");
 const tabPanels = {
   index: document.getElementById("tab-index"),
+  paths: document.getElementById("tab-paths"),
   playbook: document.getElementById("tab-playbook"),
   stack: document.getElementById("tab-stack"),
 };
@@ -1196,6 +1421,49 @@ function switchTab(name) {
   syncHash();
 }
 tabBtns.forEach(b => b.addEventListener("click", () => switchTab(b.dataset.tab)));
+
+// =============================================================
+// PATH BUTTONS — apply filter combo and jump to INDEX
+// =============================================================
+function goToPath(filters) {
+  state.city = filters.city || "all";
+  state.type = filters.type || "all";
+  state.domain = filters.domain || "all";
+  state.fresher = !!filters.fresher;
+  state.search = filters.search || "";
+
+  // Sync UI
+  $search.value = state.search;
+  document.querySelectorAll(".filter-group").forEach(group => {
+    const key = group.dataset.filter;
+    group.querySelectorAll(".pill").forEach(p => {
+      p.classList.toggle("active", p.dataset.value === state[key]);
+    });
+  });
+  $fresherToggle.classList.toggle("active", state.fresher);
+  $fresherToggle.setAttribute("aria-pressed", state.fresher ? "true" : "false");
+
+  switchTab("index");
+  syncHash();
+  render();
+
+  // Scroll to results meta so user sees the count update
+  setTimeout(() => {
+    const target = document.querySelector(".results-meta");
+    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, 100);
+}
+
+document.querySelectorAll(".path-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    try {
+      const filters = JSON.parse(btn.dataset.path);
+      goToPath(filters);
+    } catch (e) {
+      console.error("Invalid path data:", btn.dataset.path);
+    }
+  });
+});
 
 // =============================================================
 // URL HASH SYNC (so filters are shareable)
