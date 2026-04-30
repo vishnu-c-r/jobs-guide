@@ -1,6 +1,6 @@
 # Link Health Report
 
-**Last run:** Thu, 30 Apr 2026 07:35:17 GMT
+**Last run:** Thu, 30 Apr 2026 10:32:35 GMT
 **Total checked:** 213
 **OK:** 180  ·  **Broken:** 11  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
 
@@ -15,9 +15,9 @@
 | NETERR | NewSpace Research & Tech | <https://www.newspaceresearch.com/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | SID @ IISc | <https://sid.iisc.ac.in/> | CERT_HAS_EXPIRED |
-| NETERR | Pokak Technologies | <https://pokak.com/> | timeout |
+| NETERR | Pokak Technologies | <https://pokak.com/> | ECONNREFUSED |
 | NETERR | ASAP Kerala | <https://asapkerala.gov.in/internships/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Huddle Kerala (KSUM) | <https://huddleglobal.in/> | ECONNRESET |
+| NETERR | Huddle Kerala (KSUM) | <https://huddleglobal.in/> | ECONNREFUSED |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers> | timeout |
 
 ## ⊘ Blocked by WAF / bot-protection
