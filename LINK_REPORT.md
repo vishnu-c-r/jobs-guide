@@ -1,24 +1,18 @@
 # Link Health Report
 
-**Last run:** Thu, 30 Apr 2026 11:16:08 GMT
+**Last run:** Thu, 30 Apr 2026 17:18:44 GMT
 **Total checked:** 213
-**OK:** 179  ·  **Broken:** 11  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 186  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| 404 | NXP Semiconductors | <https://www.nxp.com/> | gone |
+| NETERR | NXP Semiconductors | <https://careers.nxp.com> | ENOTFOUND |
 | NETERR | Analog Devices | <https://careers.analog.com/> | timeout |
-| NETERR | Peppermint Robotics | <https://peppermintrobots.com/> | ECONNRESET |
-| NETERR | Cell Propulsion | <https://www.cellpropulsion.com/> | ERR_TLS_CERT_ALTNAME_INVALID |
-| NETERR | NewSpace Research & Tech | <https://www.newspaceresearch.com/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | SID @ IISc | <https://sid.iisc.ac.in/> | CERT_HAS_EXPIRED |
-| NETERR | Pokak Technologies | <https://pokak.com/> | ECONNREFUSED |
-| NETERR | ASAP Kerala | <https://asapkerala.gov.in/internships/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Huddle Kerala (KSUM) | <https://huddleglobal.in/> | ECONNREFUSED |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers> | timeout |
+| 400 | Cell Propulsion | <https://cellpropulsion.zohorecruit.in/jobs/Careers> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -30,7 +24,6 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
