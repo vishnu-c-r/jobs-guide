@@ -1,24 +1,23 @@
 # Link Health Report
 
-**Last run:** Thu, 30 Apr 2026 11:16:08 GMT
+**Last run:** Thu, 30 Apr 2026 16:50:00 GMT
 **Total checked:** 213
-**OK:** 179  ·  **Broken:** 11  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 180  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| 404 | NXP Semiconductors | <https://www.nxp.com/> | gone |
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Analog Devices | <https://careers.analog.com/> | timeout |
-| NETERR | Peppermint Robotics | <https://peppermintrobots.com/> | ECONNRESET |
-| NETERR | Cell Propulsion | <https://www.cellpropulsion.com/> | ERR_TLS_CERT_ALTNAME_INVALID |
-| NETERR | NewSpace Research & Tech | <https://www.newspaceresearch.com/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | ETIMEDOUT |
+| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | SID @ IISc | <https://sid.iisc.ac.in/> | CERT_HAS_EXPIRED |
-| NETERR | Pokak Technologies | <https://pokak.com/> | ECONNREFUSED |
-| NETERR | ASAP Kerala | <https://asapkerala.gov.in/internships/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Huddle Kerala (KSUM) | <https://huddleglobal.in/> | ECONNREFUSED |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Pokak Technologies | <https://pokak.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers> | timeout |
+| 400 | Cell Propulsion | <https://cellpropulsion.zohorecruit.in/careers> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
