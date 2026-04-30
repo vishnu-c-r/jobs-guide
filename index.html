@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jobs Guide — BLR + KOC // For Engineers</title>
+<meta name="description" content="A curated jobs guide for recent engineering graduates — Bangalore and Kochi. Robotics, hardware, EV, space, medtech, AI, analytics, design.">
+<meta property="og:title" content="Jobs Guide — BLR + KOC">
+<meta property="og:description" content="Curated engineering jobs guide for recent graduates. Bangalore + Kochi. 200+ companies, boards, incubators.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0c0e;
+  --bg-grid: #16161a;
+  --surface: #131316;
+  --surface-2: #1a1a1f;
+  --border: #2a2a30;
+  --border-strong: #3a3a45;
+  --text: #e8e6df;
+  --text-muted: #8a8a92;
+  --text-dim: #5a5a62;
+  --accent: #4ade80;
+  --accent-dim: #16a34a;
+  --amber: #fbbf24;
+  --red: #ef4444;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  background: var(--bg);
+  background-image:
+    radial-gradient(circle at 1px 1px, var(--bg-grid) 1px, transparent 0);
+  background-size: 24px 24px;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Scanline overlay for atmospheric texture */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    180deg,
+    transparent 0,
+    transparent 3px,
+    rgba(255,255,255,0.012) 3px,
+    rgba(255,255,255,0.012) 4px
+  );
+  z-index: 1000;
+  mix-blend-mode: overlay;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ===== HEADER ===== */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 24px 32px 20px;
+  position: relative;
+  background: var(--bg);
+}
+.classification-bar {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.classification-bar::before { content: '▌ '; }
+h1 {
+  font-size: clamp(28px, 6vw, 56px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  margin-bottom: 8px;
+}
+h1 .slash { color: var(--accent); }
+.subtitle {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+.meta-line {
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+}
+
+/* ===== TABS ===== */
+.tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  overflow-x: auto;
+}
+.tab-btn {
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--border);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 16px 28px;
+  cursor: pointer;
+  transition: all 120ms;
+  white-space: nowrap;
+  position: relative;
+}
+.tab-btn:hover { color: var(--text); background: var(--surface); }
+.tab-btn.active {
+  color: var(--accent);
+  background: var(--surface);
+}
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px; left: 0; right: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+/* ===== MAIN ===== */
+main { max-width: 1400px; margin: 0 auto; padding: 0 32px 64px; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; animation: fadeIn 240ms ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+/* ===== FILTER BAR ===== */
+.filter-bar {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0;
+  position: sticky;
+  top: 49px;
+  z-index: 50;
+  margin-bottom: 24px;
+}
+.search-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.search-input {
+  flex: 1;
+  min-width: 260px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px 14px;
+  letter-spacing: 0.02em;
+  outline: none;
+  transition: border-color 120ms;
+}
+.search-input::placeholder { color: var(--text-dim); }
+.search-input:focus { border-color: var(--accent); }
+
+.fresher-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 9px 14px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 120ms;
+  user-select: none;
+}
+.fresher-toggle:hover { border-color: var(--border-strong); color: var(--text); }
+.fresher-toggle.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+.fresher-toggle .check {
+  display: inline-block;
+  width: 10px; height: 10px;
+  border: 1px solid currentColor;
+  position: relative;
+}
+.fresher-toggle.active .check::after {
+  content: '✓';
+  position: absolute;
+  inset: -3px 0 0 1px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.filter-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--text-dim);
+  margin-right: 8px;
+  min-width: 88px;
+}
+.pill {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 120ms;
+  white-space: nowrap;
+}
+.pill:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+.pill.active {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--bg);
+}
+
+/* ===== RESULTS ===== */
+.results-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.results-meta .count strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+.btn-clear {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all 120ms;
+}
+.btn-clear:hover { border-color: var(--red); color: var(--red); }
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+
+/* ===== CARD ===== */
+.card {
+  background: var(--surface);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 160ms;
+  animation: cardIn 360ms ease-out backwards;
+  animation-delay: calc(var(--i, 0) * 16ms);
+  position: relative;
+  overflow: hidden;
+}
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.card:hover {
+  background: var(--surface-2);
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+  z-index: 2;
+}
+.card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+.card-id {
+  font-size: 10px;
+  color: var(--text-dim);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+}
+.card-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  flex: 1;
+}
+.card-fresher {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: var(--bg);
+  background: var(--amber);
+  padding: 3px 6px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.card-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.55;
+  flex: 1;
+}
+.card-divider {
+  border-top: 1px dashed var(--border-strong);
+  margin: 4px 0 2px;
+}
+.card-meta {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--text-dim);
+}
+.card-meta span { white-space: nowrap; }
+.card-meta span.t { color: var(--accent); }
+.card-link {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  word-break: break-all;
+  margin-top: 2px;
+}
+.card-link::before { content: '→ '; color: var(--text-dim); }
+.card-link:hover { color: var(--text); }
+
+.card-email {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--amber);
+  word-break: break-all;
+  margin-top: 4px;
+  display: block;
+}
+.card-email:hover { color: var(--text); }
+
+.empty-state {
+  grid-column: 1 / -1;
+  background: var(--surface);
+  padding: 64px 32px;
+  text-align: center;
+  color: var(--text-muted);
+}
+.empty-state .glyph {
+  font-size: 48px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+.empty-state h3 {
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  margin-bottom: 8px;
+}
+.empty-state p { font-size: 12px; }
+
+/* ===== PLAYBOOK / STACK PANELS ===== */
+.prose {
+  max-width: 820px;
+  padding: 24px 0 0;
+}
+.prose h2 {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.25em;
+  color: var(--accent);
+  margin: 40px 0 16px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+.prose h2:first-of-type { margin-top: 0; }
+.prose h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 24px 0 10px;
+  color: var(--text);
+}
+.prose p { color: var(--text-muted); font-size: 13px; margin-bottom: 14px; line-height: 1.7; }
+.prose strong { color: var(--text); font-weight: 700; }
+.prose ol, .prose ul { padding-left: 24px; margin-bottom: 16px; color: var(--text-muted); font-size: 13px; line-height: 1.75; }
+.prose ol li, .prose ul li { margin-bottom: 12px; padding-left: 8px; }
+.prose ol li::marker { color: var(--accent); font-weight: 700; }
+.prose ul li::marker { color: var(--accent); }
+.prose a { word-break: break-word; }
+
+.callout {
+  border-left: 3px solid var(--amber);
+  background: rgba(251, 191, 36, 0.05);
+  padding: 14px 18px;
+  margin: 16px 0;
+  font-size: 12px;
+  color: var(--text);
+  line-height: 1.65;
+}
+.callout::before {
+  content: '⚠ NOTE';
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  color: var(--amber);
+  margin-bottom: 6px;
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 24px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+}
+.skill-row:last-child { border-bottom: 1px solid var(--border); }
+.skill-row .role {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  padding-top: 2px;
+}
+.skill-row .items { color: var(--text-muted); line-height: 1.7; }
+.skill-row .items strong { color: var(--text); }
+
+/* ===== FOOTER ===== */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 32px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+}
+footer .row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+footer a { color: var(--text-muted); }
+footer a:hover { color: var(--accent); }
+footer .stamp {
+  display: inline-block;
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 720px) {
+  header { padding: 20px 20px 16px; }
+  main { padding: 0 16px 48px; }
+  .tab-btn { padding: 14px 18px; font-size: 11px; letter-spacing: 0.1em; }
+  .filter-label { min-width: 72px; }
+  .results-grid { grid-template-columns: 1fr; }
+  .filter-bar { padding: 16px 0; top: 45px; }
+  .skill-row { grid-template-columns: 1fr; gap: 6px; }
+}
+
+::selection { background: var(--accent); color: var(--bg); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); }
+::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="classification-bar">
+    <span>JOBS // GUIDE / REV 04.26</span>
+    <span>RECENT GRADUATES · BLR + KOC</span>
+  </div>
+  <h1>Engineering Jobs<span class="slash">/</span>Guide</h1>
+  <p class="subtitle">Curated companies, boards, incubators &amp; communities for fresh engineering grads.</p>
+  <p class="subtitle">Bangalore &amp; Kochi · EEE · ECE · CS · MECH · EB</p>
+  <p class="meta-line">— LIVE INDEX · ALL LINKS VERIFIED · UPDATED PERIODICALLY —</p>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab-btn active" data-tab="index" role="tab">[ INDEX ]</button>
+  <button class="tab-btn" data-tab="playbook" role="tab">[ PLAYBOOK ]</button>
+  <button class="tab-btn" data-tab="stack" role="tab">[ STACK ]</button>
+</nav>
+
+<main>
+  <!-- ============ INDEX TAB ============ -->
+  <section class="tab-panel active" id="tab-index">
+    <div class="filter-bar">
+      <div class="search-row">
+        <input type="text" class="search-input" id="search" placeholder="search company, board, keyword…" aria-label="Search">
+        <button class="fresher-toggle" id="fresher-toggle" aria-pressed="false">
+          <span class="check"></span>
+          FRESHER PROGRAMS ONLY
+        </button>
+      </div>
+      <div class="filter-group" data-filter="city">
+        <span class="filter-label">LOCATION</span>
+        <button class="pill active" data-value="all">ALL</button>
+        <button class="pill" data-value="blr">BANGALORE</button>
+        <button class="pill" data-value="kochi">KOCHI</button>
+        <button class="pill" data-value="remote">REMOTE / OTHER</button>
+      </div>
+      <div class="filter-group" data-filter="type">
+        <span class="filter-label">TYPE</span>
+        <button class="pill active" data-value="all">ALL</button>
+        <button class="pill" data-value="company">COMPANIES</button>
+        <button class="pill" data-value="board">JOB BOARDS</button>
+        <button class="pill" data-value="vc">VC PORTFOLIOS</button>
+        <button class="pill" data-value="incubator">INCUBATORS</button>
+        <button class="pill" data-value="community">COMMUNITIES</button>
+        <button class="pill" data-value="event">EVENTS / MEETUPS</button>
+      </div>
+      <div class="filter-group" data-filter="domain">
+        <span class="filter-label">DOMAIN</span>
+        <button class="pill active" data-value="all">ALL</button>
+        <button class="pill" data-value="robotics">ROBOTICS</button>
+        <button class="pill" data-value="hardware">HARDWARE / VLSI</button>
+        <button class="pill" data-value="ev">EV</button>
+        <button class="pill" data-value="space">SPACE</button>
+        <button class="pill" data-value="medtech">MEDTECH</button>
+        <button class="pill" data-value="ai">AI / SAAS</button>
+        <button class="pill" data-value="analytics">ANALYTICS</button>
+        <button class="pill" data-value="design">DESIGN</button>
+        <button class="pill" data-value="manufacturing">MANUFACTURING</button>
+        <button class="pill" data-value="non-tech">OPS / NON-TECH</button>
+      </div>
+    </div>
+
+    <div class="results-meta">
+      <span class="count">SHOWING <strong id="count-shown">0</strong> OF <strong id="count-total">0</strong> ENTRIES</span>
+      <button class="btn-clear" id="btn-clear">RESET FILTERS</button>
+    </div>
+
+    <div class="results-grid" id="results-grid"></div>
+  </section>
+
+  <!-- ============ PLAYBOOK TAB ============ -->
+  <section class="tab-panel" id="tab-playbook">
+    <div class="prose">
+      <h2>// 01. THE FRESHER REALITY</h2>
+      <p>The job market for fresh engineering grads is volume-driven on one side (services companies, IT parks) and signal-driven on the other (startups, VCs, deep-tech). Most freshers waste their first 3 months blasting generic resumes at the volume side and getting nowhere. <strong>The trick is to play both games in parallel.</strong></p>
+      <ul>
+        <li>Apply to <strong>3–5 companies per week</strong> with customized resumes — quality beats quantity. Generic CVs get filtered out within seconds.</li>
+        <li>Mirror the JD's exact language in your resume. If the role asks for "ROS2", don't write "Robot Operating System". The first filter is keyword-matching software, not a human.</li>
+        <li>Apply <strong>direct on company career pages</strong>, not aggregators. You skip a filter layer and get seen faster.</li>
+        <li>Map LinkedIn alumni at target companies. <strong>One warm referral beats 50 cold applications.</strong> Search "[your college name]" + "[company name]" and message politely.</li>
+      </ul>
+
+      <h2>// 02. PORTFOLIO IS THE NEW RESUME</h2>
+      <p>Marks don't matter past the first interview. What matters: one project that proves you can do the job.</p>
+      <ul>
+        <li><strong>Hardware / Embedded:</strong> One complete project on GitHub — KiCad files, firmware, photos of the working board, and a real README. Beats a 3-page resume.</li>
+        <li><strong>Robotics:</strong> A ROS2 simulation on your laptop, ideally with a hardware demo video. Even a line-following robot with proper documentation will outscore a 75% mark sheet.</li>
+        <li><strong>Analytics / BA:</strong> A public Power BI or Tableau dashboard analyzing any open dataset. Add a link in your resume header.</li>
+        <li><strong>Design:</strong> 3–5 case studies on Behance or a Framer site. Tell the problem-process-outcome story, not just screenshots.</li>
+        <li><strong>Software / AI:</strong> 2–3 pinned GitHub repos. Quality over quantity. README clarity matters more than line count.</li>
+      </ul>
+
+      <h2>// 03. THE INTERNSHIP-TO-FULLTIME ROUTE</h2>
+      <p>If no fresher program comes through, internships convert at a high rate at most Indian startups. A 6-month paid internship at a real company is worth more than 12 months of "looking for full-time".</p>
+      <ul>
+        <li>Use Internshala + Unstop + LinkedIn together — they have different inventories.</li>
+        <li>Target startups with under 50 employees. Smaller teams convert interns faster because they need the bandwidth.</li>
+        <li>For Kerala folks: <strong>KSUM, Maker Village, ASAP</strong> are legitimate government-supported pipelines. Use them.</li>
+      </ul>
+
+      <h2>// 04. GEOGRAPHY MATTERS (BLR)</h2>
+      <p>Bangalore traffic will eat 3 hours of your day if you accept a job in the wrong cluster. Hardware/EV/aerospace startups concentrate in <strong>Electronic City</strong>, <strong>Whitefield</strong>, <strong>HSR</strong>, and <strong>Jakkur/Yelahanka</strong> (near IISc). Software/SaaS is more distributed but Koramangala/HSR/Indiranagar are the hubs.</p>
+      <p>Don't sign a rent contract before getting an offer. Stay in a PG for the first month. Then optimize commute.</p>
+
+      <h2>// 05. NETWORKING THAT ACTUALLY WORKS</h2>
+      <ul>
+        <li><strong>IISc + IIIT-B + IIM-B campus events</strong> are open to non-students. TechTalks, open lectures, job fairs — startup recruiters actually hang around.</li>
+        <li><strong>Workbench Projects (Indiranagar)</strong> is the single best networking spot in Bangalore for hardware folks. Drop in on a weekend.</li>
+        <li><strong>Hasgeek conferences</strong> (Rootconf, JSFoo, Fifth Elephant) — discounted tickets for students; recruiters often sponsor.</li>
+        <li><strong>Friends of Figma Bangalore</strong> for design folks — monthly meetups.</li>
+        <li><strong>TinkerHub, MuLearn, GDG Kochi</strong> for Kerala-based folks — free, weekly, well-networked.</li>
+        <li>Follow founders on LinkedIn, not just company pages. Seed-stage hiring shows up in their personal posts before any board.</li>
+      </ul>
+
+      <h2>// 06. COLD EMAIL STILL WORKS</h2>
+      <p>For seed-stage startups without a careers page, email the CTO/founder directly. Three lines. One link to your best project. That's it.</p>
+      <p style="font-family:'JetBrains Mono'; background:var(--surface); padding:14px 16px; border-left:2px solid var(--accent); font-size:11px;">Hi [name], I'm a recent ECE grad working on robotics. I built [project] — [link]. Saw you're working on [thing]. Would love to contribute as an intern / first hire. 10 minutes for a call?</p>
+      <p>Reply rates are 10–20% if the project is real. Higher than any job board.</p>
+
+      <h2>// 07. SCAMS &amp; TRAPS</h2>
+      <div class="callout">
+        <strong>Don't pay anyone to "place" you.</strong> No legitimate Indian company or government program charges freshers a placement fee. ASAP Kerala's ₹500 evaluation fee is the single exception (it's a Government of Kerala program and is genuine).
+      </div>
+      <ul>
+        <li>"Robotics Trainer" jobs in Kerala are coaching-center teaching jobs, not engineering. Skip Srishti Robotics, MGS Robotics, iSquare STEM Hub, etc., unless you want to teach kids.</li>
+        <li>WhatsApp groups offering "guaranteed Bangalore IT placement for ₹15,000" — always a scam.</li>
+        <li>Companies asking you to deposit money for "training before joining" — always a scam.</li>
+      </ul>
+
+      <h2>// 08. THE FIRST OFFER</h2>
+      <p><strong>Take it.</strong> A ₹3.5L/year analyst role at QBurst or a junior embedded role at Tessolve that you can pivot from in 18 months is vastly better than waiting 8 more months for a "dream" role. Experience compounds. Networks compound. The dream role becomes accessible from inside the industry, rarely from outside it.</p>
+
+      <h2>// 09. WHEN TO STOP &amp; PIVOT</h2>
+      <p>If 3 months of serious applying produces zero interviews, the problem is likely your resume or portfolio, not the market. Get one experienced engineer to review both. Iterate. Try again.</p>
+      <p>If 3 months of serious applying in Kochi produces nothing, consider remote roles for Bangalore startups, or relocate. Don't stay stuck out of comfort.</p>
+
+      <h2>// 10. UPDATE THIS GUIDE</h2>
+      <p>This list will go stale. Companies fold, pivot, or stop hiring. The <em>types</em> of companies and the <em>channels</em> (VC boards, Hasgeek, Workbench, cold email) are the durable parts.</p>
+      <p>Found a stale link, a closed company, or one that should be added? Open an issue on the GitHub repo or message Vishnu.</p>
+    </div>
+  </section>
+
+  <!-- ============ STACK TAB ============ -->
+  <section class="tab-panel" id="tab-stack">
+    <div class="prose">
+      <h2>// SKILLS // BY ROLE</h2>
+      <p>Build these <em>before</em> you start applying. Every line item below has been verified against actual job descriptions for fresher roles in BLR/Kochi.</p>
+
+      <div class="skill-row">
+        <div class="role">ROBOTICS</div>
+        <div class="items"><strong>C++ AND Python</strong> · ROS2 (table stakes) · Communication protocols (UART, I2C, SPI, CAN, Ethernet) · Git basics · One real project — line-follower / arm / drone with full GitHub repo, README, and demo video</div>
+      </div>
+
+      <div class="skill-row">
+        <div class="role">EMBEDDED / VLSI</div>
+        <div class="items"><strong>C / C++</strong> · ARM Cortex M-series · RTOS basics (FreeRTOS) · KiCad or Altium · Datasheet reading · Signal integrity fundamentals · For VLSI: Verilog / SystemVerilog, UVM, basic STA</div>
+      </div>
+
+      <div class="skill-row">
+        <div class="role">EV / POWER</div>
+        <div class="items"><strong>Power electronics</strong> (buck/boost, inverters) · Motor control basics (FOC for BLDC) · BMS architecture · MATLAB / Simulink · CAN bus protocol</div>
+      </div>
+
+      <div class="skill-row">
+        <div class="role">DATA / BUSINESS ANALYTICS</div>
+        <div class="items"><strong>SQL (non-negotiable)</strong> — SELECT, JOIN, GROUP BY, window functions · <strong>Power BI</strong> or Tableau (Power BI is more common in Kerala/India services firms; learn DAX basics) · Excel (pivot tables, VLOOKUP/XLOOKUP) · Python pandas (bonus) · Business sense — read Stratechery, Lenny's Newsletter</div>
+      </div>
+
+      <div class="skill-row">
+        <div class="role">SOFTWARE / SAAS</div>
+        <div class="items"><strong>One language deep</strong> (Python, Go, JS/TS) · System design basics · REST + GraphQL · Git workflow · Docker basics · 2-3 pinned GitHub projects with good READMEs</div>
+      </div>
+
+      <div class="skill-row">
+        <div class="role">AI / ML</div>
+        <div class="items"><strong>Python + PyTorch</strong> · LLM basics — fine-tuning vs prompting vs RAG · Vector DBs · Agent frameworks (LangChain, LlamaIndex, DSPy) · A working demo of an LLM-powered tool</div>
+      </div>
+
+      <div class="skill-row">
+        <div class="role">DESIGN (UX / UI)</div>
+        <div class="items"><strong>Figma</strong> · Auto-layout, components, variables · Design systems · 3–5 case studies on Behance or Framer · Read Refactoring UI · One published Figma community template</div>
+      </div>
+
+      <div class="skill-row">
+        <div class="role">DESIGN (INDUSTRIAL)</div>
+        <div class="items"><strong>SolidWorks / Fusion 360</strong> · KeyShot or Blender for renders · Sketching fundamentals · DFM basics · Portfolio of 2-3 product designs with full process documentation</div>
+      </div>
+
+      <h2>// FREE COURSES &amp; CERTIFICATIONS WORTH DOING</h2>
+      <ul>
+        <li><strong>Microsoft PL-300 (Power BI Data Analyst)</strong> — recognized by every Indian analytics employer · <a href="https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/">link</a></li>
+        <li><strong>Mode SQL Tutorial</strong> — best free SQL practice for analyst interviews · <a href="https://mode.com/sql-tutorial/">link</a></li>
+        <li><strong>ROS2 official tutorials</strong> — start here for robotics roles · <a href="https://docs.ros.org/en/humble/Tutorials.html">link</a></li>
+        <li><strong>KiCad official getting-started</strong> — free, for hardware folks · <a href="https://www.kicad.org/help/getting-started/">link</a></li>
+        <li><strong>Refactoring UI</strong> — free articles by Tailwind founders · <a href="https://www.refactoringui.com/">link</a></li>
+        <li><strong>Coursera Andrew Ng ML / DLS</strong> — audit free, certificate paid · <a href="https://www.coursera.org/specializations/machine-learning-introduction">link</a></li>
+        <li><strong>Hasura Learn (GraphQL)</strong> — free, for backend folks · <a href="https://hasura.io/learn/">link</a></li>
+      </ul>
+
+      <h2>// PORTFOLIO INFRASTRUCTURE</h2>
+      <ul>
+        <li><strong>GitHub</strong> — pinned repos, real READMEs, contribution graph that shows you actually code</li>
+        <li><strong>LinkedIn</strong> — headline that's specific ("Embedded Engineer · ROS2 · Bangalore" not "Aspiring Engineer Open To Work")</li>
+        <li><strong>Personal site</strong> — Framer, Webflow, or a plain HTML page on GitHub Pages. Every recruiter checks.</li>
+        <li><strong>Behance</strong> (designers) or <strong>Dribbble</strong> (designers) — case studies with process</li>
+        <li><strong>Notion / personal blog</strong> — write up one project per quarter. Compounds over years.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="row">
+    <a href="https://github.com/vishnu-c-r" target="_blank" rel="noopener">github.com/vishnu-c-r</a>
+    <span>·</span>
+    <a href="https://linkedin.com/in/vishnu-c-r" target="_blank" rel="noopener">linkedin.com/in/vishnu-c-r</a>
+  </div>
+  <p>Built by Vishnu C R for the juniors · Open source, fork it, improve it · Last updated April 2026</p>
+  <p>Links auto-checked daily by GitHub Actions. See LINK_REPORT.md in the repo for current status.</p>
+  <div class="stamp">— END OF DOCUMENT —</div>
+</footer>
+
+<script>
+// =============================================================
+// DATA
+// =============================================================
+const DATA = [
+  // ===== JOB BOARDS - GENERAL =====
+  { name: "Y Combinator — BLR jobs", desc: "Vetted YC startups in Bangalore. Highest signal general board.", url: "https://www.workatastartup.com/jobs?q=bangalore", city: "blr", type: "board", tags: ["general"], fresher: true },
+  { name: "TopStartups — Bangalore jobs", desc: "Funding stage shown on each listing.", url: "https://topstartups.io/jobs/?job_location=Bangalore", city: "blr", type: "board", tags: ["general"] },
+  { name: "TopStartups — BLR-HQ companies", desc: "Bangalore-headquartered companies sorted by valuation.", url: "https://topstartups.io/?hq_location=Bangalore", city: "blr", type: "board", tags: ["general"] },
+  { name: "Wellfound — Bangalore jobs", desc: "Formerly AngelList Talent. Largest startup-specific board.", url: "https://wellfound.com/jobs?location=bangalore", city: "blr", type: "board", tags: ["general"], fresher: true },
+  { name: "Wellfound — Bangalore directory", desc: "Bangalore startup company directory.", url: "https://wellfound.com/startups/location/bangalore-urban", city: "blr", type: "board", tags: ["general"] },
+  { name: "Startup.jobs — Bengaluru", desc: "Curated startup roles in Bangalore.", url: "https://startup.jobs/locations/bengaluru", city: "blr", type: "board", tags: ["general"] },
+  { name: "Built In — Bangalore", desc: "Tech-heavy curated jobs board.", url: "https://builtin.com/jobs/as/india/bangalore", city: "blr", type: "board", tags: ["general"] },
+  { name: "Internshala", desc: "Largest internship platform in India. Apply to BLR + Kochi roles in volume.", url: "https://internshala.com/internships/", city: "remote", type: "board", tags: ["general"], fresher: true },
+  { name: "Unstop", desc: "Hackathons + jobs + competitions. Run by/for college students.", url: "https://unstop.com/jobs", city: "remote", type: "board", tags: ["general"], fresher: true },
+  { name: "LinkedIn Jobs — Bangalore", desc: "Set alerts for keywords + location combinations.", url: "https://www.linkedin.com/jobs/search/?location=Bengaluru", city: "blr", type: "board", tags: ["general"] },
+
+  // ===== VC PORTFOLIO BOARDS =====
+  { name: "Peak XV", desc: "Formerly Sequoia India. Largest Indian VC, huge portfolio.", url: "https://careers.peakxv.com/jobs", city: "blr", type: "vc", tags: ["general"] },
+  { name: "Accel India", desc: "Accel portfolio jobs, India + global.", url: "https://jobs.accel.com/jobs", city: "blr", type: "vc", tags: ["general"] },
+  { name: "Blume Ventures", desc: "Seed-stage heavy. Best for founder's office and first-hire roles.", url: "https://jobs.blume.vc/jobs", city: "blr", type: "vc", tags: ["general"] },
+  { name: "Nexus Venture Partners", desc: "Mid-stage portfolio jobs.", url: "https://jobs.nexusvp.com/", city: "blr", type: "vc", tags: ["general"] },
+  { name: "Lightspeed", desc: "India + global portfolio jobs.", url: "https://jobs.lsvp.com/jobs", city: "blr", type: "vc", tags: ["general"] },
+  { name: "Elevation Capital", desc: "Indian early-stage VC portfolio.", url: "https://elevationcapital.com/team/", city: "blr", type: "vc", tags: ["general"] },
+  { name: "Stellaris VP", desc: "Bangalore-based VC, heavy on BLR portfolio.", url: "https://www.stellarisvp.com/portfolio/", city: "blr", type: "vc", tags: ["general"] },
+
+  // ===== INDIA PLATFORMS =====
+  { name: "Instahyre", desc: "AI-matched, anti-spam, recruiter-driven.", url: "https://www.instahyre.com/", city: "remote", type: "board", tags: ["general"] },
+  { name: "Cutshort — BLR startups", desc: "AI-matched startup jobs.", url: "https://cutshort.io/jobs/startup-jobs-in-bangalore", city: "blr", type: "board", tags: ["general"] },
+  { name: "Hirist.tech", desc: "Tech-only Indian board.", url: "https://www.hirist.tech/", city: "remote", type: "board", tags: ["general"] },
+  { name: "IIMJobs", desc: "Strategy, management, founder's office. Open to all.", url: "https://www.iimjobs.com/", city: "remote", type: "board", tags: ["general"] },
+  { name: "Inc42 Jobs", desc: "Indian startup ecosystem job board.", url: "https://inc42.com/", city: "remote", type: "board", tags: ["general"] },
+  { name: "Naukri Startup Jobs", desc: "Largest raw volume in India.", url: "https://www.naukri.com/startup-jobs", city: "remote", type: "board", tags: ["general"] },
+
+  // ===== HARDWARE / VLSI - INDIAN COMPANIES BLR =====
+  { name: "Tejas Networks", desc: "Telecom + wireless SoCs. Listed, Tata group. Hires freshers.", url: "https://www.tejasnetworks.com/careers/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Saankhya Labs", desc: "Fabless comms chipsets, 5G/D2M. Now under Tejas.", url: "https://www.saankhyalabs.com/", city: "blr", type: "company", tags: ["hardware"] },
+  { name: "Signalchip", desc: "India's first 4G/5G chip company.", url: "https://www.signalchip.com/job-openings/", city: "blr", type: "company", tags: ["hardware"] },
+  { name: "CoreEL Technologies", desc: "FPGA + embedded systems.", url: "https://www.coreel.com/", city: "blr", type: "company", tags: ["hardware"] },
+  { name: "Tessolve", desc: "Semiconductor services. Strong fresher pipeline.", url: "https://www.tessolve.com/careers/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Morphing Machines", desc: "Reconfigurable computing.", url: "https://www.morphing.in/", city: "blr", type: "company", tags: ["hardware"] },
+  { name: "Sensehawk", desc: "IoT + solar inspection.", url: "https://www.sensehawk.com/", city: "blr", type: "company", tags: ["hardware"] },
+  { name: "Kaynes Technology", desc: "EMS + PCB manufacturing. Listed.", url: "https://www.kaynestechnology.com/careers/", city: "blr", type: "company", tags: ["hardware", "manufacturing"], fresher: true },
+  { name: "Tonbo Imaging", desc: "Defence-grade imaging.", url: "https://tonboimaging.com/defense/careers/", city: "blr", type: "company", tags: ["hardware"] },
+
+  // ===== HARDWARE / VLSI - GLOBAL DESIGN CENTERS BLR =====
+  { name: "Texas Instruments", desc: "Largest analog/embedded India design center. Structured grad-hire programs.", url: "https://careers.ti.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "NXP Semiconductors", desc: "Automotive + IoT chips. Strong India team.", url: "https://www.nxp.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Analog Devices", desc: "Mixed-signal + power. BLR design center.", url: "https://careers.analog.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Qualcomm India", desc: "Mobile + 5G chipsets. Q-Talent fresher program.", url: "https://careers.qualcomm.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Intel India", desc: "Chip design + software, Bangalore campus.", url: "https://intel.wd1.myworkdayjobs.com/External", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "NVIDIA India", desc: "GPU + AI hardware/software roles.", url: "https://www.nvidia.com/en-in/about-nvidia/careers/", city: "blr", type: "company", tags: ["hardware", "ai"], fresher: true },
+  { name: "AMD India", desc: "CPU/GPU design center, Bangalore.", url: "https://careers.amd.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Microchip Technology", desc: "MCU + analog. BLR engineering center.", url: "https://www.microchip.com/en-us/about/careers", city: "blr", type: "company", tags: ["hardware"] },
+  { name: "ARM India", desc: "CPU IP design. Strong fresher cohort.", url: "https://careers.arm.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Synopsys", desc: "EDA tools, huge India team. Fresher batches.", url: "https://careers.synopsys.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Cadence Design Systems", desc: "EDA tools, BLR engineering center.", url: "https://www.cadence.com/en_US/home/company/careers.html", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "Siemens EDA", desc: "Mentor Graphics legacy. EDA tools.", url: "https://jobs.siemens.com/", city: "blr", type: "company", tags: ["hardware"] },
+
+  // ===== ROBOTICS BLR =====
+  { name: "Ati Motors", desc: "Autonomous industrial robots.", url: "https://atimotors.com/careers/", city: "blr", type: "company", tags: ["robotics"] },
+  { name: "ARTPARK @ IISc", desc: "Robotics + AI research hub. Frequent intern + research roles.", url: "https://www.artpark.in/careers-1", city: "blr", type: "incubator", tags: ["robotics", "ai"], fresher: true },
+  { name: "CynLr", desc: "Visual intelligence for robotic arms.", url: "https://www.cynlr.com/", city: "blr", type: "company", tags: ["robotics"] },
+  { name: "Systemantics", desc: "Industrial robotic arms.", url: "https://www.systemantics.com/", city: "blr", type: "company", tags: ["robotics"] },
+  { name: "ANSCER Robotics", desc: "AMRs for logistics.", url: "https://anscer.com/", city: "blr", type: "company", tags: ["robotics"] },
+  { name: "Peppermint Robotics", desc: "Cleaning robots. Pune + BLR.", url: "https://peppermintrobots.com/", city: "blr", type: "company", tags: ["robotics"] },
+
+  // ===== EV BLR =====
+  { name: "Ather Energy", desc: "Electric scooters. Industrial design + dashboard UX in-house.", url: "https://www.atherenergy.com/careers", city: "blr", type: "company", tags: ["ev", "design"], fresher: true },
+  { name: "Ola Electric", desc: "EV scooters + cars. Large engineering team.", url: "https://olaelectric.com/careers", city: "blr", type: "company", tags: ["ev"], fresher: true },
+  { name: "Ultraviolette Automotive", desc: "Electric motorcycles.", url: "https://www.ultraviolette.com/careers", city: "blr", type: "company", tags: ["ev"] },
+  { name: "Exponent Energy", desc: "Fast-charging infrastructure.", url: "https://exponent.energy/", city: "blr", type: "company", tags: ["ev"] },
+  { name: "Log9 Materials", desc: "Battery technology.", url: "https://log9materials-talent.freshteam.com/jobs", city: "blr", type: "company", tags: ["ev"] },
+  { name: "Bounce Infinity", desc: "EV scooters with battery swap.", url: "https://bounceinfinity.com/", city: "blr", type: "company", tags: ["ev"] },
+  { name: "Yulu", desc: "Micro-mobility (hardware + ops roles).", url: "https://www.yulu.bike/", city: "blr", type: "company", tags: ["ev"] },
+  { name: "Cell Propulsion", desc: "Commercial EVs.", url: "https://www.cellpropulsion.com/", city: "blr", type: "company", tags: ["ev"] },
+  { name: "River Mobility", desc: "Electric SUV scooters.", url: "https://www.rideriver.com/", city: "blr", type: "company", tags: ["ev"] },
+  { name: "Simple Energy", desc: "Electric scooters.", url: "https://www.simpleenergy.in/", city: "blr", type: "company", tags: ["ev"] },
+
+  // ===== SPACE =====
+  { name: "Pixxel", desc: "Hyperspectral satellites. Bangalore.", url: "https://www.pixxel.space/careers", city: "blr", type: "company", tags: ["space"], fresher: true },
+  { name: "Digantara", desc: "Space situational awareness. Bangalore.", url: "https://www.digantara.co.in/", city: "blr", type: "company", tags: ["space"] },
+  { name: "Bellatrix Aerospace", desc: "In-space propulsion. Bangalore.", url: "https://www.bellatrix.aero/", city: "blr", type: "company", tags: ["space"] },
+  { name: "Astrogate Labs", desc: "Laser communications. Bangalore.", url: "https://www.astrogatelabs.com/", city: "blr", type: "company", tags: ["space"] },
+  { name: "NewSpace Research & Tech", desc: "UAV swarms, defence tech. Bangalore.", url: "https://www.newspaceresearch.com/", city: "blr", type: "company", tags: ["space"] },
+  { name: "Astrome", desc: "Satellite-based broadband. Bangalore.", url: "https://www.astrome.co/", city: "blr", type: "company", tags: ["space"] },
+  { name: "GalaxEye Space", desc: "Multi-sensor satellites. Chennai HQ.", url: "https://galaxeye.space/", city: "remote", type: "company", tags: ["space"] },
+  { name: "Skyroot Aerospace", desc: "Launch vehicles. Hyderabad HQ.", url: "https://skyroot.in/", city: "remote", type: "company", tags: ["space"] },
+  { name: "Agnikul Cosmos", desc: "3D-printed rocket engines. Chennai HQ.", url: "https://agnikul.in/careers/", city: "remote", type: "company", tags: ["space"] },
+
+  // ===== MEDTECH BLR =====
+  { name: "Tricog Health", desc: "Remote cardiac diagnostics.", url: "https://www.tricog.com/careers/", city: "blr", type: "company", tags: ["medtech"], fresher: true },
+  { name: "Niramai", desc: "Breast cancer screening (thermography + AI).", url: "https://niramai.com/careers/", city: "blr", type: "company", tags: ["medtech"] },
+  { name: "SigTuple", desc: "AI pathology smart microscopes.", url: "https://www.sigtuple.com/", city: "blr", type: "company", tags: ["medtech"] },
+  { name: "Forus Health", desc: "Portable eye-screening devices.", url: "https://www.forushealth.com/", city: "blr", type: "company", tags: ["medtech"] },
+  { name: "Dozee", desc: "Contactless patient monitoring.", url: "https://www.dozee.io/", city: "blr", type: "company", tags: ["medtech"] },
+  { name: "HealthCube", desc: "Point-of-care diagnostic devices.", url: "https://healthcubed.com/", city: "blr", type: "company", tags: ["medtech"] },
+  { name: "Cloudphysician", desc: "Tele-ICU.", url: "https://www.cloudphysician.net/careers/", city: "blr", type: "company", tags: ["medtech"] },
+  { name: "Qure.ai", desc: "Radiology AI. Mumbai HQ + BLR team.", url: "https://jobs.qure.ai/", city: "blr", type: "company", tags: ["medtech", "ai"] },
+  { name: "GE Healthcare India", desc: "JFWTC Bangalore. Massive R&D, hires biomed freshers.", url: "https://careers.gehealthcare.com/", city: "blr", type: "company", tags: ["medtech"], fresher: true },
+  { name: "Philips Innovation Campus", desc: "Bangalore. Major medical device R&D.", url: "https://www.careers.philips.com/global/en", city: "blr", type: "company", tags: ["medtech"], fresher: true },
+  { name: "Siemens Healthineers India", desc: "Bangalore.", url: "https://jobs.siemens-healthineers.com/", city: "blr", type: "company", tags: ["medtech"] },
+  { name: "C-CAMP @ NCBS", desc: "Bio/medtech incubator.", url: "https://www.ccamp.res.in/", city: "blr", type: "incubator", tags: ["medtech"] },
+
+  // ===== AI / SAAS BLR =====
+  { name: "Sarvam AI", desc: "Indian foundation LLMs.", url: "https://www.sarvam.ai/careers", city: "blr", type: "company", tags: ["ai"] },
+  { name: "Krutrim", desc: "Ola's AI arm.", url: "https://olakrutrim.com/", city: "blr", type: "company", tags: ["ai"] },
+  { name: "Observe.AI", desc: "Contact-center AI.", url: "https://www.observe.ai/careers", city: "blr", type: "company", tags: ["ai"] },
+  { name: "Fractal Analytics", desc: "Analytics + AI consulting. Hires freshers in volume.", url: "https://fractal.ai/careers/", city: "blr", type: "company", tags: ["ai", "analytics"], fresher: true },
+  { name: "Atlan", desc: "Data catalog.", url: "https://atlan.com/careers/", city: "blr", type: "company", tags: ["ai"] },
+  { name: "Composio", desc: "Agent infrastructure.", url: "https://composio.dev/", city: "blr", type: "company", tags: ["ai"] },
+  { name: "Razorpay", desc: "Payments. Strong design culture.", url: "https://razorpay.com/jobs/", city: "blr", type: "company", tags: ["ai", "design"], fresher: true },
+  { name: "Zeta", desc: "Banking tech.", url: "https://www.zeta.tech/in/careers", city: "blr", type: "company", tags: ["ai"] },
+  { name: "Meesho", desc: "Social commerce. Hires across roles.", url: "https://www.meesho.io/jobs", city: "blr", type: "company", tags: ["ai", "design"], fresher: true },
+  { name: "Cred", desc: "Credit card mgmt. Famously design-first.", url: "https://careers.cred.club/", city: "blr", type: "company", tags: ["ai", "design"] },
+  { name: "Postman", desc: "API platform.", url: "https://www.postman.com/company/careers/", city: "blr", type: "company", tags: ["ai", "design"] },
+  { name: "Hasura", desc: "GraphQL.", url: "https://hasura.io/careers", city: "blr", type: "company", tags: ["ai"] },
+  { name: "BrowserStack", desc: "Browser testing platform.", url: "https://www.browserstack.com/careers", city: "blr", type: "company", tags: ["ai"], fresher: true },
+  { name: "Chargebee", desc: "Subscription billing.", url: "https://www.chargebee.com/careers/", city: "blr", type: "company", tags: ["ai"] },
+  { name: "InMobi", desc: "Adtech.", url: "https://www.inmobi.com/careers", city: "blr", type: "company", tags: ["ai"], fresher: true },
+  { name: "ShareChat", desc: "Indian-language social platform.", url: "https://sharechat.com/careers/", city: "blr", type: "company", tags: ["ai"] },
+  { name: "Atlassian India", desc: "Bangalore office. Jira/Confluence.", url: "https://www.atlassian.com/company/careers", city: "blr", type: "company", tags: ["ai"], fresher: true },
+  { name: "Zerodha", desc: "Discount broker. Funds Rainmatter.", url: "https://zerodha.com/careers/", city: "blr", type: "company", tags: ["ai", "design"] },
+  { name: "PhonePe", desc: "Payments + financial services.", url: "https://www.phonepe.com/careers/", city: "blr", type: "company", tags: ["ai", "design"], fresher: true },
+  { name: "Flipkart", desc: "E-commerce. Large engineering team.", url: "https://www.flipkartcareers.com/", city: "blr", type: "company", tags: ["ai"], fresher: true },
+  { name: "Swiggy", desc: "Food + grocery delivery.", url: "https://careers.swiggy.com/", city: "blr", type: "company", tags: ["ai"], fresher: true },
+
+  // ===== MANUFACTURING / IoT =====
+  { name: "Zetwerk", desc: "Manufacturing marketplace.", url: "https://www.zetwerk.com/careers/", city: "blr", type: "company", tags: ["manufacturing"] },
+  { name: "Ripik.AI", desc: "Manufacturing AI.", url: "https://www.ripik.ai/", city: "blr", type: "company", tags: ["manufacturing", "ai"] },
+  { name: "Uravu Labs", desc: "Atmospheric water generators.", url: "https://www.uravulabs.com/", city: "blr", type: "company", tags: ["manufacturing"] },
+  { name: "String Bio", desc: "Biomanufacturing.", url: "https://string.bio/", city: "blr", type: "company", tags: ["manufacturing"] },
+  { name: "Bugworks", desc: "Biotech.", url: "https://bugworksresearch.com/", city: "blr", type: "company", tags: ["manufacturing", "medtech"] },
+  { name: "Flutura", desc: "Industrial IoT / AI.", url: "https://www.flutura.com/", city: "blr", type: "company", tags: ["manufacturing", "ai"] },
+  { name: "Detect Technologies", desc: "Industrial AI/IoT. Chennai + BLR.", url: "https://www.detecttechnologies.com/", city: "remote", type: "company", tags: ["manufacturing"] },
+
+  // ===== DESIGN STUDIOS BLR =====
+  { name: "Lollypop Design", desc: "UX/UI. Largest BLR studio.", url: "https://lollypop.design/careers/", city: "blr", type: "company", tags: ["design"] },
+  { name: "Obvious", desc: "Design + strategy studio.", url: "https://obvious.in/", city: "blr", type: "company", tags: ["design"] },
+  { name: "Kuvaka Tech", desc: "Design + dev studio.", url: "https://kuvaka.io/", city: "blr", type: "company", tags: ["design"] },
+  { name: "Aumbre", desc: "UI/UX + web studio.", url: "https://aumbre.com/", city: "blr", type: "company", tags: ["design"] },
+  { name: "Elephant Design", desc: "Brand + product design.", url: "https://www.elephantdesign.com/", city: "blr", type: "company", tags: ["design"] },
+  { name: "Ticket Design", desc: "Design studio.", url: "https://ticketdesign.com/", city: "blr", type: "company", tags: ["design"] },
+
+  // ===== CONSUMER HARDWARE / BRAND DESIGN =====
+  { name: "boAt Lifestyle", desc: "Consumer audio. Heavy industrial design.", url: "https://www.boat-lifestyle.com/", city: "blr", type: "company", tags: ["design", "hardware"] },
+  { name: "Noise", desc: "Wearables.", url: "https://www.gonoise.com/", city: "blr", type: "company", tags: ["design", "hardware"] },
+  { name: "Ultrahuman", desc: "Wearables + medical. ID + mech design.", url: "https://www.ultrahuman.com/", city: "blr", type: "company", tags: ["medtech", "design"] },
+  { name: "Mamaearth", desc: "Consumer brand. Visual + brand design roles.", url: "https://mamaearth.in/careers", city: "blr", type: "company", tags: ["design"] },
+  { name: "The Souled Store", desc: "Apparel brand.", url: "https://www.thesouledstore.com/careers", city: "blr", type: "company", tags: ["design"] },
+  { name: "Bombay Shaving Co", desc: "Consumer brand.", url: "https://bombayshavingcompany.com/", city: "blr", type: "company", tags: ["design"] },
+  { name: "BlueTokai Coffee", desc: "Consumer brand.", url: "https://bluetokaicoffee.com/pages/careers", city: "blr", type: "company", tags: ["design"] },
+  { name: "Wieden+Kennedy India", desc: "Top creative agency.", url: "https://www.wk.com/jobs/", city: "blr", type: "company", tags: ["design"] },
+  { name: "Dentsu Creative (Webchutney)", desc: "Digital agency.", url: "https://dentsucreative.com/careers", city: "blr", type: "company", tags: ["design"] },
+  { name: "Famous Innovations", desc: "Indian creative agency.", url: "https://famousinnovations.com/", city: "blr", type: "company", tags: ["design"] },
+
+  // ===== DESIGN BOARDS =====
+  { name: "UI/UX Jobs Board — BLR", desc: "Niche board for design roles in Bangalore.", url: "https://uiuxjobsboard.com/design-jobs/bangalore", city: "blr", type: "board", tags: ["design"] },
+  { name: "Wellfound UI/UX — BLR", desc: "Design roles at Bangalore startups.", url: "https://wellfound.com/role/l/ui-ux-designer/bangalore", city: "blr", type: "board", tags: ["design"], fresher: true },
+  { name: "Dribbble Jobs", desc: "Global design roles.", url: "https://dribbble.com/jobs", city: "remote", type: "board", tags: ["design"] },
+  { name: "Behance Jobs", desc: "Adobe-owned design jobs board.", url: "https://www.behance.net/joblist", city: "remote", type: "board", tags: ["design"] },
+  { name: "NextLeap Product Design", desc: "Indian product design jobs.", url: "https://nextleap.app/jobs/ui-ux-design", city: "remote", type: "board", tags: ["design"] },
+  { name: "Internshala UI/UX BLR", desc: "Design internships in Bangalore.", url: "https://internshala.com/jobs/ui-ux-jobs-in-bangalore/", city: "blr", type: "board", tags: ["design"], fresher: true },
+
+  // ===== INCUBATORS BLR =====
+  { name: "NSRCEL @ IIM Bangalore", desc: "India's oldest startup incubator.", url: "https://www.nsrcel.org/", city: "blr", type: "incubator", tags: ["general"] },
+  { name: "Social Alpha", desc: "Deep-tech + impact focus.", url: "https://www.socialalpha.org/", city: "blr", type: "incubator", tags: ["general", "hardware"] },
+  { name: "SID @ IISc", desc: "Society for Innovation & Development. Hardware-friendly.", url: "https://sid.iisc.ac.in/", city: "blr", type: "incubator", tags: ["hardware"] },
+  { name: "Rainmatter (by Zerodha)", desc: "Climate + health + fintech.", url: "https://rainmatter.com/", city: "blr", type: "incubator", tags: ["general"] },
+
+  // ===== COMMUNITIES BLR =====
+  { name: "Hasgeek", desc: "Rootconf, Fifth Elephant, JSFoo + active jobs board.", url: "https://hasgeek.com/", city: "blr", type: "community", tags: ["general"] },
+  { name: "GDG Bangalore", desc: "Google Developer Group meetups.", url: "https://gdg.community.dev/gdg-bangalore/", city: "blr", type: "community", tags: ["general"] },
+  { name: "BangPypers", desc: "Bangalore Python community.", url: "https://bangpypers.github.io/", city: "blr", type: "community", tags: ["ai"] },
+  { name: "null Bangalore", desc: "Security / infosec community.", url: "https://null.community/chapters/4-bangalore", city: "blr", type: "community", tags: ["general"] },
+  { name: "IoT Bangalore Meetup", desc: "Hardware + IoT community.", url: "https://www.meetup.com/bangalore-iot-meetup/", city: "blr", type: "community", tags: ["hardware"] },
+  { name: "Workbench Projects", desc: "Indiranagar makerspace. Best hardware networking spot in BLR.", url: "https://workbenchprojects.com/", city: "blr", type: "community", tags: ["hardware"] },
+  { name: "PyCon India", desc: "Annual Python conference, India.", url: "https://in.pycon.org/", city: "remote", type: "community", tags: ["ai"] },
+  { name: "Friends of Figma — BLR", desc: "Monthly design meetups in Bangalore.", url: "https://friends.figma.com/bangalore/", city: "blr", type: "community", tags: ["design"] },
+  { name: "ADPList", desc: "Free mentorship from senior designers globally.", url: "https://adplist.org/", city: "remote", type: "community", tags: ["design"] },
+  { name: "IxDA", desc: "Interaction Design Association.", url: "https://ixda.org/", city: "remote", type: "community", tags: ["design"] },
+
+  // ===== REMOTE / GLOBAL DEV BOARDS =====
+  { name: "RemoteOK", desc: "Remote-first jobs, lots of startups.", url: "https://remoteok.com/", city: "remote", type: "board", tags: ["ai"] },
+  { name: "We Work Remotely", desc: "Remote-only jobs board.", url: "https://weworkremotely.com/", city: "remote", type: "board", tags: ["ai"] },
+  { name: "Arc.dev", desc: "Curated remote dev roles.", url: "https://arc.dev/", city: "remote", type: "board", tags: ["ai"] },
+  { name: "Turing", desc: "Remote US startup jobs, India talent focus.", url: "https://turing.com/jobs", city: "remote", type: "board", tags: ["ai"] },
+
+  // ===========================================================
+  // KOCHI / KERALA
+  // ===========================================================
+
+  // ===== ROBOTICS KERALA =====
+  { name: "EyeROV / IROV Technologies", desc: "Underwater drones / ROVs. Kochi. Hires freshers across embedded, ROS2, mech, hardware.", url: "https://eyerov.com/company/careers/", city: "kochi", type: "company", tags: ["robotics"], fresher: true },
+  { name: "Sastra Robotics", desc: "Robotic test automation arms. Ernakulam Kochi.", url: "https://sastrarobotics.com/", city: "kochi", type: "company", tags: ["robotics"] },
+  { name: "Genrobotics", desc: "Bandicoot sewer robots + rehab robotics. Trivandrum.", url: "https://www.genrobotics.com/", city: "kochi", type: "company", tags: ["robotics"], fresher: true },
+  { name: "Asimov Robotics", desc: "Industrial robotics. Kollam.", url: "https://www.asimovrobotics.com/", city: "kochi", type: "company", tags: ["robotics"] },
+  { name: "iHub Robotics", desc: "Automation + industrial robotics. Kerala.", url: "https://www.ihubrobotics.com/", city: "kochi", type: "company", tags: ["robotics"] },
+  { name: "Toboids Automata", desc: "ROS2-based robotics. Kerala.", url: "https://www.toboids.com/", city: "kochi", type: "company", tags: ["robotics"] },
+
+  // ===== INFOPARK SERVICES (KOCHI) =====
+  { name: "QBurst", desc: "Data analytics, AI, cloud. Largest BLR-Kochi services firm. WTC Infopark.", url: "https://www.qburst.com/en-us/company/career/openings/", city: "kochi", type: "company", tags: ["analytics", "ai"], fresher: true },
+  { name: "Fingent", desc: "Custom software + analytics. Carnival Infopark.", url: "https://www.fingent.com/careers/career-openings/", city: "kochi", type: "company", tags: ["analytics", "ai"], fresher: true },
+  { name: "Suyati Technologies", desc: "Salesforce + analytics. Lulu Cyber Tower.", url: "https://suyati.com/careers/", city: "kochi", type: "company", tags: ["analytics"], fresher: true },
+  { name: "Orion Innovation", desc: "Large global services firm. Lulu Cyber Tower.", url: "https://www.orioninc.com/careers/", city: "kochi", type: "company", tags: ["analytics", "ai"], fresher: true },
+  { name: "Feathersoft", desc: "Databricks + data engineering. Jyothirmaya Infopark Phase 2.", url: "https://www.feathersoft.com/careers/", city: "kochi", type: "company", tags: ["analytics"], fresher: true },
+  { name: "EXL Service Kochi", desc: "Acquired Clairvoyant. Data engineering + analytics roles in Kochi.", url: "https://www.exlservice.com/careers", city: "kochi", type: "company", tags: ["analytics"], fresher: true },
+  { name: "Nous Infosystems", desc: "Enterprise tech + analytics.", url: "https://www.nousinfosystems.com/careers/job-openings", city: "kochi", type: "company", tags: ["ai", "analytics"], fresher: true },
+  { name: "RapidValue Solutions", desc: "Digital consulting. Infopark.", url: "https://www.rapidvaluesolutions.com/careers/", city: "kochi", type: "company", tags: ["ai"], fresher: true },
+  { name: "Tata Elxsi", desc: "Engineering R&D + data services. Trivandrum & Kochi.", url: "https://www.tataelxsi.com/careers", city: "kochi", type: "company", tags: ["hardware", "ai"], fresher: true },
+
+  // ===== BIG 4 / MNC KOCHI =====
+  { name: "EY Global Delivery Services", desc: "Resource/Business Analyst roles for freshers. Kochi.", url: "https://www.ey.com/en_in/careers", city: "kochi", type: "company", tags: ["analytics"], fresher: true },
+  { name: "Deloitte USI", desc: "BA and data analyst entry roles.", url: "https://www2.deloitte.com/us/en/careers/careers.html", city: "kochi", type: "company", tags: ["analytics"], fresher: true },
+  { name: "KPMG Global Services", desc: "Audit + analytics + consulting roles.", url: "https://kpmg.com/in/en/home/careers.html", city: "kochi", type: "company", tags: ["analytics"], fresher: true },
+  { name: "IBM Kochi", desc: "Services + cloud + data.", url: "https://www.ibm.com/in-en/employment/", city: "kochi", type: "company", tags: ["ai", "analytics"], fresher: true },
+  { name: "Cognizant Kochi", desc: "IT services. Volume fresher hiring.", url: "https://careers.cognizant.com/", city: "kochi", type: "company", tags: ["ai"], fresher: true },
+  { name: "TCS Kochi", desc: "ILP & Digital fresher programs.", url: "https://www.tcs.com/careers", city: "kochi", type: "company", tags: ["ai"], fresher: true },
+  { name: "Wipro Kochi", desc: "IT services. Multiple fresher pipelines.", url: "https://careers.wipro.com/", city: "kochi", type: "company", tags: ["ai"], fresher: true },
+
+  // ===== ANALYTICS STARTUPS KOCHI =====
+  { name: "Vandalay Business Solutions", desc: "BI Analyst roles. Kaloor.", url: "https://www.vandalay.in/", city: "kochi", type: "company", tags: ["analytics"] },
+  { name: "Netstratum Technologies", desc: "Power BI + data warehousing.", url: "https://netstratum.com/", city: "kochi", type: "company", tags: ["analytics"] },
+  { name: "Pokak Technologies", desc: "Business analyst roles. Kalamassery.", url: "https://pokak.com/", city: "kochi", type: "company", tags: ["analytics"] },
+  { name: "Aceware Fintech Services", desc: "Fintech analytics.", url: "https://acewarefintech.com/", city: "kochi", type: "company", tags: ["analytics"] },
+
+  // ===== KOCHI BOARDS =====
+  { name: "Infopark Jobs", desc: "Official Infopark jobs board. Direct from tenants.", url: "https://infopark.in/companies/job-search", city: "kochi", type: "board", tags: ["general"] },
+  { name: "Indeed — Kochi DA", desc: "Data Analyst jobs in Kochi.", url: "https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html", city: "kochi", type: "board", tags: ["analytics"], fresher: true },
+  { name: "Indeed — Kochi BA", desc: "Business Analyst jobs in Kochi.", url: "https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html", city: "kochi", type: "board", tags: ["analytics"], fresher: true },
+  { name: "Indeed — Kerala Robotics", desc: "Filter out trainer/coaching center roles.", url: "https://in.indeed.com/q-robotics-l-kerala-jobs.html", city: "kochi", type: "board", tags: ["robotics"] },
+  { name: "Naukri — Ernakulam DA", desc: "Data analyst roles, Ernakulam Kochi.", url: "https://www.naukri.com/data-analyst-jobs-in-ernakulam-kochi-cochin", city: "kochi", type: "board", tags: ["analytics"], fresher: true },
+  { name: "LinkedIn Jobs — Kochi", desc: "Set alerts for Kochi-specific keywords.", url: "https://www.linkedin.com/jobs/search/?location=Kochi", city: "kochi", type: "board", tags: ["general"] },
+
+  // ===== KSUM / MAKER VILLAGE =====
+  { name: "Kerala Startup Mission (KSUM)", desc: "Live listings for Embedded/Mech/Electronics interns + fellowships.", url: "https://startupmission.kerala.gov.in/career", city: "kochi", type: "incubator", tags: ["general", "hardware", "robotics"], fresher: true },
+  { name: "KSUM Academic Internship Programme", desc: "Year-round, open to Kerala students/grads.", url: "https://aip.startupmission.in/", city: "kochi", type: "incubator", tags: ["general"], fresher: true },
+  { name: "Maker Village (Kalamassery)", desc: "India's largest electronic hardware incubator. Where EyeROV, AI Aerial were born.", url: "https://makervillage.in/", city: "kochi", type: "incubator", tags: ["hardware", "robotics"], fresher: true },
+  { name: "ASAP Kerala", desc: "1-year paid graduate internship (any discipline, 2022–2025 batches). Govt program.", url: "https://asapkerala.gov.in/internships/", city: "kochi", type: "incubator", tags: ["general"], fresher: true },
+  { name: "KIED Kerala", desc: "Entrepreneurship + business analysis internships.", url: "https://kied.info/student-internship-programme/", city: "kochi", type: "incubator", tags: ["analytics"], fresher: true },
+
+  // ===== KOCHI / KERALA COMMUNITIES =====
+  { name: "TinkerHub", desc: "Kerala-wide student tech community. Free events, strong network.", url: "https://tinkerhub.org/", city: "kochi", type: "community", tags: ["general"], fresher: true },
+  { name: "MuLearn", desc: "Kerala-government-backed peer learning network.", url: "https://mulearn.org/", city: "kochi", type: "community", tags: ["general"], fresher: true },
+  { name: "GDG Kochi", desc: "Google Developer Group, Kochi chapter.", url: "https://gdg.community.dev/", city: "kochi", type: "community", tags: ["general"] },
+
+  // ===========================================================
+  // EVENTS / MEETUPS / FOUNDER NETWORKS
+  // ===========================================================
+  { name: "TiE Bangalore", desc: "Largest entrepreneur network in India. Mentorship, demo days, founder dinners.", url: "https://bangalore.tie.org/", city: "blr", type: "event", tags: ["non-tech", "general"] },
+  { name: "Startup Grind Bangalore", desc: "Global startup community, Bangalore chapter. Monthly fireside chats with founders.", url: "https://www.startupgrind.com/", city: "blr", type: "event", tags: ["non-tech", "general"] },
+  { name: "Headstart Network", desc: "Volunteer-driven early-stage founder community. Free meetups across India.", url: "https://headstart.in/", city: "blr", type: "event", tags: ["non-tech", "general"] },
+  { name: "Devfolio", desc: "India's largest hackathon platform. ETHIndia, HackForBharat etc.", url: "https://devfolio.co/", city: "remote", type: "event", tags: ["general", "ai"], fresher: true },
+  { name: "Lu.ma — Bangalore", desc: "Discover startup events daily. Filter by Bangalore.", url: "https://lu.ma/bangalore", city: "blr", type: "event", tags: ["general", "non-tech"] },
+  { name: "Inc42 Plugin", desc: "Curated Indian startup events: Plugin, The Makers Summit, etc.", url: "https://inc42.com/events/", city: "blr", type: "event", tags: ["non-tech", "general"] },
+  { name: "Y Combinator Startup School", desc: "Free online program. Office hours, founder talks. Solid even if you're not founding yet.", url: "https://www.startupschool.org/", city: "remote", type: "event", tags: ["non-tech", "general"], fresher: true },
+  { name: "TechSparks (YourStory)", desc: "Annual flagship Indian startup conference, Bangalore. Recruiters everywhere.", url: "https://yourstory.com/techsparks", city: "blr", type: "event", tags: ["non-tech", "general"] },
+  { name: "Bengaluru Tech Summit", desc: "Government of Karnataka annual tech conference. Free for students with registration.", url: "https://bengalurutechsummit.com/", city: "blr", type: "event", tags: ["general", "hardware"] },
+  { name: "HysterxX & Maker Village events", desc: "Hardware-focused meetups + demo days at Maker Village Kochi. Watch for announcements.", url: "https://makervillage.in/", city: "kochi", type: "event", tags: ["hardware", "robotics"] },
+  { name: "Huddle Kerala (KSUM)", desc: "Annual Kerala Govt-backed startup summit. Free entry, founder meetups, hiring booths.", url: "https://huddleglobal.in/", city: "kochi", type: "event", tags: ["non-tech", "general"], fresher: true },
+  { name: "Hasgeek conferences", desc: "Rootconf, Fifth Elephant, JSFoo. Discounted student tickets, recruiters sponsor.", url: "https://hasgeek.com/", city: "blr", type: "event", tags: ["ai", "general"] },
+  { name: "Smart India Hackathon", desc: "MoE-organized national hackathon. Ministries set problem statements. Worth the resume line.", url: "https://www.sih.gov.in/", city: "remote", type: "event", tags: ["general"], fresher: true },
+  { name: "Unstop Hackathons", desc: "Indian college-focused hackathons + case competitions + jobs. Use the campus filter.", url: "https://unstop.com/hackathons", city: "remote", type: "event", tags: ["general", "non-tech"], fresher: true },
+
+  // ===========================================================
+  // OPS / NON-TECH / FOUNDER'S OFFICE / STRATEGY
+  // ===========================================================
+  { name: "Bain Capability Center", desc: "Strategy + research roles for freshers. Bangalore office. Strong fresher pipeline.", url: "https://www.bain.com/careers/", city: "blr", type: "company", tags: ["non-tech", "analytics"], fresher: true },
+  { name: "McKinsey Knowledge Centre", desc: "Research, analytics, business analyst roles. Hires from non-IIT engineering backgrounds.", url: "https://www.mckinsey.com/careers", city: "blr", type: "company", tags: ["non-tech", "analytics"], fresher: true },
+  { name: "BCG Knowledge & Capabilities Group", desc: "BCG's analytics + research arm. Hires engineers for KCG analyst roles.", url: "https://careers.bcg.com/", city: "blr", type: "company", tags: ["non-tech", "analytics"], fresher: true },
+  { name: "ZS Associates", desc: "Healthcare consulting + analytics. Volume fresher hiring at BLR + Pune offices.", url: "https://www.zs.com/careers", city: "blr", type: "company", tags: ["non-tech", "analytics"], fresher: true },
+  { name: "Genpact", desc: "Analytics + ops roles. Volume fresher intake.", url: "https://www.genpact.com/careers", city: "blr", type: "company", tags: ["non-tech", "analytics"], fresher: true },
+  { name: "EXL Service", desc: "Analytics + consulting. Bangalore + Kochi offices.", url: "https://www.exlservice.com/careers", city: "blr", type: "company", tags: ["non-tech", "analytics"], fresher: true },
+  { name: "Wellfound — Founder's Office BLR", desc: "Pre-filtered founder's office / chief of staff roles in Bangalore.", url: "https://wellfound.com/jobs?role=founder-s-office&location=bangalore", city: "blr", type: "board", tags: ["non-tech"], fresher: true },
+  { name: "IIMJobs", desc: "Best site for founder's office / strategy roles. Search \"founder's office\" + your city after landing.", url: "https://www.iimjobs.com/", city: "blr", type: "board", tags: ["non-tech"], fresher: true },
+  { name: "Internshala — Operations Bangalore", desc: "Ops + BD + sales internships, Bangalore. High-volume fresher pipeline.", url: "https://internshala.com/internships/operations-internship-in-bangalore/", city: "blr", type: "board", tags: ["non-tech"], fresher: true },
+  { name: "Internshala — MBA / Marketing Kochi", desc: "Marketing + business roles for Kochi-based grads.", url: "https://internshala.com/internships/marketing-internship-in-kochi/", city: "kochi", type: "board", tags: ["non-tech"], fresher: true },
+];
+
+// ============== VERIFIED CAREERS EMAILS (publicly listed by company) ==============
+// Only company-published generic emails. Personal HR contacts deliberately excluded.
+const EMAILS = {
+  "Sastra Robotics": "join@sastrarobotics.com",
+  "EyeROV / IROV Technologies": "careers@eyerov.com",
+};
+DATA.forEach(d => { if (EMAILS[d.name]) d.email = EMAILS[d.name]; });
+
+// Add IDs after construction
+DATA.forEach((d, i) => { d.id = i + 1; });
+
+// =============================================================
+// FILTER STATE + RENDER
+// =============================================================
+const state = {
+  search: "",
+  city: "all",
+  type: "all",
+  domain: "all",
+  fresher: false,
+};
+
+const $grid = document.getElementById("results-grid");
+const $countShown = document.getElementById("count-shown");
+const $countTotal = document.getElementById("count-total");
+const $search = document.getElementById("search");
+const $btnClear = document.getElementById("btn-clear");
+const $fresherToggle = document.getElementById("fresher-toggle");
+
+$countTotal.textContent = String(DATA.length).padStart(3, "0");
+
+function applyFilters() {
+  const q = state.search.trim().toLowerCase();
+  return DATA.filter(d => {
+    if (state.city !== "all" && d.city !== state.city) return false;
+    if (state.type !== "all" && d.type !== state.type) return false;
+    if (state.domain !== "all" && !d.tags.includes(state.domain)) return false;
+    if (state.fresher && !d.fresher) return false;
+    if (q && !(d.name.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+
+function fmtId(n) { return "#" + String(n).padStart(3, "0"); }
+function fmtCity(c) {
+  return ({ blr: "BLR", kochi: "KOCHI", remote: "REMOTE" }[c] || c.toUpperCase());
+}
+function fmtType(t) {
+  return ({ company: "COMPANY", board: "BOARD", vc: "VC PORTFOLIO", incubator: "INCUBATOR", community: "COMMUNITY", event: "EVENT" }[t] || t.toUpperCase());
+}
+function fmtDomains(tags) {
+  return tags.map(t => t.toUpperCase().replace("-", " ")).join(" · ");
+}
+function shortUrl(url) {
+  try {
+    const u = new URL(url);
+    let p = u.hostname.replace(/^www\./, "") + u.pathname.replace(/\/$/, "");
+    if (p.length > 48) p = p.slice(0, 45) + "…";
+    return p;
+  } catch (e) { return url; }
+}
+
+function render() {
+  const filtered = applyFilters();
+  $countShown.textContent = String(filtered.length).padStart(3, "0");
+
+  if (!filtered.length) {
+    $grid.innerHTML = `
+      <div class="empty-state">
+        <div class="glyph">∅</div>
+        <h3>NO MATCHES</h3>
+        <p>Try clearing filters or broadening your search.</p>
+      </div>`;
+    return;
+  }
+
+  $grid.innerHTML = filtered.map((d, i) => `
+    <article class="card" style="--i:${Math.min(i, 30)}">
+      <div class="card-head">
+        <span class="card-id">${fmtId(d.id)}</span>
+        <h3 class="card-name">${escapeHtml(d.name)}</h3>
+        ${d.fresher ? '<span class="card-fresher">FRESHER</span>' : ''}
+      </div>
+      <p class="card-desc">${escapeHtml(d.desc)}</p>
+      <div class="card-divider"></div>
+      <div class="card-meta">
+        <span class="t">${fmtCity(d.city)}</span>
+        <span>·</span>
+        <span>${fmtType(d.type)}</span>
+        <span>·</span>
+        <span>${fmtDomains(d.tags)}</span>
+      </div>
+      <a href="${d.url}" target="_blank" rel="noopener" class="card-link">${escapeHtml(shortUrl(d.url))}</a>
+      ${d.email ? `<a href="mailto:${d.email}" class="card-email">✉ ${escapeHtml(d.email)}</a>` : ''}
+    </article>
+  `).join("");
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+// =============================================================
+// EVENT WIRING
+// =============================================================
+$search.addEventListener("input", e => {
+  state.search = e.target.value;
+  syncHash();
+  render();
+});
+
+document.querySelectorAll(".filter-group").forEach(group => {
+  const key = group.dataset.filter;
+  group.addEventListener("click", e => {
+    const btn = e.target.closest(".pill");
+    if (!btn) return;
+    state[key] = btn.dataset.value;
+    group.querySelectorAll(".pill").forEach(p => p.classList.toggle("active", p === btn));
+    syncHash();
+    render();
+  });
+});
+
+$fresherToggle.addEventListener("click", () => {
+  state.fresher = !state.fresher;
+  $fresherToggle.classList.toggle("active", state.fresher);
+  $fresherToggle.setAttribute("aria-pressed", state.fresher ? "true" : "false");
+  syncHash();
+  render();
+});
+
+$btnClear.addEventListener("click", () => {
+  state.search = "";
+  state.city = "all";
+  state.type = "all";
+  state.domain = "all";
+  state.fresher = false;
+  $search.value = "";
+  $fresherToggle.classList.remove("active");
+  $fresherToggle.setAttribute("aria-pressed", "false");
+  document.querySelectorAll(".filter-group").forEach(group => {
+    group.querySelectorAll(".pill").forEach(p => {
+      p.classList.toggle("active", p.dataset.value === "all");
+    });
+  });
+  syncHash();
+  render();
+});
+
+// =============================================================
+// TABS
+// =============================================================
+const tabBtns = document.querySelectorAll(".tab-btn");
+const tabPanels = {
+  index: document.getElementById("tab-index"),
+  playbook: document.getElementById("tab-playbook"),
+  stack: document.getElementById("tab-stack"),
+};
+function switchTab(name) {
+  if (!tabPanels[name]) name = "index";
+  tabBtns.forEach(b => b.classList.toggle("active", b.dataset.tab === name));
+  Object.entries(tabPanels).forEach(([k, el]) => el.classList.toggle("active", k === name));
+  state.tab = name;
+  syncHash();
+}
+tabBtns.forEach(b => b.addEventListener("click", () => switchTab(b.dataset.tab)));
+
+// =============================================================
+// URL HASH SYNC (so filters are shareable)
+// =============================================================
+function syncHash() {
+  const params = new URLSearchParams();
+  if (state.tab && state.tab !== "index") params.set("tab", state.tab);
+  if (state.city !== "all") params.set("city", state.city);
+  if (state.type !== "all") params.set("type", state.type);
+  if (state.domain !== "all") params.set("domain", state.domain);
+  if (state.fresher) params.set("fresher", "1");
+  if (state.search) params.set("q", state.search);
+  const h = params.toString();
+  // history.replaceState throws a SecurityError inside about:srcdoc iframes
+  // (e.g. Claude artifact preview). On a real origin this works normally.
+  try {
+    history.replaceState(null, "", h ? "#" + h : window.location.pathname);
+  } catch (e) {
+    // Fallback: just update the hash directly (no history entry)
+    try { window.location.hash = h ? "#" + h : ""; } catch (_) { /* sealed iframe — ignore */ }
+  }
+}
+
+function loadHash() {
+  const h = window.location.hash.slice(1);
+  if (!h) return;
+  const params = new URLSearchParams(h);
+  if (params.has("tab")) switchTab(params.get("tab"));
+  if (params.has("city")) state.city = params.get("city");
+  if (params.has("type")) state.type = params.get("type");
+  if (params.has("domain")) state.domain = params.get("domain");
+  if (params.has("fresher")) state.fresher = params.get("fresher") === "1";
+  if (params.has("q")) { state.search = params.get("q"); $search.value = state.search; }
+
+  // Update filter UI
+  document.querySelectorAll(".filter-group").forEach(group => {
+    const key = group.dataset.filter;
+    group.querySelectorAll(".pill").forEach(p => {
+      p.classList.toggle("active", p.dataset.value === state[key]);
+    });
+  });
+  if (state.fresher) {
+    $fresherToggle.classList.add("active");
+    $fresherToggle.setAttribute("aria-pressed", "true");
+  }
+}
+
+// =============================================================
+// INIT
+// =============================================================
+loadHash();
+render();
+</script>
+
+</body>
+</html>

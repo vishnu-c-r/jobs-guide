@@ -1,0 +1,81 @@
+name: Daily Link Health Check
+
+on:
+  schedule:
+    # 06:00 UTC daily = 11:30 IST. Adjust to your preference.
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Manual trigger from the Actions tab
+  push:
+    paths:
+      - 'index.html'
+      - 'scripts/check-links.mjs'
+      - '.github/workflows/check-links.yml'
+
+permissions:
+  contents: write   # Allow committing LINK_REPORT.md back
+  issues: write     # Allow opening an issue when something breaks
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run link checker
+        id: check
+        run: node scripts/check-links.mjs
+        continue-on-error: true
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add LINK_REPORT.md
+          if git diff --staged --quiet; then
+            echo "No changes to LINK_REPORT.md"
+          else
+            git commit -m "chore: update link health report [skip ci]"
+            git push
+          fi
+
+      - name: Open issue on failure
+        if: steps.check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = '⚠️ The daily link check found broken links.\n\nSee `LINK_REPORT.md` in the repo for details.\n\n';
+            try {
+              const report = fs.readFileSync('LINK_REPORT.md', 'utf8');
+              // Truncate to keep issue body small
+              body += '```\n' + report.slice(0, 4000) + '\n```';
+            } catch (e) {}
+            // Avoid spamming: only open one issue at a time
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'link-rot',
+            });
+            if (issues.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues[0].number,
+                body: `New failure on ${new Date().toUTCString()}\n\n${body}`,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: 'Link rot detected — broken links in jobs guide',
+                body: body,
+                labels: ['link-rot'],
+              });
+            }
