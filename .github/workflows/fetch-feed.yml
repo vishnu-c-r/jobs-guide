@@ -1,0 +1,44 @@
+name: Daily Pulse Feed
+
+on:
+  schedule:
+    # 02:00 UTC daily = 07:30 IST (before juniors check the site for the day)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/fetch-feed.mjs'
+      - '.github/workflows/fetch-feed.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run feed fetcher
+        run: node scripts/fetch-feed.mjs
+        # If sources are temporarily down, write empty feed instead of failing.
+        # We don't want a sporadic source outage to break the build.
+        continue-on-error: true
+
+      - name: Commit feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.json
+          if git diff --staged --quiet; then
+            echo "No changes to feed.json"
+          else
+            git commit -m "chore: update pulse feed [skip ci]"
+            git push
+          fi

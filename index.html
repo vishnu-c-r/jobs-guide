@@ -396,6 +396,54 @@ main { max-width: 1400px; margin: 0 auto; padding: 0 32px 64px; }
 }
 .card-email:hover { color: var(--text); }
 
+.card-added {
+  font-size: 9px !important;
+  color: var(--text-dim) !important;
+  letter-spacing: 0.15em;
+  margin-top: -4px !important;
+}
+
+/* ===== PAGINATION ===== */
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+.pager-btn {
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 120ms;
+  min-width: 90px;
+}
+.pager-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.pager-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.pager-info {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  min-width: 240px;
+  text-align: center;
+}
+
 .empty-state {
   grid-column: 1 / -1;
   background: var(--surface);
@@ -656,6 +704,90 @@ footer .stamp {
   .paths-grid { grid-template-columns: 1fr; }
 }
 
+/* ===== PULSE TAB ===== */
+.pulse-status {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  margin: 0 0 16px;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+.pulse-status.error { color: var(--red); border-color: var(--red); }
+.pulse-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.pulse-card {
+  background: var(--surface);
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: background 120ms;
+}
+.pulse-card:hover { background: var(--surface-2); }
+.pulse-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pulse-source {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  padding: 3px 7px;
+  background: var(--border);
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.pulse-source.s-hn { color: #ff6600; }
+.pulse-source.s-remoteok { color: #4ade80; }
+.pulse-source.s-inc42 { color: #fbbf24; }
+.pulse-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  flex: 1;
+  line-height: 1.4;
+}
+.pulse-company {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+.pulse-snippet {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin: 4px 0 0;
+}
+.pulse-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+  gap: 8px;
+}
+.pulse-date {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+}
+.pulse-link {
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.pulse-link:hover { color: var(--text); }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 720px) {
   header { padding: 20px 20px 16px; }
@@ -717,6 +849,7 @@ footer .stamp {
 <nav class="tabs" role="tablist">
   <button class="tab-btn active" data-tab="index" role="tab">[ INDEX ]</button>
   <button class="tab-btn" data-tab="paths" role="tab">[ PATHS ]</button>
+  <button class="tab-btn" data-tab="pulse" role="tab">[ PULSE ]</button>
   <button class="tab-btn" data-tab="playbook" role="tab">[ PLAYBOOK ]</button>
   <button class="tab-btn" data-tab="stack" role="tab">[ STACK ]</button>
 </nav>
@@ -771,6 +904,12 @@ footer .stamp {
     </div>
 
     <div class="results-grid" id="results-grid"></div>
+
+    <div class="pager" id="pager" style="display:none">
+      <button class="pager-btn" data-pg="prev" aria-label="Previous page">‹ PREV</button>
+      <span class="pager-info">PAGE 1 / 1</span>
+      <button class="pager-btn" data-pg="next" aria-label="Next page">NEXT ›</button>
+    </div>
   </section>
 
   <!-- ============ PATHS TAB ============ -->
@@ -837,6 +976,21 @@ footer .stamp {
       </div>
 
       <p class="paths-footer">— TAPPING ANY PATH FILTERS THE INDEX. REFINE FROM THERE. —</p>
+    </div>
+  </section>
+
+  <!-- ============ PULSE TAB ============ -->
+  <section class="tab-panel" id="tab-pulse">
+    <div class="paths-prose">
+      <p class="paths-eyebrow">// 04. PULSE · LIVE FEED FROM 3 SOURCES</p>
+      <h2 class="paths-headline">Live job postings &amp; India startup news</h2>
+      <p class="paths-intro">Auto-refreshed daily. Pulled from <strong>HN "Who is Hiring"</strong> (filtered to India), <strong>RemoteOK</strong> (India-friendly remote roles), and <strong>Inc42 RSS</strong> (BLR/Kochi startup news). Nothing here is curated — treat each link as a starting point.</p>
+
+      <div id="pulse-status" class="pulse-status">Loading feed…</div>
+
+      <div class="pulse-grid" id="pulse-grid"></div>
+
+      <p class="paths-footer">— FEED REGENERATED DAILY · STALE = SOURCE WAS DOWN —</p>
     </div>
   </section>
 
@@ -1052,7 +1206,7 @@ const DATA = [
 
   // ===== HARDWARE / VLSI - GLOBAL DESIGN CENTERS BLR =====
   { name: "Texas Instruments", desc: "Largest analog/embedded India design center. Structured grad-hire programs.", url: "https://careers.ti.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
-  { name: "NXP Semiconductors", desc: "Automotive + IoT chips. Strong India team.", url: "https://www.nxp.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
+  { name: "NXP Semiconductors", desc: "Automotive + IoT chips. Strong India team.", url: "https://nxp.wd3.myworkdayjobs.com/careers", city: "blr", type: "company", tags: ["hardware"], fresher: true },
   { name: "Analog Devices", desc: "Mixed-signal + power. BLR design center.", url: "https://careers.analog.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
   { name: "Qualcomm India", desc: "Mobile + 5G chipsets. Q-Talent fresher program.", url: "https://careers.qualcomm.com/", city: "blr", type: "company", tags: ["hardware"], fresher: true },
   { name: "Intel India", desc: "Chip design + software, Bangalore campus.", url: "https://intel.wd1.myworkdayjobs.com/External", city: "blr", type: "company", tags: ["hardware"], fresher: true },
@@ -1089,7 +1243,7 @@ const DATA = [
   { name: "Digantara", desc: "Space situational awareness. Bangalore.", url: "https://www.digantara.co.in/", city: "blr", type: "company", tags: ["space"] },
   { name: "Bellatrix Aerospace", desc: "In-space propulsion. Bangalore.", url: "https://www.bellatrix.aero/", city: "blr", type: "company", tags: ["space"] },
   { name: "Astrogate Labs", desc: "Laser communications. Bangalore.", url: "https://www.astrogatelabs.com/", city: "blr", type: "company", tags: ["space"] },
-  { name: "NewSpace Research & Tech", desc: "UAV swarms, defence tech. Bangalore.", url: "https://www.newspaceresearch.com/", city: "blr", type: "company", tags: ["space"] },
+  { name: "NewSpace Research & Tech", desc: "UAV swarms, defence tech. Bangalore.", url: "https://newspace.co.in/", city: "blr", type: "company", tags: ["space"] },
   { name: "Astrome", desc: "Satellite-based broadband. Bangalore.", url: "https://www.astrome.co/", city: "blr", type: "company", tags: ["space"] },
   { name: "GalaxEye Space", desc: "Multi-sensor satellites. Chennai HQ.", url: "https://galaxeye.space/", city: "remote", type: "company", tags: ["space"] },
   { name: "Skyroot Aerospace", desc: "Launch vehicles. Hyderabad HQ.", url: "https://skyroot.in/", city: "remote", type: "company", tags: ["space"] },
@@ -1293,7 +1447,10 @@ const EMAILS = {
 DATA.forEach(d => { if (EMAILS[d.name]) d.email = EMAILS[d.name]; });
 
 // Add IDs after construction
-DATA.forEach((d, i) => { d.id = i + 1; });
+DATA.forEach((d, i) => {
+  d.id = i + 1;
+  if (!d.added) d.added = "2026-04"; // Default for the initial backfill; new entries override
+});
 
 // =============================================================
 // FILTER STATE + RENDER
@@ -1304,7 +1461,10 @@ const state = {
   type: "all",
   domain: "all",
   fresher: false,
+  page: 1,
 };
+
+const PAGE_SIZE = 30;
 
 const $grid = document.getElementById("results-grid");
 const $countShown = document.getElementById("count-shown");
@@ -1345,12 +1505,43 @@ function shortUrl(url) {
     return p;
   } catch (e) { return url; }
 }
+// "2026-04" → relative + absolute. Recent entries get a "NEW" tag.
+function fmtAdded(yyyymm) {
+  if (!yyyymm) return "";
+  const [yy, mm] = yyyymm.split("-").map(Number);
+  if (!yy || !mm) return yyyymm;
+  const now = new Date();
+  const monthsAgo = (now.getFullYear() - yy) * 12 + (now.getMonth() + 1 - mm);
+  if (monthsAgo <= 1) return `ADDED ${yyyymm} ★`;
+  return `ADDED ${yyyymm}`;
+}
 
 function render() {
   const filtered = applyFilters();
-  $countShown.textContent = String(filtered.length).padStart(3, "0");
+  const total = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  // Clamp page if filter changed
+  if (state.page > totalPages) state.page = 1;
+  const start = (state.page - 1) * PAGE_SIZE;
+  const pageItems = filtered.slice(start, start + PAGE_SIZE);
 
-  if (!filtered.length) {
+  $countShown.textContent = String(total).padStart(3, "0");
+
+  // Update pagination footer
+  const pager = document.getElementById("pager");
+  if (pager) {
+    if (total <= PAGE_SIZE) {
+      pager.style.display = "none";
+    } else {
+      pager.style.display = "flex";
+      pager.querySelector(".pager-info").textContent =
+        `PAGE ${state.page} / ${totalPages} · SHOWING ${start + 1}–${Math.min(start + PAGE_SIZE, total)}`;
+      pager.querySelector('[data-pg="prev"]').disabled = state.page === 1;
+      pager.querySelector('[data-pg="next"]').disabled = state.page === totalPages;
+    }
+  }
+
+  if (!total) {
     $grid.innerHTML = `
       <div class="empty-state">
         <div class="glyph">∅</div>
@@ -1360,7 +1551,7 @@ function render() {
     return;
   }
 
-  $grid.innerHTML = filtered.map((d, i) => `
+  $grid.innerHTML = pageItems.map((d, i) => `
     <article class="card" style="--i:${Math.min(i, 30)}">
       <div class="card-head">
         <span class="card-id">${fmtId(d.id)}</span>
@@ -1376,6 +1567,7 @@ function render() {
         <span>·</span>
         <span>${fmtDomains(d.tags)}</span>
       </div>
+      <div class="card-meta card-added">${fmtAdded(d.added)}</div>
       <a href="${d.url}" target="_blank" rel="noopener" class="card-link">${escapeHtml(shortUrl(d.url))}</a>
       ${d.email ? `<a href="mailto:${d.email}" class="card-email">✉ ${escapeHtml(d.email)}</a>` : ''}
     </article>
@@ -1393,6 +1585,7 @@ function escapeHtml(s) {
 // =============================================================
 $search.addEventListener("input", e => {
   state.search = e.target.value;
+  state.page = 1;
   syncHash();
   render();
 });
@@ -1403,6 +1596,7 @@ document.querySelectorAll(".filter-group").forEach(group => {
     const btn = e.target.closest(".pill");
     if (!btn) return;
     state[key] = btn.dataset.value;
+    state.page = 1;
     group.querySelectorAll(".pill").forEach(p => p.classList.toggle("active", p === btn));
     syncHash();
     render();
@@ -1411,6 +1605,7 @@ document.querySelectorAll(".filter-group").forEach(group => {
 
 $fresherToggle.addEventListener("click", () => {
   state.fresher = !state.fresher;
+  state.page = 1;
   $fresherToggle.classList.toggle("active", state.fresher);
   $fresherToggle.setAttribute("aria-pressed", state.fresher ? "true" : "false");
   syncHash();
@@ -1423,6 +1618,7 @@ $btnClear.addEventListener("click", () => {
   state.type = "all";
   state.domain = "all";
   state.fresher = false;
+  state.page = 1;
   $search.value = "";
   $fresherToggle.classList.remove("active");
   $fresherToggle.setAttribute("aria-pressed", "false");
@@ -1435,6 +1631,18 @@ $btnClear.addEventListener("click", () => {
   render();
 });
 
+// Pager
+document.addEventListener("click", e => {
+  const btn = e.target.closest("[data-pg]");
+  if (!btn || btn.disabled) return;
+  if (btn.dataset.pg === "prev" && state.page > 1) state.page--;
+  else if (btn.dataset.pg === "next") state.page++;
+  syncHash();
+  render();
+  // Scroll to top of results so user sees the new page
+  document.querySelector(".results-meta")?.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
 // =============================================================
 // TABS
 // =============================================================
@@ -1442,6 +1650,7 @@ const tabBtns = document.querySelectorAll(".tab-btn");
 const tabPanels = {
   index: document.getElementById("tab-index"),
   paths: document.getElementById("tab-paths"),
+  pulse: document.getElementById("tab-pulse"),
   playbook: document.getElementById("tab-playbook"),
   stack: document.getElementById("tab-stack"),
 };
@@ -1451,8 +1660,74 @@ function switchTab(name) {
   Object.entries(tabPanels).forEach(([k, el]) => el.classList.toggle("active", k === name));
   state.tab = name;
   syncHash();
+  if (name === "pulse") loadPulse();
 }
 tabBtns.forEach(b => b.addEventListener("click", () => switchTab(b.dataset.tab)));
+
+// =============================================================
+// PULSE — load feed.json on first tab activation
+// =============================================================
+let pulseLoaded = false;
+async function loadPulse() {
+  if (pulseLoaded) return;
+  pulseLoaded = true;
+
+  const $status = document.getElementById("pulse-status");
+  const $grid = document.getElementById("pulse-grid");
+
+  try {
+    // Cache-bust on every load — feed.json updates daily
+    const res = await fetch(`feed.json?_=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const feed = await res.json();
+
+    const items = feed.items || [];
+    if (!items.length) {
+      $status.textContent = "Feed is empty. Sources may have been blocked. Check back tomorrow.";
+      $status.classList.add("error");
+      return;
+    }
+
+    const generated = new Date(feed.generated_at);
+    const ageHours = Math.round((Date.now() - generated) / 36e5);
+    const ageStr = ageHours < 1 ? "just now" : ageHours < 24 ? `${ageHours}h ago` : `${Math.round(ageHours / 24)}d ago`;
+    $status.textContent = `${items.length} ITEMS · UPDATED ${ageStr.toUpperCase()} · HN ${feed.sources?.hn || 0} · REMOTEOK ${feed.sources?.remoteok || 0} · INC42 ${feed.sources?.inc42 || 0}`;
+
+    $grid.innerHTML = items.map(it => {
+      const sourceClass = `s-${it.source.toLowerCase()}`;
+      const date = it.posted_at ? new Date(it.posted_at) : null;
+      const dateStr = date && !isNaN(date) ? formatPulseDate(date) : "";
+      return `
+        <article class="pulse-card">
+          <div class="pulse-head">
+            <span class="pulse-source ${sourceClass}">${escapeHtml(it.source)}</span>
+            <h3 class="pulse-title">${escapeHtml(it.title)}</h3>
+          </div>
+          ${it.company ? `<p class="pulse-company">${escapeHtml(it.company)}</p>` : ''}
+          ${it.snippet ? `<p class="pulse-snippet">${escapeHtml(it.snippet)}</p>` : ''}
+          <div class="pulse-footer">
+            <span class="pulse-date">${dateStr}</span>
+            <a href="${escapeHtml(it.url)}" target="_blank" rel="noopener" class="pulse-link">VIEW →</a>
+          </div>
+        </article>
+      `;
+    }).join("");
+  } catch (err) {
+    console.error("Pulse load failed:", err);
+    $status.textContent = "Feed temporarily unavailable. The daily fetcher may not have run yet, or network is blocked.";
+    $status.classList.add("error");
+  }
+}
+
+function formatPulseDate(d) {
+  const ageMs = Date.now() - d.getTime();
+  const days = Math.floor(ageMs / 86400000);
+  if (days < 1) return "TODAY";
+  if (days < 2) return "YESTERDAY";
+  if (days < 30) return `${days}D AGO`;
+  const months = Math.floor(days / 30);
+  return `${months}MO AGO`;
+}
 
 // =============================================================
 // PATH BUTTONS — apply filter combo and jump to INDEX
@@ -1463,6 +1738,7 @@ function goToPath(filters) {
   state.domain = filters.domain || "all";
   state.fresher = !!filters.fresher;
   state.search = filters.search || "";
+  state.page = 1;
 
   // Sync UI
   $search.value = state.search;
@@ -1508,6 +1784,7 @@ function syncHash() {
   if (state.domain !== "all") params.set("domain", state.domain);
   if (state.fresher) params.set("fresher", "1");
   if (state.search) params.set("q", state.search);
+  if (state.page > 1) params.set("p", String(state.page));
   const h = params.toString();
   // history.replaceState throws a SecurityError inside about:srcdoc iframes
   // (e.g. Claude artifact preview). On a real origin this works normally.
@@ -1529,6 +1806,7 @@ function loadHash() {
   if (params.has("domain")) state.domain = params.get("domain");
   if (params.has("fresher")) state.fresher = params.get("fresher") === "1";
   if (params.has("q")) { state.search = params.get("q"); $search.value = state.search; }
+  if (params.has("p")) { const n = parseInt(params.get("p"), 10); if (n > 0) state.page = n; }
 
   // Update filter UI
   document.querySelectorAll(".filter-group").forEach(group => {
