@@ -1,20 +1,15 @@
 # Link Health Report
 
-**Last run:** Thu, 30 Apr 2026 16:50:00 GMT
+**Last run:** Fri, 01 May 2026 06:53:46 GMT
 **Total checked:** 213
-**OK:** 180  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 185  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Analog Devices | <https://careers.analog.com/> | timeout |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | ETIMEDOUT |
-| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
-| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
 | NETERR | Pokak Technologies | <https://pokak.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers> | timeout |
 | 400 | Cell Propulsion | <https://cellpropulsion.zohorecruit.in/careers> | client-error |
