@@ -1,16 +1,19 @@
 # Link Health Report
 
-**Last run:** Fri, 01 May 2026 06:53:46 GMT
+**Last run:** Sat, 02 May 2026 06:38:06 GMT
 **Total checked:** 213
-**OK:** 185  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 182  ·  **Broken:** 8  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
+| NETERR | TopStartups — Bangalore jobs | <https://topstartups.io/jobs/?job_location=Bangalore> | timeout |
+| NETERR | TopStartups — BLR-HQ companies | <https://topstartups.io/?hq_location=Bangalore> | timeout |
 | NETERR | Analog Devices | <https://careers.analog.com/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Pokak Technologies | <https://pokak.com/> | timeout |
+| NETERR | Pokak Technologies | <https://pokak.com/> | ECONNREFUSED |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers> | timeout |
 | 400 | Cell Propulsion | <https://cellpropulsion.zohorecruit.in/careers> | client-error |
 
