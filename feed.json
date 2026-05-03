@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-05-02T03:09:40.587Z",
+  "generated_at": "2026-05-03T03:11:18.292Z",
   "sources": {
-    "hn": 7,
+    "hn": 11,
     "remoteok": 6,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Hiya. We don t currently have the ability to hire someone from India, sorry. I think the only place we re looking to hire outside the USA is",
+      "company": "Hiya. We don t currently have the ability to hire someone from India, sorry. I t",
+      "url": "https://news.ycombinator.com/item?id=47992274",
+      "snippet": "Hiya. We don t currently have the ability to hire someone from India, sorry. I think the only place we re looking to hire outside the USA is the EU or UK, per the job postings.",
+      "posted_at": "2026-05-03T01:14:12.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "can someone working US timezones from India apply?",
+      "company": "can someone working US timezones from India apply?",
+      "url": "https://news.ycombinator.com/item?id=47990642",
+      "snippet": "can someone working US timezones from India apply?",
+      "posted_at": "2026-05-02T21:18:29.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | funnelstory.ai FunnelStory builds a queryable context graph over",
+      "company": "FunnelStory",
+      "url": "https://news.ycombinator.com/item?id=47988194",
+      "snippet": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | funnelstory.ai FunnelStory builds a queryable context graph over enterprise data — the infrastructure layer that lets AI agents reason over live customer intelligence. We ve built a federated query engine",
+      "posted_at": "2026-05-02T17:04:51.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "I am surely sending you an email. I live in a small village (eastern Himalayas, India) after giving up on city life, run a piggery and chick",
+      "company": "I am surely sending you an email. I live in a small village (eastern Himalayas, ",
+      "url": "https://news.ycombinator.com/item?id=47985652",
+      "snippet": "I am surely sending you an email. I live in a small village (eastern Himalayas, India) after giving up on city life, run a piggery and chicken farm along with ~ 6 hours of software work. I am intrigued by products like these which gives \"hands-on\" a new meaning. Being a new farme",
+      "posted_at": "2026-05-02T12:00:41.000Z"
+    },
     {
       "source": "HN",
       "title": "I work US hours from India. Can I apply?",
