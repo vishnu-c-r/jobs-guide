@@ -1,15 +1,14 @@
 # Link Health Report
 
-**Last run:** Mon, 04 May 2026 07:00:18 GMT
+**Last run:** Mon, 04 May 2026 07:11:04 GMT
 **Total checked:** 213
-**OK:** 186  ·  **Broken:** 4  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 188  ·  **Broken:** 3  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Cell Propulsion | <https://careers.cellprop.com/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
@@ -23,7 +22,6 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
