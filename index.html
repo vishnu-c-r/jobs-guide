@@ -25,7 +25,7 @@
   --border-strong: #3a3a45;
   --text: #e8e6df;
   --text-muted: #8a8a92;
-  --text-dim: #5a5a62;
+  --text-dim: #76767e;
   --accent: #4ade80;
   --accent-dim: #16a34a;
   --amber: #fbbf24;
@@ -464,6 +464,14 @@ main { max-width: 1400px; margin: 0 auto; padding: 0 32px 64px; }
 }
 .empty-state p { font-size: 12px; }
 
+/* ===== FOCUS INDICATORS ===== */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+/* Input already shows accent border on focus; suppress duplicate ring */
+.search-input:focus-visible { outline: none; }
+
 /* ===== PLAYBOOK / STACK PANELS ===== */
 .prose {
   max-width: 820px;
@@ -700,10 +708,6 @@ footer .stamp {
   margin-top: 16px;
   font-weight: 500;
 }
-@media (max-width: 720px) {
-  .paths-grid { grid-template-columns: 1fr; }
-}
-
 /* ===== PULSE TAB ===== */
 .pulse-status {
   font-size: 11px;
@@ -805,6 +809,7 @@ footer .stamp {
 
   /* Single-column grids */
   .results-grid { grid-template-columns: 1fr; }
+  .paths-grid { grid-template-columns: 1fr; }
   .skill-row { grid-template-columns: 1fr; gap: 6px; }
 
   /* Filter bar NON-sticky on mobile — frees up ~150px of viewport.
@@ -817,6 +822,10 @@ footer .stamp {
 
   /* Bigger path button touch targets */
   .path-btn { padding: 12px 16px; font-size: 11px; }
+
+  /* Prevent pager from overflowing narrow screens */
+  .pager { flex-wrap: wrap; }
+  .pager-info { min-width: 0; width: 100%; order: -1; }
 
   /* Safe areas for notched phones (iPhone X+) */
   body {
@@ -847,16 +856,16 @@ footer .stamp {
 </header>
 
 <nav class="tabs" role="tablist">
-  <button class="tab-btn active" data-tab="index" role="tab">[ INDEX ]</button>
-  <button class="tab-btn" data-tab="paths" role="tab">[ PATHS ]</button>
-  <button class="tab-btn" data-tab="pulse" role="tab">[ PULSE ]</button>
-  <button class="tab-btn" data-tab="playbook" role="tab">[ PLAYBOOK ]</button>
-  <button class="tab-btn" data-tab="stack" role="tab">[ STACK ]</button>
+  <button class="tab-btn active" data-tab="index" role="tab" id="tab-btn-index" aria-selected="true" aria-controls="tab-index">[ INDEX ]</button>
+  <button class="tab-btn" data-tab="paths" role="tab" id="tab-btn-paths" aria-selected="false" aria-controls="tab-paths">[ PATHS ]</button>
+  <button class="tab-btn" data-tab="pulse" role="tab" id="tab-btn-pulse" aria-selected="false" aria-controls="tab-pulse">[ PULSE ]</button>
+  <button class="tab-btn" data-tab="playbook" role="tab" id="tab-btn-playbook" aria-selected="false" aria-controls="tab-playbook">[ PLAYBOOK ]</button>
+  <button class="tab-btn" data-tab="stack" role="tab" id="tab-btn-stack" aria-selected="false" aria-controls="tab-stack">[ STACK ]</button>
 </nav>
 
 <main>
   <!-- ============ INDEX TAB ============ -->
-  <section class="tab-panel active" id="tab-index">
+  <section class="tab-panel active" id="tab-index" role="tabpanel" aria-labelledby="tab-btn-index">
     <div class="filter-bar">
       <div class="search-row">
         <input type="text" class="search-input" id="search" placeholder="search company, board, keyword…" aria-label="Search">
@@ -913,7 +922,7 @@ footer .stamp {
   </section>
 
   <!-- ============ PATHS TAB ============ -->
-  <section class="tab-panel" id="tab-paths">
+  <section class="tab-panel" id="tab-paths" role="tabpanel" aria-labelledby="tab-btn-paths">
     <div class="paths-prose">
       <p class="paths-eyebrow">// 03. PATHS · FOR THE PATH-CURIOUS</p>
       <h2 class="paths-headline">Not sure what to do with your engineering degree?</h2>
@@ -980,7 +989,7 @@ footer .stamp {
   </section>
 
   <!-- ============ PULSE TAB ============ -->
-  <section class="tab-panel" id="tab-pulse">
+  <section class="tab-panel" id="tab-pulse" role="tabpanel" aria-labelledby="tab-btn-pulse">
     <div class="paths-prose">
       <p class="paths-eyebrow">// 04. PULSE · LIVE FEED FROM 3 SOURCES</p>
       <h2 class="paths-headline">Live job postings &amp; India startup news</h2>
@@ -995,7 +1004,7 @@ footer .stamp {
   </section>
 
   <!-- ============ PLAYBOOK TAB ============ -->
-  <section class="tab-panel" id="tab-playbook">
+  <section class="tab-panel" id="tab-playbook" role="tabpanel" aria-labelledby="tab-btn-playbook">
     <div class="prose">
       <h2>// 01. THE FRESHER REALITY</h2>
       <p>The job market for fresh engineering grads is volume-driven on one side (services companies, IT parks) and signal-driven on the other (startups, VCs, deep-tech). Most freshers waste their first 3 months blasting generic resumes at the volume side and getting nowhere. <strong>The trick is to play both games in parallel.</strong></p>
@@ -1080,7 +1089,7 @@ footer .stamp {
   </section>
 
   <!-- ============ STACK TAB ============ -->
-  <section class="tab-panel" id="tab-stack">
+  <section class="tab-panel" id="tab-stack" role="tabpanel" aria-labelledby="tab-btn-stack">
     <div class="prose">
       <h2>// SKILLS // BY ROLE</h2>
       <p>Build these <em>before</em> you start applying. Every line item below has been verified against actual job descriptions for fresher roles in BLR/Kochi.</p>
@@ -1397,7 +1406,7 @@ const DATA = [
   { name: "Kerala Startup Mission (KSUM)", desc: "Live listings for Embedded/Mech/Electronics interns + fellowships.", url: "https://startupmission.kerala.gov.in/career", city: "kochi", type: "incubator", tags: ["general", "hardware", "robotics"], fresher: true },
   { name: "KSUM Academic Internship Programme", desc: "Year-round, open to Kerala students/grads.", url: "https://aip.startupmission.in/", city: "kochi", type: "incubator", tags: ["general"], fresher: true },
   { name: "Maker Village (Kalamassery)", desc: "India's largest electronic hardware incubator. Where EyeROV, AI Aerial were born.", url: "https://makervillage.in/", city: "kochi", type: "incubator", tags: ["hardware", "robotics"], fresher: true },
-  { name: "ASAP Kerala", desc: "1-year paid graduate internship (any discipline, 2022–2025 batches). Govt program.", url: "https://careerlink.asapkerala.gov.in/internships", city: "kochi", type: "incubator", tags: ["general"], fresher: true },
+  { name: "ASAP Kerala", desc: "Year-round paid graduate internship programme (any discipline). Kerala Govt program.", url: "https://careerlink.asapkerala.gov.in/internships", city: "kochi", type: "incubator", tags: ["general"], fresher: true },
   { name: "KIED Kerala", desc: "Entrepreneurship + business analysis internships.", url: "https://kied.info/student-internship-programme/", city: "kochi", type: "incubator", tags: ["analytics"], fresher: true },
 
   // ===== KOCHI / KERALA COMMUNITIES =====
@@ -1417,7 +1426,7 @@ const DATA = [
   { name: "Y Combinator Startup School", desc: "Free online program. Office hours, founder talks. Solid even if you're not founding yet.", url: "https://www.startupschool.org/", city: "remote", type: "event", tags: ["non-tech", "general"], fresher: true },
   { name: "TechSparks (YourStory)", desc: "Annual flagship Indian startup conference, Bangalore. Recruiters everywhere.", url: "https://yourstory.com/techsparks", city: "blr", type: "event", tags: ["non-tech", "general"] },
   { name: "Bengaluru Tech Summit", desc: "Government of Karnataka annual tech conference. Free for students with registration.", url: "https://bengalurutechsummit.com/", city: "blr", type: "event", tags: ["general", "hardware"] },
-  { name: "HysterxX & Maker Village events", desc: "Hardware-focused meetups + demo days at Maker Village Kochi. Watch for announcements.", url: "https://makervillage.in/", city: "kochi", type: "event", tags: ["hardware", "robotics"] },
+  { name: "Maker Village events (Kochi)", desc: "Hardware startup events, IoT/embedded roadshows and demo days at Maker Village Kalamassery. Check events page for schedules.", url: "https://makervillage.in/events.php", city: "kochi", type: "event", tags: ["hardware", "robotics"] },
   { name: "Huddle Kerala (KSUM)", desc: "Annual Kerala Govt-backed startup summit. Free entry, founder meetups, hiring booths.", url: "https://huddleglobal.co.in/", city: "kochi", type: "event", tags: ["non-tech", "general"], fresher: true },
   { name: "Hasgeek conferences", desc: "Rootconf, Fifth Elephant, JSFoo. Discounted student tickets, recruiters sponsor.", url: "https://hasgeek.com/", city: "blr", type: "event", tags: ["ai", "general"] },
   { name: "Smart India Hackathon", desc: "MoE-organized national hackathon. Ministries set problem statements. Worth the resume line.", url: "https://www.sih.gov.in/", city: "remote", type: "event", tags: ["general"], fresher: true },
@@ -1495,7 +1504,7 @@ function fmtType(t) {
   return ({ company: "COMPANY", board: "BOARD", vc: "VC PORTFOLIO", incubator: "INCUBATOR", community: "COMMUNITY", event: "EVENT" }[t] || t.toUpperCase());
 }
 function fmtDomains(tags) {
-  return tags.map(t => t.toUpperCase().replace("-", " ")).join(" · ");
+  return tags.map(t => t.toUpperCase().replace(/-/g, " ")).join(" · ");
 }
 function shortUrl(url) {
   try {
@@ -1568,8 +1577,8 @@ function render() {
         <span>${fmtDomains(d.tags)}</span>
       </div>
       <div class="card-meta card-added">${fmtAdded(d.added)}</div>
-      <a href="${d.url}" target="_blank" rel="noopener" class="card-link">${escapeHtml(shortUrl(d.url))}</a>
-      ${d.email ? `<a href="mailto:${d.email}" class="card-email">✉ ${escapeHtml(d.email)}</a>` : ''}
+      <a href="${escapeHtml(d.url)}" target="_blank" rel="noopener" class="card-link">${escapeHtml(shortUrl(d.url))}</a>
+      ${d.email ? `<a href="mailto:${escapeHtml(d.email)}" class="card-email">✉ ${escapeHtml(d.email)}</a>` : ''}
     </article>
   `).join("");
 }
@@ -1583,12 +1592,17 @@ function escapeHtml(s) {
 // =============================================================
 // EVENT WIRING
 // =============================================================
-$search.addEventListener("input", e => {
+function debounce(fn, ms) {
+  let timer;
+  return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), ms); };
+}
+
+$search.addEventListener("input", debounce(e => {
   state.search = e.target.value;
   state.page = 1;
   syncHash();
   render();
-});
+}, 250));
 
 document.querySelectorAll(".filter-group").forEach(group => {
   const key = group.dataset.filter;
@@ -1654,12 +1668,16 @@ const tabPanels = {
   playbook: document.getElementById("tab-playbook"),
   stack: document.getElementById("tab-stack"),
 };
-function switchTab(name) {
+function switchTab(name, fromInit) {
   if (!tabPanels[name]) name = "index";
-  tabBtns.forEach(b => b.classList.toggle("active", b.dataset.tab === name));
+  tabBtns.forEach(b => {
+    const active = b.dataset.tab === name;
+    b.classList.toggle("active", active);
+    b.setAttribute("aria-selected", active ? "true" : "false");
+  });
   Object.entries(tabPanels).forEach(([k, el]) => el.classList.toggle("active", k === name));
   state.tab = name;
-  syncHash();
+  if (!fromInit) syncHash();
   if (name === "pulse") loadPulse();
 }
 tabBtns.forEach(b => b.addEventListener("click", () => switchTab(b.dataset.tab)));
@@ -1675,9 +1693,12 @@ async function loadPulse() {
   const $status = document.getElementById("pulse-status");
   const $grid = document.getElementById("pulse-grid");
 
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 8000);
+
   try {
     // Cache-bust on every load — feed.json updates daily
-    const res = await fetch(`feed.json?_=${Date.now()}`);
+    const res = await fetch(`feed.json?_=${Date.now()}`, { signal: controller.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const feed = await res.json();
 
@@ -1713,9 +1734,14 @@ async function loadPulse() {
       `;
     }).join("");
   } catch (err) {
+    pulseLoaded = false; // allow retry on next tab click
     console.error("Pulse load failed:", err);
-    $status.textContent = "Feed temporarily unavailable. The daily fetcher may not have run yet, or network is blocked.";
+    $status.textContent = err.name === "AbortError"
+      ? "Feed timed out. Sources may be slow — check back later."
+      : "Feed temporarily unavailable. The daily fetcher may not have run yet, or network is blocked.";
     $status.classList.add("error");
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
 
@@ -1800,7 +1826,7 @@ function loadHash() {
   const h = window.location.hash.slice(1);
   if (!h) return;
   const params = new URLSearchParams(h);
-  if (params.has("tab")) switchTab(params.get("tab"));
+  if (params.has("tab")) switchTab(params.get("tab"), true); // pass fromInit; syncHash runs after all state is set
   if (params.has("city")) state.city = params.get("city");
   if (params.has("type")) state.type = params.get("type");
   if (params.has("domain")) state.domain = params.get("domain");
@@ -1819,6 +1845,8 @@ function loadHash() {
     $fresherToggle.classList.add("active");
     $fresherToggle.setAttribute("aria-pressed", "true");
   }
+  // Sync hash once with the fully-restored state so a refresh re-loads the same view
+  syncHash();
 }
 
 // =============================================================
