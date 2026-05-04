@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 04 May 2026 09:05:29 GMT
-**Total checked:** 218
-**OK:** 191  ·  **Broken:** 4  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**Last run:** Mon, 04 May 2026 09:22:18 GMT
+**Total checked:** 222
+**OK:** 195  ·  **Broken:** 3  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
@@ -11,7 +11,6 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
-| 400 | Niqo Robotics | <https://niqorobotics.zohorecruit.in/jobs/Careers> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -27,6 +26,7 @@
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
+| 403 | Ethereal Machines | <https://www.etherealmachines.com/careers/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | Meesho | <https://www.meesho.io/jobs> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
