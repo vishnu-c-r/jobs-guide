@@ -1,16 +1,18 @@
 # Link Health Report
 
-**Last run:** Mon, 04 May 2026 07:11:04 GMT
-**Total checked:** 213
-**OK:** 188  ·  **Broken:** 3  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
+**Last run:** Mon, 04 May 2026 08:30:12 GMT
+**Total checked:** 218
+**OK:** 191  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| 404 | Invento Robotics | <https://mitrarobot.com/careers> | gone |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
+| 400 | Niqo Robotics | <https://niqorobotics.zohorecruit.in/jobs/Careers> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
