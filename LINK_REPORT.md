@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 04 May 2026 06:10:02 GMT
+**Last run:** Mon, 04 May 2026 06:13:03 GMT
 **Total checked:** 213
-**OK:** 182  ·  **Broken:** 8  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 186  ·  **Broken:** 4  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
@@ -10,8 +10,6 @@
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Cell Propulsion | <https://careers.cellprop.com/> | ETIMEDOUT |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | ETIMEDOUT |
-| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
