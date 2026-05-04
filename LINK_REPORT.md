@@ -1,27 +1,18 @@
 # Link Health Report
 
-**Last run:** Thu, 30 Apr 2026 12:36:59 GMT
+**Last run:** Mon, 04 May 2026 06:00:09 GMT
 **Total checked:** 213
-**OK:** 181  ·  **Broken:** 10  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
-**Last run:** Sun, 03 May 2026 06:50:08 GMT
-**Total checked:** 213
-**OK:** 182  ·  **Broken:** 8  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 184  ·  **Broken:** 6  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://careers.analog.com/> | timeout |
-| NETERR | Peppermint Robotics | <https://peppermintrobots.com/> | ECONNRESET |
-| NETERR | Cell Propulsion | <https://www.cellpropulsion.com/> | ERR_TLS_CERT_ALTNAME_INVALID |
-| NETERR | Kaynes Technology | <https://www.kaynestechnology.com/careers/> | ECONNRESET |
-| NETERR | Analog Devices | <https://careers.analog.com/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Famous Innovations | <https://famousinnovations.com/> | timeout |
-| NETERR | Pokak Technologies | <https://pokak.com/> | ECONNREFUSED |
-| NETERR | Aceware Fintech Services | <https://acewarefintech.com/> | timeout |
+| NETERR | Pokak Technologies | <https://pokak.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers> | timeout |
-| 422 | Dozee | <https://www.dozee.io/> | client-error |
 | 400 | Cell Propulsion | <https://cellpropulsion.zohorecruit.in/careers> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -34,6 +25,7 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
+| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
