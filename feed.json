@@ -1,11 +1,115 @@
 {
-  "generated_at": "2026-04-30T12:14:09.142Z",
+  "generated_at": "2026-05-04T03:12:05.664Z",
   "sources": {
-    "hn": 7,
+    "hn": 11,
     "remoteok": 6,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Hiya. We don t currently have the ability to hire someone from India, sorry. I think the only place we re looking to hire outside the USA is",
+      "company": "Hiya. We don t currently have the ability to hire someone from India, sorry. I t",
+      "url": "https://news.ycombinator.com/item?id=47992274",
+      "snippet": "Hiya. We don t currently have the ability to hire someone from India, sorry. I think the only place we re looking to hire outside the USA is the EU or UK, per the job postings.",
+      "posted_at": "2026-05-03T01:14:12.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "can someone working US timezones from India apply?",
+      "company": "can someone working US timezones from India apply?",
+      "url": "https://news.ycombinator.com/item?id=47990642",
+      "snippet": "can someone working US timezones from India apply?",
+      "posted_at": "2026-05-02T21:18:29.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | funnelstory.ai FunnelStory builds a queryable context graph over",
+      "company": "FunnelStory",
+      "url": "https://news.ycombinator.com/item?id=47988194",
+      "snippet": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | funnelstory.ai FunnelStory builds a queryable context graph over enterprise data — the infrastructure layer that lets AI agents reason over live customer intelligence. We ve built a federated query engine",
+      "posted_at": "2026-05-02T17:04:51.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "I am surely sending you an email. I live in a small village (eastern Himalayas, India) after giving up on city life, run a piggery and chick",
+      "company": "I am surely sending you an email. I live in a small village (eastern Himalayas, ",
+      "url": "https://news.ycombinator.com/item?id=47985652",
+      "snippet": "I am surely sending you an email. I live in a small village (eastern Himalayas, India) after giving up on city life, run a piggery and chicken farm along with ~ 6 hours of software work. I am intrigued by products like these which gives \"hands-on\" a new meaning. Being a new farme",
+      "posted_at": "2026-05-02T12:00:41.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "I work US hours from India. Can I apply?",
+      "company": "I work US hours from India. Can I apply?",
+      "url": "https://news.ycombinator.com/item?id=47977362",
+      "snippet": "I work US hours from India. Can I apply?",
+      "posted_at": "2026-05-01T17:17:00.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "I work US hours but from India. Can I apply?",
+      "company": "I work US hours but from India. Can I apply?",
+      "url": "https://news.ycombinator.com/item?id=47977336",
+      "snippet": "I work US hours but from India. Can I apply?",
+      "posted_at": "2026-05-01T17:15:08.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "would you consider someone from India who has worked for a NYC startup recently and working US hours?",
+      "company": "would you consider someone from India who has worked for a NYC startup recently ",
+      "url": "https://news.ycombinator.com/item?id=47977205",
+      "snippet": "would you consider someone from India who has worked for a NYC startup recently and working US hours?",
+      "posted_at": "2026-05-01T17:05:41.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Zenskar | Bengaluru, India (Hybrid – 2 days&#x2F;week in-office) | Senior Backend Engineer Zenskar is an AI-native revenue automation platfo",
+      "company": "Zenskar",
+      "url": "https://news.ycombinator.com/item?id=47977066",
+      "snippet": "Zenskar | Bengaluru, India (Hybrid – 2 days&#x2F;week in-office) | Senior Backend Engineer Zenskar is an AI-native revenue automation platform built to handle real-world complexity. We raised $15M in Series A funding in April 2026, led by Susquehanna Venture Capital, Bessemer Ven",
+      "posted_at": "2026-05-01T16:54:55.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Applied. I wasn t too sure whether an engineer from India is eligible but I still applied because I ve always worked CET&#x2F;EST timezones.",
+      "company": "Applied. I wasn t too sure whether an engineer from India is eligible but I stil",
+      "url": "https://news.ycombinator.com/item?id=47977056",
+      "snippet": "Applied. I wasn t too sure whether an engineer from India is eligible but I still applied because I ve always worked CET&#x2F;EST timezones. email-praveen4463@gmail.com",
+      "posted_at": "2026-05-01T16:54:14.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Opendate | Senior Full Stack Engineer (Ruby on Rails) | REMOTE (US only) | Full-time | https:&#x2F;&#x2F;www.opendate.io&#x2F;careers&#x2F;s",
+      "company": "Opendate",
+      "url": "https://news.ycombinator.com/item?id=47976768",
+      "snippet": "Opendate | Senior Full Stack Engineer (Ruby on Rails) | REMOTE (US only) | Full-time | https:&#x2F;&#x2F;www.opendate.io&#x2F;careers&#x2F;senior-full-stack-software-e... Opendate is the operating system for live music venues — booking, ticketing, marketing, and settlement, all i",
+      "posted_at": "2026-05-01T16:35:57.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Zippy is a fintech company rethinking how people buy one of the most overlooked forms of housing in the U.S.—manufactured homes. Instead of ",
+      "company": "Zippy is a fintech company rethinking how people buy one of the most overlooked ",
+      "url": "https://news.ycombinator.com/item?id=47976732",
+      "snippet": "Zippy is a fintech company rethinking how people buy one of the most overlooked forms of housing in the U.S.—manufactured homes. Instead of the slow, fragmented, paperwork-heavy mortgage process, Zippy has built a fully digital, end-to-end lending platform that makes getting a ho",
+      "posted_at": "2026-05-01T16:34:00.000Z"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Vice President of Global Customer Success &amp; Support",
+      "company": "JumpCloud",
+      "url": "https://remoteOK.com/remote-jobs/remote-vice-president-of-global-customer-success-amp-support-jumpcloud-1131411",
+      "snippet": "All roles at JumpCloudÂ® are Remote unless otherwise specified in the Job Description. About JumpCloudÂ® JumpCloudÂ® is the AI-powered unified IT management platform designed to secure the modern workforce. By consolidating identity, device, and access management, JumpCloud provi",
+      "posted_at": "2026-05-01T00:00:56+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Inside Sales Representative",
+      "company": "Renewal by Andersen",
+      "url": "https://remoteOK.com/remote-jobs/remote-inside-sales-representative-renewal-by-andersen-1131388",
+      "snippet": "Call Center Lead Generator - MUST LIVE IN INDIANA ð What to Expect After You Apply After submitting your application, youâll receive an invitation to complete a short, self-guided video interview. It takes about 15â20 minutes and should be completed within 72 hours. Once s",
+      "posted_at": "2026-04-30T00:00:25+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "Account Executive Emerging Accounts",
@@ -37,78 +141,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-tax-ai-expert-weekday-1131326",
       "snippet": "This role is for one of our clients Compensation: Rs. 6500 per hour hour (20 hours per week commitment) Job Type: Part-time / Contract \\n \\n â¹4,000 - â¹6,500 an hour We are seeking a highly motivated and detail-oriented Tax AI Expert to join our team at the intersection of tax",
       "posted_at": "2026-04-25T08:00:26+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Associate Director Solutions",
-      "company": "YipitData (Alternative)",
-      "url": "https://remoteOK.com/remote-jobs/remote-associate-director-solutions-yipitdata-alternative-1131283",
-      "snippet": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actiona",
-      "posted_at": "2026-04-23T00:01:22+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Solution Engineer I",
-      "company": "Onit, Inc.",
-      "url": "https://remoteOK.com/remote-jobs/remote-solution-engineer-i-onit-inc-1131270",
-      "snippet": "About Onit We're redefining the future of legal operations through the power of AI. Our cutting-edge platform streamlines enterprise legal management, matter management, spend management and contract lifecycle processes, transforming manual workflows into intelligent, automated s",
-      "posted_at": "2026-04-22T16:00:43+00:00"
-    },
-    {
-      "source": "HN",
-      "title": "Hi, \"please reach out to me by email at my first name at againstmalaria.com\" which name exactly? it is not clear from the website also. Belo",
-      "company": "Hi, \"please reach out to me by email at my first name at againstmalaria.com\" whi",
-      "url": "https://news.ycombinator.com/item?id=47733647",
-      "snippet": "Hi, \"please reach out to me by email at my first name at againstmalaria.com\" which name exactly? it is not clear from the website also. Below is the summary of the proposal which i have sent to the email address: SoftwareEngineer2025@againstmalaria.com SoftwareEngineer2026@agains",
-      "posted_at": "2026-04-11T20:17:21.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "I3W | https:&#x2F;&#x2F;i3w.ai&#x2F; | Multiple roles | Noida (On site) | Full time I3W (Infinity Intelligence Innovation Wing) builds intel",
-      "company": "I3W",
-      "url": "https://news.ycombinator.com/item?id=47715444",
-      "snippet": "I3W | https:&#x2F;&#x2F;i3w.ai&#x2F; | Multiple roles | Noida (On site) | Full time I3W (Infinity Intelligence Innovation Wing) builds intelligent and scalable products across AI, design, and engineering, focused on solving real world problems with speed, clarity, and impact. We",
-      "posted_at": "2026-04-10T09:09:46.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "RDE Advisors | Senior Full-Stack Engineer | REMOTE (Europe, LatAm, India) | CONTRACT | $4K–6K USD&#x2F;mo We re a boutique commercial real e",
-      "company": "RDE Advisors",
-      "url": "https://news.ycombinator.com/item?id=47712573",
-      "snippet": "RDE Advisors | Senior Full-Stack Engineer | REMOTE (Europe, LatAm, India) | CONTRACT | $4K–6K USD&#x2F;mo We re a boutique commercial real estate advisory in NYC building two production web applications: a CRE search platform and a property management platform with QuickBooks int",
-      "posted_at": "2026-04-10T01:41:53.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Infystrat | Full Stack Engineer (Java, Microservices) | Remote (India) | Full-Time | 6–10 LPA We’re hiring early-career engineers (0–2 yrs) ",
-      "company": "Infystrat",
-      "url": "https://news.ycombinator.com/item?id=47614285",
-      "snippet": "Infystrat | Full Stack Engineer (Java, Microservices) | Remote (India) | Full-Time | 6–10 LPA We’re hiring early-career engineers (0–2 yrs) to work on open digital infrastructure with real-world impact. You’ll work on backend systems that power high-throughput services used at po",
-      "posted_at": "2026-04-02T13:35:15.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Zigment ( https:&#x2F;&#x2F;zigment.ai ) | Bangalore &#x2F; Bengaluru, India | Full-time | ONSITE Zigment is a customer journey platform. We",
-      "company": "Zigment ( https:&#x2F;&#x2F;zigment.ai )",
-      "url": "https://news.ycombinator.com/item?id=47610669",
-      "snippet": "Zigment ( https:&#x2F;&#x2F;zigment.ai ) | Bangalore &#x2F; Bengaluru, India | Full-time | ONSITE Zigment is a customer journey platform. We make it super simple to build AI agents for enterprises. Why should you join us? - Small & lean tech team. - See AI in action with enterpri",
-      "posted_at": "2026-04-02T06:27:36.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Senior Software Engineer | Ping Data Intelligence | ONSITE (Delhi, India) | Full-Time | https:&#x2F;&#x2F;www.pingintel.com Ping Data Intell",
-      "company": "Senior Software Engineer",
-      "url": "https://news.ycombinator.com/item?id=47605527",
-      "snippet": "Senior Software Engineer | Ping Data Intelligence | ONSITE (Delhi, India) | Full-Time | https:&#x2F;&#x2F;www.pingintel.com Ping Data Intelligence is a dynamic startup based in Miami, FL, revolutionizing the property insurance sector with cutting-edge web technologies and ML-powe",
-      "posted_at": "2026-04-01T19:38:36.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Tech Mahindra | Cloud Consulting Leader | Bengaluru &#x2F; Hyderabad, India | ONSITE | Full-Time We run cloud transformation engagements. ap",
-      "company": "Tech Mahindra",
-      "url": "https://news.ycombinator.com/item?id=47603853",
-      "snippet": "Tech Mahindra | Cloud Consulting Leader | Bengaluru &#x2F; Hyderabad, India | ONSITE | Full-Time We run cloud transformation engagements. app modernization, VMware exits, cloud-native re-platforming, landing zones, CCoE builds. Looking for someone who can lead the practice on bot",
-      "posted_at": "2026-04-01T17:26:58.000Z"
     }
   ]
 }
