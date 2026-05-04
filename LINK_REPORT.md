@@ -2,7 +2,7 @@
 
 **Last run:** Mon, 04 May 2026 06:10:02 GMT
 **Total checked:** 213
-**OK:** 184  ·  **Broken:** 6  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 182  ·  **Broken:** 8  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
