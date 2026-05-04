@@ -1,19 +1,17 @@
 # Link Health Report
 
-**Last run:** Sun, 03 May 2026 06:50:08 GMT
+**Last run:** Mon, 04 May 2026 06:00:09 GMT
 **Total checked:** 213
-**OK:** 182  ·  **Broken:** 8  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
+**OK:** 184  ·  **Broken:** 6  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| NETERR | Kaynes Technology | <https://www.kaynestechnology.com/careers/> | ECONNRESET |
 | NETERR | Analog Devices | <https://careers.analog.com/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Famous Innovations | <https://famousinnovations.com/> | timeout |
-| NETERR | Pokak Technologies | <https://pokak.com/> | ECONNREFUSED |
-| NETERR | Aceware Fintech Services | <https://acewarefintech.com/> | timeout |
+| NETERR | Pokak Technologies | <https://pokak.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers> | timeout |
 | 400 | Cell Propulsion | <https://cellpropulsion.zohorecruit.in/careers> | client-error |
 
