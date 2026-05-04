@@ -1234,8 +1234,10 @@ const DATA = [
   { name: "Systemantics", desc: "Industrial robotic arms.", url: "https://www.systemantics.com/", city: "blr", type: "company", tags: ["robotics"] },
   { name: "ANSCER Robotics", desc: "AMRs for logistics.", url: "https://anscer.com/", city: "blr", type: "company", tags: ["robotics"] },
   { name: "Peppermint Robotics", desc: "Autonomous cleaning + material-handling robots. Pune + BLR. Series A (Apr 2025).", url: "https://www.peppermintrobotics.com/job-openings", city: "blr", type: "company", tags: ["robotics"] },
-  { name: "Niqo Robotics", desc: "AI + computer-vision crop-scouting robots. Bangalore. Open fresher roles in software, embedded, and field ops.", url: "https://niqorobotics.zohorecruit.in/jobs/Careers", city: "blr", type: "company", tags: ["robotics", "ai"], fresher: true, added: "2026-05" },
-  { name: "Botsync", desc: "Heavy-duty autonomous mobile robots for logistics and manufacturing. Bangalore. Fresher roles in robotics software and testing (0–1 yr).", url: "https://www.botsync.co/careers", city: "blr", type: "company", tags: ["robotics"], fresher: true, added: "2026-05" },
+  { name: "Niqo Robotics", desc: "AI + computer-vision crop-scouting robots. Bangalore. Open fresher roles in software, embedded, and field ops.", url: "https://www.niqorobotics.com/careers", city: "blr", type: "company", tags: ["robotics", "ai"], fresher: true, added: "2026-05" },
+  { name: "Addverb Technologies", desc: "Industrial AMRs for warehouse automation. BLR office. Fresher roles in robotics software and integration.", url: "https://careers.addverb.com/", city: "blr", type: "company", tags: ["robotics", "manufacturing"], fresher: true, added: "2026-05" },
+  { name: "Ethereal Machines", desc: "5-axis CNC machines + manufacturing robots. Bangalore HQ. Roles in embedded, electronics, and robotics engineering.", url: "https://www.etherealmachines.com/careers/", city: "blr", type: "company", tags: ["robotics", "hardware", "manufacturing"], added: "2026-05" },
+  { name: "ideaForge Technology", desc: "India's largest UAV maker (~50% UAS market share). NSE-listed. BLR office with GET fresher programs.", url: "https://www.ideaforgetech.com/careers", city: "blr", type: "company", tags: ["hardware", "robotics"], fresher: true, added: "2026-05" },
 
   // ===== EV BLR =====
   { name: "Ather Energy", desc: "Electric scooters. Industrial design + dashboard UX in-house.", url: "https://www.atherenergy.com/careers", city: "blr", type: "company", tags: ["ev", "design"], fresher: true },
@@ -1259,6 +1261,7 @@ const DATA = [
   { name: "GalaxEye Space", desc: "Multi-sensor satellites. Chennai HQ.", url: "https://galaxeye.space/", city: "remote", type: "company", tags: ["space"] },
   { name: "Skyroot Aerospace", desc: "Launch vehicles. Hyderabad HQ.", url: "https://skyroot.in/", city: "remote", type: "company", tags: ["space"] },
   { name: "Agnikul Cosmos", desc: "3D-printed rocket engines. Chennai HQ.", url: "https://agnikul.in/careers/", city: "remote", type: "company", tags: ["space"] },
+  { name: "SatSure Analytics", desc: "Satellite + AI for agri analytics and crop-credit. Bangalore HQ. AI/ML, geospatial, and data-science roles.", url: "https://www.satsure.co/careers/", city: "blr", type: "company", tags: ["space", "ai", "analytics"], added: "2026-05" },
 
   // ===== MEDTECH BLR =====
   { name: "Tricog Health", desc: "Remote cardiac diagnostics.", url: "https://www.tricog.com/careers/", city: "blr", type: "company", tags: ["medtech"], fresher: true },
@@ -1298,6 +1301,7 @@ const DATA = [
   { name: "Swiggy", desc: "Food + grocery delivery.", url: "https://careers.swiggy.com/", city: "blr", type: "company", tags: ["ai"], fresher: true },
   { name: "Darwinbox", desc: "HR tech SaaS unicorn. APM programme and junior SWE entry roles for freshers. Hyderabad + Bangalore.", url: "https://darwinbox.com/careers", city: "blr", type: "company", tags: ["ai","non-tech" ], fresher: true, added: "2026-05" },
   { name: "Whatfix", desc: "Digital adoption platform SaaS. Bangalore HQ. Junior engineer and associate product manager roles.", url: "https://whatfix.com/careers/", city: "blr", type: "company", tags: ["ai", "non-tech"], fresher: true, added: "2026-05" },
+  { name: "Netradyne", desc: "AI vision + telematics for fleet safety. US-founded, Bangalore R&D hub (Whitefield). Engineering roles.", url: "https://www.netradyne.com/in/company/careers", city: "blr", type: "company", tags: ["ai", "hardware"], added: "2026-05" },
 
   // ===== MANUFACTURING / IoT =====
   { name: "Zetwerk", desc: "Manufacturing marketplace.", url: "https://www.zetwerk.com/careers/", city: "blr", type: "company", tags: ["manufacturing"] },
@@ -1457,6 +1461,7 @@ const DATA = [
 const EMAILS = {
   "Sastra Robotics": "join@sastrarobotics.com",
   "EyeROV / IROV Technologies": "careers@eyerov.com",
+  "Ethereal Machines": "careers@etherealmachines.com",
 };
 DATA.forEach(d => { if (EMAILS[d.name]) d.email = EMAILS[d.name]; });
 
