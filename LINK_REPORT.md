@@ -1,16 +1,24 @@
 # Link Health Report
 
-**Last run:** Mon, 04 May 2026 07:11:04 GMT
-**Total checked:** 213
-**OK:** 188  ·  **Broken:** 3  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
+**Last run:** Mon, 04 May 2026 08:56:37 GMT
+**Total checked:** 218
+**OK:** 185  ·  **Broken:** 11  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | ETIMEDOUT |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | ETIMEDOUT |
+| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | ETIMEDOUT |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
+| 400 | Niqo Robotics | <https://niqorobotics.zohorecruit.in/jobs/Careers> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -31,12 +39,12 @@
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
+| 429 | LinkedIn Jobs — Kochi | <https://www.linkedin.com/jobs/search/?location=Kochi> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
 | 403 | Wellfound — Founder's Office BLR | <https://wellfound.com/jobs?role=founder-s-office&location=bangalore> |
