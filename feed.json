@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-05-04T03:12:05.664Z",
+  "generated_at": "2026-05-05T03:11:01.699Z",
   "sources": {
-    "hn": 11,
+    "hn": 14,
     "remoteok": 6,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from s",
+      "company": "At SentiLink, we stop identity fraud at scale. Our products protect banks, finte",
+      "url": "https://news.ycombinator.com/item?id=48017490",
+      "snippet": "At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from synthetic identity fraud, identity theft, and emerging threats — analyzing millions of applications while keeping real users moving fast. We’",
+      "posted_at": "2026-05-05T02:39:38.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "i work NYC hours from India (got laid off this month from founding engineer role in https:&#x2F;&#x2F;getgalaxy.io due to acquisition). am i",
+      "company": "i work NYC hours from India (got laid off this month from founding engineer role",
+      "url": "https://news.ycombinator.com/item?id=48012844",
+      "snippet": "i work NYC hours from India (got laid off this month from founding engineer role in https:&#x2F;&#x2F;getgalaxy.io due to acquisition). am i eligible for the challenge and interview?",
+      "posted_at": "2026-05-04T18:29:39.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "I noticed there is a requirement to travel so wanted to ask whether you would accept an engineer&#x2F;founder (of a very useful fully featur",
+      "company": "I noticed there is a requirement to travel so wanted to ask whether you would ac",
+      "url": "https://news.ycombinator.com/item?id=48005313",
+      "snippet": "I noticed there is a requirement to travel so wanted to ask whether you would accept an engineer&#x2F;founder (of a very useful fully featured e2e testing product) from India who works US hours? I built this https:&#x2F;&#x2F;dev.to&#x2F;prtwari&#x2F;test-for-browser-from-browser",
+      "posted_at": "2026-05-04T06:30:14.000Z"
+    },
     {
       "source": "HN",
       "title": "Hiya. We don t currently have the ability to hire someone from India, sorry. I think the only place we re looking to hire outside the USA is",
