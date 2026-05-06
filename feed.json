@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-05T03:11:01.699Z",
+  "generated_at": "2026-05-06T03:11:38.723Z",
   "sources": {
     "hn": 14,
-    "remoteok": 6,
+    "remoteok": 7,
     "inc42": 0
   },
   "items": [
@@ -15,12 +15,28 @@
       "posted_at": "2026-05-05T02:39:38.000Z"
     },
     {
+      "source": "REMOTEOK",
+      "title": "Lead AI Engineer & Technical Architect",
+      "company": "Bold Business",
+      "url": "https://remoteOK.com/remote-jobs/remote-lead-ai-engineer-technical-architect-bold-business-1131461",
+      "snippet": "About Bold Business Bold Business is an AI-first U.S. based global workforce solutions company rebuilding how businesses operate in the AI era. We build AI-Amplified Talentâ¢, custom AI agents, and automation systems for clients like AT&T, JP Morgan, and Verizon â and we back",
+      "posted_at": "2026-05-05T00:00:52+00:00"
+    },
+    {
       "source": "HN",
-      "title": "i work NYC hours from India (got laid off this month from founding engineer role in https:&#x2F;&#x2F;getgalaxy.io due to acquisition). am i",
-      "company": "i work NYC hours from India (got laid off this month from founding engineer role",
+      "title": "i work NYC hours from India. am i eligible for the challenge and interview?",
+      "company": "i work NYC hours from India. am i eligible for the challenge and interview?",
       "url": "https://news.ycombinator.com/item?id=48012844",
-      "snippet": "i work NYC hours from India (got laid off this month from founding engineer role in https:&#x2F;&#x2F;getgalaxy.io due to acquisition). am i eligible for the challenge and interview?",
+      "snippet": "i work NYC hours from India. am i eligible for the challenge and interview?",
       "posted_at": "2026-05-04T18:29:39.000Z"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Support Specialist",
+      "company": "G-P",
+      "url": "https://remoteOK.com/remote-jobs/remote-support-specialist-g-p-1131440",
+      "snippet": "About Us Our leading SaaS-based Global Employment Platformâ¢ enables clients to expand into over 180 countries quickly and efficiently, without the complexities of establishing local entities. At G-P, we're dedicated to breaking down barriers to global business and creating oppo",
+      "posted_at": "2026-05-04T08:00:07+00:00"
     },
     {
       "source": "HN",
@@ -157,14 +173,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-engineer-software-calabrio-1131345",
       "snippet": "At Verint, we believe customer engagement is the core of every global brand. Our mission is to help organizations elevate Customer Experience (CX) and increase workforce productivity by delivering CX Automation. We hire innovators with the passion, creativity, and drive to answer",
       "posted_at": "2026-04-27T16:00:55+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Tax AI Expert",
-      "company": "Weekday",
-      "url": "https://remoteOK.com/remote-jobs/remote-tax-ai-expert-weekday-1131326",
-      "snippet": "This role is for one of our clients Compensation: Rs. 6500 per hour hour (20 hours per week commitment) Job Type: Part-time / Contract \\n \\n â¹4,000 - â¹6,500 an hour We are seeking a highly motivated and detail-oriented Tax AI Expert to join our team at the intersection of tax",
-      "posted_at": "2026-04-25T08:00:26+00:00"
     }
   ]
 }
