@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-05-06T03:11:38.723Z",
+  "generated_at": "2026-05-07T03:12:20.585Z",
   "sources": {
     "hn": 14,
-    "remoteok": 7,
+    "remoteok": 6,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "*Labor Solutions (YC-style) | Senior Software Engineer | Remote (India) | Full-time* We run a worker wellbeing and compliance platform used ",
+      "company": "*Labor Solutions (YC-style)",
+      "url": "https://news.ycombinator.com/item?id=48037311",
+      "snippet": "*Labor Solutions (YC-style) | Senior Software Engineer | Remote (India) | Full-time* We run a worker wellbeing and compliance platform used by global buyers and their supply chain sites across Asia. We re in the middle of a meaningful migration and platform buildout — you d be jo",
+      "posted_at": "2026-05-06T15:23:08.000Z"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Software Development Engineer Backend",
+      "company": "HighLevel",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-development-engineer-backend-highlevel-1131472",
+      "snippet": "About HighLevel: HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcome",
+      "posted_at": "2026-05-05T16:01:11+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Software Engineer II",
+      "company": "Precision AQ",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ii-precision-aq-1131470",
+      "snippet": "Position Summary: The candidate will be responsible for the configuration and delivery of client-facing applications.Â The candidate may assist with support for the development of process enhancements under the guidance of the Sr. Software Engineer and the Manager, Technical Oper",
+      "posted_at": "2026-05-05T16:00:36+00:00"
+    },
     {
       "source": "HN",
       "title": "At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from s",
@@ -88,14 +112,6 @@
     },
     {
       "source": "HN",
-      "title": "I work US hours but from India. Can I apply?",
-      "company": "I work US hours but from India. Can I apply?",
-      "url": "https://news.ycombinator.com/item?id=47977336",
-      "snippet": "I work US hours but from India. Can I apply?",
-      "posted_at": "2026-05-01T17:15:08.000Z"
-    },
-    {
-      "source": "HN",
       "title": "would you consider someone from India who has worked for a NYC startup recently and working US hours?",
       "company": "would you consider someone from India who has worked for a NYC startup recently ",
       "url": "https://news.ycombinator.com/item?id=47977205",
@@ -149,30 +165,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-inside-sales-representative-renewal-by-andersen-1131388",
       "snippet": "Call Center Lead Generator - MUST LIVE IN INDIANA ð What to Expect After You Apply After submitting your application, youâll receive an invitation to complete a short, self-guided video interview. It takes about 15â20 minutes and should be completed within 72 hours. Once s",
       "posted_at": "2026-04-30T00:00:25+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Account Executive Emerging Accounts",
-      "company": "Fictiv",
-      "url": "https://remoteOK.com/remote-jobs/remote-account-executive-emerging-accounts-fictiv-1131361",
-      "snippet": "Fictiv Exists to Enable Hardware Innovators to Build Better Products, Faster Fictiv existsâ¨to help product innovators create. Fictiv is a global manufacturing and supply chain company that enables organizations to scale globally across Fictivâs four global manufacturing cente",
-      "posted_at": "2026-04-28T08:00:16+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Senior Enablement Manager",
-      "company": "Brandtech+",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-enablement-manager-brandtech-1131346",
-      "snippet": "Brandtech+ (formerly known as OLIVER+) is a global team of creative thinkers, tech-savvy trendsetters, and production pros specialising in film, CGI, automation, AI, motion design, and digital/print content. We partner with over 300 clients in 40+ countries and counting. Our focu",
-      "posted_at": "2026-04-27T16:01:04+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Engineer Software",
-      "company": "Calabrio",
-      "url": "https://remoteOK.com/remote-jobs/remote-engineer-software-calabrio-1131345",
-      "snippet": "At Verint, we believe customer engagement is the core of every global brand. Our mission is to help organizations elevate Customer Experience (CX) and increase workforce productivity by delivering CX Automation. We hire innovators with the passion, creativity, and drive to answer",
-      "posted_at": "2026-04-27T16:00:55+00:00"
     }
   ]
 }
