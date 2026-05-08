@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-05-07T03:12:20.585Z",
+  "generated_at": "2026-05-08T03:09:54.422Z",
   "sources": {
-    "hn": 14,
+    "hn": 16,
     "remoteok": 6,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engi",
+      "company": "Tech Mahindra",
+      "url": "https://news.ycombinator.com/item?id=48055591",
+      "snippet": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engineers and technical leaders to help enterprises modernize and operate at scale on AWS, Azure, and GCP. We value folks with a strong software",
+      "posted_at": "2026-05-07T21:49:53.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Any change of being open to Remote from India",
+      "company": "Any change of being open to Remote from India",
+      "url": "https://news.ycombinator.com/item?id=48048304",
+      "snippet": "Any change of being open to Remote from India",
+      "posted_at": "2026-05-07T11:57:05.000Z"
+    },
     {
       "source": "HN",
       "title": "*Labor Solutions (YC-style) | Senior Software Engineer | Remote (India) | Full-time* We run a worker wellbeing and compliance platform used ",
