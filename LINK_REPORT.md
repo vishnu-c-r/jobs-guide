@@ -1,19 +1,16 @@
 # Link Health Report
 
-**Last run:** Thu, 07 May 2026 06:58:05 GMT
+**Last run:** Fri, 08 May 2026 06:35:13 GMT
 **Total checked:** 223
-**OK:** 192  ·  **Broken:** 7  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
+**OK:** 195  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Darwinbox | <https://darwinbox.com/careers> | timeout |
-| NETERR | Kerala Startup Mission (KSUM) | <https://startupmission.kerala.gov.in/career> | ECONNREFUSED |
-| NETERR | Huddle Kerala (KSUM) | <https://huddleglobal.co.in/> | ECONNREFUSED |
+| NETERR | Bugworks | <https://bugworksresearch.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ## ⊘ Blocked by WAF / bot-protection
