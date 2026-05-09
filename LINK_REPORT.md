@@ -1,16 +1,17 @@
 # Link Health Report
 
-**Last run:** Fri, 08 May 2026 06:35:13 GMT
+**Last run:** Sat, 09 May 2026 06:41:45 GMT
 **Total checked:** 223
-**OK:** 195  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
+**OK:** 195  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Bugworks | <https://bugworksresearch.com/> | timeout |
+| NETERR | Headstart Network | <https://headstart.in/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -34,7 +35,6 @@
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
