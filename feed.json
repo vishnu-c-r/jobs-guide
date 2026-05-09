@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-05-08T03:09:54.422Z",
+  "generated_at": "2026-05-09T03:11:24.046Z",
   "sources": {
     "hn": 16,
-    "remoteok": 6,
-    "inc42": 0
+    "remoteok": 5,
+    "inc42": 2
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "IPO-Bound InCred’s 9M FY26 Profit Up 5% To ₹290 Cr",
+      "company": "",
+      "url": "https://inc42.com/buzz/ipo-bound-increds-9m-fy26-profit-up-5-to-%e2%82%b9290-cr/",
+      "snippet": "Bengaluru-based NBFC InCred Finance’s parent InCred Holdings reported a net profit of ₹290.1 Cr in the first nine months of",
+      "posted_at": "Fri, 08 May 2026 18:13:42 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "Zepto Gets SEBI Nod For $1Bn IPO",
+      "company": "",
+      "url": "https://inc42.com/buzz/zepto-gets-sebi-nod-for-ipo/",
+      "snippet": "Quick commerce major Zepto has received SEBI’s approval for its proposed IPO. The Bengaluru-based startup is now expected to file",
+      "posted_at": "Fri, 08 May 2026 12:07:42 +0000"
+    },
     {
       "source": "HN",
       "title": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engi",
@@ -173,14 +189,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-vice-president-of-global-customer-success-amp-support-jumpcloud-1131411",
       "snippet": "All roles at JumpCloudÂ® are Remote unless otherwise specified in the Job Description. About JumpCloudÂ® JumpCloudÂ® is the AI-powered unified IT management platform designed to secure the modern workforce. By consolidating identity, device, and access management, JumpCloud provi",
       "posted_at": "2026-05-01T00:00:56+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Inside Sales Representative",
-      "company": "Renewal by Andersen",
-      "url": "https://remoteOK.com/remote-jobs/remote-inside-sales-representative-renewal-by-andersen-1131388",
-      "snippet": "Call Center Lead Generator - MUST LIVE IN INDIANA ð What to Expect After You Apply After submitting your application, youâll receive an invitation to complete a short, self-guided video interview. It takes about 15â20 minutes and should be completed within 72 hours. Once s",
-      "posted_at": "2026-04-30T00:00:25+00:00"
     }
   ]
 }
