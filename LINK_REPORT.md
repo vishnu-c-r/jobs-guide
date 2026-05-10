@@ -1,16 +1,14 @@
 # Link Health Report
 
-**Last run:** Sun, 10 May 2026 06:53:17 GMT
+**Last run:** Sun, 10 May 2026 13:37:26 GMT
 **Total checked:** 223
-**OK:** 196  ·  **Broken:** 3  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
+**OK:** 195  ·  **Broken:** 1  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
+| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 
 ## ⊘ Blocked by WAF / bot-protection
 
