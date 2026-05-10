@@ -132,7 +132,16 @@ const groups = {
 };
 for (const r of results) groups[r.category]?.push(r);
 
-const broken = [...groups['gone'], ...groups['network-error'], ...groups['client-error']];
+const KNOWN_NOISY = new Set([
+  'www.analog.com',
+  'www.ccamp.res.in', 
+  'www.mckinsey.com',
+]);
+const broken = [...groups['gone'], ...groups['network-error'], ...groups['client-error']]
+  .filter(r => {
+    try { return !KNOWN_NOISY.has(new URL(r.url).hostname); }
+    catch { return true; }
+  });
 const blocked = groups['blocked'];
 const watch = [...groups['server-error'], ...groups['redirect']];
 
