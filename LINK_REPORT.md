@@ -1,21 +1,15 @@
 # Link Health Report
 
-**Last run:** Sun, 10 May 2026 13:39:21 GMT
+**Last run:** Mon, 11 May 2026 07:08:42 GMT
 **Total checked:** 223
-**OK:** 188  ·  **Broken:** 8  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
+**OK:** 194  ·  **Broken:** 2  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | ETIMEDOUT |
 | NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | ETIMEDOUT |
-| NETERR | Niramai | <https://niramai.com/careers/> | ETIMEDOUT |
-| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
-| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
-| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | ETIMEDOUT |
-| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
 
 ## ⊘ Blocked by WAF / bot-protection
 
