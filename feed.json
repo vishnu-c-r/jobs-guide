@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-05-10T03:11:55.093Z",
+  "generated_at": "2026-05-11T03:13:58.759Z",
   "sources": {
-    "hn": 16,
+    "hn": 17,
     "remoteok": 4,
-    "inc42": 0
+    "inc42": 2
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "India(Guna,Madhya Pradesh), remote",
+      "company": "India(Guna,Madhya Pradesh), remote",
+      "url": "https://news.ycombinator.com/item?id=48087214",
+      "snippet": "India(Guna,Madhya Pradesh), remote",
+      "posted_at": "2026-05-10T19:52:10.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "IPO-Bound InCred’s 9M FY26 Profit Up 5% To ₹290 Cr",
+      "company": "",
+      "url": "https://inc42.com/buzz/ipo-bound-increds-9m-fy26-profit-up-5-to-%e2%82%b9290-cr/",
+      "snippet": "Bengaluru-based NBFC InCred Finance’s parent InCred Holdings reported a net profit of ₹290.1 Cr in the first nine months of",
+      "posted_at": "Fri, 08 May 2026 18:13:42 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "Zepto Gets SEBI Nod For $1Bn IPO",
+      "company": "",
+      "url": "https://inc42.com/buzz/zepto-gets-sebi-nod-for-ipo/",
+      "snippet": "Quick commerce major Zepto has received SEBI’s approval for its proposed IPO. The Bengaluru-based startup is now expected to file",
+      "posted_at": "Fri, 08 May 2026 12:07:42 +0000"
+    },
     {
       "source": "HN",
       "title": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engi",
