@@ -17,7 +17,7 @@ const HTML_PATH = new URL('../index.html', import.meta.url);
 const REPORT_PATH = new URL('../LINK_REPORT.md', import.meta.url);
 const TIMEOUT_MS = 10_000;
 const CONCURRENCY = 6;
-const PERMANENT_NETWORK_ERRORS = new Set(['ENOTFOUND', 'EAI_AGAIN']);
+const TRANSIENT_NETWORK_ERRORS = new Set(['ETIMEDOUT', 'UNABLE_TO_VERIFY_LEAF_SIGNATURE']);
 
 // ---------- Extract entries from index.html ----------
 const html = await readFile(HTML_PATH, 'utf8');
@@ -82,9 +82,9 @@ async function checkOne({ name, url }) {
     const msg = err.name === 'AbortError' || code === 'ETIMEDOUT'
       ? 'timeout'
       : (code || err.message);
-    const category = PERMANENT_NETWORK_ERRORS.has(code)
-      ? 'network-error'
-      : 'network-watch';
+    const category = err.name === 'AbortError' || TRANSIENT_NETWORK_ERRORS.has(code)
+      ? 'network-watch'
+      : 'network-error';
     return { name, url, status: 0, finalUrl: null, category, error: msg };
   }
 
@@ -196,7 +196,8 @@ if (watch.length) {
     const detail = r.category === 'redirect'
       ? (r.finalUrl || '—')
       : (r.error || r.finalUrl || '—');
-    lines.push(`| ${r.status || 'NETERR'} | ${r.name} | <${r.url}> | ${detail} |`);
+    const statusLabel = r.category === 'network-watch' ? 'NETERR' : r.status;
+    lines.push(`| ${statusLabel} | ${r.name} | <${r.url}> | ${detail} |`);
   }
   lines.push('');
 }
