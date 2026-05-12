@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-05-11T03:13:58.759Z",
+  "generated_at": "2026-05-12T03:12:11.553Z",
   "sources": {
-    "hn": 17,
+    "hn": 18,
     "remoteok": 4,
-    "inc42": 2
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I m Julien — I lead Produ",
+      "company": "Oaktree Capital",
+      "url": "https://news.ycombinator.com/item?id=48099184",
+      "snippet": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I m Julien — I lead Product Engineering at Oaktree. My background is tech, not finance: startups, Meta, data infrastructure companies. I m hands-on and building a fl",
+      "posted_at": "2026-05-11T18:57:27.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "Ripplr’s FY26 Revenue Jumps 32% To ₹1,820 Cr, Loss Narrows Over 50%",
+      "company": "",
+      "url": "https://inc42.com/buzz/ripplrs-fy26-revenue-jumps-32-to-%e2%82%b91820-cr-loss-narrows-over-50/",
+      "snippet": "Bengaluru-based B2B distribution startup Ripplr reported a 32.4% increase in revenue to ₹1,820 Cr in FY26 from ₹1,375 Cr in",
+      "posted_at": "Mon, 11 May 2026 15:10:48 +0000"
+    },
     {
       "source": "HN",
       "title": "India(Guna,Madhya Pradesh), remote",
@@ -13,22 +29,6 @@
       "url": "https://news.ycombinator.com/item?id=48087214",
       "snippet": "India(Guna,Madhya Pradesh), remote",
       "posted_at": "2026-05-10T19:52:10.000Z"
-    },
-    {
-      "source": "INC42",
-      "title": "IPO-Bound InCred’s 9M FY26 Profit Up 5% To ₹290 Cr",
-      "company": "",
-      "url": "https://inc42.com/buzz/ipo-bound-increds-9m-fy26-profit-up-5-to-%e2%82%b9290-cr/",
-      "snippet": "Bengaluru-based NBFC InCred Finance’s parent InCred Holdings reported a net profit of ₹290.1 Cr in the first nine months of",
-      "posted_at": "Fri, 08 May 2026 18:13:42 +0000"
-    },
-    {
-      "source": "INC42",
-      "title": "Zepto Gets SEBI Nod For $1Bn IPO",
-      "company": "",
-      "url": "https://inc42.com/buzz/zepto-gets-sebi-nod-for-ipo/",
-      "snippet": "Quick commerce major Zepto has received SEBI’s approval for its proposed IPO. The Bengaluru-based startup is now expected to file",
-      "posted_at": "Fri, 08 May 2026 12:07:42 +0000"
     },
     {
       "source": "HN",
