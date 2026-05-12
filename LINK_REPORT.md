@@ -1,13 +1,14 @@
 # Link Health Report
 
-**Last run:** Tue, 12 May 2026 06:56:39 GMT
+**Last run:** Tue, 12 May 2026 07:27:07 GMT
 **Total checked:** 223
-**OK:** 195  ·  **Broken:** 1  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
+**OK:** 195  ·  **Broken:** 2  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | ETIMEDOUT |
 | 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -20,7 +21,6 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
