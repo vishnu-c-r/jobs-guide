@@ -24,11 +24,11 @@ all link-health-checked daily, organized by city, type, and domain.
 
 A GitHub Actions workflow runs `scripts/check-links.mjs` daily at 06:00 UTC.
 It pings every URL with a browser-like User-Agent, classifies the result
-(`ok` / `gone` / `network-error` / `blocked-by-WAF`), and:
+(`ok` / `gone` / `network-error` / `blocked-by-WAF` / transient `watch`), and:
 
 1. Writes a fresh `LINK_REPORT.md` to the repo root
 2. Commits it back automatically
-3. **If any links are truly broken** (404/410/DNS-dead — not just WAF blocks),
+3. **If any links are truly broken** (404/410/DNS-dead — not timeouts/TLS hiccups/WAF blocks),
    it opens a GitHub issue tagged `link-rot`, with the broken URLs
 
 You can also trigger the check manually:

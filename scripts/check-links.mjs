@@ -17,6 +17,8 @@ const HTML_PATH = new URL('../index.html', import.meta.url);
 const REPORT_PATH = new URL('../LINK_REPORT.md', import.meta.url);
 const TIMEOUT_MS = 10_000;
 const CONCURRENCY = 6;
+// OpenSSL/Node TLS verification error that has shown up in CI for an otherwise live site.
+const TRANSIENT_NETWORK_ERRORS = new Set(['UNABLE_TO_VERIFY_LEAF_SIGNATURE']);
 
 // ---------- Extract entries from index.html ----------
 const html = await readFile(HTML_PATH, 'utf8');
@@ -77,8 +79,12 @@ async function checkOne({ name, url }) {
 
   if (!attempt.ok) {
     const err = attempt.err;
-    const msg = err.name === 'AbortError' ? 'timeout' : (err.cause?.code || err.message);
-    return { name, url, status: 0, finalUrl: null, category: 'network-error', error: msg };
+    const code = err.cause?.code || err.code;
+    const isTimeout = err.name === 'AbortError' || code === 'ETIMEDOUT';
+    const isTransientNetworkFailure = isTimeout || TRANSIENT_NETWORK_ERRORS.has(code);
+    const msg = isTimeout ? 'timeout' : (code || err.message);
+    const category = isTransientNetworkFailure ? 'network-watch' : 'network-error';
+    return { name, url, status: 0, finalUrl: null, category, error: msg };
   }
 
   const res = attempt.res;
@@ -123,7 +129,8 @@ const results = await runAll(entries, CONCURRENCY, checkOne);
 // ---------- Categorize ----------
 const groups = {
   'gone': [],          // 404/410 — definitely broken
-  'network-error': [], // DNS / timeout / TLS — possibly broken
+  'network-error': [], // DNS / invalid URL — definitely broken
+  'network-watch': [], // timeout / TLS / transient network failures
   'client-error': [],  // other 4xx
   'blocked': [],       // 403/429/503 — WAF, almost certainly alive in browser
   'server-error': [],  // 5xx — usually transient
@@ -143,7 +150,7 @@ const broken = [...groups['gone'], ...groups['network-error'], ...groups['client
     catch { return true; }
   });
 const blocked = groups['blocked'];
-const watch = [...groups['server-error'], ...groups['redirect']];
+const watch = [...groups['network-watch'], ...groups['server-error'], ...groups['redirect']];
 
 // ---------- Write report ----------
 const now = new Date();
@@ -182,10 +189,14 @@ if (blocked.length) {
 
 if (watch.length) {
   lines.push(`## ! Watch — possibly transient\n`);
-  lines.push(`| Status | Name | URL | Final URL |`);
+  lines.push(`| Status | Name | URL | Error / Final URL |`);
   lines.push(`|---|---|---|---|`);
   for (const r of watch) {
-    lines.push(`| ${r.status} | ${r.name} | <${r.url}> | ${r.finalUrl || '—'} |`);
+    const detail = r.category === 'redirect'
+      ? (r.finalUrl || '—')
+      : (r.error || r.finalUrl || '—');
+    const statusLabel = r.category === 'network-watch' ? 'NETERR' : r.status;
+    lines.push(`| ${statusLabel} | ${r.name} | <${r.url}> | ${detail} |`);
   }
   lines.push('');
 }
