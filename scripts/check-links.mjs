@@ -79,7 +79,9 @@ async function checkOne({ name, url }) {
   if (!attempt.ok) {
     const err = attempt.err;
     const code = err.cause?.code || err.code || null;
-    const msg = err.name === 'AbortError' ? 'timeout' : (code || err.message);
+    const msg = err.name === 'AbortError' || code === 'ETIMEDOUT'
+      ? 'timeout'
+      : (code || err.message);
     const category = PERMANENT_NETWORK_ERRORS.has(code)
       ? 'network-error'
       : 'network-watch';
@@ -191,7 +193,10 @@ if (watch.length) {
   lines.push(`| Status | Name | URL | Error / Final URL |`);
   lines.push(`|---|---|---|---|`);
   for (const r of watch) {
-    lines.push(`| ${r.status || 'NETERR'} | ${r.name} | <${r.url}> | ${r.finalUrl || r.error || '—'} |`);
+    const detail = r.category === 'redirect'
+      ? (r.finalUrl || '—')
+      : (r.error || r.finalUrl || '—');
+    lines.push(`| ${r.status || 'NETERR'} | ${r.name} | <${r.url}> | ${detail} |`);
   }
   lines.push('');
 }

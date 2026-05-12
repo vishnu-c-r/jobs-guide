@@ -47,7 +47,7 @@
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | timeout |
 | NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
-| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | ETIMEDOUT |
+| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
 | NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
