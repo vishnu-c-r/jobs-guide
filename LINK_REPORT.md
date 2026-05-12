@@ -1,10 +1,14 @@
 # Link Health Report
 
-**Last run:** Tue, 12 May 2026 07:28:34 GMT
+**Last run:** Tue, 12 May 2026 08:00:02 GMT
 **Total checked:** 223
-**OK:** 187  ·  **Broken:** 0  ·  **Blocked (likely alive):** 25  ·  **Watch:** 8
+**OK:** 194  ·  **Broken:** 1  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
 
-> ✓ No broken links detected.
+## ✗ Broken — needs attention
+
+| Status | Name | URL | Detail |
+|---|---|---|---|
+| 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -26,7 +30,6 @@
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
-| 403 | Toboids Automata | <https://www.toboids.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
 | 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
@@ -42,13 +45,9 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
-| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | timeout |
-| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
-| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
-| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
-| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
