@@ -2,7 +2,7 @@
 
 **Last run:** Tue, 12 May 2026 07:59:35 GMT
 **Total checked:** 231
-**OK:** 199  ·  **Broken:** 3  ·  **Blocked (likely alive):** 25  ·  **Watch:** 1
+**OK:** 199  ·  **Broken:** 4  ·  **Blocked (likely alive):** 25  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
@@ -10,6 +10,7 @@
 |---|---|---|---|
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
+| NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
