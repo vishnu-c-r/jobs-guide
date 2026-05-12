@@ -1,13 +1,14 @@
 # Link Health Report
 
-**Last run:** Tue, 12 May 2026 07:20:59 GMT
+**Last run:** Tue, 12 May 2026 07:27:07 GMT
 **Total checked:** 223
-**OK:** 197  ·  **Broken:** 1  ·  **Blocked (likely alive):** 22  ·  **Watch:** 0
+**OK:** 195  ·  **Broken:** 2  ·  **Blocked (likely alive):** 23  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | ETIMEDOUT |
 | 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -30,6 +31,7 @@
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
