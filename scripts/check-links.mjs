@@ -77,8 +77,12 @@ async function checkOne({ name, url }) {
 
   if (!attempt.ok) {
     const err = attempt.err;
-    const msg = err.name === 'AbortError' ? 'timeout' : (err.cause?.code || err.message);
-    return { name, url, status: 0, finalUrl: null, category: 'network-error', error: msg };
+    const code = err.cause?.code || err.code || null;
+    const msg = err.name === 'AbortError' ? 'timeout' : (code || err.message);
+    const category = ['ENOTFOUND', 'EAI_AGAIN', 'ERR_INVALID_URL'].includes(code)
+      ? 'network-error'
+      : 'network-watch';
+    return { name, url, status: 0, finalUrl: null, category, error: msg };
   }
 
   const res = attempt.res;
@@ -123,7 +127,8 @@ const results = await runAll(entries, CONCURRENCY, checkOne);
 // ---------- Categorize ----------
 const groups = {
   'gone': [],          // 404/410 — definitely broken
-  'network-error': [], // DNS / timeout / TLS — possibly broken
+  'network-error': [], // DNS / invalid URL — definitely broken
+  'network-watch': [], // timeout / TLS / transient network failures
   'client-error': [],  // other 4xx
   'blocked': [],       // 403/429/503 — WAF, almost certainly alive in browser
   'server-error': [],  // 5xx — usually transient
@@ -143,7 +148,7 @@ const broken = [...groups['gone'], ...groups['network-error'], ...groups['client
     catch { return true; }
   });
 const blocked = groups['blocked'];
-const watch = [...groups['server-error'], ...groups['redirect']];
+const watch = [...groups['network-watch'], ...groups['server-error'], ...groups['redirect']];
 
 // ---------- Write report ----------
 const now = new Date();
@@ -182,10 +187,10 @@ if (blocked.length) {
 
 if (watch.length) {
   lines.push(`## ! Watch — possibly transient\n`);
-  lines.push(`| Status | Name | URL | Final URL |`);
+  lines.push(`| Status | Name | URL | Detail |`);
   lines.push(`|---|---|---|---|`);
   for (const r of watch) {
-    lines.push(`| ${r.status} | ${r.name} | <${r.url}> | ${r.finalUrl || '—'} |`);
+    lines.push(`| ${r.status || 'NETERR'} | ${r.name} | <${r.url}> | ${r.finalUrl || r.error || '—'} |`);
   }
   lines.push('');
 }
