@@ -1,18 +1,16 @@
 # Link Health Report
 
-**Last run:** Tue, 12 May 2026 07:47:27 GMT
+**Last run:** Tue, 12 May 2026 07:59:35 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 6  ·  **Blocked (likely alive):** 24  ·  **Watch:** 0
+**OK:** 199  ·  **Broken:** 4  ·  **Blocked (likely alive):** 25  ·  **Watch:** 0
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
-| NETERR | Ticket Design | <https://ticketdesign.com/> | ETIMEDOUT |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | ETIMEDOUT |
 | 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -25,6 +23,7 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
+| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
