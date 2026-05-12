@@ -80,10 +80,9 @@ async function checkOne({ name, url }) {
   if (!attempt.ok) {
     const err = attempt.err;
     const code = err.cause?.code || err.code || null;
-    const isTransientNetworkFailure = err.name === 'AbortError' || TRANSIENT_NETWORK_ERRORS.has(code);
-    const msg = err.name === 'AbortError' || code === 'ETIMEDOUT'
-      ? 'timeout'
-      : (code || err.message);
+    const isTimeout = err.name === 'AbortError' || code === 'ETIMEDOUT';
+    const isTransientNetworkFailure = isTimeout || TRANSIENT_NETWORK_ERRORS.has(code);
+    const msg = isTimeout ? 'timeout' : (code || err.message);
     const category = isTransientNetworkFailure ? 'network-watch' : 'network-error';
     return { name, url, status: 0, finalUrl: null, category, error: msg };
   }
