@@ -17,7 +17,7 @@ const HTML_PATH = new URL('../index.html', import.meta.url);
 const REPORT_PATH = new URL('../LINK_REPORT.md', import.meta.url);
 const TIMEOUT_MS = 10_000;
 const CONCURRENCY = 6;
-const HARD_NETWORK_ERRORS = new Set(['ENOTFOUND', 'EAI_AGAIN']);
+const PERMANENT_NETWORK_ERRORS = new Set(['ENOTFOUND', 'EAI_AGAIN']);
 
 // ---------- Extract entries from index.html ----------
 const html = await readFile(HTML_PATH, 'utf8');
@@ -80,7 +80,7 @@ async function checkOne({ name, url }) {
     const err = attempt.err;
     const code = err.cause?.code || err.code || null;
     const msg = err.name === 'AbortError' ? 'timeout' : (code || err.message);
-    const category = HARD_NETWORK_ERRORS.has(code)
+    const category = PERMANENT_NETWORK_ERRORS.has(code)
       ? 'network-error'
       : 'network-watch';
     return { name, url, status: 0, finalUrl: null, category, error: msg };
