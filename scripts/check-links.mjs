@@ -17,6 +17,7 @@ const HTML_PATH = new URL('../index.html', import.meta.url);
 const REPORT_PATH = new URL('../LINK_REPORT.md', import.meta.url);
 const TIMEOUT_MS = 10_000;
 const CONCURRENCY = 6;
+// OpenSSL/Node TLS verification errors that have shown up in CI for otherwise live sites.
 const TRANSIENT_NETWORK_ERRORS = new Set(['ETIMEDOUT', 'UNABLE_TO_VERIFY_LEAF_SIGNATURE']);
 
 // ---------- Extract entries from index.html ----------
@@ -79,12 +80,11 @@ async function checkOne({ name, url }) {
   if (!attempt.ok) {
     const err = attempt.err;
     const code = err.cause?.code || err.code || null;
+    const isTransientNetworkFailure = err.name === 'AbortError' || TRANSIENT_NETWORK_ERRORS.has(code);
     const msg = err.name === 'AbortError' || code === 'ETIMEDOUT'
       ? 'timeout'
       : (code || err.message);
-    const category = err.name === 'AbortError' || TRANSIENT_NETWORK_ERRORS.has(code)
-      ? 'network-watch'
-      : 'network-error';
+    const category = isTransientNetworkFailure ? 'network-watch' : 'network-error';
     return { name, url, status: 0, finalUrl: null, category, error: msg };
   }
 
