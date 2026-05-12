@@ -40,7 +40,7 @@
 
 ## ! Watch — possibly transient
 
-| Status | Name | URL | Detail |
+| Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |

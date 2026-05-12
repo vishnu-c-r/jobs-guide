@@ -187,7 +187,7 @@ if (blocked.length) {
 
 if (watch.length) {
   lines.push(`## ! Watch — possibly transient\n`);
-  lines.push(`| Status | Name | URL | Detail |`);
+  lines.push(`| Status | Name | URL | Error / Final URL |`);
   lines.push(`|---|---|---|---|`);
   for (const r of watch) {
     lines.push(`| ${r.status || 'NETERR'} | ${r.name} | <${r.url}> | ${r.finalUrl || r.error || '—'} |`);
