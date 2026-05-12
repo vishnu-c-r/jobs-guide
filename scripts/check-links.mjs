@@ -18,7 +18,7 @@ const REPORT_PATH = new URL('../LINK_REPORT.md', import.meta.url);
 const TIMEOUT_MS = 10_000;
 const CONCURRENCY = 6;
 // OpenSSL/Node TLS verification errors that have shown up in CI for otherwise live sites.
-const TRANSIENT_NETWORK_ERRORS = new Set(['ETIMEDOUT', 'UNABLE_TO_VERIFY_LEAF_SIGNATURE']);
+const TRANSIENT_NETWORK_ERRORS = new Set(['UNABLE_TO_VERIFY_LEAF_SIGNATURE']);
 
 // ---------- Extract entries from index.html ----------
 const html = await readFile(HTML_PATH, 'utf8');
