@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-05-12T03:12:11.553Z",
+  "generated_at": "2026-05-13T03:12:31.390Z",
   "sources": {
-    "hn": 18,
+    "hn": 19,
     "remoteok": 4,
-    "inc42": 1
+    "inc42": 2
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Semiconductor Startup HrdWyr Raises $13 Mn To Build AI-Native Chips",
+      "company": "",
+      "url": "https://inc42.com/buzz/semiconductor-startup-hrdwyr-raises-13-mn-to-build-ai-native-chips/",
+      "snippet": "Bengaluru-based semiconductor startup HrdWyr has raised $13 Mn (about ₹124 Cr) in its Series A funding round led by Ideaspring",
+      "posted_at": "Tue, 12 May 2026 09:58:20 +0000"
+    },
+    {
+      "source": "HN",
+      "title": "Is someone from India willing to work CET eligible?",
+      "company": "Is someone from India willing to work CET eligible?",
+      "url": "https://news.ycombinator.com/item?id=48105492",
+      "snippet": "Is someone from India willing to work CET eligible?",
+      "posted_at": "2026-05-12T08:02:13.000Z"
+    },
     {
       "source": "HN",
       "title": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I m Julien — I lead Produ",
@@ -13,6 +29,14 @@
       "url": "https://news.ycombinator.com/item?id=48099184",
       "snippet": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I m Julien — I lead Product Engineering at Oaktree. My background is tech, not finance: startups, Meta, data infrastructure companies. I m hands-on and building a fl",
       "posted_at": "2026-05-11T18:57:27.000Z"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Travel Support Advisor",
+      "company": "Careers In Travel | Destination Planners",
+      "url": "https://remoteOK.com/remote-jobs/remote-travel-support-advisor-careers-in-travel-destination-planners-1131546",
+      "snippet": "About the Opportunity We are seeking reliable and customer-focused individuals to join our team as Travel Support Advisors . In this role, you will assist clients throughout the travel planning process by providing support with reservations, itinerary details, and travel-related",
+      "posted_at": "2026-05-11T16:00:25+00:00"
     },
     {
       "source": "INC42",
@@ -93,14 +117,6 @@
       "url": "https://news.ycombinator.com/item?id=48012844",
       "snippet": "i work NYC hours from India. am i eligible for the challenge and interview?",
       "posted_at": "2026-05-04T18:29:39.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Support Specialist",
-      "company": "G-P",
-      "url": "https://remoteOK.com/remote-jobs/remote-support-specialist-g-p-1131440",
-      "snippet": "About Us Our leading SaaS-based Global Employment Platformâ¢ enables clients to expand into over 180 countries quickly and efficiently, without the complexities of establishing local entities. At G-P, we're dedicated to breaking down barriers to global business and creating oppo",
-      "posted_at": "2026-05-04T08:00:07+00:00"
     },
     {
       "source": "HN",
