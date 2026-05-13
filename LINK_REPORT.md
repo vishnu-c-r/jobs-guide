@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 12 May 2026 09:14:29 GMT
+**Last run:** Wed, 13 May 2026 07:00:41 GMT
 **Total checked:** 231
-**OK:** 200  ·  **Broken:** 2  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
+**OK:** 201  ·  **Broken:** 2  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -49,7 +49,6 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
