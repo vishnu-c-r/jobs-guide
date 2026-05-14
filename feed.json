@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T03:12:31.390Z",
+  "generated_at": "2026-05-14T03:11:36.179Z",
   "sources": {
     "hn": 19,
     "remoteok": 4,
-    "inc42": 2
+    "inc42": 1
   },
   "items": [
     {
@@ -23,6 +23,14 @@
       "posted_at": "2026-05-12T08:02:13.000Z"
     },
     {
+      "source": "REMOTEOK",
+      "title": "Tier II III UC Support Engineer",
+      "company": "TTEC Digital",
+      "url": "https://remoteOK.com/remote-jobs/remote-tier-ii-iii-uc-support-engineer-ttec-digital-1131561",
+      "snippet": "At TTEC Digital, we coach clients to ensure their employees feel valued, and fully supported, because an amazing customer experience is an employee first process. Our vision is the same, a place where employees know they can thrive. Position Purpose The Tier II/III UC Support Eng",
+      "posted_at": "2026-05-12T08:01:56+00:00"
+    },
+    {
       "source": "HN",
       "title": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I m Julien — I lead Produ",
       "company": "Oaktree Capital",
@@ -37,14 +45,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-travel-support-advisor-careers-in-travel-destination-planners-1131546",
       "snippet": "About the Opportunity We are seeking reliable and customer-focused individuals to join our team as Travel Support Advisors . In this role, you will assist clients throughout the travel planning process by providing support with reservations, itinerary details, and travel-related",
       "posted_at": "2026-05-11T16:00:25+00:00"
-    },
-    {
-      "source": "INC42",
-      "title": "Ripplr’s FY26 Revenue Jumps 32% To ₹1,820 Cr, Loss Narrows Over 50%",
-      "company": "",
-      "url": "https://inc42.com/buzz/ripplrs-fy26-revenue-jumps-32-to-%e2%82%b91820-cr-loss-narrows-over-50/",
-      "snippet": "Bengaluru-based B2B distribution startup Ripplr reported a 32.4% increase in revenue to ₹1,820 Cr in FY26 from ₹1,375 Cr in",
-      "posted_at": "Mon, 11 May 2026 15:10:48 +0000"
     },
     {
       "source": "HN",
@@ -101,14 +101,6 @@
       "url": "https://news.ycombinator.com/item?id=48017490",
       "snippet": "At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from synthetic identity fraud, identity theft, and emerging threats — analyzing millions of applications while keeping real users moving fast. We’",
       "posted_at": "2026-05-05T02:39:38.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Lead AI Engineer & Technical Architect",
-      "company": "Bold Business",
-      "url": "https://remoteOK.com/remote-jobs/remote-lead-ai-engineer-technical-architect-bold-business-1131461",
-      "snippet": "About Bold Business Bold Business is an AI-first U.S. based global workforce solutions company rebuilding how businesses operate in the AI era. We build AI-Amplified Talentâ¢, custom AI agents, and automation systems for clients like AT&T, JP Morgan, and Verizon â and we back",
-      "posted_at": "2026-05-05T00:00:52+00:00"
     },
     {
       "source": "HN",
