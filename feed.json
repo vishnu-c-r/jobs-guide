@@ -1,18 +1,34 @@
 {
-  "generated_at": "2026-05-14T03:11:36.179Z",
+  "generated_at": "2026-05-15T03:13:20.067Z",
   "sources": {
     "hn": 19,
-    "remoteok": 4,
-    "inc42": 1
+    "remoteok": 5,
+    "inc42": 0
   },
   "items": [
     {
-      "source": "INC42",
-      "title": "Semiconductor Startup HrdWyr Raises $13 Mn To Build AI-Native Chips",
-      "company": "",
-      "url": "https://inc42.com/buzz/semiconductor-startup-hrdwyr-raises-13-mn-to-build-ai-native-chips/",
-      "snippet": "Bengaluru-based semiconductor startup HrdWyr has raised $13 Mn (about ₹124 Cr) in its Series A funding round led by Ideaspring",
-      "posted_at": "Tue, 12 May 2026 09:58:20 +0000"
+      "source": "REMOTEOK",
+      "title": "Staff Engineer Platform Engineering",
+      "company": "HighLevel",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-engineer-platform-engineering-highlevel-1131588",
+      "snippet": "About HighLevel: HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcome",
+      "posted_at": "2026-05-14T00:02:15+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Chief Revenue Officer",
+      "company": "ContinuumGlobal, Inc",
+      "url": "https://remoteOK.com/remote-jobs/remote-chief-revenue-officer-continuumglobal-inc-1131579",
+      "snippet": "About ContinuumGlobal ContinuumGlobal is an AI-enabled engagement marketing agency helping global brands, including Google, YouTube, Waymo, Coinbase, and Kraken, deliver personalized customer experiences at scale. Through our proprietary Smart Marketing Engineâ¢, we bring togeth",
+      "posted_at": "2026-05-13T16:02:36+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Business Development Representative",
+      "company": "Sprinto",
+      "url": "https://remoteOK.com/remote-jobs/remote-business-development-representative-sprinto-1131577",
+      "snippet": "Sprinto is an AI-native GRC platform that helps organisations manage risks, audits, vendor oversight, and continuous monitoring from a single connected platform. With a team of 350+ employees serving 3,000+ customers across 75+ countries , Sprinto combines scale with expertise to",
+      "posted_at": "2026-05-13T16:00:03+00:00"
     },
     {
       "source": "HN",
@@ -77,22 +93,6 @@
       "url": "https://news.ycombinator.com/item?id=48037311",
       "snippet": "*Labor Solutions (YC-style) | Senior Software Engineer | Remote (India) | Full-time* We run a worker wellbeing and compliance platform used by global buyers and their supply chain sites across Asia. We re in the middle of a meaningful migration and platform buildout — you d be jo",
       "posted_at": "2026-05-06T15:23:08.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Software Development Engineer Backend",
-      "company": "HighLevel",
-      "url": "https://remoteOK.com/remote-jobs/remote-software-development-engineer-backend-highlevel-1131472",
-      "snippet": "About HighLevel: HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcome",
-      "posted_at": "2026-05-05T16:01:11+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Software Engineer II",
-      "company": "Precision AQ",
-      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ii-precision-aq-1131470",
-      "snippet": "Position Summary: The candidate will be responsible for the configuration and delivery of client-facing applications.Â The candidate may assist with support for the development of process enhancements under the guidance of the Sr. Software Engineer and the Manager, Technical Oper",
-      "posted_at": "2026-05-05T16:00:36+00:00"
     },
     {
       "source": "HN",
