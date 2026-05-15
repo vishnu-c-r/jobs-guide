@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 14 May 2026 06:58:52 GMT
+**Last run:** Fri, 15 May 2026 07:04:33 GMT
 **Total checked:** 231
-**OK:** 197  ·  **Broken:** 2  ·  **Blocked (likely alive):** 25  ·  **Watch:** 7
+**OK:** 201  ·  **Broken:** 2  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -21,7 +21,6 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
@@ -48,10 +47,7 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Ticket Design | <https://ticketdesign.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
