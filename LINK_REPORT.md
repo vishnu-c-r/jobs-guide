@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 18 May 2026 07:19:55 GMT
+**Last run:** Tue, 19 May 2026 07:10:49 GMT
 **Total checked:** 231
-**OK:** 200  ·  **Broken:** 2  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
+**OK:** 193  ·  **Broken:** 2  ·  **Blocked (likely alive):** 25  ·  **Watch:** 11
 
 ## ✗ Broken — needs attention
 
@@ -21,6 +21,7 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
+| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
@@ -30,7 +31,6 @@
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
-| 429 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
 | 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
@@ -47,9 +47,16 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
