@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 19 May 2026 07:10:49 GMT
+**Last run:** Wed, 20 May 2026 07:10:37 GMT
 **Total checked:** 231
-**OK:** 193  ·  **Broken:** 2  ·  **Blocked (likely alive):** 25  ·  **Watch:** 11
+**OK:** 198  ·  **Broken:** 2  ·  **Blocked (likely alive):** 25  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -47,15 +47,10 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
-| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
-| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
+| NETERR | Darwinbox | <https://darwinbox.com/careers> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
 | NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
