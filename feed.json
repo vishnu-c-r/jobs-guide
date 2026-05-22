@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-05-21T03:13:39.783Z",
+  "generated_at": "2026-05-22T03:13:35.254Z",
   "sources": {
     "hn": 18,
     "remoteok": 6,
-    "inc42": 0
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Shastra VC Launches $100 Mn Fund to Back Deeptech Startups",
+      "company": "",
+      "url": "https://inc42.com/buzz/shastra-vc-launches-100-mn-fund-to-back-deeptech-startups/",
+      "snippet": "Bengaluru-based VC firm Shastra VC has launched its third fund with a corpus of $100 Mn (about ₹963 Cr) to",
+      "posted_at": "Thu, 21 May 2026 12:29:21 +0000"
+    },
     {
       "source": "REMOTEOK",
       "title": "US Tax Law AI Specialist",
