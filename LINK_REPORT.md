@@ -1,16 +1,16 @@
 # Link Health Report
 
-**Last run:** Fri, 22 May 2026 07:10:45 GMT
+**Last run:** Sat, 23 May 2026 06:53:23 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 3  ·  **Blocked (likely alive):** 25  ·  **Watch:** 5
+**OK:** 199  ·  **Broken:** 3  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
-| 405 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -34,7 +34,6 @@
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
