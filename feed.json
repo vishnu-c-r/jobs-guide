@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-23T03:10:56.655Z",
+  "generated_at": "2026-05-24T03:13:14.135Z",
   "sources": {
     "hn": 18,
-    "remoteok": 5,
-    "inc42": 2
+    "remoteok": 4,
+    "inc42": 1
   },
   "items": [
     {
@@ -16,51 +16,35 @@
     },
     {
       "source": "REMOTEOK",
+      "title": "Open Role",
+      "company": "Flent",
+      "url": "https://remoteOK.com/remote-jobs/remote-open-role-flent-1131650",
+      "snippet": "Weâre always excited to meet thoughtful, driven people whoâd like to build with us - even if there isnât a specific role open right now. If you think youâd enjoy working together, drop your details below. Weâd love to learn more about you and stay in touch for future op",
+      "posted_at": "2026-05-22T10:56:13+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "District Associate Manager",
+      "company": "Meril",
+      "url": "https://remoteOK.com/remote-jobs/remote-district-associate-manager-meril-1131852",
+      "snippet": "ð Join Meril Life Sciences Driving Indias Healthcare Revolution! Meril Life Sciences is a global Indian medical device company transforming lives through innovation. With a presence in *150+ countries* and a strong team of *14,000+ professionals*, we design, manufacture, and d",
+      "posted_at": "2026-05-22T06:27:40+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Territory Sales Officer",
+      "company": "Unilever",
+      "url": "https://remoteOK.com/remote-jobs/remote-territory-sales-officer-unilever-1131873",
+      "snippet": "Role Title: Territory Sales Officer Reporting to : ASM Location: Anywhere in Uttarakhand ABOUT UNILEVER: Be part of the worldâs most successful, purpose-led business. Work with brands that are well-loved around the world, that strive to improve the lives of our consumers and th",
+      "posted_at": "2026-05-21T21:44:29+00:00"
+    },
+    {
+      "source": "REMOTEOK",
       "title": "Analyst Accounts Payable",
       "company": "Cint",
       "url": "https://remoteOK.com/remote-jobs/remote-analyst-accounts-payable-cint-1131848",
       "snippet": "Who We Are Cint is a pioneer in research technology (ResTech). Our platform enables customers to ask questions and receive answers from real people, empowering them to build business strategies, confidently publish research, and accurately measure the impact of digital advertisin",
       "posted_at": "2026-05-21T13:36:47+00:00"
-    },
-    {
-      "source": "INC42",
-      "title": "Shastra VC Launches $100 Mn Fund to Back Deeptech Startups",
-      "company": "",
-      "url": "https://inc42.com/buzz/shastra-vc-launches-100-mn-fund-to-back-deeptech-startups/",
-      "snippet": "Bengaluru-based VC firm Shastra VC has launched its third fund with a corpus of $100 Mn (about ₹963 Cr) to",
-      "posted_at": "Thu, 21 May 2026 12:29:21 +0000"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Senior Manager National Accounts",
-      "company": "Swiggy",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-national-accounts-swiggy-1131849",
-      "snippet": "Ways of Working: Employee will be working remotely . About Swiggy Swiggy is Indiaâs leading on-demand delivery platform with a tech-first approach to logistics and a solution-first approach to consumer demands. With a presence in 500+ cities across India, partnerships with hund",
-      "posted_at": "2026-05-20T05:53:06+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Data Analyst",
-      "company": "Everbridge",
-      "url": "https://remoteOK.com/remote-jobs/remote-data-analyst-everbridge-1131851",
-      "snippet": "Everbridge is seeking a Data Analyst to help transform complex business and operational data into clear, actionable insights. This role will support reporting, workforce analytics, operational analytics, KPI tracking, forecasting, and cross-functional business intelligence initia",
-      "posted_at": "2026-05-19T04:19:52+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Executive Assistant",
-      "company": "Mercor",
-      "url": "https://remoteOK.com/remote-jobs/remote-executive-assistant-mercor-1131853",
-      "snippet": "About The Job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Executive Assistant & Ad",
-      "posted_at": "2026-05-18T02:19:32+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Registered Nurse Upto $85 hr",
-      "company": "Mercor",
-      "url": "https://remoteOK.com/remote-jobs/remote-registered-nurse-upto-85-hr-mercor-1131850",
-      "snippet": "About The Job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Personal Health Expert T",
-      "posted_at": "2026-05-18T02:18:44+00:00"
     },
     {
       "source": "HN",
