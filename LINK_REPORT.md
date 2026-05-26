@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 25 May 2026 07:31:01 GMT
+**Last run:** Tue, 26 May 2026 07:09:51 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 2  ·  **Blocked (likely alive):** 24  ·  **Watch:** 7
+**OK:** 200  ·  **Broken:** 2  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -21,7 +21,6 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
@@ -33,6 +32,7 @@
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -49,9 +49,7 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
-| 525 | Saankhya Labs | <https://www.saankhyalabs.com/> | https://www.saankhyalabs.com/ |
 | 500 | Kaynes Technology | <https://kaynes.insideoutconsult.com/careers/> | https://kaynes.insideoutconsult.com/careers/ |
 
 ---
