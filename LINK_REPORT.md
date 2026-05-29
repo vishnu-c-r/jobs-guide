@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 28 May 2026 07:17:44 GMT
+**Last run:** Fri, 29 May 2026 07:17:53 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 3  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
+**OK:** 198  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -11,6 +11,7 @@
 | 404 | Ati Motors | <https://atimotors.com/careers/> | gone |
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
+| 405 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -22,9 +23,7 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
-| 403 | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
 | 403 | Ethereal Machines | <https://etherealmachines.com/careers-at-etherealmachines/> |
@@ -49,6 +48,7 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
