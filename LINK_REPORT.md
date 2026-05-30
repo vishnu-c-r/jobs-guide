@@ -1,17 +1,17 @@
 # Link Health Report
 
-**Last run:** Fri, 29 May 2026 07:17:53 GMT
+**Last run:** Sat, 30 May 2026 06:59:07 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
+**OK:** 197  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Ati Motors | <https://atimotors.com/careers/> | gone |
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
-| 405 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -51,6 +51,7 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Sastra Robotics | <https://sastrarobotics.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 | 500 | Kaynes Technology | <https://kaynes.insideoutconsult.com/careers/> | https://kaynes.insideoutconsult.com/careers/ |
 
