@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sun, 31 May 2026 07:17:10 GMT
+**Last run:** Mon, 01 Jun 2026 07:42:31 GMT
 **Total checked:** 231
-**OK:** 196  ·  **Broken:** 4  ·  **Blocked (likely alive):** 25  ·  **Watch:** 6
+**OK:** 189  ·  **Broken:** 3  ·  **Blocked (likely alive):** 24  ·  **Watch:** 15
 
 ## ✗ Broken — needs attention
 
@@ -11,7 +11,6 @@
 | 404 | Ati Motors | <https://atimotors.com/careers/> | gone |
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
-| 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -23,7 +22,6 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
@@ -49,10 +47,19 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
+| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Forus Health | <https://www.forushealth.com/> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
+| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
+| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 | 500 | Kaynes Technology | <https://kaynes.insideoutconsult.com/careers/> | https://kaynes.insideoutconsult.com/careers/ |
 
