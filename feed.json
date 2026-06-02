@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-06-01T03:16:02.872Z",
+  "generated_at": "2026-06-02T03:16:04.927Z",
   "sources": {
-    "hn": 18,
-    "remoteok": 2,
+    "hn": 0,
+    "remoteok": 3,
     "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "LVX Bets On AI To Transform Private Market Dealmaking",
+      "company": "",
+      "url": "https://inc42.com/buzz/lvx-bets-on-ai-to-transform-private-market-dealmaking/",
+      "snippet": "Bengaluru-based VC firm LVX (formerly LetsVenture) has unveiled Elvix, an AI-powered intelligence platform designed to simplify deal evaluation and decision-making",
+      "posted_at": "Mon, 01 Jun 2026 13:43:57 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Estimator II",
+      "company": "Honeywell",
+      "url": "https://remoteOK.com/remote-jobs/remote-estimator-ii-honeywell-1132652",
+      "snippet": "About Us Honeywell helps organizations solve the world's most complex challenges in automation, the future of aviation and energy transition. As a trusted partner, we provide actionable solutions and innovation through our Aerospace Technologies, Building Automation, Energy and S",
+      "posted_at": "2026-05-31T12:02:50+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "Senior Assistant ARFF",
@@ -21,158 +37,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-handyperson-oaks-hotels-resorts-amp-suites-1132550",
       "snippet": "Minor Hotels is one of Australasiaâs largest accommodation providers, managing over 70 properties in the region and a global portfolio of 560 properties across more than 58 countries. Our brands, Anantara, Avani, Oaks, NH Hotels, NH Collection, nhow, and Tivoli, span six contin",
       "posted_at": "2026-05-29T06:01:47+00:00"
-    },
-    {
-      "source": "INC42",
-      "title": "Inc42’s AI Summit 2026, Gig Economy’s Safety Gap &#038; More",
-      "company": "",
-      "url": "https://inc42.com/buzz/inc42s-ai-summit-2026-gig-economys-safety-gap-more/",
-      "snippet": "What’s In Store For India’s AI Realm? As India’s top startup executives descended upon Bengaluru to attend the Inc42 AI",
-      "posted_at": "Fri, 29 May 2026 02:30:02 +0000"
-    },
-    {
-      "source": "HN",
-      "title": "Is someone from India willing to work CET eligible?",
-      "company": "Is someone from India willing to work CET eligible?",
-      "url": "https://news.ycombinator.com/item?id=48105492",
-      "snippet": "Is someone from India willing to work CET eligible?",
-      "posted_at": "2026-05-12T08:02:13.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I m Julien — I lead Produ",
-      "company": "Oaktree Capital",
-      "url": "https://news.ycombinator.com/item?id=48099184",
-      "snippet": "Oaktree Capital | Senior Software Engineer | Los Angeles, CA (HYBRID) &#x2F; Hyderabad, India | 1 LA + 2 Hyderabad I m Julien — I lead Product Engineering at Oaktree. My background is tech, not finance: startups, Meta, data infrastructure companies. I m hands-on and building a fl",
-      "posted_at": "2026-05-11T18:57:27.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "India(Guna,Madhya Pradesh), remote",
-      "company": "India(Guna,Madhya Pradesh), remote",
-      "url": "https://news.ycombinator.com/item?id=48087214",
-      "snippet": "India(Guna,Madhya Pradesh), remote",
-      "posted_at": "2026-05-10T19:52:10.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engi",
-      "company": "Tech Mahindra",
-      "url": "https://news.ycombinator.com/item?id=48055591",
-      "snippet": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engineers and technical leaders to help enterprises modernize and operate at scale on AWS, Azure, and GCP. We value folks with a strong software",
-      "posted_at": "2026-05-07T21:49:53.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Any change of being open to Remote from India",
-      "company": "Any change of being open to Remote from India",
-      "url": "https://news.ycombinator.com/item?id=48048304",
-      "snippet": "Any change of being open to Remote from India",
-      "posted_at": "2026-05-07T11:57:05.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "*Labor Solutions (YC-style) | Senior Software Engineer | Remote (India) | Full-time* We run a worker wellbeing and compliance platform used ",
-      "company": "*Labor Solutions (YC-style)",
-      "url": "https://news.ycombinator.com/item?id=48037311",
-      "snippet": "*Labor Solutions (YC-style) | Senior Software Engineer | Remote (India) | Full-time* We run a worker wellbeing and compliance platform used by global buyers and their supply chain sites across Asia. We re in the middle of a meaningful migration and platform buildout — you d be jo",
-      "posted_at": "2026-05-06T15:23:08.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from s",
-      "company": "At SentiLink, we stop identity fraud at scale. Our products protect banks, finte",
-      "url": "https://news.ycombinator.com/item?id=48017490",
-      "snippet": "At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from synthetic identity fraud, identity theft, and emerging threats — analyzing millions of applications while keeping real users moving fast. We’",
-      "posted_at": "2026-05-05T02:39:38.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "i work NYC hours from India. am i eligible for the challenge and interview?",
-      "company": "i work NYC hours from India. am i eligible for the challenge and interview?",
-      "url": "https://news.ycombinator.com/item?id=48012844",
-      "snippet": "i work NYC hours from India. am i eligible for the challenge and interview?",
-      "posted_at": "2026-05-04T18:29:39.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "I noticed there is a requirement to travel so wanted to ask whether you would accept an engineer&#x2F;founder (of a very useful fully featur",
-      "company": "I noticed there is a requirement to travel so wanted to ask whether you would ac",
-      "url": "https://news.ycombinator.com/item?id=48005313",
-      "snippet": "I noticed there is a requirement to travel so wanted to ask whether you would accept an engineer&#x2F;founder (of a very useful fully featured e2e testing product) from India who works US hours? I built this https:&#x2F;&#x2F;dev.to&#x2F;prtwari&#x2F;test-for-browser-from-browser",
-      "posted_at": "2026-05-04T06:30:14.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Hiya. We don t currently have the ability to hire someone from India, sorry. I think the only place we re looking to hire outside the USA is",
-      "company": "Hiya. We don t currently have the ability to hire someone from India, sorry. I t",
-      "url": "https://news.ycombinator.com/item?id=47992274",
-      "snippet": "Hiya. We don t currently have the ability to hire someone from India, sorry. I think the only place we re looking to hire outside the USA is the EU or UK, per the job postings.",
-      "posted_at": "2026-05-03T01:14:12.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "can someone working US timezones from India apply?",
-      "company": "can someone working US timezones from India apply?",
-      "url": "https://news.ycombinator.com/item?id=47990642",
-      "snippet": "can someone working US timezones from India apply?",
-      "posted_at": "2026-05-02T21:18:29.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | funnelstory.ai FunnelStory builds a queryable context graph over",
-      "company": "FunnelStory",
-      "url": "https://news.ycombinator.com/item?id=47988194",
-      "snippet": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | funnelstory.ai FunnelStory builds a queryable context graph over enterprise data — the infrastructure layer that lets AI agents reason over live customer intelligence. We ve built a federated query engine",
-      "posted_at": "2026-05-02T17:04:51.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "I am surely sending you an email. I live in a small village (eastern Himalayas, India) after giving up on city life, run a piggery and chick",
-      "company": "I am surely sending you an email. I live in a small village (eastern Himalayas, ",
-      "url": "https://news.ycombinator.com/item?id=47985652",
-      "snippet": "I am surely sending you an email. I live in a small village (eastern Himalayas, India) after giving up on city life, run a piggery and chicken farm along with ~ 6 hours of software work. I am intrigued by products like these which gives \"hands-on\" a new meaning. Being a new farme",
-      "posted_at": "2026-05-02T12:00:41.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "would you consider someone from India who has worked for a NYC startup recently and working US hours?",
-      "company": "would you consider someone from India who has worked for a NYC startup recently ",
-      "url": "https://news.ycombinator.com/item?id=47977205",
-      "snippet": "would you consider someone from India who has worked for a NYC startup recently and working US hours?",
-      "posted_at": "2026-05-01T17:05:41.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Zenskar | Bengaluru, India (Hybrid – 2 days&#x2F;week in-office) | Senior Backend Engineer Zenskar is an AI-native revenue automation platfo",
-      "company": "Zenskar",
-      "url": "https://news.ycombinator.com/item?id=47977066",
-      "snippet": "Zenskar | Bengaluru, India (Hybrid – 2 days&#x2F;week in-office) | Senior Backend Engineer Zenskar is an AI-native revenue automation platform built to handle real-world complexity. We raised $15M in Series A funding in April 2026, led by Susquehanna Venture Capital, Bessemer Ven",
-      "posted_at": "2026-05-01T16:54:55.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Applied. I wasn t too sure whether an engineer from India is eligible but I still applied because I ve always worked CET&#x2F;EST timezones.",
-      "company": "Applied. I wasn t too sure whether an engineer from India is eligible but I stil",
-      "url": "https://news.ycombinator.com/item?id=47977056",
-      "snippet": "Applied. I wasn t too sure whether an engineer from India is eligible but I still applied because I ve always worked CET&#x2F;EST timezones. email-praveen4463@gmail.com",
-      "posted_at": "2026-05-01T16:54:14.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Opendate | Senior Full Stack Engineer (Ruby on Rails) | REMOTE (US only) | Full-time | https:&#x2F;&#x2F;www.opendate.io&#x2F;careers&#x2F;s",
-      "company": "Opendate",
-      "url": "https://news.ycombinator.com/item?id=47976768",
-      "snippet": "Opendate | Senior Full Stack Engineer (Ruby on Rails) | REMOTE (US only) | Full-time | https:&#x2F;&#x2F;www.opendate.io&#x2F;careers&#x2F;senior-full-stack-software-e... Opendate is the operating system for live music venues — booking, ticketing, marketing, and settlement, all i",
-      "posted_at": "2026-05-01T16:35:57.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Zippy is a fintech company rethinking how people buy one of the most overlooked forms of housing in the U.S.—manufactured homes. Instead of ",
-      "company": "Zippy is a fintech company rethinking how people buy one of the most overlooked ",
-      "url": "https://news.ycombinator.com/item?id=47976732",
-      "snippet": "Zippy is a fintech company rethinking how people buy one of the most overlooked forms of housing in the U.S.—manufactured homes. Instead of the slow, fragmented, paperwork-heavy mortgage process, Zippy has built a fully digital, end-to-end lending platform that makes getting a ho",
-      "posted_at": "2026-05-01T16:34:00.000Z"
     }
   ]
 }
