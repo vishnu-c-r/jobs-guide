@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 01 Jun 2026 07:42:31 GMT
+**Last run:** Tue, 02 Jun 2026 07:36:09 GMT
 **Total checked:** 231
-**OK:** 189  ·  **Broken:** 3  ·  **Blocked (likely alive):** 24  ·  **Watch:** 15
+**OK:** 188  ·  **Broken:** 3  ·  **Blocked (likely alive):** 25  ·  **Watch:** 15
 
 ## ✗ Broken — needs attention
 
@@ -22,6 +22,7 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
+| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
