@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-06-02T03:16:04.927Z",
+  "generated_at": "2026-06-03T03:15:32.070Z",
   "sources": {
-    "hn": 0,
-    "remoteok": 3,
+    "hn": 1,
+    "remoteok": 4,
     "inc42": 1
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the ne",
+      "company": "Stpkr Technologies",
+      "url": "https://news.ycombinator.com/item?id=48368363",
+      "snippet": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the next generation of wearable devices. We are currently looking for the following 4 roles but we are also open to interviewing any candidates wh",
+      "posted_at": "2026-06-02T10:32:20.000Z"
+    },
     {
       "source": "INC42",
       "title": "LVX Bets On AI To Transform Private Market Dealmaking",
@@ -32,11 +40,19 @@
     },
     {
       "source": "REMOTEOK",
-      "title": "Handyperson",
-      "company": "Oaks Hotels, Resorts &amp; Suites",
-      "url": "https://remoteOK.com/remote-jobs/remote-handyperson-oaks-hotels-resorts-amp-suites-1132550",
-      "snippet": "Minor Hotels is one of Australasiaâs largest accommodation providers, managing over 70 properties in the region and a global portfolio of 560 properties across more than 58 countries. Our brands, Anantara, Avani, Oaks, NH Hotels, NH Collection, nhow, and Tivoli, span six contin",
-      "posted_at": "2026-05-29T06:01:47+00:00"
+      "title": "Online Data Entry Operator Data Entry Typing Data Entry Clerk Data Entry",
+      "company": "Impact HR &amp; KM Solutions",
+      "url": "https://remoteOK.com/remote-jobs/remote-online-data-entry-operator-data-entry-typing-data-entry-clerk-data-entry-impact-hr-amp-km-solutions-1132721",
+      "snippet": "Hiring for Data Entry Operator, Computer Operator, Back Office Executive, Typist Position - Data Entry Executive, Computer Operator, Typist. Back Office Executive Location: Work From Home Job Type: Part Time or Full Time Salary: Rs.18000 to Rs.32000 Job Location: This work can be",
+      "posted_at": "2026-05-30T08:00:48+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Online Data Entry Operator Data Entry Typing Data Entry Clerk Data Entry",
+      "company": "Impact HR &amp; KM Solutions",
+      "url": "https://remoteOK.com/remote-jobs/remote-online-data-entry-operator-data-entry-typing-data-entry-clerk-data-entry-impact-hr-amp-km-solutions-1132700",
+      "snippet": "Hiring for Data Entry Operator, Computer Operator, Back Office Executive, Typist Position - Data Entry Executive, Computer Operator, Typist. Back Office Executive Location: Work From Home Job Type: Part Time or Full Time Salary: Rs.18000 to Rs.32000 Job Location: This work can be",
+      "posted_at": "2026-05-30T08:00:46+00:00"
     }
   ]
 }
