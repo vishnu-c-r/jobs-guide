@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Wed, 03 Jun 2026 07:39:00 GMT
+**Last run:** Thu, 04 Jun 2026 07:35:33 GMT
 **Total checked:** 231
-**OK:** 196  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 7
+**OK:** 196  ·  **Broken:** 4  ·  **Blocked (likely alive):** 27  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -23,12 +23,15 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
+| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
 | 403 | Ethereal Machines | <https://etherealmachines.com/careers-at-etherealmachines/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | Meesho | <https://www.meesho.io/jobs> |
+| 503 | Bombay Shaving Co | <https://bombayshavingcompany.com/> |
+| 503 | BlueTokai Coffee | <https://bluetokaicoffee.com/pages/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
@@ -50,10 +53,7 @@
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | String Bio | <https://string.bio/> | timeout |
-| NETERR | Ticket Design | <https://ticketdesign.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
