@@ -1,18 +1,19 @@
 # Link Health Report
 
-**Last run:** Sat, 06 Jun 2026 07:02:49 GMT
+**Last run:** Sun, 07 Jun 2026 07:22:25 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 5  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
+**OK:** 188  ·  **Broken:** 6  ·  **Blocked (likely alive):** 24  ·  **Watch:** 13
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Ati Motors | <https://atimotors.com/careers/> | gone |
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | UND_ERR_CONNECT_TIMEOUT |
 | NETERR | Kaynes Technology | <https://kaynes.insideoutconsult.com/careers/> | CERT_HAS_EXPIRED |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
+| 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -49,9 +50,18 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Blume Ventures | <https://jobs.blume.vc/jobs> | timeout |
+| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
+| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
