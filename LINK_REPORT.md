@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 08 Jun 2026 07:38:45 GMT
+**Last run:** Tue, 09 Jun 2026 07:11:57 GMT
 **Total checked:** 231
-**OK:** 199  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
+**OK:** 199  ·  **Broken:** 4  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -34,7 +34,6 @@
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -51,6 +50,7 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
