@@ -1,13 +1,14 @@
 # Link Health Report
 
-**Last run:** Fri, 12 Jun 2026 07:35:04 GMT
+**Last run:** Sat, 13 Jun 2026 07:17:04 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 4  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
+**OK:** 196  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Ati Motors | <https://atimotors.com/careers/> | gone |
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
 | NETERR | Kaynes Technology | <https://kaynes.insideoutconsult.com/careers/> | CERT_HAS_EXPIRED |
@@ -51,6 +52,7 @@
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Darwinbox | <https://darwinbox.com/careers> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
