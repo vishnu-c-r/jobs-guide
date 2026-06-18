@@ -1,18 +1,18 @@
 # Link Health Report
 
-**Last run:** Wed, 17 Jun 2026 07:46:34 GMT
+**Last run:** Thu, 18 Jun 2026 07:38:10 GMT
 **Total checked:** 231
-**OK:** 198  ·  **Broken:** 5  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
+**OK:** 182  ·  **Broken:** 5  ·  **Blocked (likely alive):** 31  ·  **Watch:** 13
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| 404 | Ati Motors | <https://atimotors.com/careers/> | gone |
+| 404 | Chargebee | <https://www.chargebee.com/careers/> | gone |
 | 404 | Qoruz | <https://qoruz.com/careers> | gone |
+| 404 | QBurst | <https://www.qburst.com/en-us/company/career/openings/> | gone |
 | NETERR | Kaynes Technology | <https://kaynes.insideoutconsult.com/careers/> | CERT_HAS_EXPIRED |
 | NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
-| 402 | Kuvaka Tech | <https://kuvaka.io/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -24,18 +24,24 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
+| 403 | Hirist.tech | <https://www.hirist.tech/> |
+| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
+| 403 | AMD India | <https://careers.amd.com/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
+| 403 | Ati Motors | <https://atimotors.com/careers/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
+| 403 | River Mobility | <https://www.rideriver.com/> |
+| 403 | GE Healthcare India | <https://careers.gehealthcare.com/> |
 | 403 | Meesho | <https://www.meesho.io/jobs> |
+| 403 | Flutura | <https://www.flutura.com/> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -43,15 +49,25 @@
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
+| 403 | BCG Knowledge & Capabilities Group | <https://careers.bcg.com/> |
 | 403 | Wellfound — Founder's Office BLR | <https://wellfound.com/jobs?role=founder-s-office&location=bangalore> |
 
 ## ! Watch — possibly transient
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
+| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Sascan Meditech | <https://sascan.in/jobs/> | timeout |
+| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
