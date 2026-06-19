@@ -1,17 +1,33 @@
 {
-  "generated_at": "2026-06-18T03:13:40.291Z",
+  "generated_at": "2026-06-19T03:14:46.060Z",
   "sources": {
     "hn": 5,
-    "remoteok": 6,
-    "inc42": 0
+    "remoteok": 3,
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "How Startups Are Rebuilding Their Cloud Stack For Profitability, Scale",
+      "company": "",
+      "url": "https://inc42.com/startups/how-startups-are-rebuilding-their-cloud-stack-for-profitability-scale/",
+      "snippet": "In a Bengaluru coworking space, a two-year-old SaaS startup is getting ready for a product demo with a large enterprise",
+      "posted_at": "Thu, 18 Jun 2026 11:30:42 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Data Entry Specialist",
+      "company": "Somewhere",
+      "url": "https://remoteOK.com/remote-jobs/remote-data-entry-specialist-somewhere-1133567",
+      "snippet": "Role Description This is a full-time remote role for a Data Entry Specialist at a growing US basedâ¦See this and similar jobs on LinkedIn. Please mention the word **CURE** and tag RMTcyLjIxNS4yMzkuMjEx when applying to show you read the job post completely (#RMTcyLjIxNS4yMzkuMjE",
+      "posted_at": "2026-06-17T20:14:01+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "Performance Marketing Manager",
       "company": "Varun Digital Media",
       "url": "https://remoteOK.com/remote-jobs/remote-performance-marketing-manager-varun-digital-media-1133521",
-      "snippet": "Posted 12:34:34 PM. Job Title: Performance Marketing Manager â B2B SaaSDepartment: Growth / Demandâ¦See this and similar jobs on LinkedIn. Please mention the word **HARDIER** and tag RMTcyLjIxNC40Ny4zNQ== when applying to show you read the job post completely (#RMTcyLjIxNC40Ny",
+      "snippet": "Posted 12:34:34 PM. Job Title: Performance Marketing Manager â B2B SaaSDepartment: Growth / Demandâ¦See this and similar jobs on LinkedIn. Please mention the word **HARDIER** and tag RMTcyLjIxNS4yMzkuMjEx when applying to show you read the job post completely (#RMTcyLjIxNS4yMz",
       "posted_at": "2026-06-17T00:07:20+00:00"
     },
     {
@@ -23,44 +39,12 @@
       "posted_at": "2026-06-16T17:47:36+00:00"
     },
     {
-      "source": "REMOTEOK",
-      "title": "DevSecOps Engineer",
-      "company": "TrueML",
-      "url": "https://remoteOK.com/remote-jobs/remote-devsecops-engineer-trueml-1133456",
-      "snippet": "Why TrueML? TrueML is a mission-driven financial software company that aims to create better customer experiences for distressed borrowers. Consumers today want personal, digital-first experiences that align with their lifestyles, especially when it comes to managing finances. Tr",
-      "posted_at": "2026-06-16T00:00:10+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Financial Data Application Specialist Corporate",
-      "company": "AlphaSense",
-      "url": "https://remoteOK.com/remote-jobs/remote-financial-data-application-specialist-corporate-alphasense-1133432",
-      "snippet": "About AlphaSense: The worldâs most sophisticated companies rely on AlphaSense to remove uncertainty from decision-making. With market intelligence and search built on proven AI, AlphaSense delivers insights that matter from content you can trust. Our universe of public and priv",
-      "posted_at": "2026-06-15T16:00:27+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Regional Sales Manager Lucknow",
-      "company": "Johnson &amp; Johnson MedTech",
-      "url": "https://remoteOK.com/remote-jobs/remote-regional-sales-manager-lucknow-johnson-amp-johnson-medtech-1133523",
-      "snippet": "At Johnson & Johnson,â¯we believe health is everything. Our strength in healthcare innovation empowers us to build aâ¯world where complex diseases are prevented, treated, and cured,â¯where treatments are smarter and less invasive, andâ¯solutions are personal.â¯Through our ex",
-      "posted_at": "2026-06-15T15:59:13+00:00"
-    },
-    {
       "source": "HN",
       "title": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing to relocate: Within India for strong opportunities Technologi",
       "company": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing t",
       "url": "https://news.ycombinator.com/item?id=48531236",
       "snippet": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing to relocate: Within India for strong opportunities Technologies: SIEM monitoring, Splunk ES&#x2F;SOAR, log analysis, threat hunting, incident response basics, vulnerability assessment, penetration test",
       "posted_at": "2026-06-14T19:00:38.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Business Analyst BFSI",
-      "company": "WNS",
-      "url": "https://remoteOK.com/remote-jobs/remote-business-analyst-bfsi-wns-1133503",
-      "snippet": "Company Description WNS, part of Capgemini, is an Agentic AI-powered leader in intelligent operations and transformation, serving more than 700 clients across 10 industries, including Banking and Financial Services, Healthcare, Insurance, Shipping and Logistics, and Travel and Ho",
-      "posted_at": "2026-06-14T17:44:33+00:00"
     },
     {
       "source": "HN",
