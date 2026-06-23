@@ -1,18 +1,17 @@
 # Link Health Report
 
-**Last run:** Tue, 23 Jun 2026 07:12:31 GMT
-**Total checked:** 231
-**OK:** 195  ·  **Broken:** 5  ·  **Blocked (likely alive):** 24  ·  **Watch:** 7
+**Last run:** Tue, 23 Jun 2026 19:14:15 GMT
+**Total checked:** 233
+**OK:** 200  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
-| 404 | Ati Motors | <https://atimotors.com/careers/> | gone |
-| 404 | Qoruz | <https://qoruz.com/careers> | gone |
-| 404 | Sascan Meditech | <https://sascan.in/jobs/> | gone |
-| NETERR | Kaynes Technology | <https://kaynes.insideoutconsult.com/careers/> | CERT_HAS_EXPIRED |
-| NETERR | McCann India | <https://www.mccannworldgroup.com/careers> | ENOTFOUND |
+| 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | Tredence | <https://www.tredence.com/careers/> | gone |
+| 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
+| 404 | McCann India | <https://www.mccann.com/careers/> | gone |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -50,10 +49,8 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
-| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | DDB Mudra | <https://ddbmudragroup.com/careers> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
