@@ -1,74 +1,9 @@
 {
-  "generated_at": "2026-06-23T03:12:13.669Z",
+  "generated_at": "2026-06-23T19:09:04.735Z",
   "sources": {
-    "hn": 5,
-    "remoteok": 2,
-    "inc42": 1
+    "hn": 0,
+    "remoteok": 0,
+    "inc42": 0
   },
-  "items": [
-    {
-      "source": "INC42",
-      "title": "Tredence Acquires KMK Consulting To Make Inroads Into Healthcare Data Analytics",
-      "company": "",
-      "url": "https://inc42.com/buzz/tredence-acquires-kmk-consulting-to-make-inroads-into-healthcare-data-analytics/",
-      "snippet": "Bengaluru and San Jose-based data analytics company Tredence has acquired US-based KMK Consulting as it looks to expand its healthcare",
-      "posted_at": "Mon, 22 Jun 2026 11:30:43 +0000"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Influencer",
-      "company": "Pashet",
-      "url": "https://remoteOK.com/remote-jobs/remote-influencer-pashet-1133708",
-      "snippet": "Company OverviewVilasitawear is a forward-thinking fashion brand committed to offering uniqueâ¦See this and similar jobs on LinkedIn. Please mention the word **MARVELOUS** and tag RNTIuMTUzLjEzMC4xNDc= when applying to show you read the job post completely (#RNTIuMTUzLjEzMC4xNDc",
-      "posted_at": "2026-06-19T15:08:08+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Sales",
-      "company": "Raksha Elite Solutions (Raksha Prime)",
-      "url": "https://remoteOK.com/remote-jobs/remote-sales-raksha-elite-solutions-raksha-prime-1133810",
-      "snippet": "URGENT POSITION TO BE FILLED â Chandigarh & Punjab regions Salary: Up to 6.50 LPA [MAX] Education Qualification: Diploma graduates / Engineering graduates in Mechanical, Electrical, Industrial, or Automobile streams Core Experience Requirements (Must-Have): 2 to 4 years' experi",
-      "posted_at": "2026-06-19T15:02:57+00:00"
-    },
-    {
-      "source": "HN",
-      "title": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing to relocate: Within India for strong opportunities Technologi",
-      "company": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing t",
-      "url": "https://news.ycombinator.com/item?id=48531236",
-      "snippet": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing to relocate: Within India for strong opportunities Technologies: SIEM monitoring, Splunk ES&#x2F;SOAR, log analysis, threat hunting, incident response basics, vulnerability assessment, penetration test",
-      "posted_at": "2026-06-14T19:00:38.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Would you consider someone from India who works US hours and have many years of founding engineer experience at US startups?",
-      "company": "Would you consider someone from India who works US hours and have many years of ",
-      "url": "https://news.ycombinator.com/item?id=48460967",
-      "snippet": "Would you consider someone from India who works US hours and have many years of founding engineer experience at US startups?",
-      "posted_at": "2026-06-09T13:35:56.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engi",
-      "company": "Tech Mahindra",
-      "url": "https://news.ycombinator.com/item?id=48400263",
-      "snippet": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engineers (4+YoE) and cloud solution architects (8+YoE) to help enterprises modernize and operate at scale on AWS, Azure, and GCP. We value folk",
-      "posted_at": "2026-06-04T15:39:14.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "I m AI engineer with hands on 2 years of experience and looking for an opportunity as an AI engineer role at your organization Location : in",
-      "company": "I m AI engineer with hands on 2 years of experience and looking for an opportuni",
-      "url": "https://news.ycombinator.com/item?id=48399120",
-      "snippet": "I m AI engineer with hands on 2 years of experience and looking for an opportunity as an AI engineer role at your organization Location : india Willing to relocate : yes remote : Open to work remotly Resume : https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;17S6IGlKVqvQdm",
-      "posted_at": "2026-06-04T14:23:39.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the ne",
-      "company": "Stpkr Technologies",
-      "url": "https://news.ycombinator.com/item?id=48368363",
-      "snippet": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the next generation of wearable devices. We are currently looking for the following 4 roles but we are also open to interviewing any candidates wh",
-      "posted_at": "2026-06-02T10:32:20.000Z"
-    }
-  ]
+  "items": []
 }
