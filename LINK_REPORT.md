@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 23 Jun 2026 19:15:44 GMT
+**Last run:** Wed, 24 Jun 2026 07:09:23 GMT
 **Total checked:** 233
-**OK:** 200  ·  **Broken:** 4  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
+**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -12,6 +12,7 @@
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
+| NETERR | String Bio | <https://string.bio/> | ERR_SSL_TLSV1_UNRECOGNIZED_NAME |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -23,6 +24,7 @@
 | 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
+| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
@@ -50,7 +52,6 @@
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | DDB Mudra | <https://ddbmudragroup.com/careers> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
