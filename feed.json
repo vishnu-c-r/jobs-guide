@@ -1,26 +1,34 @@
 {
-  "generated_at": "2026-06-24T03:12:24.464Z",
+  "generated_at": "2026-06-25T03:12:34.924Z",
   "sources": {
     "hn": 5,
     "remoteok": 2,
-    "inc42": 0
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "How This Bengaluru Startup Is Tackling Enterprise Finance’s Costly Blindspot",
+      "company": "",
+      "url": "https://inc42.com/startups/how-this-bengaluru-startup-is-tackling-enterprise-finances-costly-blindspot/",
+      "snippet": "Despite rapid advances in enterprise AI, one of corporate finance s most critical functions remains surprisingly manual. Financial reconciliation, the process",
+      "posted_at": "Wed, 24 Jun 2026 08:31:29 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Director of Sales Development",
+      "company": "INNERGY",
+      "url": "https://remoteOK.com/remote-jobs/remote-director-of-sales-development-innergy-1134064",
+      "snippet": "INNERGY is transforming the woodworking industry with purpose built, cloud based ERP software designed exclusively for custom manufacturers. Our platform helps businesses operate smarter, faster, and more efficiently while seamlessly connecting design, production, and delivery fo",
+      "posted_at": "2026-06-23T18:14:22+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "IMRO",
       "company": "HCLTech",
       "url": "https://remoteOK.com/remote-jobs/remote-imro-hcltech-1133883",
-      "snippet": "Role- IMRO Experience- 9+ years Location- PAN INDIA Must Skill- Experience in IMRO (Candidates with EAM Experience can also apply) Please mention the word **CONSUMMATE** and tag RMTcyLjE3Mi4yMDMuMzI= when applying to show you read the job post completely (#RMTcyLjE3Mi4yMDMuMzI=).",
+      "snippet": "Role- IMRO Experience- 9+ years Location- PAN INDIA Must Skill- Experience in IMRO (Candidates with EAM Experience can also apply) Please mention the word **CONSUMMATE** and tag RMjAuMTA5Ljg2LjIyOA== when applying to show you read the job post completely (#RMjAuMTA5Ljg2LjIyOA==).",
       "posted_at": "2026-06-22T12:45:37+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Sales Development Representative",
-      "company": "Vena Solutions",
-      "url": "https://remoteOK.com/remote-jobs/remote-sales-development-representative-vena-solutions-1133927",
-      "snippet": "Department: Outbound Sales Development Location: India - Resident (0008) Description This role will be required to work out of our office in Indore 5 days a week. As a Sales Development Representative, you will reach out to prospective clients to introduce them to Vena Solutions'",
-      "posted_at": "2026-06-20T15:14:58+00:00"
     },
     {
       "source": "HN",
