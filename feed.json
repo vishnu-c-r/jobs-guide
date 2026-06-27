@@ -1,17 +1,33 @@
 {
-  "generated_at": "2026-06-26T03:13:26.615Z",
+  "generated_at": "2026-06-27T03:11:31.995Z",
   "sources": {
     "hn": 5,
-    "remoteok": 4,
+    "remoteok": 5,
     "inc42": 0
   },
   "items": [
     {
       "source": "REMOTEOK",
+      "title": "Kerendia Task Force",
+      "company": "Bayer",
+      "url": "https://remoteOK.com/remote-jobs/remote-kerendia-task-force-bayer-1134145",
+      "snippet": "At Bayer weâre visionaries, driven to solve the worldâs toughest challenges and striving for a world where ,Health for all, Hunger for noneâ is no longer a dream, but a real possibility. Weâre doing it with energy, curiosity and sheer dedication, always learning from uniq",
+      "posted_at": "2026-06-25T13:17:49+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Freelance Transcriptionist â Akan",
+      "company": "Perle",
+      "url": "https://remoteOK.com/remote-jobs/remote-freelance-transcriptionist-akan-perle-1134091",
+      "snippet": "About Perle Perle is an AI infrastructure company building expert-driven training data, evaluation systems, and applied AI products for the world's leading labs and enterprises. Headquartered in San Francisco with experts across more than forty markets, we specialize in the work",
+      "posted_at": "2026-06-25T05:48:59+00:00"
+    },
+    {
+      "source": "REMOTEOK",
       "title": "Halwai",
       "company": "jÃ¼STa Hotels &amp; Resorts",
       "url": "https://remoteOK.com/remote-jobs/remote-halwai-justa-hotels-amp-resorts-1134028",
-      "snippet": "Able to prepare indian sweets and snacks. food & accommodation will be provided Please mention the word **STUPENDOUS** and tag RMTcyLjE4Mi4yMjUuMTkz when applying to show you read the job post completely (#RMTcyLjE4Mi4yMjUuMTkz). This is a beta feature to avoid spam applicants. C",
+      "snippet": "Able to prepare indian sweets and snacks. food & accommodation will be provided Please mention the word **STUPENDOUS** and tag RMTcyLjIxNS4yMTYuMjA5 when applying to show you read the job post completely (#RMTcyLjIxNS4yMTYuMjA5). This is a beta feature to avoid spam applicants. C",
       "posted_at": "2026-06-24T06:48:42+00:00"
     },
     {
@@ -29,14 +45,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-ar-billing-specialist-snapscale-1134122",
       "snippet": "Job Title: AR Billing Specialist (Remote - India) Employment Type: Full-time, Remote About the Role: We are looking for an experienced Accounts Receivable (AR) Billing Specialist to manage our invoicing, collections, and ledger reconciliations. In this role, you will protect stea",
       "posted_at": "2026-06-23T17:47:22+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Engineer Quality",
-      "company": "Epiroc",
-      "url": "https://remoteOK.com/remote-jobs/remote-engineer-quality-epiroc-1134123",
-      "snippet": "Job Title - Jr. Engineer - Quality (RGU) JOB RESPONSIBILITIES: Safety: Maintain a strong âSafety Firstâ culture, ensuring safe work practices are always followed. Conduct Risk Assessments, Aspect Impact Studies (Environmental), and HIRA (Hazard Identification & Risk Assessmen",
-      "posted_at": "2026-06-23T05:16:23+00:00"
     },
     {
       "source": "HN",
