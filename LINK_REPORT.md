@@ -1,14 +1,15 @@
 # Link Health Report
 
-**Last run:** Fri, 26 Jun 2026 07:15:53 GMT
+**Last run:** Sat, 27 Jun 2026 07:02:58 GMT
 **Total checked:** 233
-**OK:** 196  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 7
+**OK:** 199  ·  **Broken:** 6  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
@@ -36,7 +37,6 @@
 | 403 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -51,11 +51,8 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
-| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
-| NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Toboids Automata | <https://www.toboids.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
