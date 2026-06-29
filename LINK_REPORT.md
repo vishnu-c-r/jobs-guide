@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sun, 28 Jun 2026 07:19:36 GMT
+**Last run:** Mon, 29 Jun 2026 07:38:28 GMT
 **Total checked:** 233
-**OK:** 197  ·  **Broken:** 6  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
+**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -12,7 +12,6 @@
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
-| NETERR | String Bio | <https://string.bio/> | ERR_SSL_TLSV1_UNRECOGNIZED_NAME |
 | 402 | Uravu Labs | <https://www.uravulabs.com/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -37,13 +36,11 @@
 | 403 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
-| 403 | Inc42 Plugin | <https://inc42.com/events/> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
 | 403 | Wellfound — Founder's Office BLR | <https://wellfound.com/jobs?role=founder-s-office&location=bangalore> |
