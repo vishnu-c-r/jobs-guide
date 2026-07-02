@@ -1,74 +1,42 @@
 {
-  "generated_at": "2026-07-01T03:13:42.583Z",
+  "generated_at": "2026-07-02T03:10:49.344Z",
   "sources": {
-    "hn": 5,
-    "remoteok": 3,
-    "inc42": 0
+    "hn": 1,
+    "remoteok": 2,
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Are there any plans to open the Senior Backend Engineer role to candidates in India? Currently, the Ashby link for this role doesn t list In",
+      "company": "Are there any plans to open the Senior Backend Engineer role to candidates in In",
+      "url": "https://news.ycombinator.com/item?id=48750861",
+      "snippet": "Are there any plans to open the Senior Backend Engineer role to candidates in India? Currently, the Ashby link for this role doesn t list India.",
+      "posted_at": "2026-07-01T18:04:00.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "India Trains The World’s Robots, But At What Cost?",
+      "company": "",
+      "url": "https://inc42.com/features/india-trains-the-worlds-robots-but-at-what-cost/",
+      "snippet": "In the 1990s, American hospitals began routing physician dictations to transcriptionists in Bengaluru and Chennai. It was unglamorous work, but",
+      "posted_at": "Wed, 01 Jul 2026 05:30:48 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Non Teaching 21 Posts",
+      "company": "GyanSpot.in",
+      "url": "https://remoteOK.com/remote-jobs/remote-non-teaching-21-posts-gyanspot-in-1134330",
+      "snippet": "Indian Institute of Technology Hyderabad Category: Government & Public Sector State: Telangana Qualification: B.Tech/ B.E, B.Sc, M.Sc, BCA, MCA, ITI, Diploma, BPEd Last Date: 20-07-2026 Official Website https://www.iith.ac.in/ Description View / Download Attachment Show All Jobs",
+      "posted_at": "2026-06-29T09:38:23+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "Simple Speaker",
       "company": "Web Developer: Ravi, One of the best in India",
       "url": "https://remoteOK.com/remote-jobs/remote-simple-speaker-web-developer-ravi-one-of-the-best-in-india-1134192",
-      "snippet": "simple speaker. Rs.28000 p.m. Please mention the word **SMILES** and tag RMjAuNTUuMTUuMjI1 when applying to show you read the job post completely (#RMjAuNTUuMTUuMjI1). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read t",
+      "snippet": "simple speaker. Rs.28000 p.m. Please mention the word **SMILES** and tag RMTM1LjIzMi4yMDAuMjY= when applying to show you read the job post completely (#RMTM1LjIzMi4yMDAuMjY=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants tha",
       "posted_at": "2026-06-26T17:15:49+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Payroll Specialist",
-      "company": "ADP",
-      "url": "https://remoteOK.com/remote-jobs/remote-payroll-specialist-adp-1134203",
-      "snippet": "Role: UK Payroll Specialist Location: Hyderabad Experience: 3-8 years Candidate should have experience working on End-to-End UK Payroll processing . Please mention the word **SUBSTANTIVE** and tag RMjAuNTUuMTUuMjI1 when applying to show you read the job post completely (#RMjAuNTU",
-      "posted_at": "2026-06-26T09:13:40+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Analyst",
-      "company": "Mphasis",
-      "url": "https://remoteOK.com/remote-jobs/remote-analyst-mphasis-1134227",
-      "snippet": "Job Profile: Sales Operations & Pricing Analyst (looking for in Multiple Levels) Role Summary The Sales Operations & Pricing Analyst is responsible for end-to-end deal lifecycle management, including deal creation, validation, pricing analysis, margin optimization, and reporting.",
-      "posted_at": "2026-06-26T08:17:40+00:00"
-    },
-    {
-      "source": "HN",
-      "title": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing to relocate: Within India for strong opportunities Technologi",
-      "company": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing t",
-      "url": "https://news.ycombinator.com/item?id=48531236",
-      "snippet": "Location: Dakshina Kannada, Karnataka, India Remote: Yes (IST overlap) Willing to relocate: Within India for strong opportunities Technologies: SIEM monitoring, Splunk ES&#x2F;SOAR, log analysis, threat hunting, incident response basics, vulnerability assessment, penetration test",
-      "posted_at": "2026-06-14T19:00:38.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Would you consider someone from India who works US hours and have many years of founding engineer experience at US startups?",
-      "company": "Would you consider someone from India who works US hours and have many years of ",
-      "url": "https://news.ycombinator.com/item?id=48460967",
-      "snippet": "Would you consider someone from India who works US hours and have many years of founding engineer experience at US startups?",
-      "posted_at": "2026-06-09T13:35:56.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engi",
-      "company": "Tech Mahindra",
-      "url": "https://news.ycombinator.com/item?id=48400263",
-      "snippet": "Tech Mahindra | Full-time, all levels | India, USA, Canada, Mexico | techmahindra.com Tech Mahindra’s Cloud Advisory division is hiring engineers (4+YoE) and cloud solution architects (8+YoE) to help enterprises modernize and operate at scale on AWS, Azure, and GCP. We value folk",
-      "posted_at": "2026-06-04T15:39:14.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "I m AI engineer with hands on 2 years of experience and looking for an opportunity as an AI engineer role at your organization Location : in",
-      "company": "I m AI engineer with hands on 2 years of experience and looking for an opportuni",
-      "url": "https://news.ycombinator.com/item?id=48399120",
-      "snippet": "I m AI engineer with hands on 2 years of experience and looking for an opportunity as an AI engineer role at your organization Location : india Willing to relocate : yes remote : Open to work remotly Resume : https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;17S6IGlKVqvQdm",
-      "posted_at": "2026-06-04T14:23:39.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the ne",
-      "company": "Stpkr Technologies",
-      "url": "https://news.ycombinator.com/item?id=48368363",
-      "snippet": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the next generation of wearable devices. We are currently looking for the following 4 roles but we are also open to interviewing any candidates wh",
-      "posted_at": "2026-06-02T10:32:20.000Z"
     }
   ]
 }
