@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-07-02T03:10:49.344Z",
+  "generated_at": "2026-07-03T03:08:36.053Z",
   "sources": {
-    "hn": 1,
+    "hn": 4,
     "remoteok": 2,
-    "inc42": 1
+    "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Hey Seema, before applying just wanted to know do you guys support with Visa sponsorship? I meet all the criteria except one which is I am f",
+      "company": "Hey Seema, before applying just wanted to know do you guys support with Visa spo",
+      "url": "https://news.ycombinator.com/item?id=48764639",
+      "snippet": "Hey Seema, before applying just wanted to know do you guys support with Visa sponsorship? I meet all the criteria except one which is I am from India :(",
+      "posted_at": "2026-07-02T17:25:07.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Logen.io | Founding Full-stack &#x2F; AI Engineer | Bengaluru, India | REMOTE | Full-time &#x2F; Contract Logen.io is building an AI app bui",
+      "company": "Logen.io",
+      "url": "https://news.ycombinator.com/item?id=48760654",
+      "snippet": "Logen.io | Founding Full-stack &#x2F; AI Engineer | Bengaluru, India | REMOTE | Full-time &#x2F; Contract Logen.io is building an AI app builder for real production apps — not just toy prototypes. The goal is to let users go from idea → working web app → deployable product, with",
+      "posted_at": "2026-07-02T12:45:31.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "I m AI Engineer hands on 2 years of experience Location : India Remote : preferable ok Tech stack : Python | Java | JavaScript | C | Go | C#",
+      "company": "I m AI Engineer hands on 2 years of experience Location : India Remote : prefera",
+      "url": "https://news.ycombinator.com/item?id=48760248",
+      "snippet": "I m AI Engineer hands on 2 years of experience Location : India Remote : preferable ok Tech stack : Python | Java | JavaScript | C | Go | C# | Spring Boot | React.js | HTML | CSS | SQL | MongoDB | H2 Database | TensorFlow | PyTorch | Machine Learning | Deep Learning | LangChain |",
+      "posted_at": "2026-07-02T12:14:23.000Z"
+    },
     {
       "source": "HN",
       "title": "Are there any plans to open the Senior Backend Engineer role to candidates in India? Currently, the Ashby link for this role doesn t list In",
@@ -15,12 +39,12 @@
       "posted_at": "2026-07-01T18:04:00.000Z"
     },
     {
-      "source": "INC42",
-      "title": "India Trains The World’s Robots, But At What Cost?",
-      "company": "",
-      "url": "https://inc42.com/features/india-trains-the-worlds-robots-but-at-what-cost/",
-      "snippet": "In the 1990s, American hospitals began routing physician dictations to transcriptionists in Bengaluru and Chennai. It was unglamorous work, but",
-      "posted_at": "Wed, 01 Jul 2026 05:30:48 +0000"
+      "source": "REMOTEOK",
+      "title": "India posts require 17 Staff Car Drivers Fast track your application",
+      "company": "The Kashmir Monitor",
+      "url": "https://remoteOK.com/remote-jobs/remote-india-posts-require-17-staff-car-drivers-fast-track-your-application-the-kashmir-monitor-1134373",
+      "snippet": "Srinagar: Chief Minister Omar Abdullah on Monday said Jammu and Kashmir must create a new generation of exporters and diversify its export basket to achieve the ambitious target of doubling exports by Geographic Reference Please mention the word **RESPONSIBLY** and tag RNDguMjE0L",
+      "posted_at": "2026-07-01T13:29:30+00:00"
     },
     {
       "source": "REMOTEOK",
@@ -29,14 +53,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-non-teaching-21-posts-gyanspot-in-1134330",
       "snippet": "Indian Institute of Technology Hyderabad Category: Government & Public Sector State: Telangana Qualification: B.Tech/ B.E, B.Sc, M.Sc, BCA, MCA, ITI, Diploma, BPEd Last Date: 20-07-2026 Official Website https://www.iith.ac.in/ Description View / Download Attachment Show All Jobs",
       "posted_at": "2026-06-29T09:38:23+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Simple Speaker",
-      "company": "Web Developer: Ravi, One of the best in India",
-      "url": "https://remoteOK.com/remote-jobs/remote-simple-speaker-web-developer-ravi-one-of-the-best-in-india-1134192",
-      "snippet": "simple speaker. Rs.28000 p.m. Please mention the word **SMILES** and tag RMTM1LjIzMi4yMDAuMjY= when applying to show you read the job post completely (#RMTM1LjIzMi4yMDAuMjY=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants tha",
-      "posted_at": "2026-06-26T17:15:49+00:00"
     }
   ]
 }
