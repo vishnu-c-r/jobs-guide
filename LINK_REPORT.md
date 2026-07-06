@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sun, 05 Jul 2026 07:04:58 GMT
+**Last run:** Mon, 06 Jul 2026 07:29:44 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 5  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
+**OK:** 198  ·  **Broken:** 4  ·  **Blocked (likely alive):** 26  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -12,7 +12,6 @@
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
-| 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -52,6 +51,7 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | ideaForge Technology | <https://ideaforgetech.com/career> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
