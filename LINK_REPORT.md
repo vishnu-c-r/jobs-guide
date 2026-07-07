@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 06 Jul 2026 07:29:44 GMT
+**Last run:** Tue, 07 Jul 2026 07:09:31 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 4  ·  **Blocked (likely alive):** 26  ·  **Watch:** 5
+**OK:** 200  ·  **Broken:** 4  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -36,7 +36,6 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 503 | Genrobotics | <https://www.genrobotics.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -51,7 +50,6 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | ideaForge Technology | <https://ideaforgetech.com/career> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
