@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-07-07T03:09:27.321Z",
+  "generated_at": "2026-07-08T03:06:58.476Z",
   "sources": {
-    "hn": 6,
-    "remoteok": 5,
-    "inc42": 0
+    "hn": 8,
+    "remoteok": 7,
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "LiveKit| http:&#x2F;&#x2F;livekit.io&#x2F; | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voic",
+      "company": "LiveKit",
+      "url": "https://news.ycombinator.com/item?id=48822697",
+      "snippet": "LiveKit| http:&#x2F;&#x2F;livekit.io&#x2F; | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in productio",
+      "posted_at": "2026-07-07T19:40:23.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Tech Mahindra | Full-time | Senior Roles | India (Hyderabad & Bangalore) | techmahindra.com Tech Mahindra’s Cloud Advisory & Consulting divi",
+      "company": "Tech Mahindra",
+      "url": "https://news.ycombinator.com/item?id=48818183",
+      "snippet": "Tech Mahindra | Full-time | Senior Roles | India (Hyderabad & Bangalore) | techmahindra.com Tech Mahindra’s Cloud Advisory & Consulting division is hiring experienced leaders to help drive delivery excellence and financial operations for our global cloud consulting business. We a",
+      "posted_at": "2026-07-07T14:13:43.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "Robotics Startup Mowito Raises $3 Mn To Expand US Presence",
+      "company": "",
+      "url": "https://inc42.com/buzz/robotics-startup-mowito-raises-3-mn-to-expand-us-presence/",
+      "snippet": "Bengaluru-based robotic startup Mowito has secured $3 Mn (almost ₹28.6 Cr) in a pre-seed funding round led by Version One",
+      "posted_at": "Tue, 07 Jul 2026 10:59:08 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Proposal Manager",
+      "company": "LinkedIn",
+      "url": "https://remoteOK.com/remote-jobs/remote-proposal-manager-linkedin-1134548",
+      "snippet": "LinkedIn is the world's largest professional network, built to create economic opportunity for every member of the global workforce. Our products help people make powerful connections, discover exciting opportunities, build necessary skills, and gain valuable insights every day.",
+      "posted_at": "2026-07-06T15:08:08+00:00"
+    },
     {
       "source": "HN",
       "title": "Opportunity looking for AI Engineer role Globaly Location : India Remote : Preferable Willing to relocate : yes Tech : Python | Java | JavaS",
@@ -63,6 +95,14 @@
       "posted_at": "2026-07-02T12:45:31.000Z"
     },
     {
+      "source": "REMOTEOK",
+      "title": "Associate Analyst",
+      "company": "Trinity Life Sciences",
+      "url": "https://remoteOK.com/remote-jobs/remote-associate-analyst-trinity-life-sciences-1134551",
+      "snippet": "We're committed to bringing passion and customer focus to the business. Position Summary We are currently seeking a Research Associate to support Trinityâs Evidence, Value, Access and Pricing (EVAP) teams with research activities spanning across several adjacent areas: targeted",
+      "posted_at": "2026-07-02T12:34:17+00:00"
+    },
+    {
       "source": "HN",
       "title": "I m AI Engineer hands on 2 years of experience Location : India Remote : preferable ok Tech stack : Python | Java | JavaScript | C | Go | C#",
       "company": "I m AI Engineer hands on 2 years of experience Location : India Remote : prefera",
@@ -75,7 +115,7 @@
       "title": "Engineer 2",
       "company": "Catalyst Brands India",
       "url": "https://remoteOK.com/remote-jobs/remote-engineer-2-catalyst-brands-india-1134424",
-      "snippet": "Overview Pay Range INR â¹0.00 - INR â¹0.00 /Yr. Please mention the word **CONGENIAL** and tag RNTIuMTkwLjE4Mi4xMTQ= when applying to show you read the job post completely (#RNTIuMTkwLjE4Mi4xMTQ=). This is a beta feature to avoid spam applicants. Companies can search these words",
+      "snippet": "Overview Pay Range INR â¹0.00 - INR â¹0.00 /Yr. Please mention the word **CONGENIAL** and tag RMTcyLjE3NC4xNjYuMTkz when applying to show you read the job post completely (#RMTcyLjE3NC4xNjYuMTkz). This is a beta feature to avoid spam applicants. Companies can search these words",
       "posted_at": "2026-07-02T11:44:21+00:00"
     },
     {
