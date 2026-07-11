@@ -1,11 +1,43 @@
 {
-  "generated_at": "2026-07-10T03:08:49.230Z",
+  "generated_at": "2026-07-11T03:06:28.523Z",
   "sources": {
     "hn": 8,
-    "remoteok": 8,
-    "inc42": 0
+    "remoteok": 12,
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Exclusive: Dil Foods In Talks To Acquire Cloud Kitchen Pioneer FreshMenu",
+      "company": "",
+      "url": "https://inc42.com/buzz/dil-foods-in-talks-to-acquire-cloud-kitchen-pioneer-freshmenu/",
+      "snippet": "Virtual restaurant operator Dil Foods is in talks to acquire Bengaluru-based cloud kitchen brand FreshMenu in a distress sale, sources",
+      "posted_at": "Fri, 10 Jul 2026 12:44:52 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Customer Success Manager",
+      "company": "INNERGY",
+      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-innergy-1134651",
+      "snippet": "INNERGY is transforming the woodworking industry with purpose built, cloud based ERP software designed exclusively for custom manufacturers. Our platform helps businesses operate smarter, faster, and more efficiently while seamlessly connecting design, production, and delivery fo",
+      "posted_at": "2026-07-09T22:30:53+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Firefighter ARFF",
+      "company": "Adani Airport Holdings Ltd",
+      "url": "https://remoteOK.com/remote-jobs/remote-firefighter-arff-adani-airport-holdings-ltd-1134670",
+      "snippet": "About Business JOB DESCRIPTION Adani Group : Adani Group is a diversified organisation in India comprising 10 publicly traded companies. It has created a world class logistics and utility infrastructure portfolio that has a pan-India presence. Adani Group is headquartered in Ahme",
+      "posted_at": "2026-07-09T11:14:42+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Non USA",
+      "company": "New Relic",
+      "url": "https://remoteOK.com/remote-jobs/remote-non-usa-new-relic-1134671",
+      "snippet": "We are a global team of innovators and pioneers dedicated to shaping the future of observability. At New Relic, we build an intelligent platform that empowers companies to thrive in an AI-first world by giving them unparalleled insight into their complex systems. As we continue t",
+      "posted_at": "2026-07-09T00:48:36+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "SLT HDFC BB Delhi",
@@ -51,6 +83,14 @@
       "title": "SLT HDFC BB Ahmedabad",
       "company": "Aditya Birla Capital",
       "url": "https://remoteOK.com/remote-jobs/remote-slt-hdfc-bb-ahmedabad-aditya-birla-capital-1134630",
+      "snippet": "F.A.I.R. ABC Sales Leadership Program Objective: The Aditya Birla Capital Sales Leadership Program (SLP) is designed to develop the next generation of sales leaders through an accelerated career path. This program is intended for post-graduate students from colleges across India,",
+      "posted_at": "2026-07-08T21:32:49+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "SLT HDFC BB Bangalore",
+      "company": "Aditya Birla Capital",
+      "url": "https://remoteOK.com/remote-jobs/remote-slt-hdfc-bb-bangalore-aditya-birla-capital-1134676",
       "snippet": "F.A.I.R. ABC Sales Leadership Program Objective: The Aditya Birla Capital Sales Leadership Program (SLP) is designed to develop the next generation of sales leaders through an accelerated career path. This program is intended for post-graduate students from colleges across India,",
       "posted_at": "2026-07-08T21:32:49+00:00"
     },
