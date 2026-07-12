@@ -1,18 +1,18 @@
 # Link Health Report
 
-**Last run:** Sat, 11 Jul 2026 06:44:26 GMT
+**Last run:** Sun, 12 Jul 2026 06:52:29 GMT
 **Total checked:** 233
-**OK:** 196  ·  **Broken:** 5  ·  **Blocked (likely alive):** 28  ·  **Watch:** 4
+**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
+| 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -29,10 +29,6 @@
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
-| 503 | Noise | <https://www.gonoise.com/> |
-| 503 | Mamaearth | <https://mamaearth.in/careers> |
-| 503 | Bombay Shaving Co | <https://bombayshavingcompany.com/> |
-| 503 | BlueTokai Coffee | <https://bluetokaicoffee.com/pages/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
