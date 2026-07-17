@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 16 Jul 2026 06:48:12 GMT
+**Last run:** Fri, 17 Jul 2026 06:46:32 GMT
 **Total checked:** 233
-**OK:** 192  ·  **Broken:** 5  ·  **Blocked (likely alive):** 24  ·  **Watch:** 12
+**OK:** 197  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -41,6 +41,7 @@
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
+| 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
 | 403 | Wellfound — Founder's Office BLR | <https://wellfound.com/jobs?role=founder-s-office&location=bangalore> |
@@ -49,17 +50,11 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
-| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
-| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
-| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
-| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
+| NETERR | ASAP Kerala | <https://careerlink.asapkerala.gov.in/internships> | timeout |
+| NETERR | Bengaluru Tech Summit | <https://bengalurutechsummit.com/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
