@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-07-16T03:06:11.495Z",
+  "generated_at": "2026-07-17T03:06:30.461Z",
   "sources": {
-    "hn": 8,
-    "remoteok": 9,
+    "hn": 9,
+    "remoteok": 5,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Full-Stack Developer | India (Open to Relocation & Visa Sponsorship) Tech Stack: React, Next.js, TypeScript, Node.js, FastAPI, PostgreSQL, M",
+      "company": "Full-Stack Developer",
+      "url": "https://news.ycombinator.com/item?id=48932861",
+      "snippet": "Full-Stack Developer | India (Open to Relocation & Visa Sponsorship) Tech Stack: React, Next.js, TypeScript, Node.js, FastAPI, PostgreSQL, MongoDB, Docker, GitHub Actions, REST APIs, AI&#x2F;LLMs (LangChain, OpenAI, Gemini) Open-source contributor to Meshery (CNCF), KubeEdge (CNC",
+      "posted_at": "2026-07-16T11:00:53.000Z"
+    },
     {
       "source": "REMOTEOK",
       "title": "Photo Editor",
       "company": "Headout",
       "url": "https://remoteOK.com/remote-jobs/remote-photo-editor-headout-1134817",
-      "snippet": "ð© ð» The RoleTransform the way travelers experience destinations through visuals! As a Photoâ¦See this and similar jobs on LinkedIn. Please mention the word **METICULOUS** and tag RNC4xNTQuNzYuMjA= when applying to show you read the job post completely (#RNC4xNTQuNzYuMjA=).",
+      "snippet": "ð© ð» The RoleTransform the way travelers experience destinations through visuals! As a Photoâ¦See this and similar jobs on LinkedIn. Please mention the word **METICULOUS** and tag RMjAuMy4yMjEuMTc3 when applying to show you read the job post completely (#RMjAuMy4yMjEuMTc3).",
       "posted_at": "2026-07-14T16:07:35+00:00"
     },
     {
@@ -45,38 +53,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770",
       "snippet": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actiona",
       "posted_at": "2026-07-13T16:00:32+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Ever dreamed of making $300 a day with just your s..",
-      "company": "TheFreeAdForum",
-      "url": "https://remoteOK.com/remote-jobs/remote-ever-dreamed-of-making-300-a-day-with-just-your-s-thefreeadforum-1134890",
-      "snippet": "ABI Handicrafts is a trusted Indian artisan brand specializing in handmade home decor, brass handicrafts, iron decor, wooden decorative items, and customized gifting products. Every piece is crafted by skilled artisans, blending traditional Indian craftsmanship with modern design",
-      "posted_at": "2026-07-13T10:50:37+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Don't Get Left Behind",
-      "company": "TheFreeAdForum",
-      "url": "https://remoteOK.com/remote-jobs/remote-dont-get-left-behind-thefreeadforum-1134893",
-      "snippet": "ABI Handicrafts is a trusted Indian artisan brand specializing in handmade home decor, brass handicrafts, iron decor, wooden decorative items, and customized gifting products. Every piece is crafted by skilled artisans, blending traditional Indian craftsmanship with modern design",
-      "posted_at": "2026-07-13T10:50:09+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Metro",
-      "company": "JARMANI LIMITED",
-      "url": "https://remoteOK.com/remote-jobs/remote-metro-jarmani-limited-1134798",
-      "snippet": "metro drive Please mention the word **RIGHTFUL** and tag RNC4xNTQuNzYuMjA= when applying to show you read the job post completely (#RNC4xNTQuNzYuMjA=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they",
-      "posted_at": "2026-07-13T07:24:02+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "The Role",
-      "company": "Artefacts / Asteria ART",
-      "url": "https://remoteOK.com/remote-jobs/remote-the-role-artefacts-asteria-art-1134748",
-      "snippet": "Robotics Simulation Engineer By artefacts In jobs Artefacts is building a set of software tools for robotics software developers, facilitating Continuous Simulation in their workflow and tight integration with CI. We hope to help them take on the challenge of creating an advanced",
-      "posted_at": "2026-07-12T16:09:13+00:00"
     },
     {
       "source": "HN",
