@@ -1,15 +1,14 @@
 # Link Health Report
 
-**Last run:** Sat, 18 Jul 2026 06:38:00 GMT
+**Last run:** Sun, 19 Jul 2026 06:50:04 GMT
 **Total checked:** 233
-**OK:** 199  ·  **Broken:** 6  ·  **Blocked (likely alive):** 24  ·  **Watch:** 4
+**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
@@ -36,6 +35,7 @@
 | 403 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
