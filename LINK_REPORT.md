@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sun, 19 Jul 2026 06:50:04 GMT
+**Last run:** Mon, 20 Jul 2026 07:02:08 GMT
 **Total checked:** 233
-**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
+**OK:** 197  ·  **Broken:** 4  ·  **Blocked (likely alive):** 27  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -11,7 +11,6 @@
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
-| 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -29,6 +28,8 @@
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
+| 503 | Mamaearth | <https://mamaearth.in/careers> |
+| 503 | Bombay Shaving Co | <https://bombayshavingcompany.com/> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
@@ -51,6 +52,7 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Qualcomm India | <https://careers.qualcomm.com/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
