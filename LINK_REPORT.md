@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 21 Jul 2026 06:50:34 GMT
+**Last run:** Wed, 22 Jul 2026 06:50:53 GMT
 **Total checked:** 233
-**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
+**OK:** 192  ·  **Broken:** 6  ·  **Blocked (likely alive):** 24  ·  **Watch:** 11
 
 ## ✗ Broken — needs attention
 
@@ -13,6 +13,7 @@
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
+| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | UND_ERR_CONNECT_TIMEOUT |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -49,10 +50,16 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
+| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | HealthCube | <https://healthcubed.com/> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
