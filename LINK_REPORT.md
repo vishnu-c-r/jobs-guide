@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Wed, 22 Jul 2026 06:50:53 GMT
+**Last run:** Thu, 23 Jul 2026 06:49:31 GMT
 **Total checked:** 233
-**OK:** 192  ·  **Broken:** 6  ·  **Blocked (likely alive):** 24  ·  **Watch:** 11
+**OK:** 197  ·  **Broken:** 6  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -13,7 +13,7 @@
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
-| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | UND_ERR_CONNECT_TIMEOUT |
+| 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -33,14 +33,16 @@
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
-| 403 | Behance Jobs | <https://www.behance.net/joblist> |
+| 429 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
+| 429 | MuLearn | <https://mulearn.org/> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
@@ -50,16 +52,9 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
-| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
-| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
-| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
