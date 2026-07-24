@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 23 Jul 2026 06:49:31 GMT
+**Last run:** Fri, 24 Jul 2026 06:49:31 GMT
 **Total checked:** 233
-**OK:** 197  ·  **Broken:** 6  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
+**OK:** 198  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -13,7 +13,6 @@
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
-| 439 | String Bio | <https://string.bio/> | client-error |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -42,7 +41,6 @@
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
-| 429 | MuLearn | <https://mulearn.org/> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
@@ -53,6 +51,7 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
