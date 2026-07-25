@@ -1,14 +1,15 @@
 # Link Health Report
 
-**Last run:** Fri, 24 Jul 2026 06:49:31 GMT
+**Last run:** Sat, 25 Jul 2026 06:45:38 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 5
+**OK:** 198  ·  **Broken:** 6  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
@@ -51,7 +52,6 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
