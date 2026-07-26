@@ -1,15 +1,14 @@
 # Link Health Report
 
-**Last run:** Sat, 25 Jul 2026 06:45:38 GMT
+**Last run:** Sun, 26 Jul 2026 06:53:51 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 6  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
+**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
