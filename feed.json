@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-25T03:05:51.885Z",
+  "generated_at": "2026-07-26T03:06:54.742Z",
   "sources": {
     "hn": 9,
-    "remoteok": 6,
+    "remoteok": 5,
     "inc42": 0
   },
   "items": [
@@ -45,14 +45,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-engineer-ii-aecom-1135296",
       "snippet": "Company Description Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's truste",
       "posted_at": "2026-07-22T20:16:38+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Backend Developer",
-      "company": "Bjak ",
-      "url": "https://remoteOK.com/remote-jobs/remote-backend-developer-bjak-1135217",
-      "snippet": "About BJAK The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name. Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in th",
-      "posted_at": "2026-07-22T16:00:20+00:00"
     },
     {
       "source": "HN",
