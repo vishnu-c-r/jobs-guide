@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 30 Jul 2026 06:51:41 GMT
+**Last run:** Fri, 31 Jul 2026 06:57:29 GMT
 **Total checked:** 233
-**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 4
+**OK:** 195  ·  **Broken:** 7  ·  **Blocked (likely alive):** 26  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -12,7 +12,9 @@
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
+| NETERR | String Bio | <https://string.bio/> | ERR_SSL_TLSV1_UNRECOGNIZED_NAME |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
+| NETERR | Social Alpha | <https://www.socialalpha.org/> | CERT_HAS_EXPIRED |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -32,8 +34,9 @@
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
 | 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
-| 429 | Behance Jobs | <https://www.behance.net/joblist> |
+| 403 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
+| 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
 | 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
@@ -51,6 +54,7 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | HealthCube | <https://healthcubed.com/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
