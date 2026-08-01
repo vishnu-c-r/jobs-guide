@@ -1,20 +1,19 @@
 # Link Health Report
 
-**Last run:** Fri, 31 Jul 2026 06:57:29 GMT
+**Last run:** Sat, 01 Aug 2026 06:49:08 GMT
 **Total checked:** 233
-**OK:** 195  ·  **Broken:** 7  ·  **Blocked (likely alive):** 26  ·  **Watch:** 5
+**OK:** 197  ·  **Broken:** 6  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
-| NETERR | String Bio | <https://string.bio/> | ERR_SSL_TLSV1_UNRECOGNIZED_NAME |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
-| NETERR | Social Alpha | <https://www.socialalpha.org/> | CERT_HAS_EXPIRED |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -54,7 +53,6 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | HealthCube | <https://healthcubed.com/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
