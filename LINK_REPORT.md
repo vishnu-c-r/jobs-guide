@@ -1,6 +1,6 @@
 # Link Health Report
 
-**Last run:** Sat, 01 Aug 2026 06:49:08 GMT
+**Last run:** Sun, 02 Aug 2026 06:52:05 GMT
 **Total checked:** 233
 **OK:** 197  ·  **Broken:** 6  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
 
@@ -9,10 +9,10 @@
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
+| NETERR | String Bio | <https://string.bio/> | ECONNRESET |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
 
 ## ⊘ Blocked by WAF / bot-protection
