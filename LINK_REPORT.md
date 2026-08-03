@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sun, 02 Aug 2026 06:52:05 GMT
+**Last run:** Mon, 03 Aug 2026 07:04:55 GMT
 **Total checked:** 233
-**OK:** 197  ·  **Broken:** 6  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
+**OK:** 198  ·  **Broken:** 5  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
 
 ## ✗ Broken — needs attention
 
@@ -12,7 +12,6 @@
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
-| NETERR | String Bio | <https://string.bio/> | ECONNRESET |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
 
 ## ⊘ Blocked by WAF / bot-protection
