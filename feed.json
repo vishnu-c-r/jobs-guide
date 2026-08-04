@@ -1,90 +1,42 @@
 {
-  "generated_at": "2026-08-03T03:07:40.386Z",
+  "generated_at": "2026-08-04T03:06:23.628Z",
   "sources": {
-    "hn": 9,
-    "remoteok": 1,
-    "inc42": 0
+    "hn": 1,
+    "remoteok": 2,
+    "inc42": 1
   },
   "items": [
     {
+      "source": "HN",
+      "title": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (USA & INDIA) | Full Time At",
+      "company": "SentiLink",
+      "url": "https://news.ycombinator.com/item?id=49162509",
+      "snippet": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (USA & INDIA) | Full Time At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from syn",
+      "posted_at": "2026-08-03T23:00:09.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "Flipkart To Launch Food Delivery Service By Mid-August With 10-11% Commission Model",
+      "company": "",
+      "url": "https://inc42.com/buzz/flipkart-to-launch-food-delivery-service-by-mid-august-with-10-11-commission-model/",
+      "snippet": "Flipkart is set to launch its food delivery service in Bengaluru by mid-August, with the ecommerce major planning to charge",
+      "posted_at": "Mon, 03 Aug 2026 07:43:52 +0000"
+    },
+    {
       "source": "REMOTEOK",
-      "title": "Mes",
-      "company": "PADGET ELECTRONICS Private Limited (DIXON)",
-      "url": "https://remoteOK.com/remote-jobs/remote-mes-padget-electronics-private-limited-dixon-1135730",
-      "snippet": "mes Please mention the word **RIGHTEOUS** and tag ROS4yMzQuMTUxLjgz when applying to show you read the job post completely (#ROS4yMzQuMTUxLjgz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're hum",
-      "posted_at": "2026-07-30T15:12:13+00:00"
+      "title": "DESIGNER â¢ FUTURE NEED",
+      "company": "Favorite Records",
+      "url": "https://remoteOK.com/remote-jobs/remote-designer-o-future-need-favorite-records-1135920",
+      "snippet": "Creative. Self-starter. Detail Oriented. Weâre always looking for freelance designers who thrive in a fast-paced, remote environmentâsomeone who brings fresh ideas to the table while maintaining a meticulous eye for detail. This role collaborates closely with our creative tea",
+      "posted_at": "2026-08-02T14:04:15+00:00"
     },
     {
-      "source": "HN",
-      "title": "Full-Stack Developer | India (Open to Relocation & Visa Sponsorship) Tech Stack: React, Next.js, TypeScript, Node.js, FastAPI, PostgreSQL, M",
-      "company": "Full-Stack Developer",
-      "url": "https://news.ycombinator.com/item?id=48932861",
-      "snippet": "Full-Stack Developer | India (Open to Relocation & Visa Sponsorship) Tech Stack: React, Next.js, TypeScript, Node.js, FastAPI, PostgreSQL, MongoDB, Docker, GitHub Actions, REST APIs, AI&#x2F;LLMs (LangChain, OpenAI, Gemini) Open-source contributor to Meshery (CNCF), KubeEdge (CNC",
-      "posted_at": "2026-07-16T11:00:53.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "LiveKit| http:&#x2F;&#x2F;livekit.io&#x2F; | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voic",
-      "company": "LiveKit",
-      "url": "https://news.ycombinator.com/item?id=48822697",
-      "snippet": "LiveKit| http:&#x2F;&#x2F;livekit.io&#x2F; | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in productio",
-      "posted_at": "2026-07-07T19:40:23.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Tech Mahindra | Full-time | Senior Roles | India (Hyderabad & Bangalore) | techmahindra.com Tech Mahindra’s Cloud Advisory & Consulting divi",
-      "company": "Tech Mahindra",
-      "url": "https://news.ycombinator.com/item?id=48818183",
-      "snippet": "Tech Mahindra | Full-time | Senior Roles | India (Hyderabad & Bangalore) | techmahindra.com Tech Mahindra’s Cloud Advisory & Consulting division is hiring experienced leaders to help drive delivery excellence and financial operations for our global cloud consulting business. We a",
-      "posted_at": "2026-07-07T14:13:43.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Opportunity looking for AI Engineer role Globaly Location : India Remote : Preferable Willing to relocate : yes Tech : Python | Java | JavaS",
-      "company": "Opportunity looking for AI Engineer role Globaly Location : India Remote : Prefe",
-      "url": "https://news.ycombinator.com/item?id=48784686",
-      "snippet": "Opportunity looking for AI Engineer role Globaly Location : India Remote : Preferable Willing to relocate : yes Tech : Python | Java | JavaScript | C | Go | C# | Spring Boot | React.js | HTML | CSS | SQL | MongoDB | H2 Database | TensorFlow | PyTorch | Machine Learning | Deep Lea",
-      "posted_at": "2026-07-04T11:43:10.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Opportunity looking for AI Engineer role Globaly Location : India Remote : Preferable Willing to relocate : yes Tech : Python | Java | JavaS",
-      "company": "Opportunity looking for AI Engineer role Globaly Location : India Remote : Prefe",
-      "url": "https://news.ycombinator.com/item?id=48784680",
-      "snippet": "Opportunity looking for AI Engineer role Globaly Location : India Remote : Preferable Willing to relocate : yes Tech : Python | Java | JavaScript | C | Go | C# | Spring Boot | React.js | HTML | CSS | SQL | MongoDB | H2 Database | TensorFlow | PyTorch | Machine Learning | Deep Lea",
-      "posted_at": "2026-07-04T11:41:27.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Hey Seema, before applying just wanted to know do you guys support with Visa sponsorship? I meet all the criteria except one which is I am f",
-      "company": "Hey Seema, before applying just wanted to know do you guys support with Visa spo",
-      "url": "https://news.ycombinator.com/item?id=48764639",
-      "snippet": "Hey Seema, before applying just wanted to know do you guys support with Visa sponsorship? I meet all the criteria except one which is I am from India :(",
-      "posted_at": "2026-07-02T17:25:07.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Logen.io | Founding Full-stack &#x2F; AI Engineer | Bengaluru, India | REMOTE | Full-time &#x2F; Contract Logen.io is building an AI app bui",
-      "company": "Logen.io",
-      "url": "https://news.ycombinator.com/item?id=48760654",
-      "snippet": "Logen.io | Founding Full-stack &#x2F; AI Engineer | Bengaluru, India | REMOTE | Full-time &#x2F; Contract Logen.io is building an AI app builder for real production apps — not just toy prototypes. The goal is to let users go from idea → working web app → deployable product, with",
-      "posted_at": "2026-07-02T12:45:31.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "I m AI Engineer hands on 2 years of experience Location : India Remote : preferable ok Tech stack : Python | Java | JavaScript | C | Go | C#",
-      "company": "I m AI Engineer hands on 2 years of experience Location : India Remote : prefera",
-      "url": "https://news.ycombinator.com/item?id=48760248",
-      "snippet": "I m AI Engineer hands on 2 years of experience Location : India Remote : preferable ok Tech stack : Python | Java | JavaScript | C | Go | C# | Spring Boot | React.js | HTML | CSS | SQL | MongoDB | H2 Database | TensorFlow | PyTorch | Machine Learning | Deep Learning | LangChain |",
-      "posted_at": "2026-07-02T12:14:23.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Are there any plans to open the Senior Backend Engineer role to candidates in India? Currently, the Ashby link for this role doesn t list In",
-      "company": "Are there any plans to open the Senior Backend Engineer role to candidates in In",
-      "url": "https://news.ycombinator.com/item?id=48750861",
-      "snippet": "Are there any plans to open the Senior Backend Engineer role to candidates in India? Currently, the Ashby link for this role doesn t list India.",
-      "posted_at": "2026-07-01T18:04:00.000Z"
+      "source": "REMOTEOK",
+      "title": "Calling Specialist",
+      "company": "KSNL Consulting LLC",
+      "url": "https://remoteOK.com/remote-jobs/remote-calling-specialist-ksnl-consulting-llc-1136074",
+      "snippet": "JOB DESCRIPTION Thank you for showing interest in Outreach Specialist role at KSNL Consulting LLC! Before we move forward, we want to make sure you have a full picture of what we do and what this job actually looks like day to day. Who we are : KSNL Consulting is a project consul",
+      "posted_at": "2026-08-02T02:03:36+00:00"
     }
   ]
 }
