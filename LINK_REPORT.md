@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 03 Aug 2026 07:04:55 GMT
+**Last run:** Tue, 04 Aug 2026 06:50:55 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 5  ·  **Blocked (likely alive):** 26  ·  **Watch:** 4
+**OK:** 196  ·  **Broken:** 5  ·  **Blocked (likely alive):** 26  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -54,6 +54,8 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
+| NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
