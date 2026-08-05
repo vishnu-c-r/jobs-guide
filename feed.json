@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-04T03:06:23.628Z",
+  "generated_at": "2026-08-05T03:06:06.839Z",
   "sources": {
-    "hn": 1,
-    "remoteok": 2,
-    "inc42": 1
+    "hn": 3,
+    "remoteok": 6,
+    "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Open to India location?",
+      "company": "Open to India location?",
+      "url": "https://news.ycombinator.com/item?id=49165982",
+      "snippet": "Open to India location?",
+      "posted_at": "2026-08-04T08:58:35.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | https:&#x2F;&#x2F;funnelstory.ai We build a queryable context gr",
+      "company": "FunnelStory",
+      "url": "https://news.ycombinator.com/item?id=49164668",
+      "snippet": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | https:&#x2F;&#x2F;funnelstory.ai We build a queryable context graph over enterprise data -- industrializing AI for customer success. We ve built a federated query engine for agents, custom Go ML models (M",
+      "posted_at": "2026-08-04T05:38:58.000Z"
+    },
     {
       "source": "HN",
       "title": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (USA & INDIA) | Full Time At",
@@ -15,12 +31,36 @@
       "posted_at": "2026-08-03T23:00:09.000Z"
     },
     {
-      "source": "INC42",
-      "title": "Flipkart To Launch Food Delivery Service By Mid-August With 10-11% Commission Model",
-      "company": "",
-      "url": "https://inc42.com/buzz/flipkart-to-launch-food-delivery-service-by-mid-august-with-10-11-commission-model/",
-      "snippet": "Flipkart is set to launch its food delivery service in Bengaluru by mid-August, with the ecommerce major planning to charge",
-      "posted_at": "Mon, 03 Aug 2026 07:43:52 +0000"
+      "source": "REMOTEOK",
+      "title": "Application Developer",
+      "company": "Accenture in India",
+      "url": "https://remoteOK.com/remote-jobs/remote-application-developer-accenture-in-india-1136075",
+      "snippet": "Project Role : Application Developer Project Role Description : Design, build and configure applications to meet business process and application requirements. Must have skills : Siemens eMeter Good to have skills : NA Minimum 3 Year(s) Of Experience Is Required Educational Quali",
+      "posted_at": "2026-08-03T20:34:35+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Custom Software Engineer",
+      "company": "Accenture in India",
+      "url": "https://remoteOK.com/remote-jobs/remote-custom-software-engineer-accenture-in-india-1136072",
+      "snippet": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to specif",
+      "posted_at": "2026-08-03T18:14:44+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Assistant Area Sales &amp; Customer Manager",
+      "company": "Unilever",
+      "url": "https://remoteOK.com/remote-jobs/remote-assistant-area-sales-amp-customer-manager-unilever-1136104",
+      "snippet": "Role Title: Assistant Area Sales & Customer Manager Function: Customer Development Location: Mumbai RO Reporting to: Consumer Cluster Head Here is how your day at Unilever would look like: Customer Infrastructure & satisfaction: The ASCM is responsible for ensuring a robust Custo",
+      "posted_at": "2026-08-03T15:40:30+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "SH Blasting Officer",
+      "company": "Aditya Birla Group",
+      "url": "https://remoteOK.com/remote-jobs/remote-sh-blasting-officer-aditya-birla-group-1136071",
+      "snippet": "Job Context Aditya Birla Group is India's first truly multinational corporation. A US $65 billion corporation, the Aditya Birla Group is in the League of Fortune 500. It is anchored by an extraordinary force of over 1,87,000 employees belonging to 41 different nationalities. Hind",
+      "posted_at": "2026-08-03T15:33:34+00:00"
     },
     {
       "source": "REMOTEOK",
