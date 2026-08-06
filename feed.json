@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-08-05T03:06:06.839Z",
+  "generated_at": "2026-08-06T03:05:43.795Z",
   "sources": {
-    "hn": 3,
-    "remoteok": 6,
-    "inc42": 0
+    "hn": 4,
+    "remoteok": 9,
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Oscilar.com | Site Lead, Sr&#x2F;Staff Software Engineers, Security Engineer, PM, Data Engineer | REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Po",
+      "company": "Oscilar.com",
+      "url": "https://news.ycombinator.com/item?id=49185103",
+      "snippet": "Oscilar.com | Site Lead, Sr&#x2F;Staff Software Engineers, Security Engineer, PM, Data Engineer | REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Poland&#x2F;UK&#x2F;India) | Full-time AI Risk Decisioning™ platform that helps organizations manage onboarding, fraud, credit, and compliance",
+      "posted_at": "2026-08-05T16:28:27.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "Reliance Retail Acquires Fashion Discovery Platform Furrl",
+      "company": "",
+      "url": "https://inc42.com/buzz/reliance-retail-acquires-fashion-discovery-platform-furrl/",
+      "snippet": "Reliance Retail (RRVL) has acquired Bengaluru-based fashion discovery platform Furrl in an all-cash deal for an undisclosed sum, bringing the",
+      "posted_at": "Wed, 05 Aug 2026 14:59:51 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Open roles",
+      "company": "CleanDims",
+      "url": "https://remoteOK.com/remote-jobs/remote-open-roles-cleandims-1136121",
+      "snippet": "We hire slowly. The work is intellectually serious and the people we hire shape both what gets built and how the company evolves. We would rather wait for the right person than fill a seat. Please mention the word **DESIROUS** and tag RMTcyLjIwOC4xNTMuMQ== when applying to show y",
+      "posted_at": "2026-08-05T01:28:11+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Marketing Specialist",
+      "company": "INNERGY",
+      "url": "https://remoteOK.com/remote-jobs/remote-marketing-specialist-innergy-1136094",
+      "snippet": "INNERGY is transforming the woodworking industry with purpose built, cloud based ERP software designed exclusively for custom manufacturers. Our platform helps businesses operate smarter, faster, and more efficiently while seamlessly connecting design, production, and delivery fo",
+      "posted_at": "2026-08-04T15:06:47+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "NO CURRENT OPENINGS",
+      "company": "Dimensionality",
+      "url": "https://remoteOK.com/remote-jobs/remote-no-current-openings-dimensionality-1136088",
+      "snippet": "At Dimensionality, we are building the future of heavy civil bidding intelligence through applied machine learning and economic modeling. Teaming up with industry experts, we build quantitative methods to solve problems in one of the most capital intensive and competitive markets",
+      "posted_at": "2026-08-04T09:19:26+00:00"
+    },
     {
       "source": "HN",
       "title": "Open to India location?",
@@ -13,6 +53,14 @@
       "url": "https://news.ycombinator.com/item?id=49165982",
       "snippet": "Open to India location?",
       "posted_at": "2026-08-04T08:58:35.000Z"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Market Research",
+      "company": "GROW10X",
+      "url": "https://remoteOK.com/remote-jobs/remote-market-research-grow10x-1136216",
+      "snippet": "Company Description GROW10X is a leading full-service agency specializing in helping B2B SaaS technology companies accelerate revenue growth through outbound lead generation. Utilizing a combination of cutting-edge technology, expert strategies, on-demand data, and a globally dis",
+      "posted_at": "2026-08-04T07:13:53+00:00"
     },
     {
       "source": "HN",
@@ -64,19 +112,11 @@
     },
     {
       "source": "REMOTEOK",
-      "title": "DESIGNER â¢ FUTURE NEED",
-      "company": "Favorite Records",
-      "url": "https://remoteOK.com/remote-jobs/remote-designer-o-future-need-favorite-records-1135920",
-      "snippet": "Creative. Self-starter. Detail Oriented. Weâre always looking for freelance designers who thrive in a fast-paced, remote environmentâsomeone who brings fresh ideas to the table while maintaining a meticulous eye for detail. This role collaborates closely with our creative tea",
-      "posted_at": "2026-08-02T14:04:15+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Calling Specialist",
-      "company": "KSNL Consulting LLC",
-      "url": "https://remoteOK.com/remote-jobs/remote-calling-specialist-ksnl-consulting-llc-1136074",
-      "snippet": "JOB DESCRIPTION Thank you for showing interest in Outreach Specialist role at KSNL Consulting LLC! Before we move forward, we want to make sure you have a full picture of what we do and what this job actually looks like day to day. Who we are : KSNL Consulting is a project consul",
-      "posted_at": "2026-08-02T02:03:36+00:00"
+      "title": "404",
+      "company": "asentio",
+      "url": "https://remoteOK.com/remote-jobs/remote-404-asentio-1136232",
+      "snippet": "HAI DirectoryInsightsWork With UsAbout ð¨ð¦Vancouver 5 WedÂ·05:39 PMðºð¸San Francisco 5 WedÂ·05:39 PMðºð¸Denver 5 WedÂ·06:39 PMð²ð½Mexico City 5 WedÂ·06:39 PMðºð¸Chicago 5 WedÂ·07:39 PMðµðªLima 5 WedÂ·07:39 PMðºð¸New York City 5 WedÂ·08:39 PMð¨ð¦To",
+      "posted_at": "2026-08-03T12:39:47+00:00"
     }
   ]
 }
