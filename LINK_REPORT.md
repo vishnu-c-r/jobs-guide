@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 06 Aug 2026 06:53:25 GMT
+**Last run:** Fri, 07 Aug 2026 06:23:41 GMT
 **Total checked:** 233
-**OK:** 197  ·  **Broken:** 5  ·  **Blocked (likely alive):** 25  ·  **Watch:** 6
+**OK:** 200  ·  **Broken:** 6  ·  **Blocked (likely alive):** 21  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -11,6 +11,7 @@
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
+| 404 | Aumbre | <https://aumbre.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
 
@@ -20,8 +21,6 @@
 
 | Status | Name | URL |
 |---|---|---|
-| 403 | Wellfound — Bangalore jobs | <https://wellfound.com/jobs?location=bangalore> |
-| 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
 | 403 | Tessolve | <https://www.tessolve.com/careers/> |
@@ -31,7 +30,6 @@
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
-| 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
@@ -44,7 +42,6 @@
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
-| 403 | Wellfound — Founder's Office BLR | <https://wellfound.com/jobs?role=founder-s-office&location=bangalore> |
 
 ## ! Watch — possibly transient
 
