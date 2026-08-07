@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-06T03:05:43.795Z",
+  "generated_at": "2026-08-07T03:03:28.055Z",
   "sources": {
-    "hn": 4,
-    "remoteok": 9,
-    "inc42": 1
+    "hn": 6,
+    "remoteok": 5,
+    "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Mosaic Wellness| JS, Python, SQL | Mumbai, India | ONSITE | Full-Time I am looking to hire 2 Product Engineers for my team. Experience betwe",
+      "company": "Mosaic Wellness",
+      "url": "https://news.ycombinator.com/item?id=49194021",
+      "snippet": "Mosaic Wellness| JS, Python, SQL | Mumbai, India | ONSITE | Full-Time I am looking to hire 2 Product Engineers for my team. Experience between 1-4 years. Should have solid dev skills in JS&#x2F;TS and should have interest in the product&#x2F;business aspects of the tools you are",
+      "posted_at": "2026-08-06T08:26:15.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Adalat AI | https:&#x2F;&#x2F;www.adalat.ai | Remote (India) | Go, React, Next.js, k8s We re Hiring at Adalat AI: Join Us in Building the Fu",
+      "company": "Adalat AI",
+      "url": "https://news.ycombinator.com/item?id=49192593",
+      "snippet": "Adalat AI | https:&#x2F;&#x2F;www.adalat.ai | Remote (India) | Go, React, Next.js, k8s We re Hiring at Adalat AI: Join Us in Building the Future of Justice Adalat AI is on a mission to transform India’s judicial system with cutting-edge AI — reimagining courtroom workflows from t",
+      "posted_at": "2026-08-06T04:51:46.000Z"
+    },
     {
       "source": "HN",
       "title": "Oscilar.com | Site Lead, Sr&#x2F;Staff Software Engineers, Security Engineer, PM, Data Engineer | REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Po",
@@ -15,36 +31,44 @@
       "posted_at": "2026-08-05T16:28:27.000Z"
     },
     {
-      "source": "INC42",
-      "title": "Reliance Retail Acquires Fashion Discovery Platform Furrl",
-      "company": "",
-      "url": "https://inc42.com/buzz/reliance-retail-acquires-fashion-discovery-platform-furrl/",
-      "snippet": "Reliance Retail (RRVL) has acquired Bengaluru-based fashion discovery platform Furrl in an all-cash deal for an undisclosed sum, bringing the",
-      "posted_at": "Wed, 05 Aug 2026 14:59:51 +0000"
+      "source": "REMOTEOK",
+      "title": "AdFlow",
+      "company": "SimpleTech.AI",
+      "url": "https://remoteOK.com/remote-jobs/remote-adflow-simpletech-ai-1136237",
+      "snippet": "A minimalist todo app that keeps you focused with time-bound tasks. Maximum 2 tasks at a time. No endless lists. Please mention the word **GLIMMER** and tag RMjAuMTY4LjEyOC44OQ== when applying to show you read the job post completely (#RMjAuMTY4LjEyOC44OQ==). This is a beta featu",
+      "posted_at": "2026-08-05T14:03:34+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Cabin Crew Virtual Interviews PAN India",
+      "company": "Akasa Air",
+      "url": "https://remoteOK.com/remote-jobs/remote-cabin-crew-virtual-interviews-pan-india-akasa-air-1136223",
+      "snippet": "Job Position Summary To provide excellent service to customers while ensuring their safety, security and comfort throughout the flight. Key Responsibilities Strictly adhere to and remain conversant & compliant to set standard operating procedures as per the Government, DGCA and i",
+      "posted_at": "2026-08-05T11:45:49+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Brand Strategy",
+      "company": "Capgemini",
+      "url": "https://remoteOK.com/remote-jobs/remote-brand-strategy-capgemini-1136220",
+      "snippet": "Since June 2021, frog is part of Capgemini Invent . frog partners with customer-centric enterprises to drive sustainable growth, by building and orchestrating experiences at scale, while harnessing the power of data and technology. Weâre inventing the future of customer experie",
+      "posted_at": "2026-08-05T10:55:32+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Speculative application",
+      "company": "Amann Girrbach MEA &amp; Turkey",
+      "url": "https://remoteOK.com/remote-jobs/remote-speculative-application-amann-girrbach-mea-amp-turkey-1136132",
+      "snippet": "In order to provide you with the best possible service and to facilitate the use of certain functions, we use cookies. By using this site, you agree to the use of cookies. For more information about which data is stored, click here. Allow Customize cookiesDecline Deutsch English",
+      "posted_at": "2026-08-05T07:00:08+00:00"
     },
     {
       "source": "REMOTEOK",
       "title": "Open roles",
       "company": "CleanDims",
       "url": "https://remoteOK.com/remote-jobs/remote-open-roles-cleandims-1136121",
-      "snippet": "We hire slowly. The work is intellectually serious and the people we hire shape both what gets built and how the company evolves. We would rather wait for the right person than fill a seat. Please mention the word **DESIROUS** and tag RMTcyLjIwOC4xNTMuMQ== when applying to show y",
+      "snippet": "We hire slowly. The work is intellectually serious and the people we hire shape both what gets built and how the company evolves. We would rather wait for the right person than fill a seat. Please mention the word **DESIROUS** and tag RMjAuMTY4LjEyOC44OQ== when applying to show y",
       "posted_at": "2026-08-05T01:28:11+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Marketing Specialist",
-      "company": "INNERGY",
-      "url": "https://remoteOK.com/remote-jobs/remote-marketing-specialist-innergy-1136094",
-      "snippet": "INNERGY is transforming the woodworking industry with purpose built, cloud based ERP software designed exclusively for custom manufacturers. Our platform helps businesses operate smarter, faster, and more efficiently while seamlessly connecting design, production, and delivery fo",
-      "posted_at": "2026-08-04T15:06:47+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "NO CURRENT OPENINGS",
-      "company": "Dimensionality",
-      "url": "https://remoteOK.com/remote-jobs/remote-no-current-openings-dimensionality-1136088",
-      "snippet": "At Dimensionality, we are building the future of heavy civil bidding intelligence through applied machine learning and economic modeling. Teaming up with industry experts, we build quantitative methods to solve problems in one of the most capital intensive and competitive markets",
-      "posted_at": "2026-08-04T09:19:26+00:00"
     },
     {
       "source": "HN",
@@ -53,14 +77,6 @@
       "url": "https://news.ycombinator.com/item?id=49165982",
       "snippet": "Open to India location?",
       "posted_at": "2026-08-04T08:58:35.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Market Research",
-      "company": "GROW10X",
-      "url": "https://remoteOK.com/remote-jobs/remote-market-research-grow10x-1136216",
-      "snippet": "Company Description GROW10X is a leading full-service agency specializing in helping B2B SaaS technology companies accelerate revenue growth through outbound lead generation. Utilizing a combination of cutting-edge technology, expert strategies, on-demand data, and a globally dis",
-      "posted_at": "2026-08-04T07:13:53+00:00"
     },
     {
       "source": "HN",
@@ -77,46 +93,6 @@
       "url": "https://news.ycombinator.com/item?id=49162509",
       "snippet": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (USA & INDIA) | Full Time At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from syn",
       "posted_at": "2026-08-03T23:00:09.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Application Developer",
-      "company": "Accenture in India",
-      "url": "https://remoteOK.com/remote-jobs/remote-application-developer-accenture-in-india-1136075",
-      "snippet": "Project Role : Application Developer Project Role Description : Design, build and configure applications to meet business process and application requirements. Must have skills : Siemens eMeter Good to have skills : NA Minimum 3 Year(s) Of Experience Is Required Educational Quali",
-      "posted_at": "2026-08-03T20:34:35+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Custom Software Engineer",
-      "company": "Accenture in India",
-      "url": "https://remoteOK.com/remote-jobs/remote-custom-software-engineer-accenture-in-india-1136072",
-      "snippet": "Project Role : Custom Software Engineer Project Role Description : Develop custom software solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to specif",
-      "posted_at": "2026-08-03T18:14:44+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Assistant Area Sales &amp; Customer Manager",
-      "company": "Unilever",
-      "url": "https://remoteOK.com/remote-jobs/remote-assistant-area-sales-amp-customer-manager-unilever-1136104",
-      "snippet": "Role Title: Assistant Area Sales & Customer Manager Function: Customer Development Location: Mumbai RO Reporting to: Consumer Cluster Head Here is how your day at Unilever would look like: Customer Infrastructure & satisfaction: The ASCM is responsible for ensuring a robust Custo",
-      "posted_at": "2026-08-03T15:40:30+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "SH Blasting Officer",
-      "company": "Aditya Birla Group",
-      "url": "https://remoteOK.com/remote-jobs/remote-sh-blasting-officer-aditya-birla-group-1136071",
-      "snippet": "Job Context Aditya Birla Group is India's first truly multinational corporation. A US $65 billion corporation, the Aditya Birla Group is in the League of Fortune 500. It is anchored by an extraordinary force of over 1,87,000 employees belonging to 41 different nationalities. Hind",
-      "posted_at": "2026-08-03T15:33:34+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "404",
-      "company": "asentio",
-      "url": "https://remoteOK.com/remote-jobs/remote-404-asentio-1136232",
-      "snippet": "HAI DirectoryInsightsWork With UsAbout ð¨ð¦Vancouver 5 WedÂ·05:39 PMðºð¸San Francisco 5 WedÂ·05:39 PMðºð¸Denver 5 WedÂ·06:39 PMð²ð½Mexico City 5 WedÂ·06:39 PMðºð¸Chicago 5 WedÂ·07:39 PMðµðªLima 5 WedÂ·07:39 PMðºð¸New York City 5 WedÂ·08:39 PMð¨ð¦To",
-      "posted_at": "2026-08-03T12:39:47+00:00"
     }
   ]
 }
