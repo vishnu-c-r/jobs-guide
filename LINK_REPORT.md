@@ -1,17 +1,17 @@
 # Link Health Report
 
-**Last run:** Fri, 07 Aug 2026 06:23:41 GMT
+**Last run:** Sat, 08 Aug 2026 06:14:11 GMT
 **Total checked:** 233
-**OK:** 200  ·  **Broken:** 6  ·  **Blocked (likely alive):** 21  ·  **Watch:** 6
+**OK:** 198  ·  **Broken:** 6  ·  **Blocked (likely alive):** 22  ·  **Watch:** 7
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
-| 404 | Aumbre | <https://aumbre.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
 
@@ -34,6 +34,7 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -50,6 +51,7 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Sastra Robotics | <https://sastrarobotics.com/> | timeout |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
