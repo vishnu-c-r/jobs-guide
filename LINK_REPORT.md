@@ -1,14 +1,15 @@
 # Link Health Report
 
-**Last run:** Sun, 09 Aug 2026 06:14:38 GMT
+**Last run:** Mon, 10 Aug 2026 06:26:51 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 4  ·  **Blocked (likely alive):** 25  ·  **Watch:** 6
+**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
@@ -19,7 +20,6 @@
 
 | Status | Name | URL |
 |---|---|---|
-| 403 | Wellfound — Bangalore directory | <https://wellfound.com/startups/location/bangalore-urban> |
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
 | 403 | Tessolve | <https://www.tessolve.com/careers/> |
@@ -27,10 +27,8 @@
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
-| 503 | Tredence | <https://www.tredence.com/careers/> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
-| 403 | Wellfound UI/UX — BLR | <https://wellfound.com/role/l/ui-ux-designer/bangalore> |
 | 403 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
