@@ -1,18 +1,42 @@
 {
-  "generated_at": "2026-08-11T02:44:36.350Z",
+  "generated_at": "2026-08-12T02:55:17.325Z",
   "sources": {
-    "hn": 7,
-    "remoteok": 5,
+    "hn": 9,
+    "remoteok": 6,
     "inc42": 1
   },
   "items": [
     {
+      "source": "HN",
+      "title": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the ne",
+      "company": "Stpkr Technologies",
+      "url": "https://news.ycombinator.com/item?id=49262026",
+      "snippet": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the next generation of wearable devices. We are currently looking for the following roles but we are also open to interviewing any candidates who",
+      "posted_at": "2026-08-11T17:57:57.000Z"
+    },
+    {
       "source": "INC42",
-      "title": "GalaxEye Acquires StarOps To Expand Satellite Engineering Capabilities",
+      "title": "Zepto Faces Fresh Regulatory Heat As Bengaluru Warehouse Sealed Over Food Safety Violations",
       "company": "",
-      "url": "https://inc42.com/buzz/galaxeye-acquires-starops-to-expand-satellite-engineering-capabilities/",
-      "snippet": "Spacetech startup GalaxEye has acquired Bengaluru-based spacecraft engineering company StarOps to deepen its in-house satellite engineering capabilities. The integration also",
-      "posted_at": "Mon, 10 Aug 2026 08:53:04 +0000"
+      "url": "https://inc42.com/buzz/zepto-faces-fresh-regulatory-heat-as-bengaluru-warehouse-sealed-over-food-safety-violations/",
+      "snippet": "Adding to the ongoing regulatory scrutiny, the Food Safety Division of Karnataka’s Food Safety and Drug Administration Department has sealed",
+      "posted_at": "Tue, 11 Aug 2026 15:37:17 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "12TH PASS",
+      "company": "Simond Fibertech Limited - India",
+      "url": "https://remoteOK.com/remote-jobs/remote-12th-pass-simond-fibertech-limited-india-1136368",
+      "snippet": "for job of computer operator qualification:- excel worksheet, pdf viewer FIRST YEAR PASS SECOND YEAR PASS MINIMUM 19 YEAR AGE REQUIRED Please mention the word **SUPPORTED** and tag RMjAuNDYuMjM5LjIwOA== when applying to show you read the job post completely (#RMjAuNDYuMjM5LjIwOA=",
+      "posted_at": "2026-08-10T10:53:24+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Payroll specialist UK",
+      "company": "EZSpace Ventures",
+      "url": "https://remoteOK.com/remote-jobs/remote-payroll-specialist-uk-ezspace-ventures-1136367",
+      "snippet": "ð¨ WEâRE HIRING | UK PAYROLL EXECUTIVE ð¬ð§ð¼ Weâre hiring UK Payroll Executives for one of our clients and looking for professionals with hands-on experience in UK Payroll & HMRC compliance . ð Location: Wayanad, Kerala ð¼ Experience: 2â8 Years ð¥ Openings:",
+      "posted_at": "2026-08-10T10:17:15+00:00"
     },
     {
       "source": "HN",
@@ -27,7 +51,7 @@
       "title": "For India",
       "company": "Uniparts India Ltd.",
       "url": "https://remoteOK.com/remote-jobs/remote-for-india-uniparts-india-ltd-1136318",
-      "snippet": "Reference #18.cadf3517.1786155946.2a87f162https://errors.edgesuite.net/18.cadf3517.1786155946.2a87f162 Please mention the word **CONGENIAL** and tag RNTIuMjM0LjQ1LjE3Nw== when applying to show you read the job post completely (#RNTIuMjM0LjQ1LjE3Nw==). This is a beta feature to av",
+      "snippet": "Reference #18.cadf3517.1786155946.2a87f162https://errors.edgesuite.net/18.cadf3517.1786155946.2a87f162 Please mention the word **CONGENIAL** and tag RMjAuNDYuMjM5LjIwOA== when applying to show you read the job post completely (#RMjAuNDYuMjM5LjIwOA==). This is a beta feature to av",
       "posted_at": "2026-08-08T02:26:06+00:00"
     },
     {
@@ -79,14 +103,6 @@
       "posted_at": "2026-08-05T16:28:27.000Z"
     },
     {
-      "source": "REMOTEOK",
-      "title": "AdFlow",
-      "company": "SimpleTech.AI",
-      "url": "https://remoteOK.com/remote-jobs/remote-adflow-simpletech-ai-1136237",
-      "snippet": "A minimalist todo app that keeps you focused with time-bound tasks. Maximum 2 tasks at a time. No endless lists. Please mention the word **GLIMMER** and tag RNTIuMjM0LjQ1LjE3Nw== when applying to show you read the job post completely (#RNTIuMjM0LjQ1LjE3Nw==). This is a beta featu",
-      "posted_at": "2026-08-05T14:03:34+00:00"
-    },
-    {
       "source": "HN",
       "title": "Open to India location?",
       "company": "Open to India location?",
@@ -109,6 +125,14 @@
       "url": "https://news.ycombinator.com/item?id=49162509",
       "snippet": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (USA & INDIA) | Full Time At SentiLink, we stop identity fraud at scale. Our products protect banks, fintechs, marketplaces, and leading financial institutions from syn",
       "posted_at": "2026-08-03T23:00:09.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "DualEntry | Full-time | REMOTE We build the first AI-native ERP software. Competitors measure customer migrations in quarters, we offer Day-",
+      "company": "DualEntry",
+      "url": "https://news.ycombinator.com/item?id=49159519",
+      "snippet": "DualEntry | Full-time | REMOTE We build the first AI-native ERP software. Competitors measure customer migrations in quarters, we offer Day-One data migration. Backed by Google, Lightspeed and Khosla with a 90M series A, we re building a team of outliers. The people who raise the",
+      "posted_at": "2026-08-03T18:18:19.000Z"
     }
   ]
 }
