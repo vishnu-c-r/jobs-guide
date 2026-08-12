@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 11 Aug 2026 06:17:47 GMT
+**Last run:** Wed, 12 Aug 2026 06:28:19 GMT
 **Total checked:** 233
-**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
+**OK:** 197  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 9
 
 ## ✗ Broken — needs attention
 
@@ -48,6 +48,9 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
