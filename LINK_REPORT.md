@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 13 Aug 2026 06:29:19 GMT
+**Last run:** Fri, 14 Aug 2026 06:28:27 GMT
 **Total checked:** 233
-**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 7
+**OK:** 192  ·  **Broken:** 6  ·  **Blocked (likely alive):** 22  ·  **Watch:** 13
 
 ## ✗ Broken — needs attention
 
@@ -12,7 +12,8 @@
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
-| NETERR | McCann India | <https://www.mccann.com/careers/> | ERR_SSL_SSLV3_ALERT_HANDSHAKE_FAILURE |
+| 404 | McCann India | <https://www.mccann.com/careers/> | gone |
+| NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | UND_ERR_CONNECT_TIMEOUT |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -47,12 +48,18 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
+| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Rainmatter (by Zerodha) | <https://rainmatter.com/> | timeout |
+| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
-| NETERR | MuLearn | <https://mulearn.org/> | timeout |
-| NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
 ---
