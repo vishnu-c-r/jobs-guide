@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-08-13T02:56:46.798Z",
+  "generated_at": "2026-08-14T02:55:54.302Z",
   "sources": {
     "hn": 9,
-    "remoteok": 6,
-    "inc42": 1
+    "remoteok": 4,
+    "inc42": 0
   },
   "items": [
+    {
+      "source": "REMOTEOK",
+      "title": "Test Job Title",
+      "company": "RecMan.io",
+      "url": "https://remoteOK.com/remote-jobs/remote-test-job-title-recman-io-1136578",
+      "snippet": "Test job descriptionÂ Test job description Test job description Test job description Test job description Test job description Test job description Test job description Test job description Test job description Test job descriptionÂ Â Test job description Test job description Tes",
+      "posted_at": "2026-08-12T13:57:07+00:00"
+    },
     {
       "source": "HN",
       "title": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the ne",
@@ -15,19 +23,11 @@
       "posted_at": "2026-08-11T17:57:57.000Z"
     },
     {
-      "source": "INC42",
-      "title": "Zepto Faces Fresh Regulatory Heat As Bengaluru Warehouse Sealed Over Food Safety Violations",
-      "company": "",
-      "url": "https://inc42.com/buzz/zepto-faces-fresh-regulatory-heat-as-bengaluru-warehouse-sealed-over-food-safety-violations/",
-      "snippet": "Adding to the ongoing regulatory scrutiny, the Food Safety Division of Karnataka’s Food Safety and Drug Administration Department has sealed",
-      "posted_at": "Tue, 11 Aug 2026 15:37:17 +0000"
-    },
-    {
       "source": "REMOTEOK",
       "title": "12TH PASS",
       "company": "Simond Fibertech Limited - India",
       "url": "https://remoteOK.com/remote-jobs/remote-12th-pass-simond-fibertech-limited-india-1136368",
-      "snippet": "for job of computer operator qualification:- excel worksheet, pdf viewer FIRST YEAR PASS SECOND YEAR PASS MINIMUM 19 YEAR AGE REQUIRED Please mention the word **SUPPORTED** and tag RMTcyLjE4NC4yMTAuMzc= when applying to show you read the job post completely (#RMTcyLjE4NC4yMTAuMzc",
+      "snippet": "for job of computer operator qualification:- excel worksheet, pdf viewer FIRST YEAR PASS SECOND YEAR PASS MINIMUM 19 YEAR AGE REQUIRED Please mention the word **SUPPORTED** and tag RNTIuMTYxLjYwLjIyOA== when applying to show you read the job post completely (#RNTIuMTYxLjYwLjIyOA=",
       "posted_at": "2026-08-10T10:53:24+00:00"
     },
     {
@@ -51,32 +51,8 @@
       "title": "For India",
       "company": "Uniparts India Ltd.",
       "url": "https://remoteOK.com/remote-jobs/remote-for-india-uniparts-india-ltd-1136318",
-      "snippet": "Reference #18.cadf3517.1786155946.2a87f162https://errors.edgesuite.net/18.cadf3517.1786155946.2a87f162 Please mention the word **CONGENIAL** and tag RMTcyLjE4NC4yMTAuMzc= when applying to show you read the job post completely (#RMTcyLjE4NC4yMTAuMzc=). This is a beta feature to av",
+      "snippet": "Reference #18.cadf3517.1786155946.2a87f162https://errors.edgesuite.net/18.cadf3517.1786155946.2a87f162 Please mention the word **CONGENIAL** and tag RNTIuMTYxLjYwLjIyOA== when applying to show you read the job post completely (#RNTIuMTYxLjYwLjIyOA==). This is a beta feature to av",
       "posted_at": "2026-08-08T02:26:06+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Page Not Found",
-      "company": "PAXIO",
-      "url": "https://remoteOK.com/remote-jobs/remote-page-not-found-paxio-1136324",
-      "snippet": "PAXIO is a Bay Area fiber optic network operator. Our fiber network and Internet access provide exceptional value for businesses. PAXIOâs last mile fiber optic network is trusted by large enterprise, local business and carriers. Operating in the San Francisco Bay Area since 200",
-      "posted_at": "2026-08-07T19:01:50+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Join Our Team",
-      "company": "Nebraska Public Power District",
-      "url": "https://remoteOK.com/remote-jobs/remote-join-our-team-nebraska-public-power-district-1136284",
-      "snippet": "We believe a diverse generation mix serves our customers best. We use wind -- when it is available. We use coal -- which is reliable and helps keep electric rates low. We use water -- one of the oldest forms of renewable energy. We use nuclear -- which offers emission-free, aroun",
-      "posted_at": "2026-08-06T23:50:11+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "JOIN THE Family",
-      "company": "Jayco, Inc.",
-      "url": "https://remoteOK.com/remote-jobs/remote-join-the-family-jayco-inc-1136282",
-      "snippet": "RVing is one of the great American pastimes and the RV industry is one of the great American industries. Stake your claim, accelerate your career and be a part of all the fun. If youâre a person that believes in what you do and who you do it with, we want you on our team and in",
-      "posted_at": "2026-08-06T23:47:33+00:00"
     },
     {
       "source": "HN",
