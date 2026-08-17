@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-08-16T02:29:50.620Z",
+  "generated_at": "2026-08-17T02:29:16.392Z",
   "sources": {
     "hn": 9,
     "remoteok": 5,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "REMOTEOK",
+      "title": "404",
+      "company": "Train Rex",
+      "url": "https://remoteOK.com/remote-jobs/remote-404-train-rex-1136816",
+      "snippet": "Why us Try now Testimonial Workouts About Sign Up Ã Login for a better experience Why us Try now Workouts About Book a Call App Description Train Rex App LIVE BETTER. NOT JUST FEEL BETTER. Feeling healthy and being healthy are not the same. Being healthy takes understanding your",
+      "posted_at": "2026-08-13T23:28:31+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "Test Job Title",
@@ -45,14 +53,6 @@
       "url": "https://news.ycombinator.com/item?id=49262026",
       "snippet": "Stpkr Technologies | Noida, India (Delhi NCR) | ONSITE | Multiple roles Stpkr Technologies is hiring for the following roles to build the next generation of wearable devices. We are currently looking for the following roles but we are also open to interviewing any candidates who",
       "posted_at": "2026-08-11T17:57:57.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "12TH PASS",
-      "company": "Simond Fibertech Limited - India",
-      "url": "https://remoteOK.com/remote-jobs/remote-12th-pass-simond-fibertech-limited-india-1136368",
-      "snippet": "for job of computer operator qualification:- excel worksheet, pdf viewer FIRST YEAR PASS SECOND YEAR PASS MINIMUM 19 YEAR AGE REQUIRED Please mention the word **SUPPORTED** and tag RMjAuMjUuMTUxLjEyMw== when applying to show you read the job post completely (#RMjAuMjUuMTUxLjEyMw=",
-      "posted_at": "2026-08-10T10:53:24+00:00"
     },
     {
       "source": "HN",
@@ -96,10 +96,10 @@
     },
     {
       "source": "HN",
-      "title": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | https:&#x2F;&#x2F;funnelstory.ai We build a queryable context gr",
+      "title": "FunnelStory | Principal Engineer | Remote (India) | Full-Time | 40-70 LPA | https:&#x2F;&#x2F;funnelstory.ai FunnelStory builds context laye",
       "company": "FunnelStory",
       "url": "https://news.ycombinator.com/item?id=49164668",
-      "snippet": "FunnelStory | Principal Engineer, AI Systems | Remote (India) | Full-Time | https:&#x2F;&#x2F;funnelstory.ai We build a queryable context graph over enterprise data -- industrializing AI for customer success. We ve built a federated query engine for agents, custom Go ML models (M",
+      "snippet": "FunnelStory | Principal Engineer | Remote (India) | Full-Time | 40-70 LPA | https:&#x2F;&#x2F;funnelstory.ai FunnelStory builds context layers and AI agents over distributed enterprise data. We are a small (<20 people), fast-moving, VC-backed startup operating with exceptionally",
       "posted_at": "2026-08-04T05:38:58.000Z"
     },
     {
