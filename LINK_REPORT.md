@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 18 Aug 2026 06:07:45 GMT
+**Last run:** Wed, 19 Aug 2026 06:08:25 GMT
 **Total checked:** 233
-**OK:** 201  ·  **Broken:** 5  ·  **Blocked (likely alive):** 21  ·  **Watch:** 6
+**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -24,6 +24,7 @@
 | 403 | Instahyre | <https://www.instahyre.com/> |
 | 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
+| 403 | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
@@ -33,6 +34,7 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -46,7 +48,6 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
-| NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
