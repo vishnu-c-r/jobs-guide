@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Wed, 19 Aug 2026 06:08:25 GMT
+**Last run:** Thu, 20 Aug 2026 06:08:03 GMT
 **Total checked:** 233
-**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
+**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -24,7 +24,6 @@
 | 403 | Instahyre | <https://www.instahyre.com/> |
 | 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
-| 403 | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
@@ -48,6 +47,7 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
