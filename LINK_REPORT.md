@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 27 Aug 2026 09:02:26 GMT
+**Last run:** Fri, 28 Aug 2026 09:06:35 GMT
 **Total checked:** 233
-**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
+**OK:** 191  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 14
 
 ## ✗ Broken — needs attention
 
@@ -39,6 +39,7 @@
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
+| 429 | MuLearn | <https://mulearn.org/> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
@@ -47,8 +48,16 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
+| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
+| NETERR | Detect Technologies | <https://www.detecttechnologies.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
