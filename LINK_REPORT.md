@@ -1,15 +1,14 @@
 # Link Health Report
 
-**Last run:** Sat, 29 Aug 2026 06:08:38 GMT
+**Last run:** Sun, 30 Aug 2026 06:09:03 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 6  ·  **Blocked (likely alive):** 23  ·  **Watch:** 6
+**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
@@ -27,7 +26,6 @@
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
-| 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
 | 403 | Wakefit | <https://wakefit.co/careers> |
