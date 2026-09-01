@@ -1,13 +1,14 @@
 # Link Health Report
 
-**Last run:** Mon, 31 Aug 2026 06:12:02 GMT
+**Last run:** Tue, 01 Sep 2026 06:10:10 GMT
 **Total checked:** 233
-**OK:** 201  ·  **Broken:** 5  ·  **Blocked (likely alive):** 21  ·  **Watch:** 6
+**OK:** 199  ·  **Broken:** 6  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
 | Status | Name | URL | Detail |
 |---|---|---|---|
+| 404 | Nexus Venture Partners | <https://jobs.nexusvp.com/> | gone |
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
 | 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
@@ -33,6 +34,7 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
