@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 01 Sep 2026 06:10:10 GMT
+**Last run:** Wed, 02 Sep 2026 06:10:48 GMT
 **Total checked:** 233
-**OK:** 199  ·  **Broken:** 6  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
+**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -10,7 +10,6 @@
 |---|---|---|---|
 | 404 | Nexus Venture Partners | <https://jobs.nexusvp.com/> | gone |
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | Tredence | <https://www.tredence.com/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
