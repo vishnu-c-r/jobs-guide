@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-09-02T02:34:05.739Z",
+  "generated_at": "2026-09-03T02:23:13.512Z",
   "sources": {
-    "hn": 2,
+    "hn": 4,
     "remoteok": 5,
     "inc42": 1
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (USA) | Full Time Primarily ",
+      "company": "SentiLink",
+      "url": "https://news.ycombinator.com/item?id=49541874",
+      "snippet": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (USA) | Full Time Primarily hiring in the U.S. for more senior level roles. We’re hiring across Engineering (Full-stack and Infra) and Data Science &#x2F; ML roles. Hir",
+      "posted_at": "2026-09-02T20:18:15.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Oscilar.com | Sr&#x2F;Staff Software Engineers, Security Engineer, Data Scientist | REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Poland&#x2F;UK&#",
+      "company": "Oscilar.com",
+      "url": "https://news.ycombinator.com/item?id=49539823",
+      "snippet": "Oscilar.com | Sr&#x2F;Staff Software Engineers, Security Engineer, Data Scientist | REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Poland&#x2F;UK&#x2F;India) Full-time AI Risk Decisioning™ platform that helps organizations manage onboarding, fraud, credit, and compliance risks Open role",
+      "posted_at": "2026-09-02T17:48:02.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "Simple Energy Launches Wave Family Escooter At ₹1.1 Lakh",
+      "company": "",
+      "url": "https://inc42.com/buzz/simple-energy-launches-wave-family-escooter-at-%e2%82%b91-1-lakh/",
+      "snippet": "Bengaluru-based electric two-wheeler startup Simple Energy has launched its first family escooter, the Simple Wave, at an introductory starting price",
+      "posted_at": "Wed, 02 Sep 2026 11:48:57 +0000"
+    },
     {
       "source": "HN",
       "title": "DualEntry | Full-time | REMOTE & ONSITE (NY) We build the first AI-native ERP OS. Competitors measure customer migrations in quarters, we of",
@@ -23,19 +47,27 @@
       "posted_at": "2026-09-01T15:44:46.000Z"
     },
     {
-      "source": "INC42",
-      "title": "Alteon Raises $2.5 Mn To Develop Long-Endurance Autonomous Aircraft",
-      "company": "",
-      "url": "https://inc42.com/buzz/alteon-raises-2-5-mn-to-develop-long-endurance-autonomous-aircraft/",
-      "snippet": "Bengaluru-based startup Alteon has raised $2.5 Mn (about ₹24 Cr) in a pre-seed round led by Lachy Groom, with participation",
-      "posted_at": "Tue, 01 Sep 2026 08:19:44 +0000"
+      "source": "REMOTEOK",
+      "title": "Carpenter",
+      "company": "St. Regis Hotels &amp; Resorts",
+      "url": "https://remoteOK.com/remote-jobs/remote-carpenter-st-regis-hotels-amp-resorts-1137253",
+      "snippet": "Additional Information Job Number 26111231 Job Category Engineering & Facilities Location 438 1 34 Mobor, Goa, India, India, 403731 VIEW ON MAP Schedule Full Time Located Remotely? N Position Type Non-Management Position Summary Respond and attend to guest repair requests. Commun",
+      "posted_at": "2026-09-01T12:24:21+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Assistant Housekeeping Manager",
+      "company": "Marriott International",
+      "url": "https://remoteOK.com/remote-jobs/remote-assistant-housekeeping-manager-marriott-international-1137255",
+      "snippet": "Additional Information Job Number 26111267 Job Category Housekeeping & Laundry Location Vagator Beach Road, Goa, India, India, 403509 VIEW ON MAP Schedule Full Time Located Remotely? N Position Type Management Job Summary Entry level management position that focuses on supporting",
+      "posted_at": "2026-09-01T12:24:21+00:00"
     },
     {
       "source": "REMOTEOK",
       "title": "Cloud Computing",
       "company": "Amazon Web Services (AWS)",
       "url": "https://remoteOK.com/remote-jobs/remote-cloud-computing-amazon-web-services-aws-1137231",
-      "snippet": "Roles and Responsibilities - AWS cloud computing Location - Hyderabad, Chennai, Kolkata, Pune, Bengaluru Exp - 6 - 8 yrs Please mention the word **LOVE** and tag RMTA0LjIwOS43LjIxMg== when applying to show you read the job post completely (#RMTA0LjIwOS43LjIxMg==). This is a beta",
+      "snippet": "Roles and Responsibilities - AWS cloud computing Location - Hyderabad, Chennai, Kolkata, Pune, Bengaluru Exp - 6 - 8 yrs Please mention the word **LOVE** and tag RMTcyLjIwMy4xOTUuNw== when applying to show you read the job post completely (#RMTcyLjIwMy4xOTUuNw==). This is a beta",
       "posted_at": "2026-08-31T06:05:15+00:00"
     },
     {
@@ -53,22 +85,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-test-larsen-amp-toubro-1137178",
       "snippet": "TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTESTTESTTESTTESTTESTTESTTESTTESTTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST",
       "posted_at": "2026-08-27T12:46:56+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Find a job 3rd comi",
-      "company": "Lemon Tree Premier",
-      "url": "https://remoteOK.com/remote-jobs/remote-find-a-job-3rd-comi-lemon-tree-premier-1137127",
-      "snippet": "i have diploma in food production and 1 year experience,,, i now find a job, in indian Tandoor department,,as a commi 3rd Please mention the word **SMARTEST** and tag RMTA0LjIwOS43LjIxMg== when applying to show you read the job post completely (#RMTA0LjIwOS43LjIxMg==). This is a",
-      "posted_at": "2026-08-25T17:37:47+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Executive",
-      "company": "Vashi Integrated Solutions",
-      "url": "https://remoteOK.com/remote-jobs/remote-executive-vashi-integrated-solutions-1137105",
-      "snippet": "0-3 Pune Full-Time INR 288000 - 300000 Require for Accounts Receivables (Commercial) Share with someone awesome View all job openings Please mention the word **DAZZLING** and tag RMTA0LjIwOS43LjIxMg== when applying to show you read the job post completely (#RMTA0LjIwOS43LjIxMg==)",
-      "posted_at": "2026-08-24T12:09:13+00:00"
     }
   ]
 }
