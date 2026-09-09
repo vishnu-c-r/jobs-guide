@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 08 Sep 2026 06:09:35 GMT
+**Last run:** Wed, 09 Sep 2026 06:09:37 GMT
 **Total checked:** 233
-**OK:** 200  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
+**OK:** 199  ·  **Broken:** 5  ·  **Blocked (likely alive):** 23  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -49,6 +49,7 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | ideaForge Technology | <https://ideaforgetech.com/career> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
