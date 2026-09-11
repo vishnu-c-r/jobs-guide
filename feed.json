@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T02:17:51.187Z",
+  "generated_at": "2026-09-11T02:17:43.209Z",
   "sources": {
     "hn": 5,
-    "remoteok": 4,
+    "remoteok": 5,
     "inc42": 0
   },
   "items": [
@@ -77,6 +77,14 @@
       "url": "https://remoteOK.com/remote-jobs/remote-online-bidder-webnotics-pvt-ltd-1137209",
       "snippet": "About Us When it comes to developing web-based and mobile-based applications, we are formidable competition. Our valued clientele and we work together as a team. In this way, we can determine client demands and provide the best solution. Each project is overseen by a project mana",
       "posted_at": "2026-08-04T04:28:15+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "AI Intern",
+      "company": "CertifyOS",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-intern-certifyos-1135555",
+      "snippet": "About CertifyOS CertifyOS is building the data infrastructure that powers modern healthcare. Today, healthcare organizations rely on fragmented and outdated provider data. This creates unnecessary administrative work, regulatory risk, and higher costs across the system. Weâre s",
+      "posted_at": "2026-07-28T08:00:03+00:00"
     }
   ]
 }
