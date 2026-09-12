@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Fri, 11 Sep 2026 06:09:13 GMT
+**Last run:** Sat, 12 Sep 2026 06:08:31 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 7  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
+**OK:** 198  ·  **Broken:** 6  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -10,11 +10,10 @@
 |---|---|---|---|
 | 404 | Nexus Venture Partners | <https://jobs.nexusvp.com/> | gone |
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
-| NETERR | TopStartups — Bangalore jobs | <https://topstartups.io/jobs/?job_location=Bangalore> | ECONNRESET |
-| NETERR | TopStartups — BLR-HQ companies | <https://topstartups.io/?hq_location=Bangalore> | ECONNRESET |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -36,6 +35,7 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
+| 503 | Feathersoft | <https://www.feathersoft.com/careers/> |
 | 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
