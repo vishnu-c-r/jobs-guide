@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-09-11T02:17:43.209Z",
+  "generated_at": "2026-09-12T02:17:15.950Z",
   "sources": {
     "hn": 5,
-    "remoteok": 5,
-    "inc42": 0
+    "remoteok": 4,
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Paris Panini Parent Popo Global Raises ₹532 Cr From Artal Asia",
+      "company": "",
+      "url": "https://inc42.com/buzz/paris-panini-parent-popo-global-raises-%e2%82%b9532-cr-from-artal-asia/",
+      "snippet": "Bengaluru-based restaurant company Popo Global, which operates gourmet food brands including The Pizza Bakery, Paris Panini and Smash Guys, has",
+      "posted_at": "Fri, 11 Sep 2026 08:14:52 +0000"
+    },
     {
       "source": "HN",
       "title": "Supero | Cloud &#x2F; Platform Engineer | REMOTE (SF Bay Area, CA, US · Bengaluru, KA, India) | Full-time | https:&#x2F;&#x2F;www.supero.dev",
@@ -77,14 +85,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-online-bidder-webnotics-pvt-ltd-1137209",
       "snippet": "About Us When it comes to developing web-based and mobile-based applications, we are formidable competition. Our valued clientele and we work together as a team. In this way, we can determine client demands and provide the best solution. Each project is overseen by a project mana",
       "posted_at": "2026-08-04T04:28:15+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "AI Intern",
-      "company": "CertifyOS",
-      "url": "https://remoteOK.com/remote-jobs/remote-ai-intern-certifyos-1135555",
-      "snippet": "About CertifyOS CertifyOS is building the data infrastructure that powers modern healthcare. Today, healthcare organizations rely on fragmented and outdated provider data. This creates unnecessary administrative work, regulatory risk, and higher costs across the system. Weâre s",
-      "posted_at": "2026-07-28T08:00:03+00:00"
     }
   ]
 }
