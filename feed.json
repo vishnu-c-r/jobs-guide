@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-09-12T02:17:15.950Z",
+  "generated_at": "2026-09-13T02:17:05.110Z",
   "sources": {
     "hn": 5,
     "remoteok": 4,
-    "inc42": 1
+    "inc42": 2
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "WestBridge-Backed Way2News Restrained From Using AppsForBharat’s Confidential Data",
+      "company": "",
+      "url": "https://inc42.com/buzz/westbridge-backed-way2news-restrained-from-using-appsforbharats-confidential-data/",
+      "snippet": "A Bengaluru commercial court has temporarily restrained hyperlocal news startup Way2News from using confidential information and intellectual property belonging to",
+      "posted_at": "Sat, 12 Sep 2026 13:28:38 +0000"
+    },
     {
       "source": "INC42",
       "title": "Paris Panini Parent Popo Global Raises ₹532 Cr From Artal Asia",
