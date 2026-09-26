@@ -1,19 +1,11 @@
 {
-  "generated_at": "2026-09-25T02:16:44.358Z",
+  "generated_at": "2026-09-26T02:16:08.723Z",
   "sources": {
     "hn": 4,
     "remoteok": 4,
-    "inc42": 1
+    "inc42": 0
   },
   "items": [
-    {
-      "source": "INC42",
-      "title": "Ema Raises $77 Mn To Scale Its Universal AI Employee Platform Globally",
-      "company": "",
-      "url": "https://inc42.com/buzz/ema-raises-77-mn-to-scale-its-universal-ai-employee-platform-globally/",
-      "snippet": "Agentic AI startup Ema has raised $77 Mn (over ₹738 Cr) in a Series B funding round led by Bengaluru-based",
-      "posted_at": "Thu, 24 Sep 2026 11:16:50 +0000"
-    },
     {
       "source": "HN",
       "title": "Supero | Cloud &#x2F; Platform Engineer | REMOTE (SF Bay Area, CA, US · Bengaluru, KA, India) | Full-time | https:&#x2F;&#x2F;www.supero.dev",
