@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 28 Sep 2026 06:13:03 GMT
+**Last run:** Tue, 29 Sep 2026 06:10:02 GMT
 **Total checked:** 233
-**OK:** 197  ·  **Broken:** 8  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
+**OK:** 199  ·  **Broken:** 7  ·  **Blocked (likely alive):** 22  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -15,7 +15,6 @@
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
-| NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | UND_ERR_CONNECT_TIMEOUT |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -51,9 +50,8 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Darwinbox | <https://darwinbox.com/careers> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
-| NETERR | Fingent | <https://www.fingent.com/careers/career-openings/> | timeout |
+| NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
