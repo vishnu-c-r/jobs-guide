@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 29 Sep 2026 06:10:02 GMT
+**Last run:** Wed, 30 Sep 2026 06:09:50 GMT
 **Total checked:** 233
-**OK:** 199  ·  **Broken:** 7  ·  **Blocked (likely alive):** 22  ·  **Watch:** 5
+**OK:** 197  ·  **Broken:** 7  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -28,6 +28,7 @@
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
+| 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
@@ -41,6 +42,7 @@
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
+| 403 | KIED Kerala | <https://kied.info/student-internship-programme/> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
