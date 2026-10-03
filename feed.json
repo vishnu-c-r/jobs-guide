@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-10-02T02:21:14.840Z",
+  "generated_at": "2026-10-03T02:19:16.034Z",
   "sources": {
-    "hn": 0,
+    "hn": 1,
     "remoteok": 5,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Wipro.com | Multiple roles - Software - AI - FDE - Cloud | Global (US&#x2F;CAN&#x2F;EU&#x2F;India) | on-site and remote My company is hiring",
+      "company": "Wipro.com",
+      "url": "https://news.ycombinator.com/item?id=49935587",
+      "snippet": "Wipro.com | Multiple roles - Software - AI - FDE - Cloud | Global (US&#x2F;CAN&#x2F;EU&#x2F;India) | on-site and remote My company is hiring for multiple roles, and I d like to offer internal referrals to qualified candidates from this community. I m doing this purely because we",
+      "posted_at": "2026-10-02T16:41:10.000Z"
+    },
     {
       "source": "REMOTEOK",
       "title": "Director Payment Integrity",
