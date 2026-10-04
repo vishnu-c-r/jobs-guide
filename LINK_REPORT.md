@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sat, 03 Oct 2026 06:11:56 GMT
+**Last run:** Sun, 04 Oct 2026 08:00:29 GMT
 **Total checked:** 233
-**OK:** 194  ·  **Broken:** 8  ·  **Blocked (likely alive):** 25  ·  **Watch:** 6
+**OK:** 196  ·  **Broken:** 7  ·  **Blocked (likely alive):** 24  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -11,7 +11,6 @@
 | 404 | Blume Ventures | <https://jobs.blume.vc/jobs> | gone |
 | 404 | Nexus Venture Partners | <https://jobs.nexusvp.com/> | gone |
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
@@ -29,7 +28,6 @@
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
-| 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
@@ -38,7 +36,7 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 503 | Feathersoft | <https://www.feathersoft.com/careers/> |
+| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
