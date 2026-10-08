@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Wed, 07 Oct 2026 06:09:08 GMT
+**Last run:** Thu, 08 Oct 2026 06:10:07 GMT
 **Total checked:** 233
-**OK:** 196  ·  **Broken:** 7  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
+**OK:** 196  ·  **Broken:** 7  ·  **Blocked (likely alive):** 24  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -42,6 +42,7 @@
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
+| 403 | KIED Kerala | <https://kied.info/student-internship-programme/> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
@@ -51,10 +52,9 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Darwinbox | <https://darwinbox.com/careers> | timeout |
+| NETERR | Ticket Design | <https://ticketdesign.com/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
-| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
