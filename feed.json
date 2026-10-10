@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-10-09T02:26:06.359Z",
+  "generated_at": "2026-10-10T02:24:54.936Z",
   "sources": {
-    "hn": 5,
+    "hn": 6,
     "remoteok": 5,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No Technologies: React Native, React, Next.js, TypeScript, JavaS",
+      "company": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No T",
+      "url": "https://news.ycombinator.com/item?id=50025234",
+      "snippet": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No Technologies: React Native, React, Next.js, TypeScript, JavaScript, Astro, Expo, Redux Toolkit, Zustand, React Query, Node.js, Express, MongoDB, Firebase, Jest, React Testing Library, GitHub Actions, F",
+      "posted_at": "2026-10-09T19:05:22.000Z"
+    },
     {
       "source": "HN",
       "title": "Oscilar.com | Sr&#x2F;Staff Software Engineers, Data Scientist, FDE, PM| REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Poland&#x2F;UK&#x2F;India) ",
