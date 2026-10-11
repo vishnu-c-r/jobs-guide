@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sat, 10 Oct 2026 06:09:07 GMT
+**Last run:** Sun, 11 Oct 2026 06:09:33 GMT
 **Total checked:** 233
-**OK:** 194  ·  **Broken:** 8  ·  **Blocked (likely alive):** 27  ·  **Watch:** 4
+**OK:** 197  ·  **Broken:** 7  ·  **Blocked (likely alive):** 23  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -11,7 +11,6 @@
 | 404 | Blume Ventures | <https://jobs.blume.vc/jobs> | gone |
 | 404 | Nexus Venture Partners | <https://jobs.nexusvp.com/> | gone |
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
-| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
@@ -27,10 +26,8 @@
 | 403 | Instahyre | <https://www.instahyre.com/> |
 | 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
-| 403 | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
-| 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
@@ -39,14 +36,12 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 503 | Feathersoft | <https://www.feathersoft.com/careers/> |
 | 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
-| 403 | KIED Kerala | <https://kied.info/student-internship-programme/> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
@@ -55,8 +50,10 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
+| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
