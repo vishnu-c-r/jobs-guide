@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-10-11T02:27:03.291Z",
+  "generated_at": "2026-10-12T02:34:09.313Z",
   "sources": {
-    "hn": 6,
+    "hn": 7,
     "remoteok": 5,
     "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "How is the product development culture at Wipro India? Only heard of them as a outsourcing company, that hired people for very low salaries ",
+      "company": "How is the product development culture at Wipro India? Only heard of them as a o",
+      "url": "https://news.ycombinator.com/item?id=50045737",
+      "snippet": "How is the product development culture at Wipro India? Only heard of them as a outsourcing company, that hired people for very low salaries and subjected them to a lot of corporate politics (in India). Have they improved?",
+      "posted_at": "2026-10-11T17:41:16.000Z"
+    },
     {
       "source": "HN",
       "title": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No Technologies: React Native, React, Next.js, TypeScript, JavaS",
