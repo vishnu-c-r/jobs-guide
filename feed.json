@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-10-12T02:34:09.313Z",
+  "generated_at": "2026-10-13T02:30:08.180Z",
   "sources": {
-    "hn": 7,
+    "hn": 8,
     "remoteok": 5,
-    "inc42": 0
+    "inc42": 2
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Mesa School Bags ₹110 Cr To Launch New On-Campus Courses",
+      "company": "",
+      "url": "https://inc42.com/buzz/mesa-school-bags-%e2%82%b9110-cr-to-launch-new-on-campus-courses/",
+      "snippet": "Bengaluru-based Mesa School of Business has raised ₹110 Cr ($11.4 Mn) in its Series A funding round in a mix",
+      "posted_at": "Tue, 13 Oct 2026 00:30:58 +0000"
+    },
+    {
+      "source": "HN",
+      "title": "Indiana Microelectronics LLC | RF Engineer | West Lafayette, IN | ONSITE | Full-time | Relocation assistance available Indiana Micro is a sm",
+      "company": "Indiana Microelectronics LLC",
+      "url": "https://news.ycombinator.com/item?id=50062997",
+      "snippet": "Indiana Microelectronics LLC | RF Engineer | West Lafayette, IN | ONSITE | Full-time | Relocation assistance available Indiana Micro is a small electronics company working on tunable RF filters and radio-frequency front-end (RFFE) systems for interference mitigation. We’re lookin",
+      "posted_at": "2026-10-12T20:59:57.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "Whizzo To Raise $26 Mn From Aavishkaar Capital, Bertelsmann",
+      "company": "",
+      "url": "https://inc42.com/buzz/manufacturing-startup-whizzo-to-raise-26-mn-from-aavishkar-capital-bertelsmann/",
+      "snippet": "Bengaluru-based Whizzo is in talks to raise around $26 Mn in its Series B funding round which could be co-led",
+      "posted_at": "Mon, 12 Oct 2026 15:32:18 +0000"
+    },
     {
       "source": "HN",
       "title": "How is the product development culture at Wipro India? Only heard of them as a outsourcing company, that hired people for very low salaries ",
