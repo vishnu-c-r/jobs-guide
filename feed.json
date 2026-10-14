@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-10-13T02:30:08.180Z",
+  "generated_at": "2026-10-14T02:16:20.863Z",
   "sources": {
-    "hn": 8,
+    "hn": 9,
     "remoteok": 5,
     "inc42": 2
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Speciality Chemicals Startup NuSynth Raises ₹36.5 Cr From Avaana Capital, Shastra VC",
+      "company": "",
+      "url": "https://inc42.com/buzz/speciality-chemicals-startup-nusynth-raises-%e2%82%b936-5-cr-from-avaana-capital-shastra-vc/",
+      "snippet": "Bengaluru-based NuSynth Technologies has raised ₹36.5 Cr (about $4 Mn) in a seed funding round co-led by Avaana Capital and",
+      "posted_at": "Tue, 13 Oct 2026 09:55:21 +0000"
+    },
+    {
+      "source": "HN",
+      "title": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused deve",
+      "company": "Irash Tech",
+      "url": "https://news.ycombinator.com/item?id=50068986",
+      "snippet": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused development agency based in Hyderabad, India. We build web apps (Next.js, React, Node), mobile apps (React Native&#x2F;Expo) and AI automation (",
+      "posted_at": "2026-10-13T09:31:19.000Z"
+    },
     {
       "source": "INC42",
       "title": "Mesa School Bags ₹110 Cr To Launch New On-Campus Courses",
@@ -21,14 +37,6 @@
       "url": "https://news.ycombinator.com/item?id=50062997",
       "snippet": "Indiana Microelectronics LLC | RF Engineer | West Lafayette, IN | ONSITE | Full-time | Relocation assistance available Indiana Micro is a small electronics company working on tunable RF filters and radio-frequency front-end (RFFE) systems for interference mitigation. We’re lookin",
       "posted_at": "2026-10-12T20:59:57.000Z"
-    },
-    {
-      "source": "INC42",
-      "title": "Whizzo To Raise $26 Mn From Aavishkaar Capital, Bertelsmann",
-      "company": "",
-      "url": "https://inc42.com/buzz/manufacturing-startup-whizzo-to-raise-26-mn-from-aavishkar-capital-bertelsmann/",
-      "snippet": "Bengaluru-based Whizzo is in talks to raise around $26 Mn in its Series B funding round which could be co-led",
-      "posted_at": "Mon, 12 Oct 2026 15:32:18 +0000"
     },
     {
       "source": "HN",
