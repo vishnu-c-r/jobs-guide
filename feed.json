@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:16:20.863Z",
+  "generated_at": "2026-10-15T02:16:48.980Z",
   "sources": {
     "hn": 9,
     "remoteok": 5,
@@ -8,11 +8,19 @@
   "items": [
     {
       "source": "INC42",
-      "title": "Speciality Chemicals Startup NuSynth Raises ₹36.5 Cr From Avaana Capital, Shastra VC",
+      "title": "Infotech Acquires Lightspeed-Backed SaaS Startup Zluri",
       "company": "",
-      "url": "https://inc42.com/buzz/speciality-chemicals-startup-nusynth-raises-%e2%82%b936-5-cr-from-avaana-capital-shastra-vc/",
-      "snippet": "Bengaluru-based NuSynth Technologies has raised ₹36.5 Cr (about $4 Mn) in a seed funding round co-led by Avaana Capital and",
-      "posted_at": "Tue, 13 Oct 2026 09:55:21 +0000"
+      "url": "https://inc42.com/buzz/infotech-acquires-lightspeed-backed-saas-startup-zluri/",
+      "snippet": "IT advisory firm Infotech has acquired Bengaluru-based SaaS startup Zluri to add the latter’s application discovery, identity governance and administration",
+      "posted_at": "Wed, 14 Oct 2026 14:39:26 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "Circle Raises ₹25 Cr To Expand Its Pre-Owned Goods Marketplace Beyond Bengaluru",
+      "company": "",
+      "url": "https://inc42.com/buzz/circle-raises-%e2%82%b925-cr-to-expand-its-pre-owned-goods-marketplace-beyond-bengaluru/",
+      "snippet": "Pre-owned goods marketplace Circle has raised ₹25 Cr (about $2.6 Mn) in a seed funding round led by Nexus Venture",
+      "posted_at": "Wed, 14 Oct 2026 06:20:48 +0000"
     },
     {
       "source": "HN",
@@ -21,14 +29,6 @@
       "url": "https://news.ycombinator.com/item?id=50068986",
       "snippet": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused development agency based in Hyderabad, India. We build web apps (Next.js, React, Node), mobile apps (React Native&#x2F;Expo) and AI automation (",
       "posted_at": "2026-10-13T09:31:19.000Z"
-    },
-    {
-      "source": "INC42",
-      "title": "Mesa School Bags ₹110 Cr To Launch New On-Campus Courses",
-      "company": "",
-      "url": "https://inc42.com/buzz/mesa-school-bags-%e2%82%b9110-cr-to-launch-new-on-campus-courses/",
-      "snippet": "Bengaluru-based Mesa School of Business has raised ₹110 Cr ($11.4 Mn) in its Series A funding round in a mix",
-      "posted_at": "Tue, 13 Oct 2026 00:30:58 +0000"
     },
     {
       "source": "HN",
