@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T02:16:48.980Z",
+  "generated_at": "2026-10-16T02:16:24.102Z",
   "sources": {
     "hn": 9,
     "remoteok": 5,
-    "inc42": 2
+    "inc42": 1
   },
   "items": [
     {
@@ -13,14 +13,6 @@
       "url": "https://inc42.com/buzz/infotech-acquires-lightspeed-backed-saas-startup-zluri/",
       "snippet": "IT advisory firm Infotech has acquired Bengaluru-based SaaS startup Zluri to add the latter’s application discovery, identity governance and administration",
       "posted_at": "Wed, 14 Oct 2026 14:39:26 +0000"
-    },
-    {
-      "source": "INC42",
-      "title": "Circle Raises ₹25 Cr To Expand Its Pre-Owned Goods Marketplace Beyond Bengaluru",
-      "company": "",
-      "url": "https://inc42.com/buzz/circle-raises-%e2%82%b925-cr-to-expand-its-pre-owned-goods-marketplace-beyond-bengaluru/",
-      "snippet": "Pre-owned goods marketplace Circle has raised ₹25 Cr (about $2.6 Mn) in a seed funding round led by Nexus Venture",
-      "posted_at": "Wed, 14 Oct 2026 06:20:48 +0000"
     },
     {
       "source": "HN",
