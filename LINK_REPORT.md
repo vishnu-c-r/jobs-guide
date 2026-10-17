@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Fri, 16 Oct 2026 06:09:22 GMT
+**Last run:** Sat, 17 Oct 2026 06:08:01 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 7  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
+**OK:** 195  ·  **Broken:** 9  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -11,10 +11,12 @@
 | 404 | Blume Ventures | <https://jobs.blume.vc/jobs> | gone |
 | 404 | Nexus Venture Partners | <https://jobs.nexusvp.com/> | gone |
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
+| 404 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
+| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | ERR_TLS_CERT_ALTNAME_INVALID |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -28,6 +30,7 @@
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
+| 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
