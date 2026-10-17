@@ -1,19 +1,11 @@
 {
-  "generated_at": "2026-10-16T02:16:24.102Z",
+  "generated_at": "2026-10-17T02:16:02.601Z",
   "sources": {
     "hn": 9,
-    "remoteok": 5,
-    "inc42": 1
+    "remoteok": 3,
+    "inc42": 0
   },
   "items": [
-    {
-      "source": "INC42",
-      "title": "Infotech Acquires Lightspeed-Backed SaaS Startup Zluri",
-      "company": "",
-      "url": "https://inc42.com/buzz/infotech-acquires-lightspeed-backed-saas-startup-zluri/",
-      "snippet": "IT advisory firm Infotech has acquired Bengaluru-based SaaS startup Zluri to add the latter’s application discovery, identity governance and administration",
-      "posted_at": "Wed, 14 Oct 2026 14:39:26 +0000"
-    },
     {
       "source": "HN",
       "title": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused deve",
@@ -109,22 +101,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-marketing-specialist-innergy-1136094",
       "snippet": "INNERGY is transforming the woodworking industry with purpose built, cloud based ERP software designed exclusively for custom manufacturers. Our platform helps businesses operate smarter, faster, and more efficiently while seamlessly connecting design, production, and delivery fo",
       "posted_at": "2026-08-04T15:06:47+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Market Research",
-      "company": "GROW10X",
-      "url": "https://remoteOK.com/remote-jobs/remote-market-research-grow10x-1136216",
-      "snippet": "Company Description GROW10X is a leading full-service agency specializing in helping B2B SaaS technology companies accelerate revenue growth through outbound lead generation. Utilizing a combination of cutting-edge technology, expert strategies, on-demand data, and a globally dis",
-      "posted_at": "2026-08-04T07:13:53+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Online Bidder",
-      "company": "Webnotics Pvt Ltd",
-      "url": "https://remoteOK.com/remote-jobs/remote-online-bidder-webnotics-pvt-ltd-1137209",
-      "snippet": "About Us When it comes to developing web-based and mobile-based applications, we are formidable competition. Our valued clientele and we work together as a team. In this way, we can determine client demands and provide the best solution. Each project is overseen by a project mana",
-      "posted_at": "2026-08-04T04:28:15+00:00"
     }
   ]
 }
