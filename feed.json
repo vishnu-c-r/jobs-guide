@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T02:16:02.601Z",
+  "generated_at": "2026-10-18T02:16:06.453Z",
   "sources": {
     "hn": 9,
-    "remoteok": 3,
+    "remoteok": 2,
     "inc42": 0
   },
   "items": [
@@ -93,14 +93,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841",
       "snippet": "About us HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.To dat",
       "posted_at": "2026-08-17T08:00:03+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Marketing Specialist",
-      "company": "INNERGY",
-      "url": "https://remoteOK.com/remote-jobs/remote-marketing-specialist-innergy-1136094",
-      "snippet": "INNERGY is transforming the woodworking industry with purpose built, cloud based ERP software designed exclusively for custom manufacturers. Our platform helps businesses operate smarter, faster, and more efficiently while seamlessly connecting design, production, and delivery fo",
-      "posted_at": "2026-08-04T15:06:47+00:00"
     }
   ]
 }
