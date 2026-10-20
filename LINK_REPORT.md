@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Mon, 19 Oct 2026 06:11:58 GMT
+**Last run:** Tue, 20 Oct 2026 06:09:22 GMT
 **Total checked:** 233
-**OK:** 196  ·  **Broken:** 9  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
+**OK:** 195  ·  **Broken:** 8  ·  **Blocked (likely alive):** 25  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -15,7 +15,6 @@
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
-| NETERR | SatSure Analytics | <https://www.satsure.co/careers/> | ENOTFOUND |
 | NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | ERR_TLS_CERT_ALTNAME_INVALID |
 
 ## ⊘ Blocked by WAF / bot-protection
@@ -25,6 +24,7 @@
 | Status | Name | URL |
 |---|---|---|
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
+| 429 | LinkedIn Jobs — Bangalore | <https://www.linkedin.com/jobs/search/?location=Bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
 | 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
@@ -37,6 +37,7 @@
 | 429 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
+| 429 | Sascan Meditech | <https://www.linkedin.com/jobs/search/?keywords=Sascan%20Meditech&location=Kerala%2C%20India> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
 | 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
