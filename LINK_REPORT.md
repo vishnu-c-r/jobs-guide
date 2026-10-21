@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 20 Oct 2026 06:09:22 GMT
+**Last run:** Wed, 21 Oct 2026 06:09:27 GMT
 **Total checked:** 233
-**OK:** 195  ·  **Broken:** 8  ·  **Blocked (likely alive):** 25  ·  **Watch:** 5
+**OK:** 198  ·  **Broken:** 7  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -15,7 +15,6 @@
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
-| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | ERR_TLS_CERT_ALTNAME_INVALID |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -24,7 +23,6 @@
 | Status | Name | URL |
 |---|---|---|
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
-| 429 | LinkedIn Jobs — Bangalore | <https://www.linkedin.com/jobs/search/?location=Bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
 | 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
@@ -37,9 +35,7 @@
 | 429 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
-| 429 | Sascan Meditech | <https://www.linkedin.com/jobs/search/?keywords=Sascan%20Meditech&location=Kerala%2C%20India> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
@@ -56,6 +52,7 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
+| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
