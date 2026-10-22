@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Wed, 21 Oct 2026 06:09:27 GMT
+**Last run:** Thu, 22 Oct 2026 06:09:32 GMT
 **Total checked:** 233
-**OK:** 198  ·  **Broken:** 7  ·  **Blocked (likely alive):** 22  ·  **Watch:** 6
+**OK:** 191  ·  **Broken:** 8  ·  **Blocked (likely alive):** 22  ·  **Watch:** 12
 
 ## ✗ Broken — needs attention
 
@@ -15,6 +15,7 @@
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
+| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | ERR_TLS_CERT_ALTNAME_INVALID |
 
 ## ⊘ Blocked by WAF / bot-protection
 
@@ -49,10 +50,16 @@
 
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
+| NETERR | Tejas Networks | <https://www.tejasnetworks.com/careers/> | timeout |
+| NETERR | Saankhya Labs | <https://www.saankhyalabs.com/> | timeout |
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
+| NETERR | Origin (formerly 10xConstruction) | <https://10xconstruction.ai/> | timeout |
+| NETERR | NewSpace Research & Tech | <https://newspace.co.in/> | timeout |
+| NETERR | Niramai | <https://niramai.com/careers/> | timeout |
 | NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
+| NETERR | NSRCEL @ IIM Bangalore | <https://www.nsrcel.org/> | timeout |
+| NETERR | Pokak Technologies | <https://pokaktech.com/careers> | timeout |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
-| NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 
