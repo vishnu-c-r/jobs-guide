@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-10-22T02:17:42.200Z",
+  "generated_at": "2026-10-23T02:18:01.088Z",
   "sources": {
     "hn": 9,
     "remoteok": 2,
-    "inc42": 0
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "eMudhra To Exit Certificate Business As Security Flaw Triggers Distrust",
+      "company": "",
+      "url": "https://inc42.com/features/emudhra-to-exit-certificate-business-as-security-flaw-triggers-distrust/",
+      "snippet": "Bengaluru-based cybersecurity company eMudhra, which recently found itself at the centre of a security key issue, has announced plans to",
+      "posted_at": "Thu, 22 Oct 2026 17:06:16 +0000"
+    },
     {
       "source": "HN",
       "title": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused deve",
