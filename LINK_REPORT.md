@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sun, 25 Oct 2026 06:08:43 GMT
+**Last run:** Mon, 26 Oct 2026 06:11:57 GMT
 **Total checked:** 233
-**OK:** 196  ·  **Broken:** 9  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
+**OK:** 197  ·  **Broken:** 9  ·  **Blocked (likely alive):** 22  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -38,7 +38,6 @@
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
-| 403 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
