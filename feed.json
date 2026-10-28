@@ -1,18 +1,34 @@
 {
-  "generated_at": "2026-10-27T02:18:57.572Z",
+  "generated_at": "2026-10-28T02:12:27.168Z",
   "sources": {
     "hn": 9,
     "remoteok": 2,
-    "inc42": 1
+    "inc42": 3
   },
   "items": [
     {
       "source": "INC42",
-      "title": "Exclusive: AI-Powered Trading Platform Tradl Bags $4.1 Mn From Nexus, Stellaris",
+      "title": "Exclusive: QwikBuild Raises $2.3 Mn To Expand Enterprise AI Platform",
       "company": "",
-      "url": "https://inc42.com/buzz/exclusive-ai-powered-trading-platform-tradl-bags-4-1-mn-from-nexus-stellaris/",
-      "snippet": "Bengaluru-based AI-powered trading platform Tradl has raised $4.1 Mn (about ₹40 Cr) in a seed funding round from Nexus Venture",
-      "posted_at": "Mon, 26 Oct 2026 13:24:31 +0000"
+      "url": "https://inc42.com/buzz/exclusive-qwikbuild-raises-2-3-mn-to-expand-enterprise-ai-platform/",
+      "snippet": "Bengaluru-based enterprise AI startup QwikBuild has raised $2.3 Mn (around ₹22 Cr) in a pre-seed funding round led by Japanese",
+      "posted_at": "Wed, 28 Oct 2026 00:00:25 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "Nova Spectral AI Raises ₹21.2 Cr To Build Indigenous Infrared Sensor Chips",
+      "company": "",
+      "url": "https://inc42.com/buzz/nova-spectral-ai-raises-%e2%82%b921-2-cr-to-build-indigenous-infrared-sensor-chips/",
+      "snippet": "Bengaluru-based Nova Spectral AI has raised ₹21.2 Cr ($2.3 Mn) in a seed funding round led by Shastra VC, with",
+      "posted_at": "Tue, 27 Oct 2026 14:35:33 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "Live2.ai Raises ₹130 Cr To Scale AI Marketing SaaS Platform",
+      "company": "",
+      "url": "https://inc42.com/buzz/live2-ai-raises-%e2%82%b9130-cr-to-scale-ai-marketing-saas-platform/",
+      "snippet": "Bengaluru-based AI startup Live2.ai has raised ₹130 Cr ($13.7 Mn) in a pre-Series B funding round led by IvyCap Ventures.",
+      "posted_at": "Tue, 27 Oct 2026 12:34:34 +0000"
     },
     {
       "source": "HN",
