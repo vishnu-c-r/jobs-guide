@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28T02:12:27.168Z",
+  "generated_at": "2026-10-29T02:12:38.761Z",
   "sources": {
-    "hn": 9,
+    "hn": 8,
     "remoteok": 2,
     "inc42": 3
   },
@@ -37,14 +37,6 @@
       "url": "https://news.ycombinator.com/item?id=50068986",
       "snippet": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused development agency based in Hyderabad, India. We build web apps (Next.js, React, Node), mobile apps (React Native&#x2F;Expo) and AI automation (",
       "posted_at": "2026-10-13T09:31:19.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Indiana Microelectronics LLC | RF Engineer | West Lafayette, IN | ONSITE | Full-time | Relocation assistance available Indiana Micro is a sm",
-      "company": "Indiana Microelectronics LLC",
-      "url": "https://news.ycombinator.com/item?id=50062997",
-      "snippet": "Indiana Microelectronics LLC | RF Engineer | West Lafayette, IN | ONSITE | Full-time | Relocation assistance available Indiana Micro is a small electronics company working on tunable RF filters and radio-frequency front-end (RFFE) systems for interference mitigation. We’re lookin",
-      "posted_at": "2026-10-12T20:59:57.000Z"
     },
     {
       "source": "HN",
