@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 27 Oct 2026 06:09:50 GMT
+**Last run:** Thu, 29 Oct 2026 06:07:18 GMT
 **Total checked:** 233
-**OK:** 195  ·  **Broken:** 9  ·  **Blocked (likely alive):** 24  ·  **Watch:** 5
+**OK:** 195  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 5
 
 ## ✗ Broken — needs attention
 
@@ -15,6 +15,7 @@
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
+| NETERR | Nous Infosystems | <https://www.nousinfosystems.com/careers/job-openings> | CERT_HAS_EXPIRED |
 | NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | ERR_TLS_CERT_ALTNAME_INVALID |
 | NETERR | TiE Bangalore | <https://bangalore.tie.org/> | CERT_HAS_EXPIRED |
 
@@ -30,7 +31,7 @@
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
-| 429 | Ati Motors | <https://www.linkedin.com/jobs/search/?keywords=Ati%20Motors&location=Bengaluru%2C%20Karnataka%2C%20India> |
+| 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
@@ -44,7 +45,6 @@
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
-| 429 | LinkedIn Jobs — Kochi | <https://www.linkedin.com/jobs/search/?location=Kochi> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
