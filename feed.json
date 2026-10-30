@@ -1,34 +1,26 @@
 {
-  "generated_at": "2026-10-29T02:12:38.761Z",
+  "generated_at": "2026-10-30T02:12:33.468Z",
   "sources": {
     "hn": 8,
     "remoteok": 2,
-    "inc42": 3
+    "inc42": 2
   },
   "items": [
     {
       "source": "INC42",
-      "title": "Exclusive: QwikBuild Raises $2.3 Mn To Expand Enterprise AI Platform",
+      "title": "Spacetech Soonicorn Pixxel Eyes US Expansion With New Subsidiary",
       "company": "",
-      "url": "https://inc42.com/buzz/exclusive-qwikbuild-raises-2-3-mn-to-expand-enterprise-ai-platform/",
-      "snippet": "Bengaluru-based enterprise AI startup QwikBuild has raised $2.3 Mn (around ₹22 Cr) in a pre-seed funding round led by Japanese",
-      "posted_at": "Wed, 28 Oct 2026 00:00:25 +0000"
+      "url": "https://inc42.com/buzz/spacetech-soonicorn-pixxel-eyes-us-expansion-with-new-subsidiary/",
+      "snippet": "Bengaluru-based Pixxel has set up a new subsidiary in the US, Pixxel Federal, to tap into the US government market",
+      "posted_at": "Thu, 29 Oct 2026 16:33:44 +0000"
     },
     {
       "source": "INC42",
-      "title": "Nova Spectral AI Raises ₹21.2 Cr To Build Indigenous Infrared Sensor Chips",
+      "title": "Bengaluru Tech Summit 2026: What’s In Store For Startups At Asia’s Largest Tech Event",
       "company": "",
-      "url": "https://inc42.com/buzz/nova-spectral-ai-raises-%e2%82%b921-2-cr-to-build-indigenous-infrared-sensor-chips/",
-      "snippet": "Bengaluru-based Nova Spectral AI has raised ₹21.2 Cr ($2.3 Mn) in a seed funding round led by Shastra VC, with",
-      "posted_at": "Tue, 27 Oct 2026 14:35:33 +0000"
-    },
-    {
-      "source": "INC42",
-      "title": "Live2.ai Raises ₹130 Cr To Scale AI Marketing SaaS Platform",
-      "company": "",
-      "url": "https://inc42.com/buzz/live2-ai-raises-%e2%82%b9130-cr-to-scale-ai-marketing-saas-platform/",
-      "snippet": "Bengaluru-based AI startup Live2.ai has raised ₹130 Cr ($13.7 Mn) in a pre-Series B funding round led by IvyCap Ventures.",
-      "posted_at": "Tue, 27 Oct 2026 12:34:34 +0000"
+      "url": "https://inc42.com/buzz/bengaluru-tech-summit-2026-whats-in-store-for-startups-at-asias-largest-tech-event/",
+      "snippet": "India’s startup ecosystem is the fourth most valuable startup ecosystem in the world and spans from fintech and consumer technology",
+      "posted_at": "Thu, 29 Oct 2026 06:29:44 +0000"
     },
     {
       "source": "HN",
