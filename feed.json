@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-30T02:12:33.468Z",
+  "generated_at": "2026-10-31T02:10:07.735Z",
   "sources": {
     "hn": 8,
     "remoteok": 2,
-    "inc42": 2
+    "inc42": 1
   },
   "items": [
     {
@@ -13,14 +13,6 @@
       "url": "https://inc42.com/buzz/spacetech-soonicorn-pixxel-eyes-us-expansion-with-new-subsidiary/",
       "snippet": "Bengaluru-based Pixxel has set up a new subsidiary in the US, Pixxel Federal, to tap into the US government market",
       "posted_at": "Thu, 29 Oct 2026 16:33:44 +0000"
-    },
-    {
-      "source": "INC42",
-      "title": "Bengaluru Tech Summit 2026: What’s In Store For Startups At Asia’s Largest Tech Event",
-      "company": "",
-      "url": "https://inc42.com/buzz/bengaluru-tech-summit-2026-whats-in-store-for-startups-at-asias-largest-tech-event/",
-      "snippet": "India’s startup ecosystem is the fourth most valuable startup ecosystem in the world and spans from fintech and consumer technology",
-      "posted_at": "Thu, 29 Oct 2026 06:29:44 +0000"
     },
     {
       "source": "HN",
