@@ -1,6 +1,6 @@
 # Link Health Report
 
-**Last run:** Mon, 02 Nov 2026 14:19:50 GMT
+**Last run:** Tue, 03 Nov 2026 13:20:41 GMT
 **Total checked:** 233
 **OK:** 195  ·  **Broken:** 9  ·  **Blocked (likely alive):** 23  ·  **Watch:** 6
 
