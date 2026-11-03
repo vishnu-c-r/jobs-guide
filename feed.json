@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-02T08:56:04.660Z",
+  "generated_at": "2026-11-03T09:03:38.355Z",
   "sources": {
-    "hn": 8,
+    "hn": 3,
     "remoteok": 2,
-    "inc42": 0
+    "inc42": 2
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "DigitalTolk is hiring for remote positions across Pakistan, India and Philippines. Right now, we are looking for Senior Software Engineering",
+      "company": "DigitalTolk is hiring for remote positions across Pakistan, India and Philippine",
+      "url": "https://news.ycombinator.com/item?id=50349601",
+      "snippet": "DigitalTolk is hiring for remote positions across Pakistan, India and Philippines. Right now, we are looking for Senior Software Engineering Manager. Full Job description and to apply at https:&#x2F;&#x2F;talent.digitaltolk.com&#x2F;candidate&#x2F;jobs&#x2F;senior-softwar...",
+      "posted_at": "2026-11-03T08:49:16.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "India",
+      "company": "India",
+      "url": "https://news.ycombinator.com/item?id=50348693",
+      "snippet": "India",
+      "posted_at": "2026-11-03T06:17:31.000Z"
+    },
+    {
+      "source": "HN",
+      "title": "Tech Mahindra’s Cloud Advisory division is hiring engineers (4+YoE) and cloud solution architects (8+YoE) to help enterprises modernize and ",
+      "company": "Tech Mahindra’s Cloud Advisory division is hiring engineers (4+YoE) and cloud so",
+      "url": "https://news.ycombinator.com/item?id=50348055",
+      "snippet": "Tech Mahindra’s Cloud Advisory division is hiring engineers (4+YoE) and cloud solution architects (8+YoE) to help enterprises modernize and operate at scale on AWS, Azure, and GCP. We value folks with a strong software development background who have grown into cloud and platform",
+      "posted_at": "2026-11-03T04:26:01.000Z"
+    },
+    {
+      "source": "INC42",
+      "title": "PowerUp Money Raises $10 Mn To Expand Wealth Management Services",
+      "company": "",
+      "url": "https://inc42.com/buzz/powerup-money-raises-10-mn-to-expand-wealth-management-services/",
+      "snippet": "Bengaluru-based wealthtech startup PowerUp Money has raised $10 Mn (₹95 Cr) in a fresh funding round led by Flourish Ventures,",
+      "posted_at": "Mon, 02 Nov 2026 23:30:26 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "Pixxel Is Indian-Owned And Controlled, Says Founder Amid Backlash Over US Foray",
+      "company": "",
+      "url": "https://inc42.com/buzz/pixxel-is-indian-owned-and-controlled-says-founder-amid-backlash-over-us-foray/",
+      "snippet": "Bengaluru-based spacetech soonicorn Pixxel’s founder and CEO Awais Ahmed has dismissed questions over the startup’s Indian ownership and control following",
+      "posted_at": "Mon, 02 Nov 2026 09:50:39 +0000"
+    },
     {
       "source": "REMOTEOK",
       "title": "Contract Recruiter",
@@ -13,70 +53,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-contract-recruiter-cai-1137607",
       "snippet": "Are You Ready? CAI is a professional services company established in 1996 that has grown year over year to nearly 750 people worldwide. For Life Sciences and Mission Critical industries that need to deliver critical solutions in high-stakes environments, we provide accelerated op",
       "posted_at": "2026-10-30T16:00:15+00:00"
-    },
-    {
-      "source": "HN",
-      "title": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused deve",
-      "company": "Irash Tech",
-      "url": "https://news.ycombinator.com/item?id=50068986",
-      "snippet": "Irash Tech | Business Development Manager (Freelance, Commission-only) | REMOTE (Worldwide) | Contract Irash Tech is a small AI-focused development agency based in Hyderabad, India. We build web apps (Next.js, React, Node), mobile apps (React Native&#x2F;Expo) and AI automation (",
-      "posted_at": "2026-10-13T09:31:19.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "How is the product development culture at Wipro India? Only heard of them as a outsourcing company, that hired people for very low salaries ",
-      "company": "How is the product development culture at Wipro India? Only heard of them as a o",
-      "url": "https://news.ycombinator.com/item?id=50045737",
-      "snippet": "How is the product development culture at Wipro India? Only heard of them as a outsourcing company, that hired people for very low salaries and subjected them to a lot of corporate politics (in India). Have they improved?",
-      "posted_at": "2026-10-11T17:41:16.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No Technologies: React Native, React, Next.js, TypeScript, JavaS",
-      "company": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No T",
-      "url": "https://news.ycombinator.com/item?id=50025234",
-      "snippet": "Location: Bangalore, India (IST, UTC+5:30) Remote: Yes Willing to relocate: No Technologies: React Native, React, Next.js, TypeScript, JavaScript, Astro, Expo, Redux Toolkit, Zustand, React Query, Node.js, Express, MongoDB, Firebase, Jest, React Testing Library, GitHub Actions, F",
-      "posted_at": "2026-10-09T19:05:22.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Oscilar.com | Sr&#x2F;Staff Software Engineers, Data Scientist, FDE, PM| REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Poland&#x2F;UK&#x2F;India) ",
-      "company": "Oscilar.com",
-      "url": "https://news.ycombinator.com/item?id=49980976",
-      "snippet": "Oscilar.com | Sr&#x2F;Staff Software Engineers, Data Scientist, FDE, PM| REMOTE (US&#x2F;Canada&#x2F;Brazil&#x2F;Poland&#x2F;UK&#x2F;India) Full-time AI Risk Decisioning™ platform that helps organizations manage onboarding, fraud, credit, and compliance risks Open roles: - Sr.&#x",
-      "posted_at": "2026-10-06T16:43:59.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY) | Full ",
-      "company": "SentiLink",
-      "url": "https://news.ycombinator.com/item?id=49972097",
-      "snippet": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY) | Full Time Primarily hiring in the U.S. for more senior level roles. We’re hiring across Engineering (Primarily Backend&#x2F;Data Platform) and Da",
-      "posted_at": "2026-10-05T23:19:50.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "FunnelStory | MTS, Applied ML | Remote (India) | Full-Time | https:&#x2F;&#x2F;funnelstory.ai FunnelStory is building agents to autonomously",
-      "company": "FunnelStory",
-      "url": "https://news.ycombinator.com/item?id=49969213",
-      "snippet": "FunnelStory | MTS, Applied ML | Remote (India) | Full-Time | https:&#x2F;&#x2F;funnelstory.ai FunnelStory is building agents to autonomously protect and grow revenue for post-sales teams. Our agents need evidence-backed signals from large-scale structured and unstructured enterpr",
-      "posted_at": "2026-10-05T19:19:05.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "SingleStore | Software Engineer, AI Platform | Full Time, Remote India SingleStore is a distributed SQL database built for high-performance ",
-      "company": "SingleStore",
-      "url": "https://news.ycombinator.com/item?id=49962002",
-      "snippet": "SingleStore | Software Engineer, AI Platform | Full Time, Remote India SingleStore is a distributed SQL database built for high-performance transactional and real-time analytical workloads. As data systems evolve, we’re building the platform for AI applications that operate direc",
-      "posted_at": "2026-10-05T08:08:30.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Wipro.com | Multiple roles - Software - AI - FDE - Cloud | Global (US&#x2F;CAN&#x2F;EU&#x2F;India) | on-site and remote My company is hiring",
-      "company": "Wipro.com",
-      "url": "https://news.ycombinator.com/item?id=49935587",
-      "snippet": "Wipro.com | Multiple roles - Software - AI - FDE - Cloud | Global (US&#x2F;CAN&#x2F;EU&#x2F;India) | on-site and remote My company is hiring for multiple roles, and I d like to offer internal referrals to qualified candidates from this community. I m doing this purely because we",
-      "posted_at": "2026-10-02T16:41:10.000Z"
     },
     {
       "source": "REMOTEOK",
