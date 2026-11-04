@@ -1,6 +1,6 @@
 # Link Health Report
 
-**Last run:** Tue, 03 Nov 2026 13:20:41 GMT
+**Last run:** Wed, 04 Nov 2026 13:31:49 GMT
 **Total checked:** 233
 **OK:** 195  ·  **Broken:** 9  ·  **Blocked (likely alive):** 23  ·  **Watch:** 6
 
@@ -9,12 +9,12 @@
 | Status | Name | URL | Detail |
 |---|---|---|---|
 | 404 | Blume Ventures | <https://jobs.blume.vc/jobs> | gone |
-| 404 | Nexus Venture Partners | <https://jobs.nexusvp.com/> | gone |
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Obvious | <https://obvious.in/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
+| NETERR | Nexus Venture Partners | <https://jobs.nexusvp.com/> | CERT_HAS_EXPIRED |
 | NETERR | Nous Infosystems | <https://www.nousinfosystems.com/careers/job-openings> | CERT_HAS_EXPIRED |
 | NETERR | KIED Kerala | <https://kied.info/student-internship-programme/> | ERR_TLS_CERT_ALTNAME_INVALID |
 
