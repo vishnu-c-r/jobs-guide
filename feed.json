@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-11-03T09:03:38.355Z",
+  "generated_at": "2026-11-04T08:41:16.537Z",
   "sources": {
     "hn": 3,
-    "remoteok": 2,
-    "inc42": 2
+    "remoteok": 3,
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "GIVA Raises ₹975 Cr Led By Multiples PE, Eyes 160 New Stores In FY27",
+      "company": "",
+      "url": "https://inc42.com/buzz/giva-raises-%e2%82%b9975-cr-led-by-multiples-pe-eyes-160-new-stores-in-fy27/",
+      "snippet": "Bengaluru-based D2C jewellery brand GIVA has raised ₹975 Cr (about $103 Mn) in a funding round led by Multiples Alternate",
+      "posted_at": "Tue, 03 Nov 2026 10:27:49 +0000"
+    },
     {
       "source": "HN",
       "title": "DigitalTolk is hiring for remote positions across Pakistan, India and Philippines. Right now, we are looking for Senior Software Engineering",
@@ -31,22 +39,6 @@
       "posted_at": "2026-11-03T04:26:01.000Z"
     },
     {
-      "source": "INC42",
-      "title": "PowerUp Money Raises $10 Mn To Expand Wealth Management Services",
-      "company": "",
-      "url": "https://inc42.com/buzz/powerup-money-raises-10-mn-to-expand-wealth-management-services/",
-      "snippet": "Bengaluru-based wealthtech startup PowerUp Money has raised $10 Mn (₹95 Cr) in a fresh funding round led by Flourish Ventures,",
-      "posted_at": "Mon, 02 Nov 2026 23:30:26 +0000"
-    },
-    {
-      "source": "INC42",
-      "title": "Pixxel Is Indian-Owned And Controlled, Says Founder Amid Backlash Over US Foray",
-      "company": "",
-      "url": "https://inc42.com/buzz/pixxel-is-indian-owned-and-controlled-says-founder-amid-backlash-over-us-foray/",
-      "snippet": "Bengaluru-based spacetech soonicorn Pixxel’s founder and CEO Awais Ahmed has dismissed questions over the startup’s Indian ownership and control following",
-      "posted_at": "Mon, 02 Nov 2026 09:50:39 +0000"
-    },
-    {
       "source": "REMOTEOK",
       "title": "Contract Recruiter",
       "company": "CAI",
@@ -61,6 +53,14 @@
       "url": "https://remoteOK.com/remote-jobs/remote-director-payment-integrity-siho-insurance-services-1137434",
       "snippet": "Job Title: Director, Payment Integrity Reports To: Vice President, Operations This is an exempt position reporting to the Vice President, Operations. The Director of Payment Integrity is responsible for the Quality Assurance, Grievances & Appeals, and Fraud, Waste & Abuse teams.",
       "posted_at": "2026-09-26T16:00:26+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Lead Product Designer",
+      "company": "HighLevel",
+      "url": "https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841",
+      "snippet": "About us HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.To dat",
+      "posted_at": "2026-08-17T08:00:03+00:00"
     }
   ]
 }
