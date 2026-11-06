@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-11-05T09:01:08.556Z",
+  "generated_at": "2026-11-06T08:57:49.624Z",
   "sources": {
     "hn": 6,
     "remoteok": 5,
-    "inc42": 0
+    "inc42": 1
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Venomics AI Raises $2.7 Mn To Turn Venom Into Medicine",
+      "company": "",
+      "url": "https://inc42.com/buzz/venomics-ai-raises-2-7-mn-to-turn-venom-into-medicine/",
+      "snippet": "Bengaluru-based biotechnology startup Venomics AI has raised $2.7 Mn (around ₹25.5 Cr) in a pre-seed funding round co-led by Speciale",
+      "posted_at": "Thu, 05 Nov 2026 14:46:07 +0000"
+    },
     {
       "source": "HN",
       "title": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY) | Full ",
