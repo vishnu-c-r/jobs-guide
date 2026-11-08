@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-11-07T08:24:27.273Z",
+  "generated_at": "2026-11-08T08:39:09.910Z",
   "sources": {
-    "hn": 6,
-    "remoteok": 4,
+    "hn": 7,
+    "remoteok": 5,
     "inc42": 2
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "I know as someone in the US $30 sounds ridiculous but if you ve ever had offshore colleagues in India or Ukraine, they were probably paid a ",
+      "company": "I know as someone in the US $30 sounds ridiculous but if you ve ever had offshor",
+      "url": "https://news.ycombinator.com/item?id=50409976",
+      "snippet": "I know as someone in the US $30 sounds ridiculous but if you ve ever had offshore colleagues in India or Ukraine, they were probably paid a lot less than that",
+      "posted_at": "2026-11-08T02:35:12.000Z"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "AI Developer",
+      "company": "Salvo Software",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-developer-salvo-software-1137701",
+      "snippet": "Salvo Software is a global technology company specializing in custom software development and advanced engineering solutions. With distributed teams across the US, LATAM, and India, we partner with clients to build high-performance, scalable systems that solve complex technical c",
+      "posted_at": "2026-11-07T00:00:02+00:00"
+    },
     {
       "source": "INC42",
       "title": "MakeMyTrip Acquires Majority Stake In Quick Ride To Enter Ride Pooling",
