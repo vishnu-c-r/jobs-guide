@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-11-09T09:14:06.020Z",
+  "generated_at": "2026-11-10T09:20:11.724Z",
   "sources": {
-    "hn": 7,
-    "remoteok": 5,
+    "hn": 8,
+    "remoteok": 4,
     "inc42": 2
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "InMobi Secures Naming Rights For Bengaluru’s Ibbaluru Metro Station For ₹65 Cr",
+      "company": "",
+      "url": "https://inc42.com/buzz/inmobi-secures-naming-rights-for-bengalurus-ibbaluru-metro-station-for-%e2%82%b965-cr/",
+      "snippet": "Ahead of its long due IPO, adtech unicorn InMobi has bolstered its marketing by securing a naming rights for Bengaluru s",
+      "posted_at": "Tue, 10 Nov 2026 06:37:10 +0000"
+    },
+    {
+      "source": "HN",
+      "title": "Location: Bangalore, India (IST &#x2F; UTC+5:30) Remote: Yes (Worldwide) Willing to relocate: Yes (Worldwide, visa sponsorship required) Tec",
+      "company": "Location: Bangalore, India (IST &#x2F; UTC+5:30) Remote: Yes (Worldwide) Willing",
+      "url": "https://news.ycombinator.com/item?id=50430411",
+      "snippet": "Location: Bangalore, India (IST &#x2F; UTC+5:30) Remote: Yes (Worldwide) Willing to relocate: Yes (Worldwide, visa sponsorship required) Technologies: TypeScript, Node.js, Go, Python, React, PostgreSQL, MongoDB, Redis, RabbitMQ, BullMQ, AWS, Docker, WebSockets, WebRTC, GraphQL, O",
+      "posted_at": "2026-11-09T19:24:45.000Z"
+    },
     {
       "source": "HN",
       "title": "I know as someone in the US $30 sounds ridiculous but if you ve ever had offshore colleagues in India or Ukraine, they were probably paid a ",
@@ -29,14 +45,6 @@
       "url": "https://inc42.com/buzz/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-ride-pooling/",
       "snippet": "Nasdaq-listed traveltech major MakeMyTrip has expanded into the carpooling segment via the acquisition of a majority stake in Bengaluru-based Quick",
       "posted_at": "Fri, 06 Nov 2026 10:50:39 +0000"
-    },
-    {
-      "source": "INC42",
-      "title": "Venomics AI Raises $2.7 Mn To Turn Venom Into Medicine",
-      "company": "",
-      "url": "https://inc42.com/buzz/venomics-ai-raises-2-7-mn-to-turn-venom-into-medicine/",
-      "snippet": "Bengaluru-based biotechnology startup Venomics AI has raised $2.7 Mn (around ₹25.5 Cr) in a pre-seed funding round co-led by Speciale",
-      "posted_at": "Thu, 05 Nov 2026 14:46:07 +0000"
     },
     {
       "source": "HN",
@@ -109,14 +117,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841",
       "snippet": "About us HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.To dat",
       "posted_at": "2026-08-17T08:00:03+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Marketing Specialist",
-      "company": "INNERGY",
-      "url": "https://remoteOK.com/remote-jobs/remote-marketing-specialist-innergy-1136094",
-      "snippet": "INNERGY is transforming the woodworking industry with purpose built, cloud based ERP software designed exclusively for custom manufacturers. Our platform helps businesses operate smarter, faster, and more efficiently while seamlessly connecting design, production, and delivery fo",
-      "posted_at": "2026-08-04T15:06:47+00:00"
     }
   ]
 }
