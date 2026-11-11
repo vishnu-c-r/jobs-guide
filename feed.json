@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T09:20:11.724Z",
+  "generated_at": "2026-11-11T08:54:36.104Z",
   "sources": {
     "hn": 8,
     "remoteok": 4,
-    "inc42": 2
+    "inc42": 1
   },
   "items": [
     {
@@ -37,14 +37,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-ai-developer-salvo-software-1137701",
       "snippet": "Salvo Software is a global technology company specializing in custom software development and advanced engineering solutions. With distributed teams across the US, LATAM, and India, we partner with clients to build high-performance, scalable systems that solve complex technical c",
       "posted_at": "2026-11-07T00:00:02+00:00"
-    },
-    {
-      "source": "INC42",
-      "title": "MakeMyTrip Acquires Majority Stake In Quick Ride To Enter Ride Pooling",
-      "company": "",
-      "url": "https://inc42.com/buzz/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-ride-pooling/",
-      "snippet": "Nasdaq-listed traveltech major MakeMyTrip has expanded into the carpooling segment via the acquisition of a majority stake in Bengaluru-based Quick",
-      "posted_at": "Fri, 06 Nov 2026 10:50:39 +0000"
     },
     {
       "source": "HN",
