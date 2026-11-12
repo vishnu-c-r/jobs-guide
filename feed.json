@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-11-11T08:54:36.104Z",
+  "generated_at": "2026-11-12T09:21:19.461Z",
   "sources": {
-    "hn": 8,
-    "remoteok": 4,
+    "hn": 9,
+    "remoteok": 5,
     "inc42": 1
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Hemant Singh | Software Engineer &#x2F; Backend Engineer | India (REMOTE &#x2F; ONSITE) I m a software engineer focused on backend developme",
+      "company": "Hemant Singh",
+      "url": "https://news.ycombinator.com/item?id=50454490",
+      "snippet": "Hemant Singh | Software Engineer &#x2F; Backend Engineer | India (REMOTE &#x2F; ONSITE) I m a software engineer focused on backend development, primarily working with Java, Spring Boot, and Python. I enjoy building backend systems, REST APIs, and distributed applications, with an",
+      "posted_at": "2026-11-11T15:21:10.000Z"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Strategy & Operations Coach APAC",
+      "company": "Mento",
+      "url": "https://remoteOK.com/remote-jobs/remote-strategy-operations-coach-apac-mento-1137717",
+      "snippet": "About The Role We are looking for senior leaders in strategy & operations roles who value learning, growth, and community and who are passionate about developing and coaching people in their field. We are specifically looking for coaches who have experience in Singapore or Hong K",
+      "posted_at": "2026-11-11T00:00:15+00:00"
+    },
     {
       "source": "INC42",
       "title": "InMobi Secures Naming Rights For Bengaluru’s Ibbaluru Metro Station For ₹65 Cr",
