@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Wed, 11 Nov 2026 13:17:15 GMT
+**Last run:** Thu, 12 Nov 2026 14:21:36 GMT
 **Total checked:** 233
-**OK:** 194  ·  **Broken:** 9  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
+**OK:** 195  ·  **Broken:** 9  ·  **Blocked (likely alive):** 22  ·  **Watch:** 7
 
 ## ✗ Broken — needs attention
 
@@ -30,7 +30,6 @@
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
-| 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> |
 | 429 | Dentsu Creative (Webchutney) | <https://dentsucreative.com/careers> |
