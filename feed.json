@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-11-12T09:21:19.461Z",
+  "generated_at": "2026-11-13T09:09:20.603Z",
   "sources": {
-    "hn": 9,
+    "hn": 10,
     "remoteok": 5,
-    "inc42": 1
+    "inc42": 0
   },
   "items": [
+    {
+      "source": "HN",
+      "title": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with",
+      "company": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes –",
+      "url": "https://news.ycombinator.com/item?id=50479091",
+      "snippet": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with US or EU teams. Willing to relocate: No Technologies: React, TypeScript, Python, Kotlin&#x2F;Spring Boot, GraphQL, FastAPI, Snowflake, C++;",
+      "posted_at": "2026-11-13T06:17:26.000Z"
+    },
     {
       "source": "HN",
       "title": "Hemant Singh | Software Engineer &#x2F; Backend Engineer | India (REMOTE &#x2F; ONSITE) I m a software engineer focused on backend developme",
@@ -21,14 +29,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-strategy-operations-coach-apac-mento-1137717",
       "snippet": "About The Role We are looking for senior leaders in strategy & operations roles who value learning, growth, and community and who are passionate about developing and coaching people in their field. We are specifically looking for coaches who have experience in Singapore or Hong K",
       "posted_at": "2026-11-11T00:00:15+00:00"
-    },
-    {
-      "source": "INC42",
-      "title": "InMobi Secures Naming Rights For Bengaluru’s Ibbaluru Metro Station For ₹65 Cr",
-      "company": "",
-      "url": "https://inc42.com/buzz/inmobi-secures-naming-rights-for-bengalurus-ibbaluru-metro-station-for-%e2%82%b965-cr/",
-      "snippet": "Ahead of its long due IPO, adtech unicorn InMobi has bolstered its marketing by securing a naming rights for Bengaluru s",
-      "posted_at": "Tue, 10 Nov 2026 06:37:10 +0000"
     },
     {
       "source": "HN",
