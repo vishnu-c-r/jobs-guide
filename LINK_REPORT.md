@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Fri, 13 Nov 2026 13:41:50 GMT
+**Last run:** Sat, 14 Nov 2026 12:46:05 GMT
 **Total checked:** 233
-**OK:** 194  ·  **Broken:** 9  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
+**OK:** 193  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
 
 ## ✗ Broken — needs attention
 
@@ -12,6 +12,7 @@
 | 404 | Kaynes Technology | <https://www.kaynestechnology.co.in/careers/> | gone |
 | 404 | Tech Mahindra | <https://careers.techmahindra.com/> | gone |
 | 404 | Obvious | <https://obvious.in/> | gone |
+| 404 | Aumbre | <https://aumbre.com/> | gone |
 | 404 | Mamaearth | <https://mamaearth.in/careers> | gone |
 | 404 | McCann India | <https://www.mccann.com/careers/> | gone |
 | NETERR | Nexus Venture Partners | <https://jobs.nexusvp.com/> | CERT_HAS_EXPIRED |
