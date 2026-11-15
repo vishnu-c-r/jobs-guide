@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:39:33.149Z",
+  "generated_at": "2026-11-15T08:52:23.119Z",
   "sources": {
     "hn": 10,
     "remoteok": 4,
@@ -45,14 +45,6 @@
       "url": "https://news.ycombinator.com/item?id=50409976",
       "snippet": "I know as someone in the US $30 sounds ridiculous but if you ve ever had offshore colleagues in India or Ukraine, they were probably paid a lot less than that",
       "posted_at": "2026-11-08T02:35:12.000Z"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "AI Developer",
-      "company": "Salvo Software",
-      "url": "https://remoteOK.com/remote-jobs/remote-ai-developer-salvo-software-1137701",
-      "snippet": "Salvo Software is a global technology company specializing in custom software development and advanced engineering solutions. With distributed teams across the US, LATAM, and India, we partner with clients to build high-performance, scalable systems that solve complex technical c",
-      "posted_at": "2026-11-07T00:00:02+00:00"
     },
     {
       "source": "HN",
@@ -117,6 +109,14 @@
       "url": "https://remoteOK.com/remote-jobs/remote-director-payment-integrity-siho-insurance-services-1137434",
       "snippet": "Job Title: Director, Payment Integrity Reports To: Vice President, Operations This is an exempt position reporting to the Vice President, Operations. The Director of Payment Integrity is responsible for the Quality Assurance, Grievances & Appeals, and Fraud, Waste & Abuse teams.",
       "posted_at": "2026-09-26T16:00:26+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Lead Product Designer",
+      "company": "HighLevel",
+      "url": "https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841",
+      "snippet": "About us HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.To dat",
+      "posted_at": "2026-08-17T08:00:03+00:00"
     }
   ]
 }
