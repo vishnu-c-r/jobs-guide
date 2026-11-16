@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Sun, 15 Nov 2026 13:13:48 GMT
+**Last run:** Mon, 16 Nov 2026 14:23:16 GMT
 **Total checked:** 233
-**OK:** 193  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
+**OK:** 194  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 6
 
 ## ✗ Broken — needs attention
 
@@ -54,7 +54,6 @@
 | Status | Name | URL | Error / Final URL |
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
-| NETERR | Madison World | <https://www.madisonindia.com/careers> | UNABLE_TO_VERIFY_LEAF_SIGNATURE |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
