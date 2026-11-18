@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Tue, 17 Nov 2026 15:15:11 GMT
+**Last run:** Wed, 18 Nov 2026 14:52:04 GMT
 **Total checked:** 233
-**OK:** 194  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 6
+**OK:** 193  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
 
 ## ✗ Broken — needs attention
 
@@ -57,6 +57,7 @@
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
+| 500 | Signalchip | <https://www.signalchip.com/job-openings/> | https://www.signalchip.com/job-openings/ |
 | 500 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | https://nxp.wd3.myworkdayjobs.com/careers |
 | 520 | RapidValue Solutions | <https://www.rapidvaluesolutions.com/careers/> | https://www.rapidvaluesolutions.com/careers/ |
 
