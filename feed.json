@@ -1,27 +1,11 @@
 {
-  "generated_at": "2026-11-21T09:16:16.824Z",
+  "generated_at": "2026-11-22T09:25:29.368Z",
   "sources": {
     "hn": 10,
-    "remoteok": 1,
-    "inc42": 1
+    "remoteok": 0,
+    "inc42": 0
   },
   "items": [
-    {
-      "source": "INC42",
-      "title": "InPrime Finserv Raises ₹101 Cr To Expand Lending, Enter Micro-Mortgages",
-      "company": "",
-      "url": "https://inc42.com/buzz/inprime-finserv-raises-%e2%82%b9101-cr-to-expand-lending-enter-micro-mortgages/",
-      "snippet": "Bengaluru-based NBFC InPrime Finserv has raised ₹101 Cr (about $10.7 Mn) in a Series B funding round led by Dutch",
-      "posted_at": "Thu, 19 Nov 2026 11:17:24 +0000"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Customer Success Engineer, India",
-      "company": "GitLab",
-      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-india-gitlab-1137815",
-      "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
-      "posted_at": "2026-11-19T11:00:01+00:00"
-    },
     {
       "source": "HN",
       "title": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with",
