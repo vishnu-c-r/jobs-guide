@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-11-24T12:03:16.509Z",
+  "generated_at": "2026-11-25T10:54:58.170Z",
   "sources": {
-    "hn": 9,
-    "remoteok": 0,
-    "inc42": 2
+    "hn": 8,
+    "remoteok": 2,
+    "inc42": 3
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Aeravti Ventures Launches ₹300 Cr Fund II, Marks First Close At Over ₹150 Cr",
+      "company": "",
+      "url": "https://inc42.com/buzz/aeravti-ventures-launches-%e2%82%b9300-cr-fund-ii-marks-first-close-at-over-%e2%82%b9150-cr/",
+      "snippet": "Bengaluru-based VC firm Aeravti Ventures has launched its second fund, Aeravti Ventures II, with a target corpus of ₹300 Cr,",
+      "posted_at": "Wed, 25 Nov 2026 07:00:36 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "GalaxEye Awards Bellatrix Propulsion Contract For 30 Satellites",
+      "company": "",
+      "url": "https://inc42.com/buzz/galaxeye-awards-bellatrix-propulsion-contract-for-30-satellites/",
+      "snippet": "Bengaluru-based spacetech startup GalaxEye has awarded Bellatrix Aerospace a multi-year contract to supply propulsion systems for its next 30 Drishti",
+      "posted_at": "Tue, 24 Nov 2026 11:39:51 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Partner Sales Manager (Hindi Speaking) - Singapore",
+      "company": "Dropbox",
+      "url": "https://remoteOK.com/remote-jobs/remote-partner-sales-manager-hindi-speaking-singapore-dropbox-1138087",
+      "snippet": "Role Description As a Partner Sales Manager at Dropbox, you will manage and grow a portfolio of channel partners serving small and medium-sized , and Enterprise businesses. Based in Singapore as part of the APJ organisation, you will help partners win new customers, retain existi",
+      "posted_at": "2026-11-24T10:00:05+00:00"
+    },
     {
       "source": "INC42",
       "title": "Cosine Robots Bags ₹22.4 Cr To Scale Robotics Hardware Production",
@@ -15,12 +39,12 @@
       "posted_at": "Tue, 24 Nov 2026 09:16:50 +0000"
     },
     {
-      "source": "INC42",
-      "title": "Bengaluru Green SM Protests: Police Book Protesters For Vandalism",
-      "company": "",
-      "url": "https://inc42.com/buzz/bengaluru-green-sm-protests-police-book-protesters-for-vandalism/",
-      "snippet": "Police authorities in Bengaluru’s Electronic City have reportedly registered an FIR against Karnataka Chalakara Okkuta’s president G Narayana Swamy, among",
-      "posted_at": "Mon, 23 Nov 2026 08:16:00 +0000"
+      "source": "REMOTEOK",
+      "title": "Senior Manager, Enterprise Application Development Engineering",
+      "company": "GitLab",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-enterprise-application-development-engineering-gitlab-1138079",
+      "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
+      "posted_at": "2026-11-24T00:20:07+00:00"
     },
     {
       "source": "HN",
@@ -53,14 +77,6 @@
       "url": "https://news.ycombinator.com/item?id=50409976",
       "snippet": "I know as someone in the US $30 sounds ridiculous but if you ve ever had offshore colleagues in India or Ukraine, they were probably paid a lot less than that",
       "posted_at": "2026-11-08T02:35:12.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY) | Full ",
-      "company": "SentiLink",
-      "url": "https://news.ycombinator.com/item?id=50370932",
-      "snippet": "SentiLink | https:&#x2F;&#x2F;www.sentilink.com&#x2F; | Engineering & Data Science | REMOTE, HYBRID, and ONSITE (UNITED STATES ONLY) | Full Time Primarily hiring in the U.S. for more senior level roles. We’re hiring across Engineering (Primarily Backend&#x2F;Data Platform) and Da",
-      "posted_at": "2026-11-04T20:20:22.000Z"
     },
     {
       "source": "HN",
