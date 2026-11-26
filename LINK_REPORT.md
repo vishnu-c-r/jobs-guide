@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Wed, 25 Nov 2026 16:32:54 GMT
+**Last run:** Thu, 26 Nov 2026 16:05:55 GMT
 **Total checked:** 233
-**OK:** 192  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 8
+**OK:** 193  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
 
 ## ✗ Broken — needs attention
 
@@ -55,7 +55,6 @@
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Cloudphysician | <https://www.cloudphysician.net/careers/> | timeout |
-| NETERR | FSID @ IISc | <https://fsid-iisc.in/careers/> | timeout |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
