@@ -1,18 +1,50 @@
 {
-  "generated_at": "2026-11-26T10:30:19.475Z",
+  "generated_at": "2026-11-27T10:34:30.939Z",
   "sources": {
-    "hn": 8,
-    "remoteok": 2,
-    "inc42": 1
+    "hn": 7,
+    "remoteok": 7,
+    "inc42": 0
   },
   "items": [
     {
-      "source": "INC42",
-      "title": "Finnable Nets ₹405 Cr To Scale Digital Lending Business",
-      "company": "",
-      "url": "https://inc42.com/buzz/finnable-nets-%e2%82%b9405-cr-to-scale-digital-lending-business/",
-      "snippet": "Bengaluru-based digital lending startup Finnable has raised ₹405 Cr ($43.8 Mn) in a Series C funding round led by Bharat",
-      "posted_at": "Thu, 26 Nov 2026 08:09:00 +0000"
+      "source": "REMOTEOK",
+      "title": "Developer Advocate - Network APIs",
+      "company": "aduna",
+      "url": "https://remoteOK.com/remote-jobs/remote-developer-advocate-network-apis-aduna-1138170",
+      "snippet": "All Together, Extraordinary adunaglobal.com Aduna is the Connector of networks, bringing together leading telecom operators and technology partners to simplify global access to Network APIs. Through a single, unified platform, we enable businesses and developers to build more sec",
+      "posted_at": "2026-11-26T06:40:33+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Account Executive",
+      "company": "IDMWORKS",
+      "url": "https://remoteOK.com/remote-jobs/remote-account-executive-idmworks-1138145",
+      "snippet": "IDMWORKS is an award-winning identity and access management (IAM) solutions firm that has been serving a wide range of sectors since its inception in 2004. As a firm thatâs purely focused on IAM, IDMWORKS offers a comprehensive range of services designed to enable enterprises t",
+      "posted_at": "2026-11-25T14:00:56+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "English to Belarusian Review Lead for UI, Marketing & Product Content",
+      "company": "Welo Data",
+      "url": "https://remoteOK.com/remote-jobs/remote-english-to-belarusian-review-lead-for-ui-marketing-product-content-welo-data-1138140",
+      "snippet": "About Welo Global Â Welo Global is a leader in multilingual AI, technology, and content solutions serving over 2,000 clients in 300 languages. The company combines globally scaled multilingual infrastructure, including a network of overÂ 500,000Â linguists and domain experts, wit",
+      "posted_at": "2026-11-25T13:00:35+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Account Executive I - 1096 (Remote)",
+      "company": "Lightcast",
+      "url": "https://remoteOK.com/remote-jobs/remote-account-executive-i-1096-remote-lightcast-1138132",
+      "snippet": "Â Â Â Important information before applying: Location: This position is remote; however, Lightcast can only employ individuals who live and work in states where the company is authorized to operate. At this time, we cannot employ individuals residing or working in the following s",
+      "posted_at": "2026-11-25T11:40:44+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Enterprise  Account Executive - (Illinois, Wisconsin, Indiana and Michigan)",
+      "company": "Sonatype",
+      "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-illinois-wisconsin-indiana-and-michigan-sonatype-1138131",
+      "snippet": "Sonatype is the software supply chain security company. We provide the worldâs best end-to-end software supply chain security solution, combining the only proactive protection against malicious open source, the only enterprise grade SBOM management and the leading open source d",
+      "posted_at": "2026-11-25T11:40:27+00:00"
     },
     {
       "source": "REMOTEOK",
@@ -37,14 +69,6 @@
       "url": "https://news.ycombinator.com/item?id=50479091",
       "snippet": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes – remote only. Happy to shift my hours for solid overlap with US or EU teams. Willing to relocate: No Technologies: React, TypeScript, Python, Kotlin&#x2F;Spring Boot, GraphQL, FastAPI, Snowflake, C++;",
       "posted_at": "2026-11-13T06:17:26.000Z"
-    },
-    {
-      "source": "HN",
-      "title": "Hemant Singh | Software Engineer &#x2F; Backend Engineer | India (REMOTE &#x2F; ONSITE) I m a software engineer focused on backend developme",
-      "company": "Hemant Singh",
-      "url": "https://news.ycombinator.com/item?id=50454490",
-      "snippet": "Hemant Singh | Software Engineer &#x2F; Backend Engineer | India (REMOTE &#x2F; ONSITE) I m a software engineer focused on backend development, primarily working with Java, Spring Boot, and Python. I enjoy building backend systems, REST APIs, and distributed applications, with an",
-      "posted_at": "2026-11-11T15:21:10.000Z"
     },
     {
       "source": "HN",
