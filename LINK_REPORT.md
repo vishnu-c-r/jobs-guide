@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Thu, 26 Nov 2026 16:05:55 GMT
+**Last run:** Fri, 27 Nov 2026 15:53:48 GMT
 **Total checked:** 233
-**OK:** 193  ·  **Broken:** 10  ·  **Blocked (likely alive):** 23  ·  **Watch:** 7
+**OK:** 191  ·  **Broken:** 10  ·  **Blocked (likely alive):** 24  ·  **Watch:** 8
 
 ## ✗ Broken — needs attention
 
@@ -39,6 +39,7 @@
 | 429 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
+| 429 | Sascan Meditech | <https://www.linkedin.com/jobs/search/?keywords=Sascan%20Meditech&location=Kerala%2C%20India> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
@@ -56,6 +57,7 @@
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Cloudphysician | <https://www.cloudphysician.net/careers/> | timeout |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
+| NETERR | TiE Bangalore | <https://bangalore.tie.org/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
 | NETERR | McKinsey Knowledge Centre | <https://www.mckinsey.com/careers/search-jobs> | timeout |
 | 500 | NXP Semiconductors | <https://nxp.wd3.myworkdayjobs.com/careers> | https://nxp.wd3.myworkdayjobs.com/careers |
