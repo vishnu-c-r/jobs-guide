@@ -1,11 +1,83 @@
 {
-  "generated_at": "2026-11-27T10:34:30.939Z",
+  "generated_at": "2026-11-28T09:51:06.873Z",
   "sources": {
     "hn": 7,
-    "remoteok": 7,
-    "inc42": 0
+    "remoteok": 12,
+    "inc42": 2
   },
   "items": [
+    {
+      "source": "INC42",
+      "title": "Rapido’s Ownly To Charge Customers For Deliveries Soon",
+      "company": "",
+      "url": "https://inc42.com/buzz/rapidos-ownly-to-charge-customers-for-deliveries-soon/",
+      "snippet": "Rapido’s food delivery platform Ownly is set to introduce distance-based delivery charges for customers in Bengaluru from November 30, marking",
+      "posted_at": "Fri, 27 Nov 2026 15:26:19 +0000"
+    },
+    {
+      "source": "INC42",
+      "title": "StockGro Signs MoU With Emirates NBD To Tap UAE’s Growing Investor Base",
+      "company": "",
+      "url": "https://inc42.com/buzz/stockgro-signs-mou-with-emirates-nbd-to-tap-uaes-growing-investor-base/",
+      "snippet": "Bengaluru-based stock market research and advisory platform StockGro has signed a memorandum of understanding (MoU) with Dubai-headquartered banking group Emirates",
+      "posted_at": "Fri, 27 Nov 2026 11:30:57 +0000"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Diagnostic Specialist - Appalachia",
+      "company": "EVERSANA",
+      "url": "https://remoteOK.com/remote-jobs/remote-diagnostic-specialist-appalachia-eversana-1138224",
+      "snippet": "Company Description At EVERSANA, we are proud to be a Great Place to Work across the globe. Weâre fueled by our vision to create a healthier world. How? Our global team of more than 6,000 employees is committed to creating and delivering next-generation commercialization servic",
+      "posted_at": "2026-11-27T07:00:45+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Subsidiary General Ledger Accountant",
+      "company": "Vultr",
+      "url": "https://remoteOK.com/remote-jobs/remote-subsidiary-general-ledger-accountant-vultr-1138214",
+      "snippet": "Who We Are Vultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active custo",
+      "posted_at": "2026-11-27T03:40:37+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Software Engineer - Backend",
+      "company": "Sardine",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-backend-sardine-1138211",
+      "snippet": "Who we are: Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardineâs platform is s",
+      "posted_at": "2026-11-27T02:41:10+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Manager, DC Commercial Diligence",
+      "company": "Vultr",
+      "url": "https://remoteOK.com/remote-jobs/remote-manager-dc-commercial-diligence-vultr-1138210",
+      "snippet": "Who We Are Vultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active custo",
+      "posted_at": "2026-11-27T02:20:37+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Senior Service Delivery Manager",
+      "company": "Vultr",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-service-delivery-manager-vultr-1138191",
+      "snippet": "Who We Are Vultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active custo",
+      "posted_at": "2026-11-26T13:40:15+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Service Delivery Manager",
+      "company": "Vultr",
+      "url": "https://remoteOK.com/remote-jobs/remote-service-delivery-manager-vultr-1138190",
+      "snippet": "Who We Are Vultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active custo",
+      "posted_at": "2026-11-26T13:20:14+00:00"
+    },
+    {
+      "source": "REMOTEOK",
+      "title": "Customer Service Representative",
+      "company": "Vultr",
+      "url": "https://remoteOK.com/remote-jobs/remote-customer-service-representative-vultr-1138186",
+      "snippet": "Who We Are Vultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active custo",
+      "posted_at": "2026-11-26T12:00:16+00:00"
+    },
     {
       "source": "REMOTEOK",
       "title": "Developer Advocate - Network APIs",
@@ -45,22 +117,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-illinois-wisconsin-indiana-and-michigan-sonatype-1138131",
       "snippet": "Sonatype is the software supply chain security company. We provide the worldâs best end-to-end software supply chain security solution, combining the only proactive protection against malicious open source, the only enterprise grade SBOM management and the leading open source d",
       "posted_at": "2026-11-25T11:40:27+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Partner Sales Manager (Hindi Speaking) - Singapore",
-      "company": "Dropbox",
-      "url": "https://remoteOK.com/remote-jobs/remote-partner-sales-manager-hindi-speaking-singapore-dropbox-1138087",
-      "snippet": "Role Description As a Partner Sales Manager at Dropbox, you will manage and grow a portfolio of channel partners serving small and medium-sized , and Enterprise businesses. Based in Singapore as part of the APJ organisation, you will help partners win new customers, retain existi",
-      "posted_at": "2026-11-24T10:00:05+00:00"
-    },
-    {
-      "source": "REMOTEOK",
-      "title": "Senior Manager, Enterprise Application Development Engineering",
-      "company": "GitLab",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-manager-enterprise-application-development-engineering-gitlab-1138079",
-      "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and m",
-      "posted_at": "2026-11-24T00:20:07+00:00"
     },
     {
       "source": "HN",
