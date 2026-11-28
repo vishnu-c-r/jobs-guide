@@ -1,8 +1,8 @@
 # Link Health Report
 
-**Last run:** Fri, 27 Nov 2026 15:53:48 GMT
+**Last run:** Sat, 28 Nov 2026 14:48:37 GMT
 **Total checked:** 233
-**OK:** 191  ·  **Broken:** 10  ·  **Blocked (likely alive):** 24  ·  **Watch:** 8
+**OK:** 190  ·  **Broken:** 10  ·  **Blocked (likely alive):** 24  ·  **Watch:** 9
 
 ## ✗ Broken — needs attention
 
@@ -27,10 +27,10 @@
 |---|---|---|
 | 403 | Startup.jobs — Bengaluru | <https://startup.jobs/locations/bengaluru> |
 | 403 | Instahyre | <https://www.instahyre.com/> |
-| 403 | Tessolve | <https://www.tessolve.com/careers/> |
 | 403 | Tonbo Imaging | <https://tonboimaging.com/defense/careers/> |
 | 403 | Microchip Technology | <https://www.microchip.com/en-us/about/careers> |
 | 403 | Cadence Design Systems | <https://www.cadence.com/en_US/home/company/careers.html> |
+| 429 | Ati Motors | <https://www.linkedin.com/jobs/search/?keywords=Ati%20Motors&location=Bengaluru%2C%20Karnataka%2C%20India> |
 | 403 | Addverb Technologies | <https://careers.addverb.com/> |
 | 403 | Ather Energy | <https://www.atherenergy.com/careers> |
 | 403 | C-CAMP @ NCBS | <https://www.ccamp.res.in/careers> |
@@ -39,13 +39,13 @@
 | 429 | Behance Jobs | <https://www.behance.net/joblist> |
 | 403 | null Bangalore | <https://null.community/chapters/4-bangalore> |
 | 403 | We Work Remotely | <https://weworkremotely.com/> |
-| 429 | Sascan Meditech | <https://www.linkedin.com/jobs/search/?keywords=Sascan%20Meditech&location=Kerala%2C%20India> |
 | 403 | Orion Innovation | <https://www.orioninc.com/careers/> |
 | 403 | Cognizant Kochi | <https://careers.cognizant.com/> |
 | 403 | TCS Kochi | <https://www.tcs.com/careers> |
 | 403 | Indeed — Kochi DA | <https://in.indeed.com/q-data-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kochi BA | <https://in.indeed.com/q-business-analyst-l-kochi,-kerala-jobs.html> |
 | 403 | Indeed — Kerala Robotics | <https://in.indeed.com/q-robotics-l-kerala-jobs.html> |
+| 429 | LinkedIn Jobs — Kochi | <https://www.linkedin.com/jobs/search/?location=Kochi> |
 | 403 | TechSparks (YourStory) | <https://yourstory.com/techsparks> |
 | 403 | Smart India Hackathon | <https://www.sih.gov.in/> |
 | 403 | Bain Capability Center | <https://www.bain.com/careers/> |
@@ -56,6 +56,7 @@
 |---|---|---|---|
 | NETERR | Analog Devices | <https://www.analog.com/en/about-adi/careers.html> | timeout |
 | NETERR | Cloudphysician | <https://www.cloudphysician.net/careers/> | timeout |
+| NETERR | Ticket Design | <https://ticketdesign.com/> | timeout |
 | NETERR | Maker Village (Kalamassery) | <https://makervillage.in/> | timeout |
 | NETERR | TiE Bangalore | <https://bangalore.tie.org/> | timeout |
 | NETERR | Maker Village events (Kochi) | <https://makervillage.in/events.php> | timeout |
